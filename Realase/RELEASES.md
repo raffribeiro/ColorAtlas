@@ -4,8 +4,8 @@ VERSION and CHANGELOG.md in the development workspace are the canonical version 
 
 ## Delivery layout
 
-- /Users/raffribeiro/Documents/ColorAtlas/App: runnable browser HTML, README, VERSION and Data.
-- /Users/raffribeiro/Documents/ColorAtlas/Realase: changelog, current manifest, release instructions, Manifests and Archives. The spelling Realase is intentional, requested by the user.
+- /Users/raffribeiro/Documents/ColorAtlas/App: runnable browser HTML, README and Data.
+- /Users/raffribeiro/Documents/ColorAtlas/Realase: changelog, VERSION, current manifest, release instructions, Manifests and Archives. The spelling Realase is intentional, requested by the user.
 - /Users/raffribeiro/Documents/ColorAtlas is a local Git repository on branch release. It tracks App and release metadata. Personal Data JSON and ZIP archives are ignored. No remote/push is configured.
 
 ## Every delivered change

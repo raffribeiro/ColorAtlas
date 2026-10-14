@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.2 — 2026-10-14
+
+- Removed VERSION from the shareable App folder; release tracking retains it in Realase and validates the embedded HTML version.
+
+Validation: package layout, embedded version, ZIP contents and release branch consistency.
+
 ## v0.10.1 — 2026-10-14
 
 - Organized the shareable browser distribution in App and all release records in Realase.
