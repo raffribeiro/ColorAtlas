@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.8 — 2026-10-14
+
+- Removed the app Fullscreen button from the header.
+
+Validation: exported interface and shareable package contain no fullscreen control; release branch synchronized.
+
 ## v0.10.7 — 2026-10-14
 
 - Prevent text selection in the app interface; editable fields retain normal selection and clipboard editing.
