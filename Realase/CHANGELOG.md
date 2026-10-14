@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.26 — 2026-10-14
+
+- Apply the existing Reset view action after every successful Preview preset selection. Center pan and fit the image instead of restoring saved zoom. Failed/superseded loads retain the current view.
+
+Validation: preset selection/reset and legacy presets, failed/superseded-load view retention, camera fit, documentation and package checks.
+
 ## v0.10.25 — 2026-10-14
 
 - Add Export Preview to download a 512×512 PNG of the composed images with Gradient Maps, layer blends/opacity, bloom and vision simulation. Preserve alpha; exclude camera framing, UI and attention overlays.
