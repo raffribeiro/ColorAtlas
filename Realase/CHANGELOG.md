@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.21 — 2026-10-14
+
+- Rename Slow rotation to Rotation. Increase Layers action-button spacing from 2px to 8px, retaining wrapping.
+
+Validation: delivered label/style assertions, documentation and package checks.
+
 ## v0.10.20 — 2026-10-14
 
 - Add Save for the current Preview preset with Save/Cancel confirmation. Update the same preset ID/name with current images, maps, zoom and Random toggles.
