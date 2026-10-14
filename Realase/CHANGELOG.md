@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.11.8 — 2026-10-14
+
+- Treat Add layers as the 10% accent role in Graphic Design Random, using the shared palette’s accent hue across their tonal variants.
+- Keep Add’s lowest key black and next dark key at low chroma; use vivid accent chroma above them.
+- Preserve positions/count, alpha, value ordering, ON/OFF targets, Bands-on-Random and Undo/Redo. The accent role does not force a 10% pixel area or layer opacity.
+
+Validation: 12 seeded mixed Normal/Add scenes, accent hue consistency, black/quiet low keys, OFF isolation and fixed positions; existing Graphic Design and Undo/Redo checks; documentation and package.
+
 ## v0.11.7 — 2026-10-14
 
 - Keep current interpolation when choosing a Random mode. Apply Bands for Graphic Design only when Random runs; other Random modes apply Smooth when run.
