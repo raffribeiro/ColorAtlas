@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.34 — 2026-10-14
+
+- Shorten and center the Post-process bloom control to distinguish it from panel dividers.
+- Embed the supplied Explosion_Loading.png in the loading card and display the release version. Keep the dynamic staged percentage and existing readiness/Skip behavior.
+
+Validation: embedded PNG byte identity, version label, scoped responsive slider bounds, loading progression/Skip/reduced-motion tests, documentation and standalone release checks. Live visual acceptance pending.
+
 ## v0.10.33 — 2026-10-14
 
 - Match the Authoring Colors startup and Reset view camera to the supplied reference: yaw 3.55 rad, pitch −0.25 rad, zoom 1, centered pan.
