@@ -6,6 +6,15 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.6 — 2026-10-14
+
+- Fix Gradient Map click positions using SVG screen transforms, including scaled and letterboxed layouts.
+- Select the nearest marker with selected-circle priority; preserve grab offset when dragging.
+- Delete removes the selected gradient point after confirmation; text editing retains native Delete.
+- Confirm point, layer and legacy saved-color removal. Existing palette/preset dialogs remain; automatic removal of other default presets now also requests consent. Cancel keeps data unchanged.
+
+Validation: SVG coordinate and selection tests; point creation, no-jump dragging, Delete/cancel and layer confirmation tests; default cleanup consent, history and package checks. Live browser acceptance pending.
+
 ## v0.10.5 — 2026-10-14
 
 - Show Drag here hints on valid layer rows while a file is dragged over the app, retaining readable layer names.
