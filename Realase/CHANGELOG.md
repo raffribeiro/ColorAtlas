@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.32 — 2026-10-14
+
+- Give normal-blend layers a role-scaled midtone chroma floor in all guided Random modes, avoiding muted smoke results.
+- Preserve freshly generated hue families instead of rotating them back toward an OFF layer. Named harmony masks remain intact; Free stays unconstrained.
+- Retain point luminance, spacing, alpha, ±25% chroma variation and batched rendering.
+
+Validation: 16 successive Smoke randomizations in each of 11 guided modes; hue/chroma diversity, per-step luminance, OFF isolation, named harmony masks, Add endpoints, single final redraw/save and Undo/Redo. Automated DOM/canvas checks; live browser appearance pending.
+
 ## v0.10.31 — 2026-10-14
 
 - Batch Random interface redraws and persistence once after the final result, avoiding intermediate layer renders.
