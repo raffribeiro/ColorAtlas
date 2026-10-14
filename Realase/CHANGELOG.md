@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.23 — 2026-10-14
+
+- Group the live selected-color swatch inside Color Wheel, followed by the resize divider and wheel. Keep the divider in normal flow after the swatch and recalculate fitted sizes.
+
+Validation: swatch identity/order, divider/grid styling, existing wheel resizing, documentation and release checks.
+
 ## v0.10.22 — 2026-10-14
 
 - Move the live L value from the graph header to a centered readout above Black–White.
