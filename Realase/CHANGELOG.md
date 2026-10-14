@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.11.3 — 2026-10-14
+
+- Keep Graphic Design colors in ascending value order while retaining randomized 60/30/10 span assignment and vibrant gamut-relative chroma.
+- Use Bands automatically for Graphic Design, with exact nominal region boundaries. Selecting or applying other Random modes uses Smooth.
+- Preserve alpha, OFF layers and Undo/Redo. Graphic Design still rebuilds six color stops; it preserves value order, not each original luminance.
+
+Validation: 24 seeded ordered palettes and exact spans; all 12 other modes restore Smooth; alpha/OFF preservation, actual Undo/Redo, documentation and release checks.
+
 ## v0.11.2 — 2026-10-14
 
 - Remove the successful “Preset loaded” status line. Keep loading and failure messages; the empty line collapses automatically.
