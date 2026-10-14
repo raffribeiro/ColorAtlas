@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.31 — 2026-10-14
+
+- Batch Random interface redraws and persistence once after the final result, avoiding intermediate layer renders.
+- Reuse repeated RGB→OKLab conversions within ColorPlay scoring. Preserve all scoring rules and seeded outputs.
+- Retain the 10-action Undo/Redo history.
+
+Validation: exact seeded scenes for all 12 modes and single-layer cases; one final ramp/Preview/save; exception cleanup; Random Undo/Redo; documentation and package checks. Mock DOM/canvas timing improved about 416→271ms for two ON layers; live browser latency unmeasured.
+
 ## v0.10.30 — 2026-10-14
 
 - Center COLOR WHEEL across its column while keeping Reset view right-aligned.
