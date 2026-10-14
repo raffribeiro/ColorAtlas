@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.10 — 2026-10-14
+
+- Keep New preset actionable without connected storage; request Data access and open the preset form after authorization, without reloading the current Preview.
+- Save preset images as deduplicated PNG files in Data/Images and store references in preview.json. Load legacy embedded images and migrate them during connection. Built-in reference images are captured when saving presets.
+- Exclude runtime image PNGs from Git and clean sharing ZIPs. Unreferenced image files are retained.
+
+Validation: folder image round-trip, failed-write retention and preset connection action tests. Live browser folder-picker acceptance pending.
+
 ## v0.10.9 — 2026-10-14
 
 - Use plain white circular slider thumbs, centered on consistent 28px tracks.

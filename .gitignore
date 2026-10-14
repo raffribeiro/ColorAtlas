@@ -2,4 +2,5 @@
 **/.DS_Store
 /App/Data/*.json
 /App/Data/*.tmp
+/App/Data/Images/*.png
 /Realase/Archives/*.zip
