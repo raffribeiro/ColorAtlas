@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.11.5 — 2026-10-14
+
+- Give each Graphic Design point its own ordered value and varied chroma, avoiding repeated flat tones within hue groups.
+- Randomize a broad value profile from L 12–20 to 90–96 and per-key chroma at 65–95% of the available gamut. Keep positions/count, alpha, Bands and the 60/30/10 hue-family guide.
+
+Validation: 24 seeded palettes with distinct ordered values and chroma variation, exact point positions/alpha, OFF isolation, other-mode Smooth behavior and actual Undo/Redo; documentation and package checks.
+
 ## v0.11.4 — 2026-10-14
 
 - Preserve every existing Graphic Design color point and its exact position; change only colors. Keep ordered value, alpha and automatic Bands.
