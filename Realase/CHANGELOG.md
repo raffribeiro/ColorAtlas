@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.39 — 2026-10-14
+
+- Match the loading Ca lettering to the Color Atlas logo gradient, including its sRGB fallback and OKLab enhancement.
+
+Validation: exact gradient parity, text-only clipping, synchronized documentation and standalone release checks.
+
 ## v0.10.38 — 2026-10-14
 
 - Randomize loading phases from 3–6, with distinct messages, varied increasing percentages and 220–420ms holds. Keep bar, text and accessible progress synchronized, ending at 100%.
