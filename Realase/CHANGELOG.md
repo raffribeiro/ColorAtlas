@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.36 — 2026-10-14
+
+- Record Gradient Map point drags as one Undo/Redo action. Capture gesture completion before SVG handlers stop event propagation.
+- Preserve the 10-action window and Position slider behavior. No-op selections add no history entry.
+
+Validation: real gradient/history modules with capture/bubble dispatch, multiple moves, pointerup/cancel, position Undo/Redo and no-op selection; existing Random, opacity, shortcut, deletion and history-limit checks; documentation and release packaging.
+
 ## v0.10.35 — 2026-10-14
 
 - Focus Delete when the shared deletion confirmation opens, allowing native Enter activation. Escape and Cancel still cancel; no deletion occurs before confirmation.
