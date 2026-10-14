@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.18 — 2026-10-14
+
+- Synchronize the compiled Preview module and guide in the final package.
+
+Validation: compiled status visibility, Preview controls, documentation and delivered HTML checks.
+
 ## v0.10.17 — 2026-10-14
 
 - Hide routine Restored locally and Saved locally messages beneath Preview layers. Keep actionable errors visible.
