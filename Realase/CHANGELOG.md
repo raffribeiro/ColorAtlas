@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.30 — 2026-10-14
+
+- Center COLOR WHEEL across its column while keeping Reset view right-aligned.
+
+Validation: scoped toolbar alignment, documentation and delivered package checks.
+
 ## v0.10.29 — 2026-10-14
 
 - Update the Gradient Map ramp, grayscale strip and key list during Color Wheel and 3D color drags, instead of waiting for release.
