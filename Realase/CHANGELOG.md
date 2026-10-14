@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.38 — 2026-10-14
+
+- Randomize loading phases from 3–6, with distinct messages, varied increasing percentages and 220–420ms holds. Keep bar, text and accessible progress synchronized, ending at 100%.
+- Zoom the loading explosion 1.3× inside its clipped panel.
+- Preserve startup readiness, Skip/Escape, focus and reduced-motion behavior; progress remains decorative.
+
+Validation: 30 seeded openings, phase/count/timing variation, monotonic synchronized progress, unique phrases, readiness and cancellation regressions; documentation and release package checks.
+
 ## v0.10.37 — 2026-10-14
 
 - Further mute Color Wheel hue-name labels from #929292 to #666666. Colored dots, ring and key numbers remain unchanged.
