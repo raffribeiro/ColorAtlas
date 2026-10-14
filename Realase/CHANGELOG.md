@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.48 — 2026-10-14
+
+- Shift the loading explosion further left, from 5% to 8%. Retain 2.3× zoom and 5% downward offset.
+
+Validation: exported transform/clipping, embedded image identity, documentation and standalone release checks.
+
 ## v0.10.47 — 2026-10-14
 
 - Increase the loading explosion zoom to 2.3× and shift it 5% downward, retaining its 5% left offset and panel clipping.
