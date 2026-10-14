@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.28 — 2026-10-14
+
+- Use muted neutral gray for Color Wheel hue-name labels. Preserve the colored ring, points and selected-key number.
+
+Validation: scoped exported label style, documentation and release checks.
+
 ## v0.10.27 — 2026-10-14
 
 - Move the selected-color swatch below the divider, inside the Color Wheel group.

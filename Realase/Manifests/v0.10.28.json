@@ -1,0 +1,9 @@
+{
+  "app": "Color Atlas",
+  "version": "0.10.28",
+  "entry": "COLOR_ATLAS_START_HERE.html",
+  "sha256": "650864eb5ba49fb2767e80a669a24d44d8ce76297f7552ce6cf23f54b4304424",
+  "archive": "/Users/raffribeiro/Documents/ColorAtlas/Realase/Archives/ColorAtlas-v0.10.28.zip",
+  "archiveSha256": "3727c642cd963a2321d20371c83f61a7fad706fefc5494b467c776458ad6abf6",
+  "validation": "automated browser-storage/package checks; live browser acceptance pending"
+}
