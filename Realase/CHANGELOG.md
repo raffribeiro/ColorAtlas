@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.37 — 2026-10-14
+
+- Further mute Color Wheel hue-name labels from #929292 to #666666. Colored dots, ring and key numbers remain unchanged.
+
+Validation: scoped direct-child SVG text rule, documentation synchronization and release package checks; live visual acceptance pending.
+
 ## v0.10.36 — 2026-10-14
 
 - Record Gradient Map point drags as one Undo/Redo action. Capture gesture completion before SVG handlers stop event propagation.
