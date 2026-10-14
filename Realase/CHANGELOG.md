@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.16 — 2026-10-14
+
+- Rename the built-in Preview preset to Default. Offer one-time confirmation to remove all other Preview presets.
+- Remember completed cleanup per app URL; presets created later are retained. Cancellation or storage failure preserves retryability.
+
+Validation: default name/scene, confirmation/cancel/offline paths, persistent cleanup marker, scene retention and release checks. Live browser acceptance pending.
+
 ## v0.10.15 — 2026-10-14
 
 - Center the Palettes/Authoring divider handle within the actual gap between columns.
