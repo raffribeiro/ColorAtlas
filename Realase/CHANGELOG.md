@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.11.2 — 2026-10-14
+
+- Remove the successful “Preset loaded” status line. Keep loading and failure messages; the empty line collapses automatically.
+
+Validation: quiet successful load, existing preset restoration and failure paths, documentation and standalone release checks.
+
 ## v0.11.1 — 2026-10-14
 
 - Replace Graphic Design’s ordered dark-to-light ramp with three vivid 60/30/10 regions in randomized grayscale-axis order.
