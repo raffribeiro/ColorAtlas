@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.45 — 2026-10-14
+
+- Shift the loading explosion 5% left within its panel, keeping 2× zoom and clipping.
+
+Validation: exported transform/clipping, embedded image identity, documentation and standalone release checks.
+
 ## v0.10.44 — 2026-10-14
 
 - Increase the loading explosion zoom from 1.6× to 2×, retaining panel clipping and the focal point.
