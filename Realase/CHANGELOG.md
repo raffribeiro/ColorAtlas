@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.29 — 2026-10-14
+
+- Update the Gradient Map ramp, grayscale strip and key list during Color Wheel and 3D color drags, instead of waiting for release.
+- Keep one update per animation frame, unchanged-color guards and one final gesture save.
+
+Validation: live ramp/Preview before release for both controls, coalescing, release/cancel flush, fixed alpha/positions/lightness, documentation and package checks.
+
 ## v0.10.28 — 2026-10-14
 
 - Use muted neutral gray for Color Wheel hue-name labels. Preserve the colored ring, points and selected-key number.
