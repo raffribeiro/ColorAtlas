@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.40 — 2026-10-14
+
+- Use the same active --atlas-chroma theme variable as the final Color Atlas logo style for loading Ca lettering.
+
+Validation: final logo-gradient parity, embedded loading assets, documentation and package checks.
+
 ## v0.10.39 — 2026-10-14
 
 - Match the loading Ca lettering to the Color Atlas logo gradient, including its sRGB fallback and OKLab enhancement.
