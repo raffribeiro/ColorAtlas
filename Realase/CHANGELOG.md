@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.11 — 2026-10-14
+
+- Embed the supplied Explosion_Emissive, Explosion_Smoke and BG PNGs as the Codex Use Esse startup preset, in that visual order. Emissive uses Add with a black low endpoint.
+- Include default preset metadata and PNG sources in Data and clean sharing ZIPs; retain unrelated personal presets and settings.
+
+Validation: disconnected/connected startup, order/blend, Data persistence and package asset checks. Live browser acceptance pending.
+
 ## v0.10.10 — 2026-10-14
 
 - Keep New preset actionable without connected storage; request Data access and open the preset form after authorization, without reloading the current Preview.
