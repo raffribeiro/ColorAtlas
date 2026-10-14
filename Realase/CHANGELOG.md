@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.3 — 2026-10-14
+
+- Drag a PNG, JPEG or WebP (up to 20 MB) onto a Preview layer row to replace its image.
+- Preserve the layer name, palette, opacity, blend mode, visibility, selection and Random state; image replacement supports Undo/Redo.
+- Reject multiple/invalid files; ignore pending replacements if the target is removed or restored, and retain the previous image on decoding failure.
+
+Validation: replacement preservation and invalid/deleted-target tests, history checks and package/release synchronization. Live drag-and-drop acceptance pending.
+
 ## v0.10.2 — 2026-10-14
 
 - Removed VERSION from the shareable App folder; release tracking retains it in Realase and validates the embedded HTML version.
