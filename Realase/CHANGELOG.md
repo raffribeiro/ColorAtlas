@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.33 — 2026-10-14
+
+- Match the Authoring Colors startup and Reset view camera to the supplied reference: yaw 3.55 rad, pitch −0.25 rad, zoom 1, centered pan.
+- Retain manual camera gestures and the Rotation toggle.
+
+Validation: startup/reset camera values, projected axis directions, rotation and color-drag regression checks, synchronized documentation and package. Reference orientation reconstructed from screenshot; live visual acceptance pending.
+
 ## v0.10.32 — 2026-10-14
 
 - Give normal-blend layers a role-scaled midtone chroma floor in all guided Random modes, avoiding muted smoke results.
