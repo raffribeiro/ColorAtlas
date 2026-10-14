@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.15 — 2026-10-14
+
+- Center the Palettes/Authoring divider handle within the actual gap between columns.
+- Add left/right edge handles to resize the centered app width on wide displays, with bounds, keyboard controls and Home/double-click reset.
+
+Validation: width/divider geometry, pointer release/cancel, keyboard/reset/bounds, existing workspace resizing and generated package checks. Live browser acceptance pending.
+
 ## v0.10.14 — 2026-10-14
 
 - Use browser IndexedDB for Preview presets/images and localStorage for palettes/settings. Remove Connect Data from the runnable browser edition.
