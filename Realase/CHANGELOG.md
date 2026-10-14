@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.11.6 — 2026-10-14
+
+- Expand Graphic Design Random to 15 internal families: six hue harmonies plus editorial, Swiss-poster-inspired, Bauhaus-inspired, retro, digital, luxury, botanical, playful and duotone recipes.
+- Vary hue and per-point chroma within each recipe, mixing controlled supporting tones with vivid accents.
+- Preserve authored points, ordered per-key value, alpha, automatic Bands and Undo/Redo.
+
+Validation: 400 seeded plans cover harmonic and curated families; 24 full palette runs verify structure/value/chroma, other modes and Undo/Redo; documentation and standalone release checks. Recipes are app-authored creative choices, not validated design standards.
+
 ## v0.11.5 — 2026-10-14
 
 - Give each Graphic Design point its own ordered value and varied chroma, avoiding repeated flat tones within hue groups.
