@@ -1,4 +1,4 @@
-COLOR ATLAS v0.10.24
+COLOR ATLAS v0.10.25
 
 Open COLOR_ATLAS_START_HERE.html in your browser. Presets and images are saved in browser IndexedDB; palettes and settings use browser localStorage. No Data connection, server or internet is required.
 

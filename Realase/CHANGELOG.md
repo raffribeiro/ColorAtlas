@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.25 — 2026-10-14
+
+- Add Export Preview to download a 512×512 PNG of the composed images with Gradient Maps, layer blends/opacity, bloom and vision simulation. Preserve alpha; exclude camera framing, UI and attention overlays.
+- Report export/loading errors and prevent duplicate encoding clicks.
+
+Validation: render/download pipeline, PNG failure, empty/loading guards, URL cleanup, layer compositing, documentation and package checks. Browser download acceptance pending.
+
 ## v0.10.24 — 2026-10-14
 
 - Increase Layers top padding from 8px to 20px to separate its action buttons from the resize handle.
