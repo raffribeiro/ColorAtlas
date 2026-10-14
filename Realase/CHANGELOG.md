@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.9 — 2026-10-14
+
+- Use plain white circular slider thumbs, centered on consistent 28px tracks.
+- Place Saturation label, slider and its live percentage on one row, aligned with the other authoring sliders.
+- Remove fixed 0%/100% saturation endpoint labels.
+
+Validation: exported saturation markup, dynamic value binding and slider styling/package checks. Live visual acceptance pending.
+
 ## v0.10.8 — 2026-10-14
 
 - Removed the app Fullscreen button from the header.
