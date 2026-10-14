@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.27 — 2026-10-14
+
+- Move the selected-color swatch below the divider, inside the Color Wheel group.
+
+Validation: swatch identity/order, wheel resizing, documentation and delivered package checks.
+
 ## v0.10.26 — 2026-10-14
 
 - Apply the existing Reset view action after every successful Preview preset selection. Center pan and fit the image instead of restoring saved zoom. Failed/superseded loads retain the current view.
