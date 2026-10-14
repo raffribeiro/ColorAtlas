@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.19 — 2026-10-14
+
+- Remove the empty Preview presets menu option. Select Default on startup and as fallback; retain selection of newly created presets.
+
+Validation: preset menu options/selection/fallback, compiled Preview module, documentation and release checks.
+
 ## v0.10.18 — 2026-10-14
 
 - Synchronize the compiled Preview module and guide in the final package.
