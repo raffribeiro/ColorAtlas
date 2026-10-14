@@ -1,7 +1,7 @@
-COLOR ATLAS v0.10.13
+COLOR ATLAS v0.10.14
 
-Open COLOR_ATLAS_START_HERE.html in Chrome or Edge. Click Connect Data and choose this folder or its Data folder, then allow read/write access. Connect before editing.
+Open COLOR_ATLAS_START_HERE.html in your browser. Presets and images are saved in browser IndexedDB; palettes and settings use browser localStorage. No Data connection, server or internet is required.
 
-Preset/image metadata lives in Data/preview.json; image PNG files live in Data/Images; editor settings and palettes live in Data/settings.json. Only the directory permission handle is remembered by the browser. Reconnect when requested after restarting.
-No server or internet is required for the app. External documentation links require internet.
-Existing browser presets are not automatically migrated. Back up Data with the app closed. Safari/Firefox do not support this direct folder edition.
+Reopen with the same browser profile, file path and query string. Moving the app or clearing browser data may make saved work unavailable. Sharing App does not include your browser library. Export important gradients before clearing browser data.
+
+Data contains bundled default assets and preserved files from the earlier folder edition. This version does not write there or import those older files automatically. External documentation links require internet.

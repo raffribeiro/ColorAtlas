@@ -1,6 +1,6 @@
 # Color Atlas
 
-Open App/COLOR_ATLAS_START_HERE.html in Chrome or Edge. Connect App/Data before editing.
+Open App/COLOR_ATLAS_START_HERE.html in your browser. Presets, images, palettes and settings are saved in that browser profile.
 
 App is the runnable, shareable folder. Realase contains all release records and archived sharing ZIPs.
 

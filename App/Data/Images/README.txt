@@ -1,1 +1,1 @@
-Preset images are saved here as content-addressed PNG files. Keep this folder with preview.json. Unreferenced images are retained.
+Bundled default and legacy preset image PNG files are kept here. New images are stored in browser IndexedDB. Keep this folder with preview.json. Unreferenced images are retained.

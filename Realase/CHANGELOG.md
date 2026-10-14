@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.14 — 2026-10-14
+
+- Use browser IndexedDB for Preview presets/images and localStorage for palettes/settings. Remove Connect Data from the runnable browser edition.
+- Seed the embedded Codex Use Esse preset in browser storage without replacing personal presets. New preset no longer requests folder permission.
+- Preserve legacy Data files and the folder-store implementation for the future portable edition; no automatic legacy-file import.
+
+Validation: IndexedDB save/load/reopen, default seeding, personal-preset retention, New preset, palette persistence, documentation and standalone package checks. Live browser acceptance pending.
+
 ## v0.10.13 — 2026-10-14
 
 - Regenerate the guide with toolbar feedback changes; separate app assets from external bibliography entries.
