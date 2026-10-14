@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.17 — 2026-10-14
+
+- Hide routine Restored locally and Saved locally messages beneath Preview layers. Keep actionable errors visible.
+
+Validation: status visibility tests, Preview controls, generated documentation and package checks.
+
 ## v0.10.16 — 2026-10-14
 
 - Rename the built-in Preview preset to Default. Offer one-time confirmation to remove all other Preview presets.
