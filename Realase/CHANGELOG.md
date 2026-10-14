@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.5 — 2026-10-14
+
+- Show Drag here hints on valid layer rows while a file is dragged over the app, retaining readable layer names.
+- Highlight the hovered target; clear hints on leaving, drop, Escape or window blur.
+
+Validation: drag hint lifecycle, target replacement and existing history/package checks. Live drag acceptance remains pending.
+
 ## v0.10.4 — 2026-10-14
 
 - Set the browser tab title to Color Atlas.
