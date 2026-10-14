@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.12.1 — 2026-10-14
+
+- Replace one-shot Normalize values with a contextual checkbox for the selected image layer, off by default.
+- Preserve source pixels and assets; switching off restores original values. Each layer stores its own toggle in browser state, saved presets and Undo/Redo.
+- Use cached normalized fields for preview, PNG export and Random analysis; replacing an image recomputes its field with the current toggle.
+
+Validation: per-layer context, immutable source/alpha, extrema and no-op cases, cache invalidation, document compatibility, compositing and Undo/Redo; documentation and standalone checks.
+
 ## v0.12.0 — 2026-10-14
 
 - Add Normalize values to Layers: stretch the selected image’s nontransparent grayscale min/max to 0–255.
