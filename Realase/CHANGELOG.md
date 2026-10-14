@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.20 — 2026-10-14
+
+- Add Save for the current Preview preset with Save/Cancel confirmation. Update the same preset ID/name with current images, maps, zoom and Random toggles.
+- Disable Save for Default and reject default-overwrite requests in browser storage. New preset can create a personal copy.
+
+Validation: confirmation/cancel, overwrite identity/snapshot, failure/retry, Default UI/storage protection, generated documentation and package checks. Live browser acceptance pending.
+
 ## v0.10.19 — 2026-10-14
 
 - Remove the empty Preview presets menu option. Select Default on startup and as fallback; retain selection of newly created presets.
