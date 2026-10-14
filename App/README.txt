@@ -1,4 +1,4 @@
-COLOR ATLAS v0.10.3
+COLOR ATLAS v0.10.4
 
 Open COLOR_ATLAS_START_HERE.html in Chrome or Edge. Click Connect Data and choose this folder or its Data folder, then allow read/write access. Connect before editing.
 

@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.4 — 2026-10-14
+
+- Set the browser tab title to Color Atlas.
+
+Validation: title verified in the exported page and synchronized App package.
+
 ## v0.10.3 — 2026-10-14
 
 - Drag a PNG, JPEG or WebP (up to 20 MB) onto a Preview layer row to replace its image.
