@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.24 — 2026-10-14
+
+- Increase Layers top padding from 8px to 20px to separate its action buttons from the resize handle.
+- Remove the successful Default Preview loaded message; retain storage errors.
+
+Validation: layout/style and default-loading checks, documentation and release package checks.
+
 ## v0.10.23 — 2026-10-14
 
 - Group the live selected-color swatch inside Color Wheel, followed by the resize divider and wheel. Keep the divider in normal flow after the swatch and recalculate fitted sizes.
