@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.12.0 — 2026-10-14
+
+- Add Normalize values to Layers: stretch the selected image’s nontransparent grayscale min/max to 0–255.
+- Preserve alpha, gradient maps and other layers. Bake the result into the current layer’s PNG for preset persistence; Undo restores the prior image.
+- Leave full-range, constant-value and fully transparent images unchanged. This is a min/max stretch, not histogram equalization or matching area ratios.
+
+Validation: alpha-aware extrema, original/other-layer preservation, PNG encoding, no-op cases and Undo/Redo; documentation and standalone package checks. Temp_Design already spans 0–255 and therefore does not change.
+
 ## v0.11.8 — 2026-10-14
 
 - Treat Add layers as the 10% accent role in Graphic Design Random, using the shared palette’s accent hue across their tonal variants.
