@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.43 — 2026-10-14
+
+- Make loading Ca lettering and badge border white. Apply the main Color Atlas gradient to the loading title; keep VFX muted.
+
+Validation: scoped white badge/title gradient styles, embedded assets, documentation and release package checks.
+
 ## v0.10.42 — 2026-10-14
 
 - Increase the loading explosion zoom from 1.3× to 1.6×, preserving the clipped panel and focal point.
