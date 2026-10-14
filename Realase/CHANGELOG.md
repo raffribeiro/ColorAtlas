@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.11.7 — 2026-10-14
+
+- Keep current interpolation when choosing a Random mode. Apply Bands for Graphic Design only when Random runs; other Random modes apply Smooth when run.
+
+Validation: menu changes preserve interpolation in both directions; actual Random selects Bands/Smooth; graphic palette and Undo/Redo regressions, documentation and release package checks.
+
 ## v0.11.6 — 2026-10-14
 
 - Expand Graphic Design Random to 15 internal families: six hue harmonies plus editorial, Swiss-poster-inspired, Bauhaus-inspired, retro, digital, luxury, botanical, playful and duotone recipes.
