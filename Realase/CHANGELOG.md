@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.12 — 2026-10-14
+
+- Remove palette status messages from the Gradient Map toolbar. Save/delete dialogs retain storage feedback.
+
+Validation: source/export style checks, documentation checks and standalone package verification.
+
 ## v0.10.11 — 2026-10-14
 
 - Embed the supplied Explosion_Emissive, Explosion_Smoke and BG PNGs as the Codex Use Esse startup preset, in that visual order. Emissive uses Add with a black low endpoint.
