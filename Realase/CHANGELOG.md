@@ -6,6 +6,15 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.11.1 — 2026-10-14
+
+- Replace Graphic Design’s ordered dark-to-light ramp with three vivid 60/30/10 regions in randomized grayscale-axis order.
+- Randomize value assignment independently; use 80–97% of the available sRGB chroma at each chosen hue/lightness.
+- Rebuild six color stops with narrow smooth transitions. Preserve alpha and OFF layers; Undo/Redo restores prior keys. Span widths do not guarantee image-area percentages or text contrast.
+- This mode no longer follows VFX Add black-key rules or preserves key positions/value hierarchy. Other modes are unchanged.
+
+Validation: 24 seeded palettes, exact nominal 60/30/10 spans, at least five value orders, vibrant chroma, fixed alpha/OFF layers, actual Undo/Redo, documentation and standalone release checks.
+
 ## v0.11.0 — 2026-10-14
 
 - Add Temp_Design from the supplied JPEG, with one Normal image and five opaque grayscale keys from black to white.
