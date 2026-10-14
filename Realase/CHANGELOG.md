@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.7 — 2026-10-14
+
+- Prevent text selection in the app interface; editable fields retain normal selection and clipboard editing.
+
+Validation: exported selection styles and package/release synchronization.
+
 ## v0.10.6 — 2026-10-14
 
 - Fix Gradient Map click positions using SVG screen transforms, including scaled and letterboxed layouts.
