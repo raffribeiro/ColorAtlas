@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.35 — 2026-10-14
+
+- Focus Delete when the shared deletion confirmation opens, allowing native Enter activation. Escape and Cancel still cancel; no deletion occurs before confirmation.
+
+Validation: initial Delete focus, confirmation/cancel, native text-field Delete and layer-removal checks; synchronized documentation and release package. Browser-native Enter acceptance remains unverified live.
+
 ## v0.10.34 — 2026-10-14
 
 - Shorten and center the Post-process bloom control to distinguish it from panel dividers.
