@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.47 — 2026-10-14
+
+- Increase the loading explosion zoom to 2.3× and shift it 5% downward, retaining its 5% left offset and panel clipping.
+
+Validation: exported transform/clipping, embedded image identity, documentation and standalone release checks.
+
 ## v0.10.46 — 2026-10-14
 
 - Reuse the header’s studio-brand COLOR ATLAS wordmark in the loading title, matching capitalization, type weight, tracking, size, responsive sizing, gradient and VFX styling.
