@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.42 — 2026-10-14
+
+- Increase the loading explosion zoom from 1.3× to 1.6×, preserving the clipped panel and focal point.
+
+Validation: exported image transform/clipping, embedded PNG identity, documentation and standalone package checks.
+
 ## v0.10.41 — 2026-10-14
 
 - Defer selection scale feedback until a pointer edit ends. Keep markers steady during Color Wheel, gradient and slider drags while colors/Preview update live.
