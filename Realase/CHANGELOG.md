@@ -6,6 +6,15 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.11.0 — 2026-10-14
+
+- Add Temp_Design from the supplied JPEG, with one Normal image and five opaque grayscale keys from black to white.
+- Seed the preset once per browser/path scope, retaining later edits or deletion and existing personal presets. Ship the source image in Data defaults.
+- Add Graphic Design Random: shared hue family, neutral ink/paper, secondary tone and colored accent. Ink/paper endpoints have at least 7:1 contrast; intermediate pairs require separate review.
+- Preserve key count/spacing, alpha, ON/OFF selection and Undo/Redo. This mode adjusts lightness for design contrast; existing Random modes retain their behavior.
+
+Validation: seeded palette diversity/contrast, grayscale preset structure, one-time browser seeding/deletion, existing Random/history checks, documentation and release package. Live browser acceptance pending.
+
 ## v0.10.48 — 2026-10-14
 
 - Shift the loading explosion further left, from 5% to 8%. Retain 2.3× zoom and 5% downward offset.
