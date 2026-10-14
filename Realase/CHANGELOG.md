@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.22 — 2026-10-14
+
+- Move the live L value from the graph header to a centered readout above Black–White.
+- Pulse its scale briefly when the value changes; unchanged redraws do not pulse. Respect reduced-motion preferences.
+
+Validation: readout placement, changed/unchanged values, interrupted animation and reduced motion; generated documentation and package checks.
+
 ## v0.10.21 — 2026-10-14
 
 - Rename Slow rotation to Rotation. Increase Layers action-button spacing from 2px to 8px, retaining wrapping.
