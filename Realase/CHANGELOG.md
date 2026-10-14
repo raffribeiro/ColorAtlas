@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.41 — 2026-10-14
+
+- Defer selection scale feedback until a pointer edit ends. Keep markers steady during Color Wheel, gradient and slider drags while colors/Preview update live.
+- Coalesce release and final model feedback into one pulse; clear deferred feedback on blur/reduced motion.
+
+Validation: no pulse during repeated drag updates, one release pulse, blur cleanup, pointer/keyboard feedback and reduced motion; documentation and release package checks.
+
 ## v0.10.40 — 2026-10-14
 
 - Use the same active --atlas-chroma theme variable as the final Color Atlas logo style for loading Ca lettering.
