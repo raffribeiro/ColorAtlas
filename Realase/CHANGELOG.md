@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.11.4 — 2026-10-14
+
+- Preserve every existing Graphic Design color point and its exact position; change only colors. Keep ordered value, alpha and automatic Bands.
+- Treat 60/30/10 as a color-assignment guide at authored positions, rather than moving points to enforce region widths.
+
+Validation: 24 seeded palettes, exact point count/positions including uneven spacing, value order, alpha/OFF preservation, other modes using Smooth and Undo/Redo; documentation and package checks.
+
 ## v0.11.3 — 2026-10-14
 
 - Keep Graphic Design colors in ascending value order while retaining randomized 60/30/10 span assignment and vibrant gamut-relative chroma.
