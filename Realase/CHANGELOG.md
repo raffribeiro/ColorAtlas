@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.46 — 2026-10-14
+
+- Reuse the header’s studio-brand COLOR ATLAS wordmark in the loading title, matching capitalization, type weight, tracking, size, responsive sizing, gradient and VFX styling.
+- Retain the white Ca badge and existing loading layout/artwork.
+
+Validation: shared wordmark class/markup, header typography parity, embedded assets, documentation and standalone package checks. Live visual acceptance pending.
+
 ## v0.10.45 — 2026-10-14
 
 - Shift the loading explosion 5% left within its panel, keeping 2× zoom and clipping.
