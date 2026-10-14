@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.10.13 — 2026-10-14
+
+- Regenerate the guide with toolbar feedback changes; separate app assets from external bibliography entries.
+
+Validation: generated guide, exported styles and standalone package checks.
+
 ## v0.10.12 — 2026-10-14
 
 - Remove palette status messages from the Gradient Map toolbar. Save/delete dialogs retain storage feedback.
