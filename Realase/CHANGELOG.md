@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.13.4 — 2026-10-15
+
+- Set the Authoring 3D default camera to the requested tilted reference: Green left, Red right, Yellow above and Blue below.
+- Use the same orientation on startup and Reset view; retain centered framing, zoom and rotation off by default.
+
+Validation: projected axis directions/slopes and startup/reset state in source and delivered HTML; documentation and standalone checks. Visual acceptance pending.
+
 ## v0.13.3 — 2026-10-15
 
 - Deliver both Graphic Design - Smooth and Graphic Design - Bands with the current tutorial and branding updates preserved.
