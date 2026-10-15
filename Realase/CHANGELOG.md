@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.14.5 — 2026-10-15
+
+- Add an illustration of the actual editor graph beside Documentation → Reading the 3D view.
+- Reuse its rendered OKLab volume, selected lightness plane and numbered gradient path, with a caption explaining each part. The illustration is passive and does not change the editor.
+- Isolate SVG gradient IDs and remove animation/interactive styling from the copy; keep it responsive.
+
+Validation: source/framing preservation, isolated SVG IDs and text alternatives, documentation interaction/math/navigation and synchronization checks; standalone package. Live visual acceptance pending.
+
 ## v0.14.4 — 2026-10-15
 
 - Fix documentation slider thumbs sitting below their track: scoped thumb dimensions and centering now take precedence over the global app slider rule.
