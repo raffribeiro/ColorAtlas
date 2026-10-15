@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.14.2 — 2026-10-15
+
+- Give documentation controls stronger visual priority: dedicated control panels, brighter labels and values, larger slider thumbs, clearer selects, checkboxes and color pickers, and visible hover/focus states.
+- Quiet the static example badge, title, captions and frame; highlight only the canvas that accepts direct color picking.
+- Keep the examples responsive and preserve their existing behavior and editor isolation.
+
+Validation: CSS parsing, readable control text contrast, documentation synchronization, example math/interaction and navigation checks; standalone package. Live visual acceptance pending.
+
 ## v0.14.1 — 2026-10-15
 
 - Add the Munsell diagram to Documentation → Editing color with a perspective Hue ring, neutral Value column and numbered radial Chroma chips, following the user’s visual reference.
