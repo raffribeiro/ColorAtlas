@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.13.6 — 2026-10-15
+
+- Add an interactive Munsell Color Method example to Documentation → Editing color.
+- Explore Hue, Value and Chroma using a schematic color tree, highlighted sample, color swatch and live H V/C notation. Zero chroma shows neutral gray; the chroma limit follows the available sRGB samples.
+- Use the bundled Munsell data and distinguish the example from the editor’s OKLab view. Keep documentation interaction independent of editor colors.
+
+Validation: 90 hue/value combinations, chroma bounds, neutral values, live readouts, existing color math/navigation checks and synchronized standalone package. Live visual acceptance pending.
+
 ## v0.13.5 — 2026-10-15
 
 - Update library Fire to the authored seven-color ramp, including black at 0% and dark ember at 7.2%; retain the remaining stops at 20%, 40%, 60%, 80% and 100%.
