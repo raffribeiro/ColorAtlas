@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.12.2 — 2026-10-15
+
+- Rewrite the Documentation page as a shorter, task-first guide: 10 topics instead of 20, about 4,000 words instead of 12,600. Remove implementation trivia, hidden Munsell/OKLCh views, legal disclaimers and per-topic bibliographies; formulas move to one collapsible technical reference.
+- Add 10 interactive examples: signal lookup, OKLab slice with gamut fitting, Smooth vs linear RGB vs Bands, Normalize values, blend modes, harmony hues, bloom, color-vision simulation, PNG UV sampling and sRGB decoding.
+- Add Unreal Engine 5 setup steps (texture settings, material UVs, Niagara) and a shortcuts table. Examples start only when their topic opens; the editor is unchanged.
+
+Validation: documentation content, navigation and math checks (examples match the editor's color evaluator); headless browser run of every example control without console errors; narrow-layout inspection. Live browser acceptance pending.
+
 ## v0.12.1 — 2026-10-14
 
 - Replace one-shot Normalize values with a contextual checkbox for the selected image layer, off by default.
