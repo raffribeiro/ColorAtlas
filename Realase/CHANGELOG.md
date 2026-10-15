@@ -6,6 +6,15 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.13.1 — 2026-10-15
+
+- Tutorial wording: the intro button reads "Tutorial", missions are now steps ("Step 1 of 3", "Next step"), and the stars are removed. The progress bar and completion cards remain.
+- While a color control is in play (wheel, sliders and 3D, gradient map, Random, applying a preset), the tutorial keeps the Preview lit as a second spotlight labeled "Live preview"; it glows while you drag or change values, so the edit and its effect read together. The card avoids covering the Preview.
+- Header wordmark now carries an OKLab hue gradient at near-constant lightness with chroma varying per stop.
+- Documentation Quick start tip updated to match.
+
+Validation: onboarding and documentation checks; headless browser run of the full tour with no console errors. Live browser acceptance pending.
+
 ## v0.13.0 — 2026-10-15
 
 - Add a guided onboarding in the style of a mobile game tutorial: three missions (Pick your colors, See them in action, Build your library) with a spotlight on the control in play, hands-on tasks that advance when performed, stars, progress and a reward per mission.
