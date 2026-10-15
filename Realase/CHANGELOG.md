@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.14.3 — 2026-10-15
+
+- Explain Munsell’s role as inspiration for the 3D graph and relate Value, Hue and Chroma to OKLab L, angle in the a/b plane and distance from neutral. Distinguish Munsell scales from OKLab/OKLCh.
+- Keep the demo’s Hue ring fixed while a white outline and dot identify the chosen sector. Show the hue code and full family name beside the slider and in the diagram.
+- Render rear Chroma branches behind the neutral column for a clearer spatial reading.
+
+Validation: stable ring labels across hue changes, 90 hue/value combinations and neutral/chroma behavior; guide math/navigation, documentation synchronization and standalone package. Live visual acceptance pending.
+
 ## v0.14.2 — 2026-10-15
 
 - Give documentation controls stronger visual priority: dedicated control panels, brighter labels and values, larger slider thumbs, clearer selects, checkboxes and color pickers, and visible hover/focus states.
