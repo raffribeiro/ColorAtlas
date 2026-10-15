@@ -6,35 +6,26 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
-## v0.13.6 — 2026-10-15
+## v0.14.1 — 2026-10-15
 
-- Add an interactive Munsell Color Method example to Documentation → Editing color.
-- Explore Hue, Value and Chroma using a schematic color tree, highlighted sample, color swatch and live H V/C notation. Zero chroma shows neutral gray; the chroma limit follows the available sRGB samples.
-- Use the bundled Munsell data and distinguish the example from the editor’s OKLab view. Keep documentation interaction independent of editor colors.
+- Add the Munsell diagram to Documentation → Editing color with a perspective Hue ring, neutral Value column and numbered radial Chroma chips, following the user’s visual reference.
+- Use sliders for Hue, Value and Chroma. Hue shows its Munsell code and accessible family name. All colors use bundled samples within sRGB; the diagram geometry is schematic and the main editor remains OKLab.
+- Preserve the current library backup, tutorial and single-source build updates.
 
-Validation: 90 hue/value combinations, chroma bounds, neutral values, live readouts, existing color math/navigation checks and synchronized standalone package. Live visual acceptance pending.
+Validation: 90 hue/value combinations, live hue labels, chroma limits and neutral values; drawing inspection, guide math/navigation and standalone checks. Live browser acceptance pending.
 
-## v0.13.5 — 2026-10-15
+## v0.14.0 — 2026-10-15
 
-- Update library Fire to the authored seven-color ramp, including black at 0% and dark ember at 7.2%; retain the remaining stops at 20%, 40%, 60%, 80% and 100%.
-- Use Fire as the default Explosion_Emissive ramp with Add blending. Refresh the protected Default browser preset without modifying personal presets or other layers.
-- Synchronize the guide and interactive fire examples.
+- Library Export / Import: buttons next to PALETTES save My palettes, favorites and your Preview presets (images included) to one JSON file, and add them back from such a file — merging, never deleting; palettes that do not fit the 8 KiB library are reported.
+- The tutorial now covers every part of the app: key tools (+, −, Position, Copy HEX), Undo/Redo, preview zoom and Reset view, building the scene (add, replace or drop, rename, remove, reorder, Export Preview), blend and normalize, Random modes including ColorPlay and Graphic Design, browsing library folders, the export formats, library backup and the Documentation.
+- When the tutorial ends or is closed, the workspace returns to how it was before it started (colors, keys, layers, Random chips); library changes made during it are kept. The page reloads once to apply it, without the splash.
+- The intro says what Color Atlas is for: creating gradient maps and color palettes.
+- In "Your gradient in 3D" the tutorial selects key 4 and tilts and zooms the 3D view to a top-down look at that lightness, so picking a color is easy; the view resets afterwards.
+- Completion sparks start where the action happened (the pointer or the control), and from the center of the pop-up on step and final cards.
+- Single source: work/build_standalone.py builds the standalone page from the canonical fragment and the export modules (shell, frame prefix/suffix and fit_local_page.py), reproducing the shipped page; no Codex exporter needed.
+- Documentation: Export/Import in Saving your work and Troubleshooting; Tutorial description updated.
 
-Validation: exact colors/positions in library and default seed, protected Default refresh and personal-preset retention, library checks, documentation and standalone package.
-
-## v0.13.4 — 2026-10-15
-
-- Set the Authoring 3D default camera to the requested tilted reference: Green left, Red right, Yellow above and Blue below.
-- Use the same orientation on startup and Reset view; retain centered framing, zoom and rotation off by default.
-
-Validation: projected axis directions/slopes and startup/reset state in source and delivered HTML; documentation and standalone checks. Visual acceptance pending.
-
-## v0.13.3 — 2026-10-15
-
-- Deliver both Graphic Design - Smooth and Graphic Design - Bands with the current tutorial and branding updates preserved.
-- Synchronize the guide: only pressing Random applies the chosen interpolation. Both variants share harmony, value/chroma variation, fixed points and Add accents. Legacy Graphic Design restores as Bands.
-
-Validation: both seeded variants, restoration and actual Undo/Redo; documentation synchronization and standalone package checks.
+Validation: end-to-end tests (first launch, full tour, workspace restore, library export/import, search, controls, narrow layout, reduced motion); onboarding and documentation checks. Live browser acceptance pending.
 
 ## v0.13.2 — 2026-10-15
 
