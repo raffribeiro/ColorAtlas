@@ -6,6 +6,23 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.13.2 — 2026-10-15
+
+- Tutorial, reviewed end to end:
+  - Every step that changes color keeps the Preview lit as "Live preview", including Random and color-key selection; color steps no longer advance on their own — after the action you keep playing and press Next.
+  - New 3D steps: what the color solid is (lightness up, hue around, chroma outward, like Munsell's color tree), reading your gradient as a path, and how to rotate, pan and zoom.
+  - Shape the gradient spotlights both the ramp and the key list; picking a key there counts.
+  - New layer steps: switching the Random ON/OFF chip, and where Replace image, Blend mode, Opacity and Normalize values are. New color-vision step: pick a mode (the dropdown stays usable in the spotlight); attention and bloom get their own step.
+  - Search completes only when it finds presets, with suggestions otherwise; Apply a preset clears an empty search.
+  - Completion effects are now additive light sparks with drifting embers, also on each finished task.
+  - Card placement avoids covering spotlights and the Preview; the tour redraws only when something moves (no per-frame repaint).
+- Brand: header and loading screen share one set of brand tokens (mark, OKLab gradient wordmark, VFX tag); the wordmark is larger. The loading screen shows the current version (it showed 0.12.1).
+- 3D rotation is off by default.
+- Documentation: new "Reading the 3D view" section; Tutorial mention updated.
+- Tests: work/test_onboarding_e2e.py (Playwright) covers first launch, full playthrough with every task, persistence, Not now and replay, Skip step/Back/keyboard/Escape/click shield, search with and without results, narrow 430 px with host scrolling, reduced motion and shared branding.
+
+Validation: 7/7 end-to-end scenarios in headless Chromium; onboarding and documentation checks. Live browser acceptance pending.
+
 ## v0.13.1 — 2026-10-15
 
 - Tutorial wording: the intro button reads "Tutorial", missions are now steps ("Step 1 of 3", "Next step"), and the stars are removed. The progress bar and completion cards remain.
