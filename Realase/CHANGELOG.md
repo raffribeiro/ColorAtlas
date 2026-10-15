@@ -6,6 +6,15 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.13.0 — 2026-10-15
+
+- Add a guided onboarding in the style of a mobile game tutorial: three missions (Pick your colors, See them in action, Build your library) with a spotlight on the control in play, hands-on tasks that advance when performed, stars, progress and a reward per mission.
+- Open the tutorial automatically after the splash on first launch; remember completion or skip in the app's saved state. Add a Tutorial button beside Editor and Documentation to replay it. Esc leaves; arrow keys navigate.
+- Redesign the header logo: "Ca" element-tile mark matching the splash, solid "Color Atlas" wordmark with tighter spacing, outlined VFX tag.
+- Documentation: mention the Tutorial in Quick start and Interface and shortcuts.
+
+Validation: onboarding module, persistence and target checks; documentation checks; headless browser run of the full tour (desktop and 430 px narrow) including every task, reload persistence and replay, with no console errors. Live browser acceptance pending.
+
 ## v0.12.2 — 2026-10-15
 
 - Rewrite the Documentation page as a shorter, task-first guide: 10 topics instead of 20, about 4,000 words instead of 12,600. Remove implementation trivia, hidden Munsell/OKLCh views, legal disclaimers and per-topic bibliographies; formulas move to one collapsible technical reference.
