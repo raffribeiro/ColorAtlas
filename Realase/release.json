@@ -1,6 +1,6 @@
 {
   "app": "Color Atlas",
-  "version": "0.13.4",
+  "version": "0.13.5",
   "entry": "COLOR_ATLAS_START_HERE.html",
-  "sha256": "b7288afa2717db1b0c243bdf418b44449901dfea554deccd6b92036ee65ab6d2"
+  "sha256": "4c88e632aa2eff23820edc51d90ebd1d854a4327d5c659ba50244675ccd69ce7"
 }

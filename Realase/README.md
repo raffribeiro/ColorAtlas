@@ -1,6 +1,6 @@
 # Color Atlas release records
 
-Current version: 0.13.4
+Current version: 0.13.5
 
 CHANGELOG.md records changes. release.json identifies the current HTML and its hash. Manifests records validated deliveries; Archives preserves the ZIPs already shared.
 

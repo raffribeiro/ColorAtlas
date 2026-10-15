@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.13.5 — 2026-10-15
+
+- Update library Fire to the authored seven-color ramp, including black at 0% and dark ember at 7.2%; retain the remaining stops at 20%, 40%, 60%, 80% and 100%.
+- Use Fire as the default Explosion_Emissive ramp with Add blending. Refresh the protected Default browser preset without modifying personal presets or other layers.
+- Synchronize the guide and interactive fire examples.
+
+Validation: exact colors/positions in library and default seed, protected Default refresh and personal-preset retention, library checks, documentation and standalone package.
+
 ## v0.13.4 — 2026-10-15
 
 - Set the Authoring 3D default camera to the requested tilted reference: Green left, Red right, Yellow above and Blue below.
