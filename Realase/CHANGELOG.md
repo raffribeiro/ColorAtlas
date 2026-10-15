@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.14.7 — 2026-10-15
+
+- Restore the published v0.13.3–v0.13.6 changelog entries verbatim from the local release history.
+- Recover the Graphic Design - Smooth / Bands and Fire default-ramp documentation from the v0.13.6 published page, preserving later guide and application changes.
+- Correct maintenance notes: both Graphic Design variants were delivered in v0.13.3 and remain part of the standalone build.
+
+Validation: historical-entry and recovered-text equality against release commit c889da6; documentation synchronization, existing feature checks and standalone package. No runtime behavior changes.
+
 ## v0.14.6 — 2026-10-15
 
 - Start the documentation Smooth vs Bands example with Use middle key off, showing only the two endpoint colors. Enable it to add the middle key; its position control remains disabled until then.
@@ -64,6 +72,36 @@ Validation: 90 hue/value combinations, live hue labels, chroma limits and neutra
 - Documentation: Export/Import in Saving your work and Troubleshooting; Tutorial description updated.
 
 Validation: end-to-end tests (first launch, full tour, workspace restore, library export/import, search, controls, narrow layout, reduced motion); onboarding and documentation checks. Live browser acceptance pending.
+
+## v0.13.6 — 2026-10-15
+
+- Add an interactive Munsell Color Method example to Documentation → Editing color.
+- Explore Hue, Value and Chroma using a schematic color tree, highlighted sample, color swatch and live H V/C notation. Zero chroma shows neutral gray; the chroma limit follows the available sRGB samples.
+- Use the bundled Munsell data and distinguish the example from the editor’s OKLab view. Keep documentation interaction independent of editor colors.
+
+Validation: 90 hue/value combinations, chroma bounds, neutral values, live readouts, existing color math/navigation checks and synchronized standalone package. Live visual acceptance pending.
+
+## v0.13.5 — 2026-10-15
+
+- Update library Fire to the authored seven-color ramp, including black at 0% and dark ember at 7.2%; retain the remaining stops at 20%, 40%, 60%, 80% and 100%.
+- Use Fire as the default Explosion_Emissive ramp with Add blending. Refresh the protected Default browser preset without modifying personal presets or other layers.
+- Synchronize the guide and interactive fire examples.
+
+Validation: exact colors/positions in library and default seed, protected Default refresh and personal-preset retention, library checks, documentation and standalone package.
+
+## v0.13.4 — 2026-10-15
+
+- Set the Authoring 3D default camera to the requested tilted reference: Green left, Red right, Yellow above and Blue below.
+- Use the same orientation on startup and Reset view; retain centered framing, zoom and rotation off by default.
+
+Validation: projected axis directions/slopes and startup/reset state in source and delivered HTML; documentation and standalone checks. Visual acceptance pending.
+
+## v0.13.3 — 2026-10-15
+
+- Deliver both Graphic Design - Smooth and Graphic Design - Bands with the current tutorial and branding updates preserved.
+- Synchronize the guide: only pressing Random applies the chosen interpolation. Both variants share harmony, value/chroma variation, fixed points and Add accents. Legacy Graphic Design restores as Bands.
+
+Validation: both seeded variants, restoration and actual Undo/Redo; documentation synchronization and standalone package checks.
 
 ## v0.13.2 — 2026-10-15
 
