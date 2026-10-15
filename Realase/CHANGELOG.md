@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.13.3 — 2026-10-15
+
+- Deliver both Graphic Design - Smooth and Graphic Design - Bands with the current tutorial and branding updates preserved.
+- Synchronize the guide: only pressing Random applies the chosen interpolation. Both variants share harmony, value/chroma variation, fixed points and Add accents. Legacy Graphic Design restores as Bands.
+
+Validation: both seeded variants, restoration and actual Undo/Redo; documentation synchronization and standalone package checks.
+
 ## v0.13.2 — 2026-10-15
 
 - Tutorial, reviewed end to end:
