@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.14.6 — 2026-10-15
+
+- Start the documentation Smooth vs Bands example with Use middle key off, showing only the two endpoint colors. Enable it to add the middle key; its position control remains disabled until then.
+- Update the example caption to match the new default.
+
+Validation: generated default checkbox state, guide synchronization, color math and navigation checks; standalone package.
+
 ## v0.14.5 — 2026-10-15
 
 - Add an illustration of the actual editor graph beside Documentation → Reading the 3D view.
