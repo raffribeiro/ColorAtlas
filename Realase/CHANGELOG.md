@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.2 — 2026-10-15
+
+- Select color key 4 whenever the tutorial enters Paint with the wheel, including returning with Back, using the same key-number selection as the 3D step.
+- Explain the selected key in the step and update the guide and onboarding checks.
+
+Validation: actual wheel-step entry/re-entry and key selection; onboarding synchronization/state checks and documentation checks. Full Playwright playthrough unavailable: Python Playwright is not installed in this environment. Live visual acceptance pending.
+
 ## v0.90.1 — 2026-10-15
 
 - Make Documentation an explicit next step on the final onboarding card, pointing to the top-bar tab and its interactive examples, control explanations and Unreal / Unity setup guides.
