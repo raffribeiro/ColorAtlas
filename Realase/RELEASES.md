@@ -1,6 +1,6 @@
 # Release maintenance
 
-VERSION and CHANGELOG.md in the development workspace are the canonical version and change history. Current public release series starts at v0.9; iteration continues toward v1.0.
+VERSION and CHANGELOG.md in the development workspace are the canonical version and change history. Public release history begins at v0.9. At the user’s request on 2026-10-15, the current build is designated v0.90.0; continue toward v1.0 while preserving all earlier records.
 
 ## Delivery layout
 

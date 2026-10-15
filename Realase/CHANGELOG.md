@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.0 — 2026-10-15
+
+- Designate the current Color Atlas build as v0.90.0 at the user’s request.
+- Update the standalone version labels, release metadata and shareable ZIP. Features, bundled images, presets and browser-storage behavior are unchanged.
+- Preserve the complete earlier release history and immutable archives.
+
+Validation: package integrity, embedded version labels, documentation synchronization, unchanged application content apart from version labels, and existing archive/personal-Data preservation.
+
 ## v0.14.7 — 2026-10-15
 
 - Restore the published v0.13.3–v0.13.6 changelog entries verbatim from the local release history.
