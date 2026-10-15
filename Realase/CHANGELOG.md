@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.1 — 2026-10-15
+
+- Make Documentation an explicit next step on the final onboarding card, pointing to the top-bar tab and its interactive examples, control explanations and Unreal / Unity setup guides.
+- Preserve the existing completion action and workspace restoration; update the guide’s tutorial description and final-card checks.
+
+Validation: onboarding module/state/target checks and documentation synchronization/navigation; standalone package. Full Playwright playthrough unavailable in this environment (Python Playwright is not installed); live visual acceptance pending.
+
 ## v0.90.0 — 2026-10-15
 
 - Designate the current Color Atlas build as v0.90.0 at the user’s request.
