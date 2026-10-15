@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.14.4 — 2026-10-15
+
+- Fix documentation slider thumbs sitting below their track: scoped thumb dimensions and centering now take precedence over the global app slider rule.
+- Use consistent 18px border-box thumbs and reset the input’s default margin/padding. Editor sliders retain their existing styling.
+
+Validation: CSS cascade and track/thumb centering checks for WebKit/Firefox declarations; guide synchronization, interaction and navigation checks; standalone package. Live visual acceptance pending.
+
 ## v0.14.3 — 2026-10-15
 
 - Explain Munsell’s role as inspiration for the 3D graph and relate Value, Hue and Chroma to OKLab L, angle in the a/b plane and distance from neutral. Distinguish Munsell scales from OKLab/OKLCh.
