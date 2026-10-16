@@ -6,6 +6,24 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.14 — 2026-10-15
+
+- Review the guide's color theory against the code and reference data: OKLab matrices and round trip, sRGB transfer, gamut fitting, Machado matrices, blending, bloom and the 2,734 Munsell chips (recomputed from the 1943 renotation with Bradford C → D65; all in-gamut chips match).
+- Add measured Munsell-to-OKLab spacing to Editing color: Value 1–9 maps to L 23–92, principal hues sit 25°–54° apart instead of 36°, and Chroma 6 spans OKLab chroma 16–26.
+- Correct Saturation (relative to a fixed chroma of 100 when Lock base to sRGB is off), wheel orientation (green-cyan left, red-magenta right), key 1 as the rightmost key, the near-neutral OKLab midpoint and the encoded-sRGB bloom compositing; document the Munsell sample conversion.
+- Cite the 1943 renotation report in the guide and tighten the Munsell example caption and source links to keep the canonical fragment below 1 MB.
+- Add `work/agent_lock.py` and parallel-work rules in AGENTS.md so Codex and Claude can work in this workspace at the same time.
+
+Validation: documentation navigation, math (22,400 comparisons), content and onboarding checks passed; the corrected guide was rendered in Chromium and inspected. Canonical fragment 999,775 bytes. Live acceptance in the user's browser pending.
+
+## v0.90.13 — 2026-10-15
+
+- Rewrite onboarding in concise, action-first English, with consistent terminology and shorter explanations.
+- Prepare Default before the Random layer-choice step, then keep those choices when Random is pressed.
+- Require movement for drag exercises so a tap does not complete them.
+- Clarify simulation, gamut and export descriptions; remove unsupported reading guarantees and the fixed duration estimate.
+- Update the guide and browser playthrough, including immediate scenario progress reporting.
+
 ## v0.90.12 — 2026-10-15
 
 - Remove the border and padding from the header VFX tag and align its text baseline with Color Atlas.
