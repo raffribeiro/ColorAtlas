@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.16 — 2026-10-16
+
+- Replace the embedded Motion 14 subset (126.7 KB) with `work/atlas-motion-lite.js` (4.6 KB), a Web Animations API implementation of the only call the app makes, `animate()`. The canonical fragment drops from 999,930 to about 879 KB, restoring ~120 KB of headroom under the 1 MB limit.
+- Restore the Documentation text and source links that were trimmed in v0.90.14 only to fit the limit (Machado links back to four).
+- Make the 3D point cloud denser: 1,881 points (a 17-step gamut shell plus a 9-step interior) instead of 729, with smaller, fainter points so the volume stays readable. Redraw cost roughly doubles; a 17-step grid everywhere made rotation stutter and was not used.
+
+Validation: new `work/check_motion_lite.cjs` (embedded copy matches source; selection pulse within 0.002 of Motion 14; cancel/finished; element keyframes, from-values, per-segment easing, springs, delay, fill); in Chromium the pulse matches Motion 14 within 0.0003 and springs within 0.015. Documentation, math, content, motion, 3D and onboarding checks passed. The onboarding e2e suite is flaky and was run on v0.90.15 and v0.90.16 alike: "Workspace restored" and "Full playthrough" pass or fail intermittently on both builds, and "Narrow 430 px" (#18 Roll the dice) fails on both, so none of these come from this release. Live acceptance pending.
+
 ## v0.90.15 — 2026-10-15
 
 - Draw the 3D graph's Red–Green and Yellow–Blue axes on the selected-lightness plane instead of at L 50. In perspective, the old axes sat above or below the bright slice and appeared to cross dots of other hues.
