@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.12 — 2026-10-15
+
+- Remove the border and padding from the header VFX tag and align its text baseline with Color Atlas.
+- Keep the Ca mark vertically centered and update the interface guide.
+
+Validation: Chromium checks and inspected header captures at 1600 px and 430 px; synchronized brand, tutorial and documentation modules.
+
 ## v0.90.11 — 2026-10-15
 
 - Restore the pre-tutorial Preview scene after completion or exit instead of reopening Default over the restored stack.
