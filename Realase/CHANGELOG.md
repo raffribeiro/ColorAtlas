@@ -6,6 +6,10 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v1.0.6 — 2026-10-16
+
+- Correct the inverted front/back order of the neutral column: when viewing the slice from above, White passes in front and Black behind.
+
 ## v1.0.5 — 2026-10-16
 
 - Fade 3D axes, labels and the neutral column during color-selector drags; restore them on release or cancellation. Keep camera rotation guides visible.
