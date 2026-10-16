@@ -6,6 +6,15 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.17 — 2026-10-16
+
+- Complete the onboarding review: concise English instructions and a Random exercise that keeps the layer choices made in the preceding step.
+- Capture the live pre-tutorial Preview stack, Random membership and zoom so restoration does not use an older saved stack.
+- Use the host’s visible iframe interval for card placement during scrolling; keep narrow-screen positioning immediate.
+- Keep drag exercises distinct from taps and preserve the reviewed closing cards and workspace restoration.
+
+Validation: all 9 onboarding scenarios passed in Chromium. The narrow Random scenario passed twice with a screenshot inspected; Temp_Design restored after both exit and completion. Live-snapshot, viewport, tutorial, documentation, motion-lite and 3D-axis checks passed.
+
 ## v0.90.16 — 2026-10-16
 
 - Replace the embedded Motion 14 subset (126.7 KB) with `work/atlas-motion-lite.js` (4.6 KB), a Web Animations API implementation of the only call the app makes, `animate()`. The canonical fragment drops from 999,930 to about 879 KB, restoring ~120 KB of headroom under the 1 MB limit.
