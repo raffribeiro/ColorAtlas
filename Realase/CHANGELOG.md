@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.20 — 2026-10-16
+
+- Replace the Color Wheel’s interior sample dots with a continuous sRGB color surface at the selected key’s exact lightness.
+- Share the cached surface with the 3D view while preserving the hue ring, selection markers and wheel gestures.
+- Update the color-editing guide to describe the continuous wheel field.
+
 ## v0.90.19 — 2026-10-16
 
 - Replace the selected-lightness dots in the 3D graph with a continuous sRGB color surface, including saturated gamut edges.
