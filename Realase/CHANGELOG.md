@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v1.0.0 — 2026-10-16
+
+- Publish the first stable browser release of Color Atlas VFX.
+- Include OKLab color authoring with continuous 3D and Color Wheel surfaces, editable gradient maps, Preview layers and presets, guided Random modes, PNG/engine-data export, library import/export, interactive documentation and onboarding.
+- Package the self-contained app with built-in assets and default presets; exclude personal saved work.
+- Preserve the behavior of v0.90.20 while marking the first release milestone.
+
 ## v0.90.20 — 2026-10-16
 
 - Replace the Color Wheel’s interior sample dots with a continuous sRGB color surface at the selected key’s exact lightness.

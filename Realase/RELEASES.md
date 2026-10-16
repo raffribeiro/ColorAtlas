@@ -1,6 +1,6 @@
 # Release maintenance
 
-VERSION and CHANGELOG.md in the development workspace are the canonical version and change history. Public release history begins at v0.9. At the user’s request on 2026-10-15, the current build is designated v0.90.0; continue toward v1.0 while preserving all earlier records.
+VERSION and CHANGELOG.md in the development workspace are the canonical version and change history. Public release history begins at v0.9. The v0.90 series prepared the first stable browser release, v1.0.0, finalized at the user’s request on 2026-10-16. Preserve all earlier release records and archives; continue with patch/minor versions according to the delivered change.
 
 ## Delivery layout
 
