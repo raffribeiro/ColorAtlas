@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.7 — 2026-10-15
+
+- Start the tutorial Random step with the Default explosion and Harmonic mode, waiting for the preset to load before interaction.
+- Point the hand directly at Random and simplify the step instructions.
+
+Validation: focused preparation/hand checks and tutorial/documentation synchronization checks. Full Playwright and live visual acceptance remain pending.
+
 ## v0.90.6 — 2026-10-15
 
 - Split Blend and normalize into two short tutorial steps: Blend and opacity, then Normalize values.
