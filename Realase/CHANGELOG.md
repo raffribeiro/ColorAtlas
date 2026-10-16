@@ -6,6 +6,10 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v1.0.3 — 2026-10-16
+
+- Draw the neutral column in front of or behind the selected color slice according to camera depth. Remove the overlapping full-height neutral line.
+
 ## v1.0.2 — 2026-10-16
 
 - Make the 3D Black–White column and lightness ring narrower and more transparent, with softer outlines.
