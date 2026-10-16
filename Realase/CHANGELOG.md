@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.3 — 2026-10-15
+
+- Select color key 4 on every entry to the tutorial’s The color solid step, including returning with Back, matching the wheel and 3D editing steps.
+- Update the step explanation, guide and focused/Playwright assertions.
+
+Validation: actual wheel/color-solid entry and re-entry tests, onboarding synchronization/state/target checks and documentation checks. Full Playwright playthrough unavailable because Python Playwright is not installed; live visual acceptance pending.
+
 ## v0.90.2 — 2026-10-15
 
 - Select color key 4 whenever the tutorial enters Paint with the wheel, including returning with Back, using the same key-number selection as the 3D step.
