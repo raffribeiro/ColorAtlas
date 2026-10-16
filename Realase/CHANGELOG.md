@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.11 — 2026-10-15
+
+- Restore the pre-tutorial Preview scene after completion or exit instead of reopening Default over the restored stack.
+- Restore the previous Preview preset selection and consume the restoration flag after reload; ordinary startup still opens Default.
+- Update the guide and add a non-default-scene regression check.
+
+Validation: Chromium restored Temp_Design, its layer stack and ramp, random mode, vision mode and preset selection after both exiting and completing the tour. Startup/default routing, tutorial and documentation checks passed.
+
 ## v0.90.10 — 2026-10-15
 
 - Split the tour ending into Explore Documentation and Tutorial complete, with one highlighted header button per popup.
