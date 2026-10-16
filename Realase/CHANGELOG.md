@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.19 — 2026-10-16
+
+- Replace the selected-lightness dots in the 3D graph with a continuous sRGB color surface, including saturated gamut edges.
+- Reuse cached color images during camera movement and fixed-lightness color drags; retain the faint surrounding cloud and existing editing controls.
+- Update the 3D guide illustration and isolate its surface clipping from subsequent editor changes.
+
 ## v0.90.18 — 2026-10-16
 
 - Double the sample resolution on each axis of the selected-lightness plane, providing roughly four times as many visible color choices.
