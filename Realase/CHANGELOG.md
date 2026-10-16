@@ -6,6 +6,16 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v1.0.7 — 2026-10-16
+
+- Coalesce 3D camera pan/rotation into one draw per frame while flushing final gesture state.
+- Reuse immutable history signatures and serialized surface contours instead of repeating invariant work.
+- Organize developer entry points, source ownership, runtime contracts and current validation in a feature map and bounded context/index tools.
+- Assemble export extensions in an explicit manifest order and replace generated output atomically after fitting succeeds.
+- Prevent bundle compilation from rewriting editable sources and preflight release branch/version conflicts before live package writes.
+- Refresh shared test harnesses for current graphics helpers, retaining historical test results and published archives.
+
+
 ## v1.0.6 — 2026-10-16
 
 - Correct the inverted front/back order of the neutral column: when viewing the slice from above, White passes in front and Black behind.
