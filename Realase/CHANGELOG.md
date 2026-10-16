@@ -6,6 +6,15 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v1.0.1 — 2026-10-16
+
+- Add a thin Black–White cylinder to the 3D graph, with a ring that follows the selected lightness.
+
+- Make tutorial highlights update on actual layout and interaction changes instead of polling every frame.
+- Replace large animated glows with lighter outlines and reduce the number and refresh rate of decorative particles.
+- Stop placement observers, visual effects and pending camera demonstrations when leaving the tutorial or changing steps.
+- Preserve the tutorial sequence, live editing, responsive targeting and workspace restoration.
+
 ## v1.0.0 — 2026-10-16
 
 - Publish the first stable browser release of Color Atlas VFX.
