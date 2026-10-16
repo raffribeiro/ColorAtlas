@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.4 — 2026-10-15
+
+- Make the Look around tutorial hand demonstrate a horizontal drag away from the selected color circle, with a directional arrow, instead of tapping in place.
+- Keep the gesture within the graph and honor reduced motion. The hint does not move the camera or complete the task for the user.
+
+Validation: rotation-hint bounds and marker avoidance, existing tutorial key-selection/state/target checks and documentation checks. Full Playwright unavailable (Python package not installed); live visual acceptance pending.
+
 ## v0.90.3 — 2026-10-15
 
 - Select color key 4 on every entry to the tutorial’s The color solid step, including returning with Back, matching the wheel and 3D editing steps.
