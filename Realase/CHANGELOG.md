@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.5 — 2026-10-15
+
+- Group the Key tools tutorial’s + and − buttons into one toolbar spotlight, avoiding overlapping outlines and halos.
+- Add spacing between the key-tool buttons; retain separate Position and Copy HEX highlights.
+
+Validation: actual target grouping, existing tutorial gesture/key/state/target tests and documentation checks. Full Playwright unavailable (Python package not installed); live visual acceptance pending.
+
 ## v0.90.4 — 2026-10-15
 
 - Make the Look around tutorial hand demonstrate a horizontal drag away from the selected color circle, with a directional arrow, instead of tapping in place.
