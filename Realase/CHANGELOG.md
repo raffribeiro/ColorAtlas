@@ -6,6 +6,10 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v1.0.2 — 2026-10-16
+
+- Make the 3D Black–White column and lightness ring narrower and more transparent, with softer outlines.
+
 ## v1.0.1 — 2026-10-16
 
 - Add a thin Black–White cylinder to the 3D graph, with a ring that follows the selected lightness.
