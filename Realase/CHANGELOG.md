@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.9 — 2026-10-15
+
+- Simplify the tutorial search retry message to “No presets found. Try fire, ice or smoke.”
+- Keep the retry sentence in one text block so emphasized examples wrap naturally beside the icon.
+- Update search guidance and the browser regression assertion.
+
+Validation: Chromium verified the retry message, inline emphasis, no text overflow and recovery with a matching query; screenshot inspected. Tutorial and documentation checks passed.
+
 ## v0.90.8 — 2026-10-15
 
 - Restore Regular Vision when entering Attention and bloom in the tutorial, clearing the color-vision comparison from the previous step.
