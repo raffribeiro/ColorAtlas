@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.6 — 2026-10-15
+
+- Split Blend and normalize into two short tutorial steps: Blend and opacity, then Normalize values.
+- Use one precise spotlight per step instead of nested/adjacent overlapping outlines; keep Live Preview visible for both.
+- Update the guide and full-playthrough sequence.
+
+Validation: separate-target checks, existing tutorial key/gesture/grouping/state checks and documentation synchronization. Full Playwright unavailable (Python package not installed); live visual acceptance pending.
+
 ## v0.90.5 — 2026-10-15
 
 - Group the Key tools tutorial’s + and − buttons into one toolbar spotlight, avoiding overlapping outlines and halos.
