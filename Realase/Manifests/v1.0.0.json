@@ -5,5 +5,6 @@
   "sha256": "2be0f9b418b45a244905eb70837bef61181fe9895affea37203f293efc5d11ee",
   "archive": "/Users/raffribeiro/Documents/ColorAtlas/Realase/Archives/ColorAtlas-v1.0.0.zip",
   "archiveSha256": "4cd198a0ee0caee3977df0993dd46ac240c06dbd49e37fdfd1c7f0857091311c",
-  "validation": "automated browser-storage/package checks; live browser acceptance pending"
+  "validation": "Passed: extracted distributable in isolated Chromium; onboarding 9/9; Color Wheel at 1744/430 px with pan, zoom, drag, Undo and endpoints; real PNG download (256x16); documentation/color math, library, history and export checks.",
+  "validatedOn": "2026-10-16"
 }
