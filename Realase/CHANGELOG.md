@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.18 — 2026-10-16
+
+- Double the sample resolution on each axis of the selected-lightness plane, providing roughly four times as many visible color choices.
+- Use smaller selection-plane dots to keep the denser grid readable, and lower background cloud opacity from 14% to 8%.
+- Update the 3D guide caption; retain the existing background sample count and selection markers.
+
+Validation: density/opacity, gamut-axis, live 3D interaction, node-label, onboarding and documentation checks passed. Before/after Chromium graph captures inspected. Actual graph redraws during rotation stayed about 22/s in the automated environment (the browser frame cadence was about 60/s).
+
 ## v0.90.17 — 2026-10-16
 
 - Complete the onboarding review: concise English instructions and a Random exercise that keeps the layer choices made in the preceding step.
