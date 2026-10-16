@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.8 — 2026-10-15
+
+- Restore Regular Vision when entering Attention and bloom in the tutorial, clearing the color-vision comparison from the previous step.
+- Update the tutorial guide and regression checks.
+
+Validation: focused vision-reset and tutorial/documentation checks passed. Chromium confirmed Regular Vision and a hidden comparison at Attention and bloom; screenshot inspected.
+
 ## v0.90.7 — 2026-10-15
 
 - Start the tutorial Random step with the Default explosion and Harmonic mode, waiting for the preset to load before interaction.
