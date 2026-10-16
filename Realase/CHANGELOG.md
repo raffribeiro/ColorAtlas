@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.15 — 2026-10-15
+
+- Draw the 3D graph's Red–Green and Yellow–Blue axes on the selected-lightness plane instead of at L 50. In perspective, the old axes sat above or below the bright slice and appeared to cross dots of other hues.
+- Color each chromatic axis with the fitted OKLab colors in its own direction at that lightness (gray at the center), replacing fixed stylized colors. The axis now shows the same colors as the slice dots along it.
+- Update the 3D figure caption in Editing color.
+
+Validation: new `work/check_lab_axes.cjs` (fails on v0.90.14, passes now: 4 lightnesses × 3 camera angles, axis crossing point and end-color hues); documentation, math, content, onboarding and 3D label/live-color/node checks passed; `check_lab_node_numbers.cjs` gained a `fitLabToSRGB` stub. Before/after Chromium renders inspected. `check_lab_click.cjs` (syntax error) and `check_rotation.cjs` (still expects rotation on by default) already failed before this change. Canonical fragment 999,930 bytes. Live acceptance pending.
+
 ## v0.90.14 — 2026-10-15
 
 - Review the guide's color theory against the code and reference data: OKLab matrices and round trip, sRGB transfer, gamut fitting, Machado matrices, blending, bloom and the 2,734 Munsell chips (recomputed from the 1943 renotation with Bradford C → D65; all in-gamut chips match).
