@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v0.90.10 — 2026-10-15
+
+- Split the tour ending into Explore Documentation and Tutorial complete, with one highlighted header button per popup.
+- Shorten the closing text and update the guide and full-playthrough sequence.
+- Let the controls test wait for workspace restoration before reopening the tutorial.
+
+Validation: ending structure, documentation and onboarding checks passed. Chromium verified both closing cards, single highlights and Back navigation; screenshots inspected. The previous suite passed 8 of 9 scenarios; its restoration-timing failure passed on rerun after the test wait fix.
+
 ## v0.90.9 — 2026-10-15
 
 - Simplify the tutorial search retry message to “No presets found. Try fire, ice or smoke.”
