@@ -6,6 +6,10 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v1.0.5 — 2026-10-16
+
+- Fade 3D axes, labels and the neutral column during color-selector drags; restore them on release or cancellation. Keep camera rotation guides visible.
+
 ## v1.0.4 — 2026-10-16
 
 - Make the 3D chromatic axes thinner and more transparent so the color slice and selection stay prominent.
