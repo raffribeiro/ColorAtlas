@@ -6,6 +6,15 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v1.1.0 — 2026-10-17
+
+- Add delayed contextual help for pointer and keyboard use, including dynamic controls and native dialogs.
+- Search guide sections with snippets, inline highlights and direct jumps; remember reading position per chapter.
+- Give all eleven interactive examples a clear goal and a local Reset that preserves editor work.
+- Add an offline header language menu for English, Brazilian Portuguese, Spanish, French, German, Italian, Japanese, Korean and Simplified Chinese; remember the selected UI language independently of scenes.
+- Localize editor controls and header navigation. Guide prose, tutorial, contextual help and graph labels remain English; user-authored names, color values and identifiers are preserved.
+- Validate focused help/locale regressions plus the current project checks, desktop/narrow browser interactions and tutorial compatibility.
+
 ## v1.0.7 — 2026-10-16
 
 - Coalesce 3D camera pan/rotation into one draw per frame while flushing final gesture state.
