@@ -6,6 +6,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v1.2.0 — 2026-10-18
+
+- Extend all eight additional languages to Documentation, Tutorial, contextual help, dialogs, example readouts/canvases and accessible graph descriptions.
+- Rebuild section search in the selected language while preserving chapter, reading position, example controls and scene data; restore English without replacing controls.
+- Localize dynamic hue names, numeric messages and plural forms while retaining mathematical notation, API identifiers and user-authored preset/layer names.
+- Accept translated library search terms, including the fire/ice/smoke tutorial hints, and translate built-in folder labels and favorite actions.
+- Keep every language offline in the standalone file. English remains the initial default and the existing language preference is retained.
+
 ## v1.1.0 — 2026-10-17
 
 - Add delayed contextual help for pointer and keyboard use, including dynamic controls and native dialogs.
