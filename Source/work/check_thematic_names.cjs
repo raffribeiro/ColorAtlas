@@ -1,0 +1,18 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const file='/Users/raffribeiro/.codex/visualizations/2026/10/01/01a0f83c-7569-7dd0-ad8b-3e73b2b454df/munsell-selector.html';
+const html=fs.readFileSync(file,'utf8'),data=html.match(/<script type="application\/json" id="mp-data">([\s\S]*?)<\/script>/)[1];
+const nodes=new Map();function node(k){if(k==='[data-field="vfx-doc-link"]')return null;if(!nodes.has(k))nodes.set(k,{value:'',textContent:'',innerHTML:'',style:{},parentElement:{hidden:true},clientWidth:k.includes('scene')?420:700,clientHeight:390,handlers:{},attrs:{},addEventListener(n,f){this.handlers[n]=f},setAttribute(n,v){this.attrs[n]=v},getBoundingClientRect(){return {left:0,top:0}},setPointerCapture(id){this.capture=id},hasPointerCapture(id){return this.capture===id},releasePointerCapture(){this.capture=null},select(){},appendChild(){},append(){},replaceChildren(){},focus(){},querySelector(){return null},contains(){return false},options:[]});return nodes.get(k);}
+const root={getBoundingClientRect(){return {left:0,top:0,width:700}},querySelector:node,addEventListener(n,f){node("root").handlers[n]=f}};node('#mp-data').textContent=data;
+const script=[...html.matchAll(/<script>([\s\S]*?)<\/script>/g)][0][1];
+const context={Image:class{constructor(){context.explosionImage=this}set src(v){}},requestAnimationFrame(){return 1},cancelAnimationFrame(){},setTimeout(){return 1},clearTimeout(){},document:{getElementById(){return root},createElement:()=>node('created-'+Math.random()),body:{appendChild(){}},addEventListener(){}},localStorage:{getItem(){return null},setItem(){}},structuredClone,window:{openai:{widgetState:{modelContent:{h:'5G',v:4,c:0,system:process.env.START_VFX?'vfx':'munsell'}},setWidgetState(){return Promise.resolve()}},addEventListener(){}},navigator:{},ResizeObserver:class{constructor(fn){}observe(){}},console};
+vm.runInNewContext(script.replace('new ResizeObserver', 'globalThis.inspectMunsell={state,triadColors,update,labColor,rgbToLab,toLch,setLch,lchColors,drawSystem,vfxColors,hsvRGB,engineColorCode,fitLabToSRGB,vfxAxisRange,gradientSample,gradientSelected,gradientPresets,applyGradientPreset,randomHarmoniousGradient,harmonyOffsets,hueChromaLimit,bloomHighlight,imageCoverageBoundaries,paletteCandidateScore,resetDefaultExplosion,restore}; new ResizeObserver'),context);
+console.log('PASS: full app initializes with mock DOM, including dropdown, template library and Gradient Lab event handlers.');
+const presets=context.inspectMunsell.gradientPresets;
+const before=JSON.parse(fs.readFileSync('work/templates-before-renaming.json','utf8'));
+const mapping=JSON.parse(fs.readFileSync('work/thematic_template_names.json','utf8'));
+for(const [id,name] of Object.entries(mapping))assert.equal(presets.find(p=>p.id===id).name,name);
+assert.equal(presets.length,before.length);
+for(let i=0;i<presets.length;i++){const p=presets[i],old=before[i];assert.equal(p.id,old.id);assert.deepEqual(p.colors,old.colors);assert.deepEqual(p.positions,old.positions);assert.equal(p.category,old.category);if(mapping[p.id]){assert.equal(p.searchAliases,p.name);assert(!p.artist&&!p.workTitle);assert(!/Riot|Blizzard|Valorant|Overwatch|Warcraft|StarCraft|Campbell|IBM|Gameboy|Hextech/i.test([p.name,p.description,p.searchAliases,p.originalCategory].join(' ')));}}
+const art=presets.filter(p=>p.collectionKind);assert.equal(new Set(art.map(p=>p.name)).size,200);
+for(const p of before.filter(p=>p.artist)){const now=presets.find(q=>q.id===p.id);assert(!JSON.stringify([now.name,now.description,now.searchAliases,now.artist,now.workTitle]).includes(p.artist));}
+console.log('PASS: thematic names, clean public metadata and unchanged colors, positions, categories and IDs.');

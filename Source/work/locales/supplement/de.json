@@ -1,0 +1,9 @@
+{
+  "(Unity 6); Linear RGB uses": "(Unity 6); Lineares RGB verwendet",
+  ", Bands uses": ", Stufen verwendet",
+  "A gradient map is a lookup. A value": "Eine Verlaufszuordnung ist eine Nachschlagetabelle. Ein Wert",
+  "Copy Unity C# builds": "Unity C# kopieren erstellt",
+  "between 0 and 1 picks a position on the ramp, and the ramp returns the color at that position. Black pixels of the source read the left end, white pixels read the right end. In an engine,": "zwischen 0 und 1 wählt eine Position im Verlauf, der die dortige Farbe zurückgibt. Schwarze Quellpixel lesen das linke Ende, weiße das rechte. In einer Engine kann",
+  "can be anything normalized: a texture channel, particle age, distance or a dynamic parameter.": "jede normalisierte Größe sein: ein Texturkanal, Partikelalter, Abstand oder dynamischer Parameter.",
+  "objects. Perceptual uses": "Objekte. Wahrnehmungsbezogen verwendet"
+}

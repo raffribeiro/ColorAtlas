@@ -1,0 +1,690 @@
+[
+  {
+    "id": "stylized-extra-poster-electric",
+    "name": "Poster Pop · Electric Primary",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#17132C",
+      "#17132C",
+      "#ED1E79",
+      "#ED1E79",
+      "#19C7D4",
+      "#19C7D4",
+      "#FFE365",
+      "#FFE365"
+    ],
+    "positions": [
+      0,
+      0.2599,
+      0.2601,
+      0.5599,
+      0.5601,
+      0.8399,
+      0.8401,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic poster pop poster electric",
+    "description": "Electric pink and cyan against dark violet, with a small lemon accent. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-poster-sunburst",
+    "name": "Poster Pop · Tangerine Sunburst",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#29132C",
+      "#29132C",
+      "#F23D4C",
+      "#F23D4C",
+      "#FF9A38",
+      "#FF9A38",
+      "#FFE7A3",
+      "#FFE7A3"
+    ],
+    "positions": [
+      0,
+      0.2799,
+      0.2801,
+      0.5999,
+      0.6001,
+      0.8599,
+      0.8601,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic poster pop poster sunburst",
+    "description": "Plum ink, scarlet body and warm citrus highlights. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-poster-acid",
+    "name": "Poster Pop · Acid Punch",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#151C30",
+      "#151C30",
+      "#513BDE",
+      "#513BDE",
+      "#D82895",
+      "#D82895",
+      "#C7F243",
+      "#C7F243",
+      "#FFF2D9",
+      "#FFF2D9"
+    ],
+    "positions": [
+      0,
+      0.2199,
+      0.2201,
+      0.4399,
+      0.4401,
+      0.6999,
+      0.7001,
+      0.9199,
+      0.9201,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic poster pop poster acid",
+    "description": "Violet and magenta masses with a concentrated acid-lime accent. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-poster-orchid",
+    "name": "Poster Pop · Orchid Voltage",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#201030",
+      "#201030",
+      "#752ED0",
+      "#752ED0",
+      "#ED47BD",
+      "#ED47BD",
+      "#B5F0CF",
+      "#B5F0CF"
+    ],
+    "positions": [
+      0,
+      0.2999,
+      0.3001,
+      0.5399,
+      0.5401,
+      0.8399,
+      0.8401,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic poster pop poster orchid",
+    "description": "Orchid purple, hot pink and mint; cool highlights keep strong hue separation. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-poster-coast",
+    "name": "Poster Pop · Coastal Punch",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#122638",
+      "#122638",
+      "#16B9B9",
+      "#16B9B9",
+      "#FFB15B",
+      "#FFB15B"
+    ],
+    "positions": [
+      0,
+      0.3599,
+      0.3601,
+      0.7799,
+      0.7801,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic poster pop poster coast",
+    "description": "Three-color navy, turquoise and apricot composition. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-poster-midnight",
+    "name": "Poster Pop · Midnight Lemon",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#151327",
+      "#151327",
+      "#4248AF",
+      "#4248AF",
+      "#E53686",
+      "#E53686",
+      "#FADE3C",
+      "#FADE3C",
+      "#FFF4C4",
+      "#FFF4C4"
+    ],
+    "positions": [
+      0,
+      0.3199,
+      0.3201,
+      0.4999,
+      0.5001,
+      0.7399,
+      0.7401,
+      0.9399,
+      0.9401,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic poster pop poster midnight",
+    "description": "Midnight ink with pink and lemon accents; restrained paper highlight. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-comic-primary",
+    "name": "Comic · Heroic Primary",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#121B31",
+      "#121B31",
+      "#2257C8",
+      "#2257C8",
+      "#E63846",
+      "#E63846",
+      "#FFD55C",
+      "#FFD55C"
+    ],
+    "positions": [
+      0,
+      0.2799,
+      0.2801,
+      0.5799,
+      0.5801,
+      0.8599,
+      0.8601,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic comic comic primary",
+    "description": "Blue and scarlet graphic masses framed by deep ink and golden sparks. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-comic-villain",
+    "name": "Comic · Villain Violet",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#19132B",
+      "#19132B",
+      "#6638AD",
+      "#6638AD",
+      "#C82DA7",
+      "#C82DA7",
+      "#9CC843",
+      "#9CC843",
+      "#F5E6B4",
+      "#F5E6B4"
+    ],
+    "positions": [
+      0,
+      0.2999,
+      0.3001,
+      0.4999,
+      0.5001,
+      0.7699,
+      0.7701,
+      0.9399,
+      0.9401,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic comic comic villain",
+    "description": "Violet, magenta and sharp olive-green accents for a sinister graphic mood. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-comic-pulp",
+    "name": "Comic · Pulp Adventure",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#211E31",
+      "#211E31",
+      "#347C91",
+      "#347C91",
+      "#DE6742",
+      "#DE6742",
+      "#F7D385",
+      "#F7D385"
+    ],
+    "positions": [
+      0,
+      0.2999,
+      0.3001,
+      0.5599,
+      0.5601,
+      0.8399,
+      0.8401,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic comic comic pulp",
+    "description": "Weathered teal, burnt orange and warm paper for pulp-style illustration. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-comic-candy",
+    "name": "Comic · Candy Clash",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#2C1744",
+      "#2C1744",
+      "#6A4CD5",
+      "#6A4CD5",
+      "#F160BD",
+      "#F160BD",
+      "#53CADA",
+      "#53CADA",
+      "#FFE4A5",
+      "#FFE4A5"
+    ],
+    "positions": [
+      0,
+      0.2199,
+      0.2201,
+      0.4199,
+      0.4201,
+      0.6799,
+      0.6801,
+      0.8999,
+      0.9001,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic comic comic candy",
+    "description": "Candy pink and cyan with violet shadows and cream highlights. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-riso-coral",
+    "name": "Riso · Coral Indigo",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#252C67",
+      "#252C67",
+      "#F06470",
+      "#F06470",
+      "#F5E8CC",
+      "#F5E8CC"
+    ],
+    "positions": [
+      0,
+      0.3499,
+      0.3501,
+      0.7799,
+      0.7801,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic riso riso coral",
+    "description": "Indigo and coral against warm paper; a two-ink-inspired color direction. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-riso-mint",
+    "name": "Riso · Mint Vermilion",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#1E554C",
+      "#1E554C",
+      "#EA503A",
+      "#EA503A",
+      "#A7D8B6",
+      "#A7D8B6"
+    ],
+    "positions": [
+      0,
+      0.3199,
+      0.3201,
+      0.7199,
+      0.7201,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic riso riso mint",
+    "description": "Green ink and vermilion balanced by a mint paper-like region. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-riso-plum",
+    "name": "Riso · Plum Mustard",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#48264A",
+      "#48264A",
+      "#D5A63D",
+      "#D5A63D",
+      "#F5DFC0",
+      "#F5DFC0"
+    ],
+    "positions": [
+      0,
+      0.3599,
+      0.3601,
+      0.7799,
+      0.7801,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic riso riso plum",
+    "description": "Plum ink, ochre print body and warm uncoated-paper tones. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-riso-tangerine",
+    "name": "Riso · Blue Tangerine",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#252D65",
+      "#252D65",
+      "#568DCC",
+      "#568DCC",
+      "#EE803F",
+      "#EE803F",
+      "#FAEAD0",
+      "#FAEAD0"
+    ],
+    "positions": [
+      0,
+      0.2799,
+      0.2801,
+      0.5199,
+      0.5201,
+      0.8399,
+      0.8401,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic riso riso tangerine",
+    "description": "Cobalt ink, faded blue, tangerine and cream paper. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-duotone-coral",
+    "name": "Duotone · Ink Coral",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#182237",
+      "#182237",
+      "#FF7868",
+      "#FF7868"
+    ],
+    "positions": [
+      0,
+      0.5699,
+      0.5701,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic duotone duotone coral",
+    "description": "Deep blue ink and coral with a deliberately concentrated tonal edge. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-duotone-lime",
+    "name": "Duotone · Aubergine Lime",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#3C1948",
+      "#3C1948",
+      "#D3EE60",
+      "#D3EE60"
+    ],
+    "positions": [
+      0,
+      0.5999,
+      0.6001,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic duotone duotone lime",
+    "description": "Aubergine shadow and sharp lime highlight. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-duotone-cobalt",
+    "name": "Duotone · Cobalt Cream",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#2149B8",
+      "#2149B8",
+      "#FFF1D6",
+      "#FFF1D6"
+    ],
+    "positions": [
+      0,
+      0.5799,
+      0.5801,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic duotone duotone cobalt",
+    "description": "Cobalt and warm cream for a clean editorial silhouette. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-duotone-teal",
+    "name": "Duotone · Teal Peach",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#125C65",
+      "#125C65",
+      "#FFC09A",
+      "#FFC09A"
+    ],
+    "positions": [
+      0,
+      0.5599,
+      0.5601,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic duotone duotone teal",
+    "description": "Dark teal and peach for warm/cool graphic contrast. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-screenprint-botanical",
+    "name": "Screenprint · Botanical Punch",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#193E36",
+      "#193E36",
+      "#548847",
+      "#548847",
+      "#D75663",
+      "#D75663",
+      "#E5AD41",
+      "#E5AD41",
+      "#F6EBC5",
+      "#F6EBC5"
+    ],
+    "positions": [
+      0,
+      0.2199,
+      0.2201,
+      0.4699,
+      0.4701,
+      0.7299,
+      0.7301,
+      0.9199,
+      0.9201,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic screenprint screenprint botanical",
+    "description": "Leaf-green ink, floral coral and mustard on warm paper. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-screenprint-magenta",
+    "name": "Screenprint · Magenta Gold",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#241D3D",
+      "#241D3D",
+      "#D9348C",
+      "#D9348C",
+      "#F0CD57",
+      "#F0CD57"
+    ],
+    "positions": [
+      0,
+      0.3499,
+      0.3501,
+      0.7499,
+      0.7501,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic screenprint screenprint magenta",
+    "description": "Three-ink dark violet, magenta and golden-yellow composition. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-screenprint-spectrum",
+    "name": "Screenprint · Psychedelic Spectrum",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#211636",
+      "#211636",
+      "#484AC4",
+      "#484AC4",
+      "#994BD8",
+      "#994BD8",
+      "#E54CAE",
+      "#E54CAE",
+      "#F36D59",
+      "#F36D59",
+      "#F4B440",
+      "#F4B440",
+      "#B8D456",
+      "#B8D456",
+      "#ECF2B6",
+      "#ECF2B6"
+    ],
+    "positions": [
+      0,
+      0.1799,
+      0.1801,
+      0.2999,
+      0.3001,
+      0.4299,
+      0.4301,
+      0.5799,
+      0.5801,
+      0.7099,
+      0.7101,
+      0.8299,
+      0.8301,
+      0.9299,
+      0.9301,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic screenprint screenprint spectrum",
+    "description": "Eight-color psychedelic sequence with warm/cool shifts and a restrained pale end. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-retro-arcade",
+    "name": "Retro · Arcade Neon",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#11172E",
+      "#11172E",
+      "#2B3274",
+      "#2B3274",
+      "#7144C9",
+      "#7144C9",
+      "#D944A9",
+      "#D944A9",
+      "#36CFD8",
+      "#36CFD8",
+      "#FFE080",
+      "#FFE080"
+    ],
+    "positions": [
+      0,
+      0.2199,
+      0.2201,
+      0.3699,
+      0.3701,
+      0.5499,
+      0.5501,
+      0.7499,
+      0.7501,
+      0.9199,
+      0.9201,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic retro retro arcade",
+    "description": "Six-color arcade graphic direction, from navy ink through violet and pink to cyan and lemon. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-retro-noir",
+    "name": "Retro · Noir Signal",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#101921",
+      "#101921",
+      "#77818A",
+      "#77818A",
+      "#F35546",
+      "#F35546"
+    ],
+    "positions": [
+      0,
+      0.5599,
+      0.5601,
+      0.8499,
+      0.8501,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic retro retro noir",
+    "description": "Large charcoal silhouette, cool gray detail and a small vermilion signal. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  },
+  {
+    "id": "stylized-extra-cel-soda",
+    "name": "Cel · Soda Pop",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#222347",
+      "#222347",
+      "#505DB4",
+      "#505DB4",
+      "#29B8CC",
+      "#29B8CC",
+      "#FA839F",
+      "#FA839F",
+      "#FFE58D",
+      "#FFE58D"
+    ],
+    "positions": [
+      0,
+      0.2499,
+      0.2501,
+      0.4499,
+      0.4501,
+      0.6899,
+      0.6901,
+      0.8999,
+      0.9001,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized expansion graphic cel cel soda",
+    "description": "Flat cel-style navy, cornflower, cyan, strawberry and lemon tones. Original graphic color study. Paired keys hold solid-color regions with narrow Smooth transitions. Widths are art-direction choices, not final image area measurements. Color palette only: halftone, ink texture, print registration and cel outlines need separate treatments."
+  }
+]

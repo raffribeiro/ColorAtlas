@@ -1,0 +1,9 @@
+{
+  "(Unity 6); Linear RGB uses": "（Unity 6）。リニアRGBで使うのは",
+  ", Bands uses": "、段階で使うのは",
+  "A gradient map is a lookup. A value": "グラデーションマップは参照表です。値",
+  "Copy Unity C# builds": "「Unity C#をコピー」で作成するのは",
+  "between 0 and 1 picks a position on the ramp, and the ramp returns the color at that position. Black pixels of the source read the left end, white pixels read the right end. In an engine,": "が0～1の範囲でグラデーション上の位置を選び、その位置の色が返されます。元画像の黒い画素は左端、白い画素は右端を参照します。エンジンでは、",
+  "can be anything normalized: a texture channel, particle age, distance or a dynamic parameter.": "は正規化した値なら何でも使えます。テクスチャチャンネル・パーティクルの経過時間・距離・動的パラメーターなどです。",
+  "objects. Perceptual uses": "のオブジェクトです。知覚的補間で使うのは"
+}

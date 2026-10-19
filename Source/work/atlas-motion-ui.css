@@ -1,0 +1,32 @@
+#munsell-picker{--atlas-selection-scale:1}
+#munsell-picker .studio-author{--atlas-selection-scale:var(--atlas-scale-author,1)}
+#munsell-picker [data-field="gradient-keys"]{--atlas-selection-scale:var(--atlas-scale-keys,1)}
+#munsell-picker .studio-wheel{--atlas-selection-scale:var(--atlas-scale-wheel,1)}
+#munsell-picker .studio-ramp{--atlas-selection-scale:var(--atlas-scale-ramp,1)}
+#munsell-picker .atlas-selection-feedback{transform:scale(var(--atlas-selection-scale));transform-origin:0 0}
+#munsell-picker .lab-current-marker [data-selected-color],
+#munsell-picker .wheel-color-marker.is-selected,
+#munsell-picker .mp-gradient .color-marker.is-selected{transform:scale(var(--atlas-selection-scale));transform-box:fill-box;transform-origin:center}
+#munsell-picker .studio-key-row[data-selected=true] .studio-key-swatch{transform:scale(var(--atlas-selection-scale));transform-origin:center}
+#munsell-picker .studio-key-swatch .atlas-selection-feedback{transform:none}
+#munsell-picker[data-motion=ready] button,
+#munsell-picker[data-motion=ready] summary{transform-origin:center;transition-property:background,border-color,box-shadow,color,filter}
+#munsell-picker[data-motion=ready] .studio-primary-action:active{transform:none;filter:none}
+#munsell-picker[data-motion=ready] .studio-favorite svg{transform-origin:center;transform-box:fill-box}
+#munsell-picker[data-motion=ready] .studio-key-swatch{overflow:visible}
+#munsell-picker[data-motion=ready] [data-field="selected-color-preview"]{transform-origin:center}
+/* One brief reveal at startup; the logo remains visible without scripts. */
+#munsell-picker .studio-brand{display:inline-block;transform-origin:left center;animation:atlas-brand-reveal 420ms cubic-bezier(.16,1,.3,1) 1}
+@keyframes atlas-brand-reveal{
+ from{opacity:0;transform:translateY(6px) scale(.96)}
+ to{opacity:1;transform:none}
+}
+@media(prefers-reduced-motion:reduce){
+ #munsell-picker .studio-brand{animation:none}
+ #munsell-picker .atlas-selection-feedback,
+ #munsell-picker .lab-current-marker [data-selected-color],
+ #munsell-picker .wheel-color-marker.is-selected,
+ #munsell-picker .mp-gradient .color-marker.is-selected,
+ #munsell-picker .studio-key-row[data-selected=true] .studio-key-swatch{transform:none}
+ #munsell-picker[data-motion=ready] button,#munsell-picker[data-motion=ready] summary{transition:none}
+}

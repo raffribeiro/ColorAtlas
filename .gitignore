@@ -4,3 +4,12 @@
 /App/Data/*.tmp
 /App/Data/Images/*.png
 /Realase/Archives/*.zip
+
+**/__pycache__/
+**/*.pyc
+**/.venv*/
+**/.env
+**/.env.*
+/Source/work/.agent-locks/
+/Source/work/AGENT_BOARD.md
+/Source/work/desktop/builds/

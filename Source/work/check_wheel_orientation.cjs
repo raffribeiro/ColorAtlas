@@ -1,0 +1,31 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const source=fs.readFileSync('/Users/raffribeiro/.codex/visualizations/2026/10/01/01a0f83c-7569-7dd0-ad8b-3e73b2b454df/munsell-selector.html','utf8');
+const state={gradientColors:[{t:0,hex:'#blue'},{t:1,hex:'#yellow'}],gradientSelection:{kind:'color',index:1},vfx:{l:65,a:0,b:40},vfxLock:true};
+const wheel={innerHTML:'',setAttribute(k,v){this[k]=v},getBoundingClientRect(){return{width:220,height:180}},getScreenCTM(){return{inverse(){return{}}}},createSVGPoint(){return{matrixTransform(){return{x:this.x,y:this.y}}}}};
+let authored;
+let surfaceProject;const c={window:{AtlasLabSurface:{svg(L,color,fit,project){surfaceProject=project;return '<g data-test-surface/>'}}},state,field:()=>wheel,colorWheelShowAll:false,colorWheelZoom:1,colorWheelPan:{x:0,y:0},colorWheelDrag:null,rgbToLab:hex=>({l:65,a:0,b:hex==='#yellow'?40:-40}),fitLabToSRGB(l,a,b){authored={l,a,b};return{l,a,b}},labColor:(l,a,b)=>({hex:b>0?'#yellow':b<0?'#blue':'#neutral',outside:false}),selectionStrokeSVG:()=>'',drawVfx(){},remember(){}};
+vm.createContext(c);
+vm.runInContext(source.slice(source.indexOf('function wheelMedian('),source.indexOf('function studioKeySizes(')),c);
+vm.runInContext(source.slice(source.indexOf('function wheelKeyAtPointer('),source.indexOf('function queueWheelColor(')),c);
+const before=JSON.stringify(state);c.drawColorWheel();
+assert(/<text x="18" y="94"[^>]*>GREEN<\/text>/.test(wheel.innerHTML),'Green gets more clearance from the hue ring');
+assert(/<text x="202" y="94"[^>]*>RED<\/text>/.test(wheel.innerHTML),'Red gets more clearance from the hue ring');
+assert(/<text x="110" y="15"[^>]*>YELLOW<\/text>/.test(wheel.innerHTML),'Yellow label must be above the wheel');
+assert(/<text x="110" y="175"[^>]*>BLUE<\/text>/.test(wheel.innerHTML),'Blue label must be below the wheel');
+assert.deepEqual(surfaceProject({a:0,b:40}),{x:110,y:69},'Positive b is yellow above the center');
+assert.deepEqual(surfaceProject({a:0,b:-40}),{x:110,y:113},'Negative b is blue below the center');
+const ring=[...wheel.innerHTML.matchAll(/<path d="([^"]+)" fill="([^"]+)"/g)];
+assert.equal(ring.length,120);assert.equal(ring[30][2],'#yellow');assert(ring[30][1].startsWith('M110,26 A65 65 0 0 0 '),'Yellow ring segment lies above and follows the reflected arc sweep');
+assert.equal(ring[90][2],'#blue');
+assert(/class="wheel-color-marker is-selected"[^>]*cy="69"/.test(wheel.innerHTML),'Selected yellow marker must be above the center');
+assert.equal(JSON.stringify(state),before,'Reorienting the wheel cannot change stored colors');
+for(const zoom of [1,2,4]){
+ c.colorWheelZoom=zoom;c.colorWheelPan={x:12,y:-8};c.drawColorWheel();
+ assert.equal(c.wheelKeyAtPointer({clientX:110,clientY:69})?.getAttribute(), '1','Hit test follows the selected marker with zoom and pan');
+ assert.equal(c.wheelKeyAtPointer({clientX:110,clientY:113}),null,'Former mirrored location cannot select the yellow key');
+}
+c.applyWheelColor({clientX:110,clientY:63},65);assert(authored.b>0);assert.equal(authored.a,0);assert.equal(state.gradientColors[1].hex,'#yellow');
+c.applyWheelColor({clientX:110,clientY:119},65);assert(authored.b<0);assert.equal(state.gradientColors[1].hex,'#blue');assert.equal(authored.l,65);assert.equal(state.gradientColors[1].t,1);
+c.applyWheelColor({clientX:82,clientY:91},65);assert(authored.a<0,'Green remains on the left');
+c.applyWheelColor({clientX:138,clientY:91},65);assert(authored.a>0,'Red remains on the right');
+console.log('PASS: yellow above/blue below across labels, samples, hue ring, selection markers, hit testing, pointer authoring, zoom and pan; left/right and stored palette preserved.');

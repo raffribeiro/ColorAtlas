@@ -1,0 +1,7 @@
+#munsell-picker .atlas-app-edge{display:none;position:absolute;top:54px;bottom:24px;width:12px;z-index:7;cursor:col-resize;touch-action:none;user-select:none}
+#munsell-picker .atlas-app-edge-left{left:-6px}
+#munsell-picker .atlas-app-edge-right{right:-6px}
+#munsell-picker .atlas-app-edge:after{content:"";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:3px;height:34px;border-radius:3px;background:#536174}
+#munsell-picker .atlas-app-edge:hover:after,#munsell-picker .atlas-app-edge:focus-visible:after{background:#8bd6ff}
+#munsell-picker .atlas-app-edge:focus-visible{outline:1px solid #8bd6ff;border-radius:3px}
+@media(min-width:1200px){#munsell-picker{width:min(calc(100% - 8px),var(--atlas-app-width,100%))!important;max-width:none!important;min-width:0;margin-inline:auto!important;box-sizing:border-box}#munsell-picker .atlas-app-edge{display:block}}

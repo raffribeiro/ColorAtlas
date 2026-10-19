@@ -1,0 +1,700 @@
+[
+  {
+    "id": "stylized-material-enamel-cherry",
+    "name": "Enamel Pin · Cherry Badge",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#211B30",
+      "#211B30",
+      "#782747",
+      "#782747",
+      "#DB3D57",
+      "#DB3D57",
+      "#F6A489",
+      "#F6A489",
+      "#FFF0C8",
+      "#FFF0C8"
+    ],
+    "positions": [
+      0,
+      0.2499,
+      0.2501,
+      0.4199,
+      0.4201,
+      0.8199,
+      0.8201,
+      0.9399,
+      0.9401,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials enamel pin enamel cherry",
+    "description": "Dark plum outline tones frame a dominant cherry body, coral edges and a tiny cream gleam. Paired keys retain solid regions with narrow transitions. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-enamel-ocean",
+    "name": "Enamel Pin · Ocean Emblem",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#142337",
+      "#142337",
+      "#254C75",
+      "#254C75",
+      "#228DA2",
+      "#228DA2",
+      "#68C8BF",
+      "#68C8BF",
+      "#E5F5D5",
+      "#E5F5D5"
+    ],
+    "positions": [
+      0,
+      0.2399,
+      0.2401,
+      0.4399,
+      0.4401,
+      0.7799,
+      0.7801,
+      0.9399,
+      0.9401,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials enamel pin enamel ocean",
+    "description": "Navy ink and blue shadows frame turquoise enamel with a small pale green highlight. Paired keys retain solid regions with narrow transitions. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-airbrush-peach",
+    "name": "Airbrush · Peach Chrome",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#211C39",
+      "#453858",
+      "#796376",
+      "#B78C97",
+      "#E3ABA0",
+      "#F2C3AD",
+      "#F7DEC5",
+      "#FFF4DF"
+    ],
+    "positions": [
+      0,
+      0.12,
+      0.28,
+      0.47,
+      0.65,
+      0.8,
+      0.93,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials airbrush airbrush peach",
+    "description": "Broad violet-to-peach washes and a concentrated cream highlight suggest a softly polished illustration. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-airbrush-violet",
+    "name": "Airbrush · Violet Boulevard",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#191936",
+      "#353064",
+      "#5B4C90",
+      "#906FAA",
+      "#BE9EC7",
+      "#D8C5DE",
+      "#F3EAF1"
+    ],
+    "positions": [
+      0,
+      0.13,
+      0.3,
+      0.52,
+      0.72,
+      0.88,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials airbrush airbrush violet",
+    "description": "Long indigo and violet blends lighten through mauve toward misty lilac, keeping a clear shading ramp. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-acid-tangerine",
+    "name": "Acid Graphics · Toxic Tangerine",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#111C22",
+      "#111C22",
+      "#273B3B",
+      "#273B3B",
+      "#FF782D",
+      "#FF782D",
+      "#C9ED43",
+      "#C9ED43",
+      "#F4F7CB",
+      "#F4F7CB"
+    ],
+    "positions": [
+      0,
+      0.4799,
+      0.4801,
+      0.6799,
+      0.6801,
+      0.8799,
+      0.8801,
+      0.9699,
+      0.9701,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials acid graphics acid tangerine",
+    "description": "Charcoal occupies 68 percent of the tonal range, interrupted by hot orange and acid-lime accents. Paired keys retain solid regions with narrow transitions. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-acid-lilac",
+    "name": "Acid Graphics · Electric Lilac",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#191525",
+      "#191525",
+      "#39314B",
+      "#39314B",
+      "#BA83F1",
+      "#BA83F1",
+      "#69E4C1",
+      "#69E4C1",
+      "#F5E7FF",
+      "#F5E7FF"
+    ],
+    "positions": [
+      0,
+      0.4999,
+      0.5001,
+      0.6799,
+      0.6801,
+      0.8899,
+      0.8901,
+      0.9699,
+      0.9701,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials acid graphics acid lilac",
+    "description": "Large dark violet regions support an electric lilac body and concentrated mint highlights. Paired keys retain solid regions with narrow transitions. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-lacquer-cherry",
+    "name": "Candy Lacquer · Cherry Gloss",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#2C1126",
+      "#631536",
+      "#A82246",
+      "#DE3D5A",
+      "#F36B78",
+      "#FFB6AA",
+      "#FFF4DD"
+    ],
+    "positions": [
+      0,
+      0.15,
+      0.36,
+      0.64,
+      0.82,
+      0.95,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials candy lacquer lacquer cherry",
+    "description": "Saturated cherry midtones take most of the ramp; a short warm pale tail suggests a strong glossy highlight. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-lacquer-grape",
+    "name": "Candy Lacquer · Grape Glaze",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#211035",
+      "#4F205F",
+      "#842D98",
+      "#AD52C0",
+      "#CE8AD8",
+      "#EDC5EA",
+      "#FFF2F8"
+    ],
+    "positions": [
+      0,
+      0.16,
+      0.4,
+      0.66,
+      0.85,
+      0.96,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials candy lacquer lacquer grape",
+    "description": "Grape-purple shadows and rich orchid midtones rise to a small pink-white gleam. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-porcelain-blue",
+    "name": "Porcelain · Blue Porcelain",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#233853",
+      "#42658B",
+      "#839EBA",
+      "#D4E0E4",
+      "#E8EBE5",
+      "#F4F0E3",
+      "#FFF8EA"
+    ],
+    "positions": [
+      0,
+      0.1,
+      0.2,
+      0.32,
+      0.53,
+      0.82,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials porcelain porcelain blue",
+    "description": "Blue decoration occupies the darker third; soft ivory and cool off-white dominate the remaining tonal range. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-porcelain-rose",
+    "name": "Porcelain · Rose Ceramic",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#513441",
+      "#895461",
+      "#C39199",
+      "#E5CDCA",
+      "#F0E3D7",
+      "#FFF6E8"
+    ],
+    "positions": [
+      0,
+      0.09,
+      0.2,
+      0.33,
+      0.7,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials porcelain porcelain rose",
+    "description": "Muted rose decoration fades into a broad warm porcelain body with restrained deep burgundy details. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-embroidery-garden",
+    "name": "Embroidery · Garden Stitch",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#273A3C",
+      "#273A3C",
+      "#55664C",
+      "#55664C",
+      "#77916A",
+      "#77916A",
+      "#C56F84",
+      "#C56F84",
+      "#E7B56D",
+      "#E7B56D",
+      "#F2E3C3",
+      "#F2E3C3"
+    ],
+    "positions": [
+      0,
+      0.1999,
+      0.2001,
+      0.3699,
+      0.3701,
+      0.6199,
+      0.6201,
+      0.7999,
+      0.8001,
+      0.9199,
+      0.9201,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials embroidery embroidery garden",
+    "description": "Forest fabric tones support distinct leaf-green, rose and golden thread colors against linen light. Paired keys retain solid regions with narrow transitions. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-embroidery-midnight",
+    "name": "Embroidery · Midnight Tapestry",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#1B2139",
+      "#1B2139",
+      "#3E4766",
+      "#3E4766",
+      "#777490",
+      "#777490",
+      "#B58C9B",
+      "#B58C9B",
+      "#CCAE73",
+      "#CCAE73",
+      "#EEE0C2",
+      "#EEE0C2"
+    ],
+    "positions": [
+      0,
+      0.3199,
+      0.3201,
+      0.5399,
+      0.5401,
+      0.7099,
+      0.7101,
+      0.8499,
+      0.8501,
+      0.9499,
+      0.9501,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials embroidery embroidery midnight",
+    "description": "Midnight woven tones dominate, with mauve, dusty rose and antique gold threads as smaller accents. Paired keys retain solid regions with narrow transitions. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-storybook-foxwood",
+    "name": "Muted Storybook · Foxwood Tale",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#30302D",
+      "#55594B",
+      "#8A8164",
+      "#BAA081",
+      "#DFCAA8"
+    ],
+    "positions": [
+      0,
+      0.2,
+      0.48,
+      0.77,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials muted storybook storybook foxwood",
+    "description": "Restrained olive shadows, earthy ochre and warm parchment create an understated woodland illustration ramp. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-storybook-meadow",
+    "name": "Muted Storybook · Moonlit Meadow",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#222B3F",
+      "#465468",
+      "#778879",
+      "#A9B49E",
+      "#DCE0C5"
+    ],
+    "positions": [
+      0,
+      0.2,
+      0.49,
+      0.79,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials muted storybook storybook meadow",
+    "description": "Cool slate shadows gradually give way to quiet sage and pale moonlit grass. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-noir-crimson",
+    "name": "Graphic Noir · Crimson Detective",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#141B26",
+      "#141B26",
+      "#9DA9B0",
+      "#9DA9B0",
+      "#C92948",
+      "#C92948",
+      "#F3EDE1",
+      "#F3EDE1"
+    ],
+    "positions": [
+      0,
+      0.6399,
+      0.6401,
+      0.8799,
+      0.8801,
+      0.9599,
+      0.9601,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials graphic noir noir crimson",
+    "description": "Deep ink fills 64 percent of the tonal range, with cool gray detail and a narrow crimson signal. Paired keys retain solid regions with narrow transitions. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-noir-amber",
+    "name": "Graphic Noir · Amber Alley",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#191C27",
+      "#191C27",
+      "#8F969F",
+      "#8F969F",
+      "#E5A33C",
+      "#E5A33C",
+      "#F6E8C7",
+      "#F6E8C7"
+    ],
+    "positions": [
+      0,
+      0.6699,
+      0.6701,
+      0.8699,
+      0.8701,
+      0.9599,
+      0.9601,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials graphic noir noir amber",
+    "description": "Large charcoal silhouettes frame gray detail, amber signage and a restrained paper highlight. Paired keys retain solid regions with narrow transitions. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-packaging-citrus",
+    "name": "Faded Packaging · Vintage Citrus",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#34343B",
+      "#75624F",
+      "#AD8B57",
+      "#D3AF73",
+      "#E8CDA0",
+      "#F5E9CF"
+    ],
+    "positions": [
+      0,
+      0.14,
+      0.34,
+      0.58,
+      0.79,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials faded packaging packaging citrus",
+    "description": "Worn umber and muted orange lighten toward aged cream, with broad faded midtones. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-packaging-seaside",
+    "name": "Faded Packaging · Seaside Label",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#263C47",
+      "#547984",
+      "#88A7A6",
+      "#C3CEC0",
+      "#F0E5C9"
+    ],
+    "positions": [
+      0,
+      0.2,
+      0.47,
+      0.73,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials faded packaging packaging seaside",
+    "description": "Weathered blue-green ink dissolves toward sea-glass gray and warm uncoated paper. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-pearl-opal",
+    "name": "Pearlescent Illustration · Opal Dream",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#9887B8",
+      "#BAB3DD",
+      "#A8D1DA",
+      "#C6E5D1",
+      "#EDE4B8",
+      "#F0C6D4",
+      "#FCF3E8"
+    ],
+    "positions": [
+      0,
+      0.16,
+      0.35,
+      0.54,
+      0.72,
+      0.88,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials pearlescent illustration pearl opal",
+    "description": "Luminous lilac, icy cyan, mint, pale gold and blush alternate warm and cool regions for an opalescent illustration mood. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-pearl-shell",
+    "name": "Pearlescent Illustration · Shell Ballet",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#A58FAD",
+      "#CCB2C8",
+      "#ECC8C3",
+      "#F3DDC3",
+      "#D7E4DA",
+      "#FDF4E9"
+    ],
+    "positions": [
+      0,
+      0.19,
+      0.41,
+      0.64,
+      0.84,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials pearlescent illustration pearl shell",
+    "description": "Soft mauve and shell pink meet cream and a pale seafoam reflection; a light pastel range avoids deep shadows. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-clay-apricot",
+    "name": "Clay Animation · Apricot Clay",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#643C3A",
+      "#B3654B",
+      "#E59C68",
+      "#F5CF9D"
+    ],
+    "positions": [
+      0,
+      0.23,
+      0.65,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials clay animation clay apricot",
+    "description": "Warm maroon shadow, terracotta and apricot body colors blend toward a subdued creamy highlight. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-clay-moss",
+    "name": "Clay Animation · Moss Workshop",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#2F4036",
+      "#526B48",
+      "#829159",
+      "#B4B87B",
+      "#DDD7A9"
+    ],
+    "positions": [
+      0,
+      0.18,
+      0.48,
+      0.76,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials clay animation clay moss",
+    "description": "Olive-green clay uses warm leafy midtones and modest cream light, without a sharp specular white. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-festival-summer",
+    "name": "Festival Graphics · Summer Parade",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#29334C",
+      "#29334C",
+      "#EB6955",
+      "#EB6955",
+      "#EFAC49",
+      "#EFAC49",
+      "#F3D772",
+      "#F3D772",
+      "#68B6AC",
+      "#68B6AC",
+      "#F7EACD",
+      "#F7EACD"
+    ],
+    "positions": [
+      0,
+      0.1799,
+      0.1801,
+      0.4299,
+      0.4301,
+      0.6099,
+      0.6101,
+      0.7399,
+      0.7401,
+      0.9099,
+      0.9101,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials festival graphics festival summer",
+    "description": "Broad coral, marigold and teal bands are separated by deep blue and cream resting regions. Paired keys retain solid regions with narrow transitions. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  },
+  {
+    "id": "stylized-material-festival-midnight",
+    "name": "Festival Graphics · Midnight Carnival",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#171C33",
+      "#171C33",
+      "#384B82",
+      "#384B82",
+      "#765DC0",
+      "#765DC0",
+      "#CF5DAB",
+      "#CF5DAB",
+      "#E78273",
+      "#E78273",
+      "#E8B84F",
+      "#E8B84F",
+      "#74BDAF",
+      "#74BDAF",
+      "#F2E5C6",
+      "#F2E5C6"
+    ],
+    "positions": [
+      0,
+      0.2599,
+      0.2601,
+      0.3799,
+      0.3801,
+      0.4999,
+      0.5001,
+      0.6599,
+      0.6601,
+      0.7599,
+      0.7601,
+      0.8499,
+      0.8501,
+      0.9499,
+      0.9501,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized materials festival graphics festival midnight",
+    "description": "Eight graphic regions combine night blue, violet, pink and warm carnival accents with dark breathing space. Paired keys retain solid regions with narrow transitions. Original sRGB art-direction palette with Smooth OKLab interpolation. Positions describe tonal-mask allocation, not measured image area. Surface texture, outlines, reflections and geometry require separate material or image treatments."
+  }
+]

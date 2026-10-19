@@ -1,0 +1,18 @@
+[
+  [
+    "const axes=[{id:'l',start:{l:0,a:0,b:0},end:{l:100,a:0,b:0},stops:['#000000','#777777','#ffffff']},{id:'a',start:{l:50,a:-bounds,b:0},end:{l:50,a:bounds,b:0},stops:['#00c55a','#777777','#ed3151']},{id:'b',start:{l:50,a:0,b:-bounds},end:{l:50,a:0,b:bounds},stops:['#245cff','#777777','#ffe32c']}];",
+    "const L=color.l,ax=(a,b)=>{const q=fitLabToSRGB(L,a,b);return labColor(L,q.a,q.b).hex},axes=[{id:'l',start:{l:0,a:0,b:0},end:{l:100,a:0,b:0},stops:['#000000','#777777','#ffffff']},{id:'a',start:{l:L,a:-bounds,b:0},end:{l:L,a:bounds,b:0},stops:[ax(-bounds,0),ax(0,0),ax(bounds,0)]},{id:'b',start:{l:L,a:0,b:-bounds},end:{l:L,a:0,b:bounds},stops:[ax(0,-bounds),ax(0,0),ax(0,bounds)]}];"
+  ],
+  [
+    "[{l:50,a:bounds,b:0},'Red'],[{l:50,a:-bounds,b:0},'Green'],[{l:50,a:0,b:bounds},'Yellow'],[{l:50,a:0,b:-bounds},'Blue']",
+    "[{l:L,a:bounds,b:0},'Red'],[{l:L,a:-bounds,b:0},'Green'],[{l:L,a:0,b:bounds},'Yellow'],[{l:L,a:0,b:-bounds},'Blue']"
+  ],
+  [
+    "'stroke=\"var(--background)\" stroke-width=\"4\" stroke-opacity=\".2\"'",
+    "'stroke=\"var(--background)\" stroke-width=\"2\" stroke-opacity=\".08\"'"
+  ],
+  [
+    "data-lab-axis=\"${axis.id}\" stroke=\"url(#${prefix}-${axis.id})\" stroke-opacity=\".35\" stroke-width=\"2.5\"",
+    "data-lab-axis=\"${axis.id}\" stroke=\"url(#${prefix}-${axis.id})\" stroke-opacity=\".18\" stroke-width=\"1.2\""
+  ]
+]

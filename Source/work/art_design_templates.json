@@ -1,0 +1,4658 @@
+[
+  {
+    "id": "art-design-1",
+    "name": "Renaissance \u00b7 Quiet Olive Portrait",
+    "category": "Art",
+    "movement": "Renaissance",
+    "collectionKind": "art",
+    "description": "Renaissance color study: Quiet Olive Portrait. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#17241D",
+      "#394932",
+      "#777044",
+      "#B39A67",
+      "#D0BB8C"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Renaissance \u00b7 Quiet Olive Portrait"
+  },
+  {
+    "id": "art-design-2",
+    "name": "Renaissance \u00b7 Seafoam Myth",
+    "category": "Art",
+    "movement": "Renaissance",
+    "collectionKind": "art",
+    "description": "Renaissance color study: Seafoam Myth. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#244C56",
+      "#66897F",
+      "#C9B480",
+      "#E8D7BC",
+      "#F2E7D3"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Renaissance \u00b7 Seafoam Myth"
+  },
+  {
+    "id": "art-design-3",
+    "name": "Renaissance \u00b7 Marble Academy",
+    "category": "Art",
+    "movement": "Renaissance",
+    "collectionKind": "art",
+    "description": "Renaissance color study: Marble Academy. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#303A48",
+      "#6B6558",
+      "#B97254",
+      "#C7AB81",
+      "#E6DBC6"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Renaissance \u00b7 Marble Academy"
+  },
+  {
+    "id": "art-design-4",
+    "name": "Renaissance \u00b7 Pale Earth Gesture",
+    "category": "Art",
+    "movement": "Renaissance",
+    "collectionKind": "art",
+    "description": "Renaissance color study: Pale Earth Gesture. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#495947",
+      "#927569",
+      "#BE9F84",
+      "#DCCBB0",
+      "#E8DFCA"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Renaissance \u00b7 Pale Earth Gesture"
+  },
+  {
+    "id": "art-design-5",
+    "name": "Renaissance \u00b7 Forest Festival",
+    "category": "Art",
+    "movement": "Renaissance",
+    "collectionKind": "art",
+    "description": "Renaissance color study: Forest Festival. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#111F19",
+      "#304430",
+      "#65563A",
+      "#AE8060",
+      "#D9C5A3"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Renaissance \u00b7 Forest Festival"
+  },
+  {
+    "id": "art-design-6",
+    "name": "Baroque \u00b7 Golden Night Patrol",
+    "category": "Art",
+    "movement": "Baroque",
+    "collectionKind": "art",
+    "description": "Baroque color study: Golden Night Patrol. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#16150E",
+      "#443821",
+      "#8C6535",
+      "#C0A060",
+      "#E2CF9B"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Baroque \u00b7 Golden Night Patrol"
+  },
+  {
+    "id": "art-design-7",
+    "name": "Baroque \u00b7 Courtly Interior",
+    "category": "Art",
+    "movement": "Baroque",
+    "collectionKind": "art",
+    "description": "Baroque color study: Courtly Interior. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#23201D",
+      "#4B4740",
+      "#8B7460",
+      "#C4AE98",
+      "#E5D8C8"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Baroque \u00b7 Courtly Interior"
+  },
+  {
+    "id": "art-design-8",
+    "name": "Baroque \u00b7 Candlelit Gathering",
+    "category": "Art",
+    "movement": "Baroque",
+    "collectionKind": "art",
+    "description": "Baroque color study: Candlelit Gathering. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#12130F",
+      "#3E372B",
+      "#796149",
+      "#AD8F64",
+      "#D8C8A2"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Baroque \u00b7 Candlelit Gathering"
+  },
+  {
+    "id": "art-design-9",
+    "name": "Baroque \u00b7 Pearl and Turban",
+    "category": "Art",
+    "movement": "Baroque",
+    "collectionKind": "art",
+    "description": "Baroque color study: Pearl and Turban. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#101E1B",
+      "#344F62",
+      "#978056",
+      "#C8A983",
+      "#E8D1B4"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Baroque \u00b7 Pearl and Turban"
+  },
+  {
+    "id": "art-design-10",
+    "name": "Baroque \u00b7 Amber Kitchen",
+    "category": "Art",
+    "movement": "Baroque",
+    "collectionKind": "art",
+    "description": "Baroque color study: Amber Kitchen. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#263638",
+      "#486184",
+      "#B49A45",
+      "#D3BD8B",
+      "#EAE0B9"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Baroque \u00b7 Amber Kitchen"
+  },
+  {
+    "id": "art-design-11",
+    "name": "Rococo \u00b7 Garden Swing",
+    "category": "Art",
+    "movement": "Rococo",
+    "collectionKind": "art",
+    "description": "Rococo color study: Garden Swing. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#253A2C",
+      "#66805A",
+      "#ADB884",
+      "#DAA4A0",
+      "#EBD3BD"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Rococo \u00b7 Garden Swing"
+  },
+  {
+    "id": "art-design-12",
+    "name": "Rococo \u00b7 Pastoral Voyage",
+    "category": "Art",
+    "movement": "Rococo",
+    "collectionKind": "art",
+    "description": "Rococo color study: Pastoral Voyage. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#34453C",
+      "#77765A",
+      "#AA9070",
+      "#D1B29B",
+      "#E9D9C3"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Rococo \u00b7 Pastoral Voyage"
+  },
+  {
+    "id": "art-design-13",
+    "name": "Rococo \u00b7 Sage Court Portrait",
+    "category": "Art",
+    "movement": "Rococo",
+    "collectionKind": "art",
+    "description": "Rococo color study: Sage Court Portrait. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#365A56",
+      "#77A197",
+      "#B59C83",
+      "#D9B6AE",
+      "#EAE2D2"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Rococo \u00b7 Sage Court Portrait"
+  },
+  {
+    "id": "art-design-14",
+    "name": "Rococo \u00b7 Sapphire Velvet",
+    "category": "Art",
+    "movement": "Rococo",
+    "collectionKind": "art",
+    "description": "Rococo color study: Sapphire Velvet. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#233037",
+      "#476986",
+      "#779AB0",
+      "#AFAC98",
+      "#DBC9AE"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Rococo \u00b7 Sapphire Velvet"
+  },
+  {
+    "id": "art-design-15",
+    "name": "Rococo \u00b7 Secret Embrace",
+    "category": "Art",
+    "movement": "Rococo",
+    "collectionKind": "art",
+    "description": "Rococo color study: Secret Embrace. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#463F36",
+      "#9C8670",
+      "#CDB69A",
+      "#DEC8AF",
+      "#F3E9D6"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Rococo \u00b7 Secret Embrace"
+  },
+  {
+    "id": "art-design-16",
+    "name": "Neoclassicism \u00b7 Bronze Oath",
+    "category": "Art",
+    "movement": "Neoclassicism",
+    "collectionKind": "art",
+    "description": "Neoclassicism color study: Bronze Oath. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#211E1A",
+      "#5A4A3B",
+      "#9A3D31",
+      "#B59170",
+      "#D7C9AF"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Neoclassicism \u00b7 Bronze Oath"
+  },
+  {
+    "id": "art-design-17",
+    "name": "Neoclassicism \u00b7 Ivory Philosophers",
+    "category": "Art",
+    "movement": "Neoclassicism",
+    "collectionKind": "art",
+    "description": "Neoclassicism color study: Ivory Philosophers. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#313A38",
+      "#746D62",
+      "#B89580",
+      "#D4C4B1",
+      "#E8DFCC"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Neoclassicism \u00b7 Ivory Philosophers"
+  },
+  {
+    "id": "art-design-18",
+    "name": "Neoclassicism \u00b7 Green Bath Shadow",
+    "category": "Art",
+    "movement": "Neoclassicism",
+    "collectionKind": "art",
+    "description": "Neoclassicism color study: Green Bath Shadow. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#233A2C",
+      "#596249",
+      "#A39373",
+      "#C5B395",
+      "#E5DEC6"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Neoclassicism \u00b7 Green Bath Shadow"
+  },
+  {
+    "id": "art-design-19",
+    "name": "Neoclassicism \u00b7 Alpine Vermilion",
+    "category": "Art",
+    "movement": "Neoclassicism",
+    "collectionKind": "art",
+    "description": "Neoclassicism color study: Alpine Vermilion. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#29363E",
+      "#68584B",
+      "#A83F29",
+      "#C8A57A",
+      "#E4D5BB"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Neoclassicism \u00b7 Alpine Vermilion"
+  },
+  {
+    "id": "art-design-20",
+    "name": "Neoclassicism \u00b7 Turquoise Drapery",
+    "category": "Art",
+    "movement": "Neoclassicism",
+    "collectionKind": "art",
+    "description": "Neoclassicism color study: Turquoise Drapery. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#1F3F51",
+      "#477B94",
+      "#AE976E",
+      "#D5BDA2",
+      "#E9DAC1"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Neoclassicism \u00b7 Turquoise Drapery"
+  },
+  {
+    "id": "art-design-21",
+    "name": "Romanticism \u00b7 Smoke and Liberty",
+    "category": "Art",
+    "movement": "Romanticism",
+    "collectionKind": "art",
+    "description": "Romanticism color study: Smoke and Liberty. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#292721",
+      "#625B45",
+      "#A48455",
+      "#C3AB7C",
+      "#DCD3B3"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Romanticism \u00b7 Smoke and Liberty"
+  },
+  {
+    "id": "art-design-22",
+    "name": "Romanticism \u00b7 Stormbound Survivors",
+    "category": "Art",
+    "movement": "Romanticism",
+    "collectionKind": "art",
+    "description": "Romanticism color study: Stormbound Survivors. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#172A27",
+      "#5C5B43",
+      "#9D8563",
+      "#C0A682",
+      "#D8CBAC"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Romanticism \u00b7 Stormbound Survivors"
+  },
+  {
+    "id": "art-design-23",
+    "name": "Romanticism \u00b7 Mistbound Wanderer",
+    "category": "Art",
+    "movement": "Romanticism",
+    "collectionKind": "art",
+    "description": "Romanticism color study: Mistbound Wanderer. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#263D3D",
+      "#587277",
+      "#8EA5A5",
+      "#C2CFCA",
+      "#E3E5D9"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Romanticism \u00b7 Mistbound Wanderer"
+  },
+  {
+    "id": "art-design-24",
+    "name": "Romanticism \u00b7 Golden Harbor",
+    "category": "Art",
+    "movement": "Romanticism",
+    "collectionKind": "art",
+    "description": "Romanticism color study: Golden Harbor. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#304757",
+      "#8A9BA4",
+      "#C5AD87",
+      "#E8C68C",
+      "#F2E6C8"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Romanticism \u00b7 Golden Harbor"
+  },
+  {
+    "id": "art-design-25",
+    "name": "Romanticism \u00b7 Lantern Vigil",
+    "category": "Art",
+    "movement": "Romanticism",
+    "collectionKind": "art",
+    "description": "Romanticism color study: Lantern Vigil. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#211B17",
+      "#51412D",
+      "#947442",
+      "#C7AD74",
+      "#E9DFBC"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Romanticism \u00b7 Lantern Vigil"
+  },
+  {
+    "id": "art-design-26",
+    "name": "Realism \u00b7 Harvest Ochre",
+    "category": "Art",
+    "movement": "Realism",
+    "collectionKind": "art",
+    "description": "Realism color study: Harvest Ochre. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#423F2C",
+      "#797045",
+      "#A99962",
+      "#C9B98B",
+      "#DED2B0"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Realism \u00b7 Harvest Ochre"
+  },
+  {
+    "id": "art-design-27",
+    "name": "Realism \u00b7 Stone and Dust",
+    "category": "Art",
+    "movement": "Realism",
+    "collectionKind": "art",
+    "description": "Realism color study: Stone and Dust. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#353A30",
+      "#6A6753",
+      "#9B8264",
+      "#C0A17B",
+      "#D2C4A0"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Realism \u00b7 Stone and Dust"
+  },
+  {
+    "id": "art-design-28",
+    "name": "Realism \u00b7 Earthbound Assembly",
+    "category": "Art",
+    "movement": "Realism",
+    "collectionKind": "art",
+    "description": "Realism color study: Earthbound Assembly. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#171B1B",
+      "#454843",
+      "#817565",
+      "#A89987",
+      "#C7BCAD"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Realism \u00b7 Earthbound Assembly"
+  },
+  {
+    "id": "art-design-29",
+    "name": "Realism \u00b7 Wild Chestnut Herd",
+    "category": "Art",
+    "movement": "Realism",
+    "collectionKind": "art",
+    "description": "Realism color study: Wild Chestnut Herd. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#252F28",
+      "#626E53",
+      "#A68C66",
+      "#C6AE85",
+      "#E0D1AA"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Realism \u00b7 Wild Chestnut Herd"
+  },
+  {
+    "id": "art-design-30",
+    "name": "Realism \u00b7 Surgical Crimson",
+    "category": "Art",
+    "movement": "Realism",
+    "collectionKind": "art",
+    "description": "Realism color study: Surgical Crimson. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#171514",
+      "#41352D",
+      "#7A4C3E",
+      "#B08C76",
+      "#D1B9A4"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Realism \u00b7 Surgical Crimson"
+  },
+  {
+    "id": "art-design-31",
+    "name": "Impressionism \u00b7 Harbor Dawn",
+    "category": "Art",
+    "movement": "Impressionism",
+    "collectionKind": "art",
+    "description": "Impressionism color study: Harbor Dawn. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#3B596B",
+      "#7193A1",
+      "#A4B5B2",
+      "#D19B73",
+      "#EF8B45"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Impressionism \u00b7 Harbor Dawn"
+  },
+  {
+    "id": "art-design-32",
+    "name": "Impressionism \u00b7 Lilac Pond",
+    "category": "Art",
+    "movement": "Impressionism",
+    "collectionKind": "art",
+    "description": "Impressionism color study: Lilac Pond. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#344C64",
+      "#647F91",
+      "#829D87",
+      "#AFB5BB",
+      "#D0C8D7"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Impressionism \u00b7 Lilac Pond"
+  },
+  {
+    "id": "art-design-33",
+    "name": "Impressionism \u00b7 Summer Garden Dance",
+    "category": "Art",
+    "movement": "Impressionism",
+    "collectionKind": "art",
+    "description": "Impressionism color study: Summer Garden Dance. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#26364C",
+      "#5F6B84",
+      "#A18C87",
+      "#CBAA95",
+      "#E7D6B9"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Impressionism \u00b7 Summer Garden Dance"
+  },
+  {
+    "id": "art-design-34",
+    "name": "Impressionism \u00b7 Sage Ballet",
+    "category": "Art",
+    "movement": "Impressionism",
+    "collectionKind": "art",
+    "description": "Impressionism color study: Sage Ballet. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#3E4B43",
+      "#8A947B",
+      "#B8A481",
+      "#D6CAB2",
+      "#EAE2D0"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Impressionism \u00b7 Sage Ballet"
+  },
+  {
+    "id": "art-design-35",
+    "name": "Impressionism \u00b7 Rainwashed Avenue",
+    "category": "Art",
+    "movement": "Impressionism",
+    "collectionKind": "art",
+    "description": "Impressionism color study: Rainwashed Avenue. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#283B43",
+      "#627478",
+      "#939B95",
+      "#B9B5A5",
+      "#DCD7C8"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Impressionism \u00b7 Rainwashed Avenue"
+  },
+  {
+    "id": "art-design-36",
+    "name": "Post-Impressionism \u00b7 Cobalt Night Spiral",
+    "category": "Art",
+    "movement": "Post-Impressionism",
+    "collectionKind": "art",
+    "description": "Post-Impressionism color study: Cobalt Night Spiral. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#102653",
+      "#204B94",
+      "#397CB6",
+      "#76A6B5",
+      "#CABD62",
+      "#EFD47C"
+    ],
+    "positions": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Separate indigo, cobalt and pale golden light without the previous olive transition.",
+    "searchAliases": "Post-Impressionism \u00b7 Cobalt Night Spiral"
+  },
+  {
+    "id": "art-design-37",
+    "name": "Post-Impressionism \u00b7 Ochre Petals",
+    "category": "Art",
+    "movement": "Post-Impressionism",
+    "collectionKind": "art",
+    "description": "Post-Impressionism color study: Ochre Petals. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#514229",
+      "#8D6921",
+      "#BD8D24",
+      "#D8AE35",
+      "#E8CC69",
+      "#EFE1A6"
+    ],
+    "positions": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Richer ochre body and softer pale-gold highlight; maintain a restrained warm family.",
+    "searchAliases": "Post-Impressionism \u00b7 Ochre Petals"
+  },
+  {
+    "id": "art-design-38",
+    "name": "Post-Impressionism \u00b7 Riverside Leisure",
+    "category": "Art",
+    "movement": "Post-Impressionism",
+    "collectionKind": "art",
+    "description": "Post-Impressionism color study: Riverside Leisure. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#283C38",
+      "#4F755B",
+      "#8C9C64",
+      "#B9BD92",
+      "#E0CFAD"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Post-Impressionism \u00b7 Riverside Leisure"
+  },
+  {
+    "id": "art-design-39",
+    "name": "Post-Impressionism \u00b7 Blue Limestone Ridge",
+    "category": "Art",
+    "movement": "Post-Impressionism",
+    "collectionKind": "art",
+    "description": "Post-Impressionism color study: Blue Limestone Ridge. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#334C71",
+      "#5E8696",
+      "#839C7A",
+      "#B7AD77",
+      "#DDD3B0"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Distinguish blue atmosphere, vegetation and limestone instead of neutralizing all middle colors.",
+    "searchAliases": "Post-Impressionism \u00b7 Blue Limestone Ridge"
+  },
+  {
+    "id": "art-design-40",
+    "name": "Post-Impressionism \u00b7 Teal Origins",
+    "category": "Art",
+    "movement": "Post-Impressionism",
+    "collectionKind": "art",
+    "description": "Post-Impressionism color study: Teal Origins. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#143B4B",
+      "#2F655D",
+      "#64704B",
+      "#AD854C",
+      "#D8AC64",
+      "#E9CC9A"
+    ],
+    "positions": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Increase separation of teal shadows, earth and warm skin tones.",
+    "searchAliases": "Post-Impressionism \u00b7 Teal Origins"
+  },
+  {
+    "id": "art-design-41",
+    "name": "Symbolism \u00b7 Cypress Silence",
+    "category": "Art",
+    "movement": "Symbolism",
+    "collectionKind": "art",
+    "description": "Symbolism color study: Cypress Silence. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#162C2D",
+      "#3D5147",
+      "#7B8070",
+      "#B3B19B",
+      "#DAD5BF"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Symbolism \u00b7 Cypress Silence"
+  },
+  {
+    "id": "art-design-42",
+    "name": "Symbolism \u00b7 Dreaming Giant",
+    "category": "Art",
+    "movement": "Symbolism",
+    "collectionKind": "art",
+    "description": "Symbolism color study: Dreaming Giant. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#384B5A",
+      "#767881",
+      "#AF9583",
+      "#C8BA91",
+      "#E2D4B2"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Symbolism \u00b7 Dreaming Giant"
+  },
+  {
+    "id": "art-design-43",
+    "name": "Symbolism \u00b7 Floating Charcoal Eye",
+    "category": "Art",
+    "movement": "Symbolism",
+    "collectionKind": "art",
+    "description": "Symbolism color study: Floating Charcoal Eye. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#252525",
+      "#65635D",
+      "#A2A096",
+      "#D8D2C2"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Symbolism \u00b7 Floating Charcoal Eye"
+  },
+  {
+    "id": "art-design-44",
+    "name": "Symbolism \u00b7 Golden Vision",
+    "category": "Art",
+    "movement": "Symbolism",
+    "collectionKind": "art",
+    "description": "Symbolism color study: Golden Vision. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#332934",
+      "#725154",
+      "#AD8760",
+      "#D2B882",
+      "#EADDAC"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Symbolism \u00b7 Golden Vision"
+  },
+  {
+    "id": "art-design-45",
+    "name": "Symbolism \u00b7 Mosaic Mortality",
+    "category": "Art",
+    "movement": "Symbolism",
+    "collectionKind": "art",
+    "description": "Symbolism color study: Mosaic Mortality. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#253B4F",
+      "#546A72",
+      "#8A797B",
+      "#BDA995",
+      "#E4CEAE"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Symbolism \u00b7 Mosaic Mortality"
+  },
+  {
+    "id": "art-design-46",
+    "name": "Art Nouveau \u00b7 Gilded Embrace",
+    "category": "Art",
+    "movement": "Art Nouveau",
+    "collectionKind": "art",
+    "description": "Art Nouveau color study: Gilded Embrace. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#26352A",
+      "#6D6231",
+      "#A38B32",
+      "#CFAD45",
+      "#E3CB74",
+      "#EFE2B3"
+    ],
+    "positions": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "More expressive gold hierarchy with colored shadow and soft ivory top.",
+    "searchAliases": "Art Nouveau \u00b7 Gilded Embrace"
+  },
+  {
+    "id": "art-design-47",
+    "name": "Art Nouveau \u00b7 Bronze Enigma",
+    "category": "Art",
+    "movement": "Art Nouveau",
+    "collectionKind": "art",
+    "description": "Art Nouveau color study: Bronze Enigma. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#242B26",
+      "#66552E",
+      "#A78135",
+      "#CCAC5E",
+      "#E9D5A3"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Clarify gold, dark foliage and warm light.",
+    "searchAliases": "Art Nouveau \u00b7 Bronze Enigma"
+  },
+  {
+    "id": "art-design-48",
+    "name": "Art Nouveau \u00b7 Sage Ornament",
+    "category": "Art",
+    "movement": "Art Nouveau",
+    "collectionKind": "art",
+    "description": "Art Nouveau color study: Sage Ornament. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#355B55",
+      "#789176",
+      "#BAA87B",
+      "#D6BD8B",
+      "#EFE3C7"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Recover the sage-green and parchment relationship.",
+    "searchAliases": "Art Nouveau \u00b7 Sage Ornament"
+  },
+  {
+    "id": "art-design-49",
+    "name": "Art Nouveau \u00b7 Amber Arabesque",
+    "category": "Art",
+    "movement": "Art Nouveau",
+    "collectionKind": "art",
+    "description": "Art Nouveau color study: Amber Arabesque. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#3D323D",
+      "#795549",
+      "#B58946",
+      "#D2AD6E",
+      "#E9D7AE"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Differentiate auburn outlines and amber ornament from light paper.",
+    "searchAliases": "Art Nouveau \u00b7 Amber Arabesque"
+  },
+  {
+    "id": "art-design-50",
+    "name": "Art Nouveau \u00b7 Ink Peacock",
+    "category": "Art",
+    "movement": "Art Nouveau",
+    "collectionKind": "art",
+    "description": "Art Nouveau color study: Ink Peacock. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#101010",
+      "#55534F",
+      "#AAA69B",
+      "#EEE8D7"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Art Nouveau \u00b7 Ink Peacock"
+  },
+  {
+    "id": "art-design-51",
+    "name": "Fauvism \u00b7 Chromatic Portrait",
+    "category": "Art",
+    "movement": "Fauvism",
+    "collectionKind": "art",
+    "description": "Fauvism color study: Chromatic Portrait. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#263B73",
+      "#538B65",
+      "#BA427D",
+      "#E8784B",
+      "#EAC65A"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Restore distinct saturated blue, green, pink and orange accents.",
+    "searchAliases": "Fauvism \u00b7 Chromatic Portrait"
+  },
+  {
+    "id": "art-design-52",
+    "name": "Fauvism \u00b7 Pastel Meadow",
+    "category": "Art",
+    "movement": "Fauvism",
+    "collectionKind": "art",
+    "description": "Fauvism color study: Pastel Meadow. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#2B6275",
+      "#72A653",
+      "#D6BF60",
+      "#E99773",
+      "#F3DDB0"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Stronger blue-green support against warm figure colors.",
+    "searchAliases": "Fauvism \u00b7 Pastel Meadow"
+  },
+  {
+    "id": "art-design-53",
+    "name": "Fauvism \u00b7 Vermilion Circle",
+    "category": "Art",
+    "movement": "Fauvism",
+    "collectionKind": "art",
+    "description": "Fauvism color study: Vermilion Circle. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#174BA0",
+      "#328B4F",
+      "#D65133"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Three deliberate blue, green and vermilion regions; avoid an invented fourth light orange.",
+    "searchAliases": "Fauvism \u00b7 Vermilion Circle"
+  },
+  {
+    "id": "art-design-54",
+    "name": "Fauvism \u00b7 Emerald Riverbank",
+    "category": "Art",
+    "movement": "Fauvism",
+    "collectionKind": "art",
+    "description": "Fauvism color study: Emerald Riverbank. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#183D91",
+      "#35799D",
+      "#76A54D",
+      "#CE7840",
+      "#EDC164"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Recover the cool river versus warm-bank contrast.",
+    "searchAliases": "Fauvism \u00b7 Emerald Riverbank"
+  },
+  {
+    "id": "art-design-55",
+    "name": "Fauvism \u00b7 Solar Bridge",
+    "category": "Art",
+    "movement": "Fauvism",
+    "collectionKind": "art",
+    "description": "Fauvism color study: Solar Bridge. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#265C9C",
+      "#57A7AE",
+      "#D5C044",
+      "#E77844",
+      "#F0CA85"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Distinct expressive complementary families instead of a muted generic ramp.",
+    "searchAliases": "Fauvism \u00b7 Solar Bridge"
+  },
+  {
+    "id": "art-design-56",
+    "name": "Expressionism \u00b7 Burnt Orange Echo",
+    "category": "Art",
+    "movement": "Expressionism",
+    "collectionKind": "art",
+    "description": "Expressionism color study: Burnt Orange Echo. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#213746",
+      "#47615B",
+      "#986042",
+      "#D77C3E",
+      "#E8AF70"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Clarify blue-black structure against orange sky.",
+    "searchAliases": "Expressionism \u00b7 Burnt Orange Echo"
+  },
+  {
+    "id": "art-design-57",
+    "name": "Expressionism \u00b7 Magenta Boulevard",
+    "category": "Art",
+    "movement": "Expressionism",
+    "collectionKind": "art",
+    "description": "Expressionism color study: Magenta Boulevard. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#292B48",
+      "#665174",
+      "#BA5279",
+      "#D99483",
+      "#EAC6A6"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Restore violet shadow and pink urban tension.",
+    "searchAliases": "Expressionism \u00b7 Magenta Boulevard"
+  },
+  {
+    "id": "art-design-58",
+    "name": "Expressionism \u00b7 Cobalt Steed",
+    "category": "Art",
+    "movement": "Expressionism",
+    "collectionKind": "art",
+    "description": "Expressionism color study: Cobalt Steed. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#102B68",
+      "#275ECD",
+      "#5B8CC6",
+      "#BB9B55",
+      "#E1C894"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "More distinct cobalt body and warm landscape.",
+    "searchAliases": "Expressionism \u00b7 Cobalt Steed"
+  },
+  {
+    "id": "art-design-59",
+    "name": "Expressionism \u00b7 Blue Herd",
+    "category": "Art",
+    "movement": "Expressionism",
+    "collectionKind": "art",
+    "description": "Expressionism color study: Blue Herd. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#173775",
+      "#386DC8",
+      "#7693A4",
+      "#C29F5F",
+      "#E7CD87"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Separate cool horse forms from the warm landscape family.",
+    "searchAliases": "Expressionism \u00b7 Blue Herd"
+  },
+  {
+    "id": "art-design-60",
+    "name": "Expressionism \u00b7 Olive Silhouettes",
+    "category": "Art",
+    "movement": "Expressionism",
+    "collectionKind": "art",
+    "description": "Expressionism color study: Olive Silhouettes. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#303B42",
+      "#596957",
+      "#8D815F",
+      "#B1A384",
+      "#D1C4A3"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Expressionism \u00b7 Olive Silhouettes"
+  },
+  {
+    "id": "art-design-61",
+    "name": "Cubism \u00b7 Faceted Terracotta",
+    "category": "Art",
+    "movement": "Cubism",
+    "collectionKind": "art",
+    "description": "Cubism color study: Faceted Terracotta. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#343A4C",
+      "#7F6A60",
+      "#B38A7A",
+      "#D2AD91",
+      "#E6CBB0"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Cubism \u00b7 Faceted Terracotta"
+  },
+  {
+    "id": "art-design-62",
+    "name": "Cubism \u00b7 Charcoal Lament",
+    "category": "Art",
+    "movement": "Cubism",
+    "collectionKind": "art",
+    "description": "Cubism color study: Charcoal Lament. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#161616",
+      "#515151",
+      "#929292",
+      "#C8C8C8",
+      "#ECECEC"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Cubism \u00b7 Charcoal Lament"
+  },
+  {
+    "id": "art-design-63",
+    "name": "Cubism \u00b7 Ochre Strings",
+    "category": "Art",
+    "movement": "Cubism",
+    "collectionKind": "art",
+    "description": "Cubism color study: Ochre Strings. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#3C382A",
+      "#71634B",
+      "#A19371",
+      "#C7BB9A",
+      "#DED5B8"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Cubism \u00b7 Ochre Strings"
+  },
+  {
+    "id": "art-design-64",
+    "name": "Cubism \u00b7 Fragmented Still Life",
+    "category": "Art",
+    "movement": "Cubism",
+    "collectionKind": "art",
+    "description": "Cubism color study: Fragmented Still Life. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#38382F",
+      "#68634B",
+      "#9F9679",
+      "#C1B699",
+      "#D7CEB7"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Cubism \u00b7 Fragmented Still Life"
+  },
+  {
+    "id": "art-design-65",
+    "name": "Cubism \u00b7 Tobacco Geometry",
+    "category": "Art",
+    "movement": "Cubism",
+    "collectionKind": "art",
+    "description": "Cubism color study: Tobacco Geometry. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#302F29",
+      "#615A43",
+      "#928367",
+      "#BAA68B",
+      "#D3C4A4"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Cubism \u00b7 Tobacco Geometry"
+  },
+  {
+    "id": "art-design-66",
+    "name": "Futurism \u00b7 Electric Metropolis",
+    "category": "Art",
+    "movement": "Futurism",
+    "collectionKind": "art",
+    "description": "Futurism color study: Electric Metropolis. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#253F58",
+      "#67776D",
+      "#AD6945",
+      "#DC9253",
+      "#E6BD80"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Futurism \u00b7 Electric Metropolis"
+  },
+  {
+    "id": "art-design-67",
+    "name": "Futurism \u00b7 Graphite Motion",
+    "category": "Art",
+    "movement": "Futurism",
+    "collectionKind": "art",
+    "description": "Futurism color study: Graphite Motion. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#222629",
+      "#5A6061",
+      "#929188",
+      "#C9C4B1",
+      "#E4DECB"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Futurism \u00b7 Graphite Motion"
+  },
+  {
+    "id": "art-design-68",
+    "name": "Futurism \u00b7 Radiant Streetlamp",
+    "category": "Art",
+    "movement": "Futurism",
+    "collectionKind": "art",
+    "description": "Futurism color study: Radiant Streetlamp. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#173943",
+      "#527B64",
+      "#B8BA6A",
+      "#E8D275",
+      "#F3E6B5"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Futurism \u00b7 Radiant Streetlamp"
+  },
+  {
+    "id": "art-design-69",
+    "name": "Futurism \u00b7 Bronze Continuum",
+    "category": "Art",
+    "movement": "Futurism",
+    "collectionKind": "art",
+    "description": "Futurism color study: Bronze Continuum. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#352E23",
+      "#766044",
+      "#AF9158",
+      "#D4B981",
+      "#E7D8AA"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Futurism \u00b7 Bronze Continuum"
+  },
+  {
+    "id": "art-design-70",
+    "name": "Futurism \u00b7 Armored Rhythm",
+    "category": "Art",
+    "movement": "Futurism",
+    "collectionKind": "art",
+    "description": "Futurism color study: Armored Rhythm. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#293F4B",
+      "#657477",
+      "#9F9270",
+      "#C4B695",
+      "#E0D5B4"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Futurism \u00b7 Armored Rhythm"
+  },
+  {
+    "id": "art-design-71",
+    "name": "Suprematism \u00b7 Charcoal Monolith",
+    "category": "Art",
+    "movement": "Suprematism",
+    "collectionKind": "art",
+    "description": "Suprematism color study: Charcoal Monolith. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#171817",
+      "#E5E2D7"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Suprematism \u00b7 Charcoal Monolith"
+  },
+  {
+    "id": "art-design-72",
+    "name": "Suprematism \u00b7 Ivory Whisper",
+    "category": "Art",
+    "movement": "Suprematism",
+    "collectionKind": "art",
+    "description": "Suprematism color study: Ivory Whisper. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#D5D8D1",
+      "#F0EFE7"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Suprematism \u00b7 Ivory Whisper"
+  },
+  {
+    "id": "art-design-73",
+    "name": "Suprematism \u00b7 Vermilion Plane",
+    "category": "Art",
+    "movement": "Suprematism",
+    "collectionKind": "art",
+    "description": "Suprematism color study: Vermilion Plane. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#B73D30",
+      "#E9E4DA"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Suprematism \u00b7 Vermilion Plane"
+  },
+  {
+    "id": "art-design-74",
+    "name": "Suprematism \u00b7 Primary Orbit",
+    "category": "Art",
+    "movement": "Suprematism",
+    "collectionKind": "art",
+    "description": "Suprematism color study: Primary Orbit. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#182025",
+      "#2458A5",
+      "#CD3327",
+      "#E1BD28",
+      "#F1EADF"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Stronger discrete primary-color identity without adding false texture colors.",
+    "searchAliases": "Suprematism \u00b7 Primary Orbit"
+  },
+  {
+    "id": "art-design-75",
+    "name": "Suprematism \u00b7 Red Cadence",
+    "category": "Art",
+    "movement": "Suprematism",
+    "collectionKind": "art",
+    "description": "Suprematism color study: Red Cadence. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#B64030",
+      "#ECE8DD"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Suprematism \u00b7 Red Cadence"
+  },
+  {
+    "id": "art-design-76",
+    "name": "Constructivism \u00b7 Crimson Diagonal",
+    "category": "Art",
+    "movement": "Constructivism",
+    "collectionKind": "art",
+    "description": "Constructivism color study: Crimson Diagonal. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#16191B",
+      "#BD342D",
+      "#DFDACD"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Constructivism \u00b7 Crimson Diagonal"
+  },
+  {
+    "id": "art-design-77",
+    "name": "Constructivism \u00b7 Red and Cyan Call",
+    "category": "Art",
+    "movement": "Constructivism",
+    "collectionKind": "art",
+    "description": "Constructivism color study: Red and Cyan Call. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#182B36",
+      "#327A9C",
+      "#B83A32",
+      "#E7D9BA"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Constructivism \u00b7 Red and Cyan Call"
+  },
+  {
+    "id": "art-design-78",
+    "name": "Constructivism \u00b7 Architectural Orbit",
+    "category": "Art",
+    "movement": "Constructivism",
+    "collectionKind": "art",
+    "description": "Constructivism color study: Architectural Orbit. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#262D2E",
+      "#6D7879",
+      "#A09D8C",
+      "#E0DACC"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Constructivism \u00b7 Architectural Orbit"
+  },
+  {
+    "id": "art-design-79",
+    "name": "Constructivism \u00b7 Primary Trio",
+    "category": "Art",
+    "movement": "Constructivism",
+    "collectionKind": "art",
+    "description": "Constructivism color study: Primary Trio. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#BE302F",
+      "#D6B83B",
+      "#345D9E"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Constructivism \u00b7 Primary Trio"
+  },
+  {
+    "id": "art-design-80",
+    "name": "Constructivism \u00b7 Wireframe Silver",
+    "category": "Art",
+    "movement": "Constructivism",
+    "collectionKind": "art",
+    "description": "Constructivism color study: Wireframe Silver. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#292D30",
+      "#757D7D",
+      "#B6BCB6",
+      "#E5E3D7"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Constructivism \u00b7 Wireframe Silver"
+  },
+  {
+    "id": "art-design-81",
+    "name": "De Stijl \u00b7 Primary Balance",
+    "category": "Art",
+    "movement": "De Stijl",
+    "collectionKind": "art",
+    "description": "De Stijl color study: Primary Balance. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#171B20",
+      "#2355A0",
+      "#C33528",
+      "#E1C13A",
+      "#F0ECDD"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Reorder blue, red, yellow and white to avoid an unnecessary yellow-to-dark-blue dip.",
+    "searchAliases": "De Stijl \u00b7 Primary Balance"
+  },
+  {
+    "id": "art-design-82",
+    "name": "De Stijl \u00b7 Golden City Rhythm",
+    "category": "Art",
+    "movement": "De Stijl",
+    "collectionKind": "art",
+    "description": "De Stijl color study: Golden City Rhythm. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#254F9F",
+      "#C33B2F",
+      "#E7C734",
+      "#F0ECDD"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Recover bright yellow grid against blue and red accents.",
+    "searchAliases": "De Stijl \u00b7 Golden City Rhythm"
+  },
+  {
+    "id": "art-design-83",
+    "name": "De Stijl \u00b7 Primary Celebration",
+    "category": "Art",
+    "movement": "De Stijl",
+    "collectionKind": "art",
+    "description": "De Stijl color study: Primary Celebration. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#24282B",
+      "#2E5EA5",
+      "#D04737",
+      "#E9C939",
+      "#F2EBDD"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Increase primary color separation while retaining a paper-like white.",
+    "searchAliases": "De Stijl \u00b7 Primary Celebration"
+  },
+  {
+    "id": "art-design-84",
+    "name": "De Stijl \u00b7 Primary Framework",
+    "category": "Art",
+    "movement": "De Stijl",
+    "collectionKind": "art",
+    "description": "De Stijl color study: Primary Framework. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#171C22",
+      "#2457A3",
+      "#C6382C",
+      "#E0C32E"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "More legible primary colors with a stable dark base.",
+    "searchAliases": "De Stijl \u00b7 Primary Framework"
+  },
+  {
+    "id": "art-design-85",
+    "name": "De Stijl \u00b7 Chromatic Facade",
+    "category": "Art",
+    "movement": "De Stijl",
+    "collectionKind": "art",
+    "description": "De Stijl color study: Chromatic Facade. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#233540",
+      "#366D9A",
+      "#C7402D",
+      "#E1C451",
+      "#EDE6D2"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Clear blue and red accents on an architectural neutral.",
+    "searchAliases": "De Stijl \u00b7 Chromatic Facade"
+  },
+  {
+    "id": "art-design-86",
+    "name": "Dada \u00b7 Porcelain Paradox",
+    "category": "Art",
+    "movement": "Dada",
+    "collectionKind": "art",
+    "description": "Dada color study: Porcelain Paradox. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#292C2E",
+      "#858A89",
+      "#C6CAC4",
+      "#E7E9E2"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Dada \u00b7 Porcelain Paradox"
+  },
+  {
+    "id": "art-design-87",
+    "name": "Dada \u00b7 Sepia Subversion",
+    "category": "Art",
+    "movement": "Dada",
+    "collectionKind": "art",
+    "description": "Dada color study: Sepia Subversion. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#353C2D",
+      "#817858",
+      "#B5A57D",
+      "#D9C9A0"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Dada \u00b7 Sepia Subversion"
+  },
+  {
+    "id": "art-design-88",
+    "name": "Dada \u00b7 Paper Collision",
+    "category": "Art",
+    "movement": "Dada",
+    "collectionKind": "art",
+    "description": "Dada color study: Paper Collision. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#262B2D",
+      "#706957",
+      "#A99979",
+      "#D4C4A4"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Dada \u00b7 Paper Collision"
+  },
+  {
+    "id": "art-design-89",
+    "name": "Dada \u00b7 Mechanical Dream",
+    "category": "Art",
+    "movement": "Dada",
+    "collectionKind": "art",
+    "description": "Dada color study: Mechanical Dream. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#243B43",
+      "#65726D",
+      "#9D927A",
+      "#C1B59A",
+      "#D8D1B7"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Dada \u00b7 Mechanical Dream"
+  },
+  {
+    "id": "art-design-90",
+    "name": "Dada \u00b7 Ochre Assemblage",
+    "category": "Art",
+    "movement": "Dada",
+    "collectionKind": "art",
+    "description": "Dada color study: Ochre Assemblage. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#333A36",
+      "#736853",
+      "#A28C68",
+      "#C2B18B",
+      "#D9C9AA"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Dada \u00b7 Ochre Assemblage"
+  },
+  {
+    "id": "art-design-91",
+    "name": "Surrealism \u00b7 Melting Horizon",
+    "category": "Art",
+    "movement": "Surrealism",
+    "collectionKind": "art",
+    "description": "Surrealism color study: Melting Horizon. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#293E49",
+      "#668C94",
+      "#AC8E59",
+      "#D0B778",
+      "#E8D1A0"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Surrealism \u00b7 Melting Horizon"
+  },
+  {
+    "id": "art-design-92",
+    "name": "Surrealism \u00b7 Emerald Veil",
+    "category": "Art",
+    "movement": "Surrealism",
+    "collectionKind": "art",
+    "description": "Surrealism color study: Emerald Veil. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#233C43",
+      "#547B7F",
+      "#82A755",
+      "#B1BEB9",
+      "#D8DAD0"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Surrealism \u00b7 Emerald Veil"
+  },
+  {
+    "id": "art-design-93",
+    "name": "Surrealism \u00b7 Tobacco Illusion",
+    "category": "Art",
+    "movement": "Surrealism",
+    "collectionKind": "art",
+    "description": "Surrealism color study: Tobacco Illusion. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#392E24",
+      "#846445",
+      "#B89A70",
+      "#D6C6A4",
+      "#E9DCC0"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Surrealism \u00b7 Tobacco Illusion"
+  },
+  {
+    "id": "art-design-94",
+    "name": "Surrealism \u00b7 Twin Terracotta",
+    "category": "Art",
+    "movement": "Surrealism",
+    "collectionKind": "art",
+    "description": "Surrealism color study: Twin Terracotta. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#344A52",
+      "#76868A",
+      "#B27D6C",
+      "#D2B39D",
+      "#E2D5C2"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Surrealism \u00b7 Twin Terracotta"
+  },
+  {
+    "id": "art-design-95",
+    "name": "Surrealism \u00b7 Silent Green Room",
+    "category": "Art",
+    "movement": "Surrealism",
+    "collectionKind": "art",
+    "description": "Surrealism color study: Silent Green Room. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#26363A",
+      "#5D6968",
+      "#997C63",
+      "#C1AC91",
+      "#E1D5BE"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Surrealism \u00b7 Silent Green Room"
+  },
+  {
+    "id": "art-design-96",
+    "name": "Abstract Expressionism \u00b7 Autumn Drips",
+    "category": "Art",
+    "movement": "Abstract Expressionism",
+    "collectionKind": "art",
+    "description": "Abstract Expressionism color study: Autumn Drips. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#252821",
+      "#766A51",
+      "#A69777",
+      "#D4C6A3",
+      "#E8DFC8"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Abstract Expressionism \u00b7 Autumn Drips"
+  },
+  {
+    "id": "art-design-97",
+    "name": "Abstract Expressionism \u00b7 Ink and Linen",
+    "category": "Art",
+    "movement": "Abstract Expressionism",
+    "collectionKind": "art",
+    "description": "Abstract Expressionism color study: Ink and Linen. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#262B28",
+      "#786C52",
+      "#A79578",
+      "#D3C4A6",
+      "#E7DDC5"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Abstract Expressionism \u00b7 Ink and Linen"
+  },
+  {
+    "id": "art-design-98",
+    "name": "Abstract Expressionism \u00b7 Gestural Flesh",
+    "category": "Art",
+    "movement": "Abstract Expressionism",
+    "collectionKind": "art",
+    "description": "Abstract Expressionism color study: Gestural Flesh. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#343D41",
+      "#6C7F73",
+      "#B3837A",
+      "#CCAA85",
+      "#E4D5AD"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Abstract Expressionism \u00b7 Gestural Flesh"
+  },
+  {
+    "id": "art-design-99",
+    "name": "Abstract Expressionism \u00b7 Charcoal Elegy",
+    "category": "Art",
+    "movement": "Abstract Expressionism",
+    "collectionKind": "art",
+    "description": "Abstract Expressionism color study: Charcoal Elegy. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#181B1C",
+      "#D7D0BC",
+      "#E9E3D3"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Abstract Expressionism \u00b7 Charcoal Elegy"
+  },
+  {
+    "id": "art-design-100",
+    "name": "Abstract Expressionism \u00b7 Black Brush Mass",
+    "category": "Art",
+    "movement": "Abstract Expressionism",
+    "collectionKind": "art",
+    "description": "Abstract Expressionism color study: Black Brush Mass. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#191B1C",
+      "#E5E3DA"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Abstract Expressionism \u00b7 Black Brush Mass"
+  },
+  {
+    "id": "art-design-101",
+    "name": "Color Field \u00b7 Solar Orange Field",
+    "category": "Art",
+    "movement": "Color Field",
+    "collectionKind": "art",
+    "description": "Color Field color study: Solar Orange Field. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#CC581B",
+      "#EF9221",
+      "#F0C53E"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Restore the concentrated orange-to-yellow interval without forcing black or white endpoints.",
+    "searchAliases": "Color Field \u00b7 Solar Orange Field"
+  },
+  {
+    "id": "art-design-102",
+    "name": "Color Field \u00b7 Indigo and Rust",
+    "category": "Art",
+    "movement": "Color Field",
+    "collectionKind": "art",
+    "description": "Color Field color study: Indigo and Rust. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#273A66",
+      "#455682",
+      "#954B36",
+      "#C6845C"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Stronger blue versus rust identity; preserve its intentionally limited value range.",
+    "searchAliases": "Color Field \u00b7 Indigo and Rust"
+  },
+  {
+    "id": "art-design-103",
+    "name": "Color Field \u00b7 Carmine Column",
+    "category": "Art",
+    "movement": "Color Field",
+    "collectionKind": "art",
+    "description": "Color Field color study: Carmine Column. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#8E242C",
+      "#C2463B",
+      "#E0B899"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Color Field \u00b7 Carmine Column"
+  },
+  {
+    "id": "art-design-104",
+    "name": "Color Field \u00b7 Pastel Estuary",
+    "category": "Art",
+    "movement": "Color Field",
+    "collectionKind": "art",
+    "description": "Color Field color study: Pastel Estuary. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#4A808B",
+      "#79AAA6",
+      "#C3C68A",
+      "#D9A4A5",
+      "#EBDEC7"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Differentiate thin washes without over-saturating the pale field.",
+    "searchAliases": "Color Field \u00b7 Pastel Estuary"
+  },
+  {
+    "id": "art-design-105",
+    "name": "Color Field \u00b7 Ragged Gold Field",
+    "category": "Art",
+    "movement": "Color Field",
+    "collectionKind": "art",
+    "description": "Color Field color study: Ragged Gold Field. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#20262A",
+      "#70532D",
+      "#B08B32",
+      "#D8BE63",
+      "#E5D6A0"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Color Field \u00b7 Ragged Gold Field"
+  },
+  {
+    "id": "art-design-106",
+    "name": "Pop Art \u00b7 Neon Portrait",
+    "category": "Art",
+    "movement": "Pop Art",
+    "collectionKind": "art",
+    "description": "Pop Art color study: Neon Portrait. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#2D2752",
+      "#2E8D9D",
+      "#E4539B",
+      "#F0C62F",
+      "#F4D6B4"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Strengthen pop-art turquoise, pink and yellow against the dark contour color.",
+    "searchAliases": "Pop Art \u00b7 Neon Portrait"
+  },
+  {
+    "id": "art-design-107",
+    "name": "Pop Art \u00b7 Primary Impact",
+    "category": "Art",
+    "movement": "Pop Art",
+    "collectionKind": "art",
+    "description": "Pop Art color study: Primary Impact. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#1E2936",
+      "#C7372F",
+      "#F0CB35",
+      "#F4F0DE"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Graphic dark outline, primary red and yellow, warm paper.",
+    "searchAliases": "Pop Art \u00b7 Primary Impact"
+  },
+  {
+    "id": "art-design-108",
+    "name": "Pop Art \u00b7 Crimson Pantry",
+    "category": "Art",
+    "movement": "Pop Art",
+    "collectionKind": "art",
+    "description": "Pop Art color study: Crimson Pantry. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#B82626",
+      "#CEB982",
+      "#F2EEE1"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Clear red-label / muted-gold / warm-white contrast.",
+    "searchAliases": "Pop Art \u00b7 Crimson Pantry"
+  },
+  {
+    "id": "art-design-109",
+    "name": "Pop Art \u00b7 Poolside Azure",
+    "category": "Art",
+    "movement": "Pop Art",
+    "collectionKind": "art",
+    "description": "Pop Art color study: Poolside Azure. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#225C92",
+      "#52AED2",
+      "#ADCFD0",
+      "#D8AF85",
+      "#F3E8CF"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Distinguish pool blue, splash light and warm architecture.",
+    "searchAliases": "Pop Art \u00b7 Poolside Azure"
+  },
+  {
+    "id": "art-design-110",
+    "name": "Pop Art \u00b7 Domestic Collage",
+    "category": "Art",
+    "movement": "Pop Art",
+    "collectionKind": "art",
+    "description": "Pop Art color study: Domestic Collage. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#303A35",
+      "#8A7051",
+      "#B39778",
+      "#D1BA96",
+      "#E4D5B7"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Pop Art \u00b7 Domestic Collage"
+  },
+  {
+    "id": "art-design-111",
+    "name": "Op Art \u00b7 Square Pulse",
+    "category": "Art",
+    "movement": "Op Art",
+    "collectionKind": "art",
+    "description": "Op Art color study: Square Pulse. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#141617",
+      "#E9E9E2"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Op Art \u00b7 Square Pulse"
+  },
+  {
+    "id": "art-design-112",
+    "name": "Op Art \u00b7 Radial Flicker",
+    "category": "Art",
+    "movement": "Op Art",
+    "collectionKind": "art",
+    "description": "Op Art color study: Radial Flicker. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#1B1B1D",
+      "#EDEBE3"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Op Art \u00b7 Radial Flicker"
+  },
+  {
+    "id": "art-design-113",
+    "name": "Op Art \u00b7 Graphite Waves",
+    "category": "Art",
+    "movement": "Op Art",
+    "collectionKind": "art",
+    "description": "Op Art color study: Graphite Waves. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#202326",
+      "#DFDFD9"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Op Art \u00b7 Graphite Waves"
+  },
+  {
+    "id": "art-design-114",
+    "name": "Op Art \u00b7 Turquoise Grid",
+    "category": "Art",
+    "movement": "Op Art",
+    "collectionKind": "art",
+    "description": "Op Art color study: Turquoise Grid. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#1B3646",
+      "#306D83",
+      "#62AAB6",
+      "#B2D2C8"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Op Art \u00b7 Turquoise Grid"
+  },
+  {
+    "id": "art-design-115",
+    "name": "Op Art \u00b7 Vertical Echo",
+    "category": "Art",
+    "movement": "Op Art",
+    "collectionKind": "art",
+    "description": "Op Art color study: Vertical Echo. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#181A1D",
+      "#E5E6DE"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Op Art \u00b7 Vertical Echo"
+  },
+  {
+    "id": "art-design-116",
+    "name": "Minimalism \u00b7 Graphite Cube",
+    "category": "Art",
+    "movement": "Minimalism",
+    "collectionKind": "art",
+    "description": "Minimalism color study: Graphite Cube. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#14181B",
+      "#333A3D"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Minimalism \u00b7 Graphite Cube"
+  },
+  {
+    "id": "art-design-117",
+    "name": "Minimalism \u00b7 Silver Stack",
+    "category": "Art",
+    "movement": "Minimalism",
+    "collectionKind": "art",
+    "description": "Minimalism color study: Silver Stack. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#344E50",
+      "#789093",
+      "#A6BAB9",
+      "#DCE0D8"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Minimalism \u00b7 Silver Stack"
+  },
+  {
+    "id": "art-design-118",
+    "name": "Minimalism \u00b7 Clay Modules",
+    "category": "Art",
+    "movement": "Minimalism",
+    "collectionKind": "art",
+    "description": "Minimalism color study: Clay Modules. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#74634E",
+      "#B69E7B",
+      "#D1BE9D"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Minimalism \u00b7 Clay Modules"
+  },
+  {
+    "id": "art-design-119",
+    "name": "Minimalism \u00b7 Black Stripe Rhythm",
+    "category": "Art",
+    "movement": "Minimalism",
+    "collectionKind": "art",
+    "description": "Minimalism color study: Black Stripe Rhythm. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#191B1D",
+      "#BDBAB0",
+      "#E7E3D7"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Minimalism \u00b7 Black Stripe Rhythm"
+  },
+  {
+    "id": "art-design-120",
+    "name": "Minimalism \u00b7 Fluorescent Mint",
+    "category": "Art",
+    "movement": "Minimalism",
+    "collectionKind": "art",
+    "description": "Minimalism color study: Fluorescent Mint. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#2F5F57",
+      "#67B397",
+      "#BDE5C6",
+      "#F0F5DD"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Minimalism \u00b7 Fluorescent Mint"
+  },
+  {
+    "id": "art-design-121",
+    "name": "Arts and Crafts \u00b7 Crimson Garden Print",
+    "category": "Design",
+    "movement": "Arts and Crafts",
+    "collectionKind": "design",
+    "description": "Arts and Crafts color study: Crimson Garden Print. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#1C3D50",
+      "#547264",
+      "#B45045",
+      "#B7AB73",
+      "#DBD1AD"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Arts and Crafts \u00b7 Crimson Garden Print"
+  },
+  {
+    "id": "art-design-122",
+    "name": "Arts and Crafts \u00b7 Sage Willow Print",
+    "category": "Design",
+    "movement": "Arts and Crafts",
+    "collectionKind": "design",
+    "description": "Arts and Crafts color study: Sage Willow Print. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#375746",
+      "#7B9476",
+      "#B5C3A2",
+      "#E1DEC4"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Arts and Crafts \u00b7 Sage Willow Print"
+  },
+  {
+    "id": "art-design-123",
+    "name": "Arts and Crafts \u00b7 Botanical Lattice",
+    "category": "Design",
+    "movement": "Arts and Crafts",
+    "collectionKind": "design",
+    "description": "Arts and Crafts color study: Botanical Lattice. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#385C4D",
+      "#8B9364",
+      "#BB7362",
+      "#D3BD94",
+      "#E8DEBC"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Arts and Crafts \u00b7 Botanical Lattice"
+  },
+  {
+    "id": "art-design-124",
+    "name": "Arts and Crafts \u00b7 Woodland Tapestry",
+    "category": "Design",
+    "movement": "Arts and Crafts",
+    "collectionKind": "design",
+    "description": "Arts and Crafts color study: Woodland Tapestry. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#274238",
+      "#66714A",
+      "#A59157",
+      "#C5B985",
+      "#E4D8B1"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Arts and Crafts \u00b7 Woodland Tapestry"
+  },
+  {
+    "id": "art-design-125",
+    "name": "Arts and Crafts \u00b7 Ebon Lattice Chair",
+    "category": "Design",
+    "movement": "Arts and Crafts",
+    "collectionKind": "design",
+    "description": "Arts and Crafts color study: Ebon Lattice Chair. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#1B2022",
+      "#61615A",
+      "#A6A08B",
+      "#D3C9B1"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Arts and Crafts \u00b7 Ebon Lattice Chair"
+  },
+  {
+    "id": "art-design-126",
+    "name": "Bauhaus \u00b7 Charcoal and Vermilion Poster",
+    "category": "Design",
+    "movement": "Bauhaus",
+    "collectionKind": "design",
+    "description": "Bauhaus color study: Charcoal and Vermilion Poster. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#24242C",
+      "#C54329",
+      "#D8AF65",
+      "#EFE1C0"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Stronger poster red against charcoal and warm paper.",
+    "searchAliases": "Bauhaus \u00b7 Charcoal and Vermilion Poster"
+  },
+  {
+    "id": "art-design-127",
+    "name": "Bauhaus \u00b7 Chrome Sling Chair",
+    "category": "Design",
+    "movement": "Bauhaus",
+    "collectionKind": "design",
+    "description": "Bauhaus color study: Chrome Sling Chair. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#202629",
+      "#7C8687",
+      "#C3C5BC",
+      "#E1DFD3"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Bauhaus \u00b7 Chrome Sling Chair"
+  },
+  {
+    "id": "art-design-128",
+    "name": "Bauhaus \u00b7 Glass Workshop",
+    "category": "Design",
+    "movement": "Bauhaus",
+    "collectionKind": "design",
+    "description": "Bauhaus color study: Glass Workshop. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#2C3D45",
+      "#84969B",
+      "#C5C9C4",
+      "#E9E8DC"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Bauhaus \u00b7 Glass Workshop"
+  },
+  {
+    "id": "art-design-129",
+    "name": "Bauhaus \u00b7 Primary Cradle",
+    "category": "Design",
+    "movement": "Bauhaus",
+    "collectionKind": "design",
+    "description": "Bauhaus color study: Primary Cradle. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#1F4C9C",
+      "#C33028",
+      "#E0BD29",
+      "#F1E6C9"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Clear primary-color construction for the geometric cradle.",
+    "searchAliases": "Bauhaus \u00b7 Primary Cradle"
+  },
+  {
+    "id": "art-design-130",
+    "name": "Bauhaus \u00b7 Silver Tea Vessel",
+    "category": "Design",
+    "movement": "Bauhaus",
+    "collectionKind": "design",
+    "description": "Bauhaus color study: Silver Tea Vessel. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#333A3D",
+      "#858E8F",
+      "#C3C8C6",
+      "#E4E4D9"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Bauhaus \u00b7 Silver Tea Vessel"
+  },
+  {
+    "id": "art-design-131",
+    "name": "Art Deco \u00b7 Ocean Liner Graphic",
+    "category": "Design",
+    "movement": "Art Deco",
+    "collectionKind": "design",
+    "description": "Art Deco color study: Ocean Liner Graphic. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#1C3D54",
+      "#536E7C",
+      "#A99B72",
+      "#D2BA84",
+      "#E8D9AD"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Art Deco \u00b7 Ocean Liner Graphic"
+  },
+  {
+    "id": "art-design-132",
+    "name": "Art Deco \u00b7 Amber Aperitif Graphic",
+    "category": "Design",
+    "movement": "Art Deco",
+    "collectionKind": "design",
+    "description": "Art Deco color study: Amber Aperitif Graphic. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#233F4B",
+      "#727B66",
+      "#B28A54",
+      "#D4B36C",
+      "#E5D1A1"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Art Deco \u00b7 Amber Aperitif Graphic"
+  },
+  {
+    "id": "art-design-133",
+    "name": "Art Deco \u00b7 Geometric Exhibition",
+    "category": "Design",
+    "movement": "Art Deco",
+    "collectionKind": "design",
+    "description": "Art Deco color study: Geometric Exhibition. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#3B433B",
+      "#8D7752",
+      "#B89B64",
+      "#D9C18C",
+      "#E8DDC1"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Art Deco \u00b7 Geometric Exhibition"
+  },
+  {
+    "id": "art-design-134",
+    "name": "Art Deco \u00b7 Silver Spire",
+    "category": "Design",
+    "movement": "Art Deco",
+    "collectionKind": "design",
+    "description": "Art Deco color study: Silver Spire. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#33434D",
+      "#7D939C",
+      "#B7C3C5",
+      "#E2E4DC"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Art Deco \u00b7 Silver Spire"
+  },
+  {
+    "id": "art-design-135",
+    "name": "Art Deco \u00b7 Fashion Parchment",
+    "category": "Design",
+    "movement": "Art Deco",
+    "collectionKind": "design",
+    "description": "Art Deco color study: Fashion Parchment. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#344D5D",
+      "#876E75",
+      "#B59076",
+      "#D7BB99",
+      "#E9DBBE"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Art Deco \u00b7 Fashion Parchment"
+  },
+  {
+    "id": "art-design-136",
+    "name": "Swiss Style \u00b7 Graphite Concert Grid",
+    "category": "Design",
+    "movement": "Swiss Style",
+    "collectionKind": "design",
+    "description": "Swiss Style color study: Graphite Concert Grid. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#1C1E20",
+      "#EBE9DF"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Swiss Style \u00b7 Graphite Concert Grid"
+  },
+  {
+    "id": "art-design-137",
+    "name": "Swiss Style \u00b7 Ivory Ballet Poster",
+    "category": "Design",
+    "movement": "Swiss Style",
+    "collectionKind": "design",
+    "description": "Swiss Style color study: Ivory Ballet Poster. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#22262A",
+      "#A2A7A4",
+      "#E7E6DC"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Swiss Style \u00b7 Ivory Ballet Poster"
+  },
+  {
+    "id": "art-design-138",
+    "name": "Swiss Style \u00b7 Sapphire Concert Poster",
+    "category": "Design",
+    "movement": "Swiss Style",
+    "collectionKind": "design",
+    "description": "Swiss Style color study: Sapphire Concert Poster. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#284E83",
+      "#7792B1",
+      "#DBDDD5"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Swiss Style \u00b7 Sapphire Concert Poster"
+  },
+  {
+    "id": "art-design-139",
+    "name": "Swiss Style \u00b7 Red Safety Signal",
+    "category": "Design",
+    "movement": "Swiss Style",
+    "collectionKind": "design",
+    "description": "Swiss Style color study: Red Safety Signal. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#272E33",
+      "#B83C31",
+      "#E5E1D4"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Swiss Style \u00b7 Red Safety Signal"
+  },
+  {
+    "id": "art-design-140",
+    "name": "Swiss Style \u00b7 Blue Editorial Grid",
+    "category": "Design",
+    "movement": "Swiss Style",
+    "collectionKind": "design",
+    "description": "Swiss Style color study: Blue Editorial Grid. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#202D34",
+      "#3F7187",
+      "#B0C2C3",
+      "#E4E5DB"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Swiss Style \u00b7 Blue Editorial Grid"
+  },
+  {
+    "id": "art-design-141",
+    "name": "Mid-Century Modern \u00b7 Walnut Lounge",
+    "category": "Design",
+    "movement": "Mid-Century Modern",
+    "collectionKind": "design",
+    "description": "Mid-Century Modern color study: Walnut Lounge. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#202421",
+      "#654C35",
+      "#9E7951",
+      "#C6AE87"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Mid-Century Modern \u00b7 Walnut Lounge"
+  },
+  {
+    "id": "art-design-142",
+    "name": "Mid-Century Modern \u00b7 Amber Orb Clock",
+    "category": "Design",
+    "movement": "Mid-Century Modern",
+    "collectionKind": "design",
+    "description": "Mid-Century Modern color study: Amber Orb Clock. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#253740",
+      "#3D7885",
+      "#C85B3F",
+      "#D7B35F",
+      "#E4DAC2"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Mid-Century Modern \u00b7 Amber Orb Clock"
+  },
+  {
+    "id": "art-design-143",
+    "name": "Mid-Century Modern \u00b7 Scarlet Pedestal",
+    "category": "Design",
+    "movement": "Mid-Century Modern",
+    "collectionKind": "design",
+    "description": "Mid-Century Modern color study: Scarlet Pedestal. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#BD4537",
+      "#E3E0D7",
+      "#F1EFE5"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Mid-Century Modern \u00b7 Scarlet Pedestal"
+  },
+  {
+    "id": "art-design-144",
+    "name": "Mid-Century Modern \u00b7 Golden Film Graphic",
+    "category": "Design",
+    "movement": "Mid-Century Modern",
+    "collectionKind": "design",
+    "description": "Mid-Century Modern color study: Golden Film Graphic. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#212427",
+      "#BCA575",
+      "#E5D9BD"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Mid-Century Modern \u00b7 Golden Film Graphic"
+  },
+  {
+    "id": "art-design-145",
+    "name": "Mid-Century Modern \u00b7 Blue Corporate Rebus",
+    "category": "Design",
+    "movement": "Mid-Century Modern",
+    "collectionKind": "design",
+    "description": "Mid-Century Modern color study: Blue Corporate Rebus. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#304D82",
+      "#7A94B3",
+      "#C9D0CE",
+      "#EAE7DA"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Mid-Century Modern \u00b7 Blue Corporate Rebus"
+  },
+  {
+    "id": "art-design-146",
+    "name": "Memphis \u00b7 Primary Totem",
+    "category": "Design",
+    "movement": "Memphis",
+    "collectionKind": "design",
+    "description": "Memphis color study: Primary Totem. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#222F43",
+      "#23769C",
+      "#D94436",
+      "#ECC334",
+      "#EDE3CF"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Bolder blue, red and yellow planes with neutral framing.",
+    "searchAliases": "Memphis \u00b7 Primary Totem"
+  },
+  {
+    "id": "art-design-147",
+    "name": "Memphis \u00b7 Pink Bird Lamp",
+    "category": "Design",
+    "movement": "Memphis",
+    "collectionKind": "design",
+    "description": "Memphis color study: Pink Bird Lamp. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#28344B",
+      "#DE5C87",
+      "#55BDB5",
+      "#E9CB3F",
+      "#F1E3C9"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Separate playful pink, turquoise and yellow accents.",
+    "searchAliases": "Memphis \u00b7 Pink Bird Lamp"
+  },
+  {
+    "id": "art-design-148",
+    "name": "Memphis \u00b7 Turquoise Cabinet",
+    "category": "Design",
+    "movement": "Memphis",
+    "collectionKind": "design",
+    "description": "Memphis color study: Turquoise Cabinet. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#2C3549",
+      "#3997AD",
+      "#DD684F",
+      "#E5C333",
+      "#EFE3C8"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Recover graphic color planes against a dark base.",
+    "searchAliases": "Memphis \u00b7 Turquoise Cabinet"
+  },
+  {
+    "id": "art-design-149",
+    "name": "Memphis \u00b7 Cobalt Play Lamp",
+    "category": "Design",
+    "movement": "Memphis",
+    "collectionKind": "design",
+    "description": "Memphis color study: Cobalt Play Lamp. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#2456B3",
+      "#67B5CB",
+      "#D94F3D",
+      "#F0C32F"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Improve the primary-color contrast of the lamp study.",
+    "searchAliases": "Memphis \u00b7 Cobalt Play Lamp"
+  },
+  {
+    "id": "art-design-150",
+    "name": "Memphis \u00b7 Primary Circle Seat",
+    "category": "Design",
+    "movement": "Memphis",
+    "collectionKind": "design",
+    "description": "Memphis color study: Primary Circle Seat. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#263A56",
+      "#368FBD",
+      "#C34936",
+      "#E0BC35",
+      "#ECE3CA"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Distinct blue and red construction with a warmer pale neutral.",
+    "searchAliases": "Memphis \u00b7 Primary Circle Seat"
+  },
+  {
+    "id": "art-design-151",
+    "name": "Scandinavian Modern \u00b7 Honeywood Curve",
+    "category": "Design",
+    "movement": "Scandinavian Modern",
+    "collectionKind": "design",
+    "description": "Scandinavian Modern color study: Honeywood Curve. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#594B36",
+      "#AE9162",
+      "#D4BD94",
+      "#E9DDC3"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Scandinavian Modern \u00b7 Honeywood Curve"
+  },
+  {
+    "id": "art-design-152",
+    "name": "Scandinavian Modern \u00b7 Sage Cocoon",
+    "category": "Design",
+    "movement": "Scandinavian Modern",
+    "collectionKind": "design",
+    "description": "Scandinavian Modern color study: Sage Cocoon. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#314B4D",
+      "#577873",
+      "#94A69A",
+      "#D5D6C7"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Scandinavian Modern \u00b7 Sage Cocoon"
+  },
+  {
+    "id": "art-design-153",
+    "name": "Scandinavian Modern \u00b7 Oak Crescent",
+    "category": "Design",
+    "movement": "Scandinavian Modern",
+    "collectionKind": "design",
+    "description": "Scandinavian Modern color study: Oak Crescent. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#61513B",
+      "#A68C63",
+      "#CFB68C",
+      "#E7D8B9"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Scandinavian Modern \u00b7 Oak Crescent"
+  },
+  {
+    "id": "art-design-154",
+    "name": "Scandinavian Modern \u00b7 Copper Petal Pendant",
+    "category": "Design",
+    "movement": "Scandinavian Modern",
+    "collectionKind": "design",
+    "description": "Scandinavian Modern color study: Copper Petal Pendant. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#594A3F",
+      "#9D7C65",
+      "#C8A78C",
+      "#E6D3BC"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Scandinavian Modern \u00b7 Copper Petal Pendant"
+  },
+  {
+    "id": "art-design-155",
+    "name": "Scandinavian Modern \u00b7 Red Bloom Textile",
+    "category": "Design",
+    "movement": "Scandinavian Modern",
+    "collectionKind": "design",
+    "description": "Scandinavian Modern color study: Red Bloom Textile. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#9F2534",
+      "#DF443B",
+      "#F29379",
+      "#F3E7D6"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Cleaner flower-red hierarchy against the textile ground.",
+    "searchAliases": "Scandinavian Modern \u00b7 Red Bloom Textile"
+  },
+  {
+    "id": "art-design-156",
+    "name": "Psychedelic Graphic Design \u00b7 Violet Flame Profile",
+    "category": "Design",
+    "movement": "Psychedelic Graphic Design",
+    "collectionKind": "design",
+    "description": "Psychedelic Graphic Design color study: Violet Flame Profile. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#241D3B",
+      "#6045AF",
+      "#CF6227",
+      "#F0BD35",
+      "#EFE0BA"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "More expressive violet and gold with a clear dark silhouette.",
+    "searchAliases": "Psychedelic Graphic Design \u00b7 Violet Flame Profile"
+  },
+  {
+    "id": "art-design-157",
+    "name": "Psychedelic Graphic Design \u00b7 Scarlet Rose Skull",
+    "category": "Design",
+    "movement": "Psychedelic Graphic Design",
+    "collectionKind": "design",
+    "description": "Psychedelic Graphic Design color study: Scarlet Rose Skull. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#1D2C3C",
+      "#3B72A6",
+      "#C62A42",
+      "#DBAF57",
+      "#F0E3C4"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "More distinct red and blue accents with cream lettering light.",
+    "searchAliases": "Psychedelic Graphic Design \u00b7 Scarlet Rose Skull"
+  },
+  {
+    "id": "art-design-158",
+    "name": "Psychedelic Graphic Design \u00b7 Magenta Soundwave",
+    "category": "Design",
+    "movement": "Psychedelic Graphic Design",
+    "collectionKind": "design",
+    "description": "Psychedelic Graphic Design color study: Magenta Soundwave. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#342147",
+      "#AD306B",
+      "#EE6B28",
+      "#F2C05C"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Restore the orange versus magenta impact of the graphic study.",
+    "searchAliases": "Psychedelic Graphic Design \u00b7 Magenta Soundwave"
+  },
+  {
+    "id": "art-design-159",
+    "name": "Psychedelic Graphic Design \u00b7 Emerald Psychedelia",
+    "category": "Design",
+    "movement": "Psychedelic Graphic Design",
+    "collectionKind": "design",
+    "description": "Psychedelic Graphic Design color study: Emerald Psychedelia. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#234B44",
+      "#4CAE8A",
+      "#D76936",
+      "#E5C050",
+      "#EEE0B4"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Stronger green and orange energy while maintaining cream support.",
+    "searchAliases": "Psychedelic Graphic Design \u00b7 Emerald Psychedelia"
+  },
+  {
+    "id": "art-design-160",
+    "name": "Psychedelic Graphic Design \u00b7 Violet Winged Eye",
+    "category": "Design",
+    "movement": "Psychedelic Graphic Design",
+    "collectionKind": "design",
+    "description": "Psychedelic Graphic Design color study: Violet Winged Eye. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#332052",
+      "#6946B3",
+      "#CA326B",
+      "#ED8C34",
+      "#F0D278"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "More distinct violet, magenta and orange emphasis.",
+    "searchAliases": "Psychedelic Graphic Design \u00b7 Violet Winged Eye"
+  },
+  {
+    "id": "art-design-161",
+    "name": "Pre-Raphaelitism \u00b7 Woodland Reverie",
+    "category": "Art",
+    "movement": "Pre-Raphaelitism",
+    "collectionKind": "art",
+    "description": "Pre-Raphaelitism color study: Woodland Reverie. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#203D30",
+      "#58774C",
+      "#9B9D68",
+      "#C3B69A",
+      "#E5D3BB"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Pre-Raphaelitism \u00b7 Woodland Reverie"
+  },
+  {
+    "id": "art-design-162",
+    "name": "Pre-Raphaelitism \u00b7 Riverbound Ivory",
+    "category": "Art",
+    "movement": "Pre-Raphaelitism",
+    "collectionKind": "art",
+    "description": "Pre-Raphaelitism color study: Riverbound Ivory. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#2B3E2F",
+      "#64684B",
+      "#A18A65",
+      "#CAB99A",
+      "#E5DAC3"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Pre-Raphaelitism \u00b7 Riverbound Ivory"
+  },
+  {
+    "id": "art-design-163",
+    "name": "Pre-Raphaelitism \u00b7 Candlelight Moss",
+    "category": "Art",
+    "movement": "Pre-Raphaelitism",
+    "collectionKind": "art",
+    "description": "Pre-Raphaelitism color study: Candlelight Moss. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#29392E",
+      "#71613D",
+      "#AA884B",
+      "#D0AF74",
+      "#E5D2A3"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Pre-Raphaelitism \u00b7 Candlelight Moss"
+  },
+  {
+    "id": "art-design-164",
+    "name": "Pre-Raphaelitism \u00b7 Pomegranate Shadow",
+    "category": "Art",
+    "movement": "Pre-Raphaelitism",
+    "collectionKind": "art",
+    "description": "Pre-Raphaelitism color study: Pomegranate Shadow. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#243D38",
+      "#4D695D",
+      "#9F7466",
+      "#C8A18D",
+      "#E2C4AC"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Pre-Raphaelitism \u00b7 Pomegranate Shadow"
+  },
+  {
+    "id": "art-design-165",
+    "name": "Pre-Raphaelitism \u00b7 Ivory Stair Procession",
+    "category": "Art",
+    "movement": "Pre-Raphaelitism",
+    "collectionKind": "art",
+    "description": "Pre-Raphaelitism color study: Ivory Stair Procession. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#464C43",
+      "#8D8F7C",
+      "#BCB89D",
+      "#D6CFB4",
+      "#E8E1CB"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Pre-Raphaelitism \u00b7 Ivory Stair Procession"
+  },
+  {
+    "id": "art-design-166",
+    "name": "Ukiyo-e \u00b7 Indigo Ocean Crest",
+    "category": "Art",
+    "movement": "Ukiyo-e",
+    "collectionKind": "art",
+    "description": "Ukiyo-e color study: Indigo Ocean Crest. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#123C6F",
+      "#3678AA",
+      "#95B6CB",
+      "#D8D2B9",
+      "#F2ECDA"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Clarify indigo outlines, blue water and warm paper without oversaturating the foam.",
+    "searchAliases": "Ukiyo-e \u00b7 Indigo Ocean Crest"
+  },
+  {
+    "id": "art-design-167",
+    "name": "Ukiyo-e \u00b7 Vermilion Peak",
+    "category": "Art",
+    "movement": "Ukiyo-e",
+    "collectionKind": "art",
+    "description": "Ukiyo-e color study: Vermilion Peak. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#214C82",
+      "#709AC0",
+      "#B54632",
+      "#D77F58",
+      "#E8D7B4"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Stronger red mountain versus blue atmosphere.",
+    "searchAliases": "Ukiyo-e \u00b7 Vermilion Peak"
+  },
+  {
+    "id": "art-design-168",
+    "name": "Ukiyo-e \u00b7 Rain over Timber",
+    "category": "Art",
+    "movement": "Ukiyo-e",
+    "collectionKind": "art",
+    "description": "Ukiyo-e color study: Rain over Timber. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#203A53",
+      "#4C7587",
+      "#8AA591",
+      "#C4C5A6",
+      "#E8DFC3"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Differentiate rain-blue shadows and subdued vegetation.",
+    "searchAliases": "Ukiyo-e \u00b7 Rain over Timber"
+  },
+  {
+    "id": "art-design-169",
+    "name": "Ukiyo-e \u00b7 Crimson Blossom Print",
+    "category": "Art",
+    "movement": "Ukiyo-e",
+    "collectionKind": "art",
+    "description": "Ukiyo-e color study: Crimson Blossom Print. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#273D35",
+      "#73554A",
+      "#BF3B38",
+      "#CD976F",
+      "#E9DDBE"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Stronger red plum accent against bark and paper.",
+    "searchAliases": "Ukiyo-e \u00b7 Crimson Blossom Print"
+  },
+  {
+    "id": "art-design-170",
+    "name": "Ukiyo-e \u00b7 Parchment Elegance",
+    "category": "Art",
+    "movement": "Ukiyo-e",
+    "collectionKind": "art",
+    "description": "Ukiyo-e color study: Parchment Elegance. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#272B2A",
+      "#806F5D",
+      "#BAA184",
+      "#D8C6AA",
+      "#EAE0CB"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Ukiyo-e \u00b7 Parchment Elegance"
+  },
+  {
+    "id": "art-design-171",
+    "name": "Orphism \u00b7 Translucent Window Rhythm",
+    "category": "Art",
+    "movement": "Orphism",
+    "collectionKind": "art",
+    "description": "Orphism color study: Translucent Window Rhythm. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#315A7A",
+      "#64A68B",
+      "#B6B477",
+      "#D39153",
+      "#DCC895"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Orphism \u00b7 Translucent Window Rhythm"
+  },
+  {
+    "id": "art-design-172",
+    "name": "Orphism \u00b7 Primary Color Wheels",
+    "category": "Art",
+    "movement": "Orphism",
+    "collectionKind": "art",
+    "description": "Orphism color study: Primary Color Wheels. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#305A9A",
+      "#58A085",
+      "#C65540",
+      "#E0B83B",
+      "#E3D9BD"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Orphism \u00b7 Primary Color Wheels"
+  },
+  {
+    "id": "art-design-173",
+    "name": "Orphism \u00b7 Electric Magenta Prisms",
+    "category": "Art",
+    "movement": "Orphism",
+    "collectionKind": "art",
+    "description": "Orphism color study: Electric Magenta Prisms. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#313B8B",
+      "#76549C",
+      "#C45E67",
+      "#E5A148",
+      "#E4CB72"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Orphism \u00b7 Electric Magenta Prisms"
+  },
+  {
+    "id": "art-design-174",
+    "name": "Orphism \u00b7 Market Color Pulse",
+    "category": "Art",
+    "movement": "Orphism",
+    "collectionKind": "art",
+    "description": "Orphism color study: Market Color Pulse. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#324D73",
+      "#548461",
+      "#AD4F4F",
+      "#D29453",
+      "#DCCE99"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Orphism \u00b7 Market Color Pulse"
+  },
+  {
+    "id": "art-design-175",
+    "name": "Orphism \u00b7 Solar Color Discs",
+    "category": "Art",
+    "movement": "Orphism",
+    "collectionKind": "art",
+    "description": "Orphism color study: Solar Color Discs. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#304785",
+      "#5C8F6F",
+      "#C56D43",
+      "#D3B649",
+      "#E4D5A4"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Orphism \u00b7 Solar Color Discs"
+  },
+  {
+    "id": "art-design-176",
+    "name": "Mexican Muralism \u00b7 Earthbound Mural",
+    "category": "Art",
+    "movement": "Mexican Muralism",
+    "collectionKind": "art",
+    "description": "Mexican Muralism color study: Earthbound Mural. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#1C6D79",
+      "#54B373",
+      "#C1BA56",
+      "#DFBD86",
+      "#EED6AC"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Recover the saturated cactus and blue sky contrast with a warm figure range.",
+    "searchAliases": "Mexican Muralism \u00b7 Earthbound Mural"
+  },
+  {
+    "id": "art-design-177",
+    "name": "Mexican Muralism \u00b7 Teal Machine Vision",
+    "category": "Art",
+    "movement": "Mexican Muralism",
+    "collectionKind": "art",
+    "description": "Mexican Muralism color study: Teal Machine Vision. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#294E43",
+      "#755E3D",
+      "#A67B4F",
+      "#D1A96F",
+      "#E5CD9B"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Separate deep vegetation and warm figure colors.",
+    "searchAliases": "Mexican Muralism \u00b7 Teal Machine Vision"
+  },
+  {
+    "id": "art-design-178",
+    "name": "Mexican Muralism \u00b7 Emerald Flower Burden",
+    "category": "Art",
+    "movement": "Mexican Muralism",
+    "collectionKind": "art",
+    "description": "Mexican Muralism color study: Emerald Flower Burden. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#256B49",
+      "#5DAB64",
+      "#B5B856",
+      "#D8AD7F",
+      "#EBD1A4"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "More expressive green foliage against warm figure colors.",
+    "searchAliases": "Mexican Muralism \u00b7 Emerald Flower Burden"
+  },
+  {
+    "id": "art-design-179",
+    "name": "Mexican Muralism \u00b7 Bronze Flame Figure",
+    "category": "Art",
+    "movement": "Mexican Muralism",
+    "collectionKind": "art",
+    "description": "Mexican Muralism color study: Bronze Flame Figure. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#285344",
+      "#66884B",
+      "#AF8B4E",
+      "#D4AD78",
+      "#E9CDA2"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Distinct botanical green and golden warmth.",
+    "searchAliases": "Mexican Muralism \u00b7 Bronze Flame Figure"
+  },
+  {
+    "id": "art-design-180",
+    "name": "Mexican Muralism \u00b7 Ashen Echo",
+    "category": "Art",
+    "movement": "Mexican Muralism",
+    "collectionKind": "art",
+    "description": "Mexican Muralism color study: Ashen Echo. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#303E3C",
+      "#7D783F",
+      "#C0A029",
+      "#DFBE50",
+      "#EFDA91"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "colorReview": "Clear yellow figure identity while retaining colored shadow.",
+    "searchAliases": "Mexican Muralism \u00b7 Ashen Echo"
+  },
+  {
+    "id": "art-design-181",
+    "name": "Harlem Renaissance \u00b7 Olive History Panels",
+    "category": "Art",
+    "movement": "Harlem Renaissance",
+    "collectionKind": "art",
+    "description": "Harlem Renaissance color study: Olive History Panels. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#293C41",
+      "#4C686C",
+      "#7C9A93",
+      "#B0B9A4",
+      "#D5D7BC"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Harlem Renaissance \u00b7 Olive History Panels"
+  },
+  {
+    "id": "art-design-182",
+    "name": "Harlem Renaissance \u00b7 Green Tower Rhythm",
+    "category": "Art",
+    "movement": "Harlem Renaissance",
+    "collectionKind": "art",
+    "description": "Harlem Renaissance color study: Green Tower Rhythm. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#243F3E",
+      "#49685D",
+      "#799177",
+      "#ACB994",
+      "#D3D4AF"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Harlem Renaissance \u00b7 Green Tower Rhythm"
+  },
+  {
+    "id": "art-design-183",
+    "name": "Harlem Renaissance \u00b7 Warm String Lesson",
+    "category": "Art",
+    "movement": "Harlem Renaissance",
+    "collectionKind": "art",
+    "description": "Harlem Renaissance color study: Warm String Lesson. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#283B3B",
+      "#686D59",
+      "#9E8C68",
+      "#C5AF86",
+      "#DEC9A1"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Harlem Renaissance \u00b7 Warm String Lesson"
+  },
+  {
+    "id": "art-design-184",
+    "name": "Harlem Renaissance \u00b7 Wine Jazz Night",
+    "category": "Art",
+    "movement": "Harlem Renaissance",
+    "collectionKind": "art",
+    "description": "Harlem Renaissance color study: Wine Jazz Night. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#2C294D",
+      "#6C4467",
+      "#A54C66",
+      "#C58865",
+      "#D8B78A"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Harlem Renaissance \u00b7 Wine Jazz Night"
+  },
+  {
+    "id": "art-design-185",
+    "name": "Harlem Renaissance \u00b7 Golden Ascent",
+    "category": "Art",
+    "movement": "Harlem Renaissance",
+    "collectionKind": "art",
+    "description": "Harlem Renaissance color study: Golden Ascent. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#293B41",
+      "#7B6245",
+      "#B08C50",
+      "#D4B46C",
+      "#E6D39C"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Harlem Renaissance \u00b7 Golden Ascent"
+  },
+  {
+    "id": "art-design-186",
+    "name": "Brazilian Modernism \u00b7 Cactus and Warm Earth",
+    "category": "Art",
+    "movement": "Brazilian Modernism",
+    "collectionKind": "art",
+    "description": "Brazilian Modernism color study: Cactus and Warm Earth. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#295F61",
+      "#69A97A",
+      "#C4B36B",
+      "#D8BD8F",
+      "#E8D3AB"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Brazilian Modernism \u00b7 Cactus and Warm Earth"
+  },
+  {
+    "id": "art-design-187",
+    "name": "Brazilian Modernism \u00b7 Ochre Monument",
+    "category": "Art",
+    "movement": "Brazilian Modernism",
+    "collectionKind": "art",
+    "description": "Brazilian Modernism color study: Ochre Monument. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#334D40",
+      "#83704F",
+      "#B48E62",
+      "#CCAE82",
+      "#E2CEAA"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Brazilian Modernism \u00b7 Ochre Monument"
+  },
+  {
+    "id": "art-design-188",
+    "name": "Brazilian Modernism \u00b7 Tropical Figure Pair",
+    "category": "Art",
+    "movement": "Brazilian Modernism",
+    "collectionKind": "art",
+    "description": "Brazilian Modernism color study: Tropical Figure Pair. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#335B44",
+      "#6D995E",
+      "#B5B375",
+      "#D4B28B",
+      "#E6CAA2"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Brazilian Modernism \u00b7 Tropical Figure Pair"
+  },
+  {
+    "id": "art-design-189",
+    "name": "Brazilian Modernism \u00b7 Golden Botanical Figure",
+    "category": "Art",
+    "movement": "Brazilian Modernism",
+    "collectionKind": "art",
+    "description": "Brazilian Modernism color study: Golden Botanical Figure. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#354F3F",
+      "#77774C",
+      "#AA8B59",
+      "#CCB182",
+      "#E3CEAA"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Brazilian Modernism \u00b7 Golden Botanical Figure"
+  },
+  {
+    "id": "art-design-190",
+    "name": "Brazilian Modernism \u00b7 Amber Portrait",
+    "category": "Art",
+    "movement": "Brazilian Modernism",
+    "collectionKind": "art",
+    "description": "Brazilian Modernism color study: Amber Portrait. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#303E39",
+      "#7D7652",
+      "#B59B53",
+      "#D3B972",
+      "#E8D6A5"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Brazilian Modernism \u00b7 Amber Portrait"
+  },
+  {
+    "id": "art-design-191",
+    "name": "Postmodern Design \u00b7 Ornamental Lounge",
+    "category": "Design",
+    "movement": "Postmodern Design",
+    "collectionKind": "design",
+    "description": "Postmodern Design color study: Ornamental Lounge. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#355479",
+      "#816387",
+      "#B57274",
+      "#C9B36F",
+      "#E0D3A5"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Postmodern Design \u00b7 Ornamental Lounge"
+  },
+  {
+    "id": "art-design-192",
+    "name": "Postmodern Design \u00b7 Silver Citrus Sculpture",
+    "category": "Design",
+    "movement": "Postmodern Design",
+    "collectionKind": "design",
+    "description": "Postmodern Design color study: Silver Citrus Sculpture. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#303B40",
+      "#829295",
+      "#BCC6C5",
+      "#E5E7DF"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Postmodern Design \u00b7 Silver Citrus Sculpture"
+  },
+  {
+    "id": "art-design-193",
+    "name": "Postmodern Design \u00b7 Playful Museum Facade",
+    "category": "Design",
+    "movement": "Postmodern Design",
+    "collectionKind": "design",
+    "description": "Postmodern Design color study: Playful Museum Facade. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#334B6C",
+      "#648B94",
+      "#C17C66",
+      "#D0B556",
+      "#E0D6B7"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Postmodern Design \u00b7 Playful Museum Facade"
+  },
+  {
+    "id": "art-design-194",
+    "name": "Postmodern Design \u00b7 Pastel Civic Facade",
+    "category": "Design",
+    "movement": "Postmodern Design",
+    "collectionKind": "design",
+    "description": "Postmodern Design color study: Pastel Civic Facade. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#31525C",
+      "#8F9A8B",
+      "#BE8C78",
+      "#D0B694",
+      "#E1D6BB"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Postmodern Design \u00b7 Pastel Civic Facade"
+  },
+  {
+    "id": "art-design-195",
+    "name": "Postmodern Design \u00b7 Chrome and Red Kettle",
+    "category": "Design",
+    "movement": "Postmodern Design",
+    "collectionKind": "design",
+    "description": "Postmodern Design color study: Chrome and Red Kettle. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#304650",
+      "#699399",
+      "#B0BDB7",
+      "#C5473E",
+      "#E3E0D4"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Postmodern Design \u00b7 Chrome and Red Kettle"
+  },
+  {
+    "id": "art-design-196",
+    "name": "Space Age Design \u00b7 Scarlet Ribbon Seat",
+    "category": "Design",
+    "movement": "Space Age Design",
+    "collectionKind": "design",
+    "description": "Space Age Design color study: Scarlet Ribbon Seat. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#8F242A",
+      "#C6403A",
+      "#ED7254"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Space Age Design \u00b7 Scarlet Ribbon Seat"
+  },
+  {
+    "id": "art-design-197",
+    "name": "Space Age Design \u00b7 Rose Lip Silhouette",
+    "category": "Design",
+    "movement": "Space Age Design",
+    "collectionKind": "design",
+    "description": "Space Age Design color study: Rose Lip Silhouette. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#7A202C",
+      "#BD3445",
+      "#E67175"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Space Age Design \u00b7 Rose Lip Silhouette"
+  },
+  {
+    "id": "art-design-198",
+    "name": "Space Age Design \u00b7 Cocoa Shell Lounge",
+    "category": "Design",
+    "movement": "Space Age Design",
+    "collectionKind": "design",
+    "description": "Space Age Design color study: Cocoa Shell Lounge. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#332E2D",
+      "#775645",
+      "#B59374",
+      "#E4D9C7"
+    ],
+    "positions": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Space Age Design \u00b7 Cocoa Shell Lounge"
+  },
+  {
+    "id": "art-design-199",
+    "name": "Space Age Design \u00b7 Scarlet Sphere Seat",
+    "category": "Design",
+    "movement": "Space Age Design",
+    "collectionKind": "design",
+    "description": "Space Age Design color study: Scarlet Sphere Seat. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#B82F3B",
+      "#E1D8CF",
+      "#F0ECE3"
+    ],
+    "positions": [
+      0,
+      0.5,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Space Age Design \u00b7 Scarlet Sphere Seat"
+  },
+  {
+    "id": "art-design-200",
+    "name": "Space Age Design \u00b7 Violet Vision Interior",
+    "category": "Design",
+    "movement": "Space Age Design",
+    "collectionKind": "design",
+    "description": "Space Age Design color study: Violet Vision Interior. Adapt contrast, coverage and exposure to the asset.",
+    "colors": [
+      "#3D2861",
+      "#6557A5",
+      "#C4537E",
+      "#E97953",
+      "#E9BD69"
+    ],
+    "positions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "Space Age Design \u00b7 Violet Vision Interior"
+  }
+]

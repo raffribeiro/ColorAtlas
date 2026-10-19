@@ -1,0 +1,15 @@
+#munsell-picker .studio-main,#preview-layers{position:relative}
+#munsell-picker .atlas-splitter{display:none;position:absolute;z-index:6;touch-action:none;user-select:none}
+#munsell-picker .atlas-splitter-col{width:12px;cursor:col-resize}
+#munsell-picker .atlas-splitter-row{height:12px;cursor:row-resize}
+#munsell-picker .atlas-splitter:after,#munsell-picker .sidebar-divider:after{content:"";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:34px;height:3px;border-radius:3px;background:#536174}
+#munsell-picker .atlas-splitter-col:after,#munsell-picker .sidebar-divider:after{width:3px;height:34px}
+#munsell-picker .atlas-splitter:hover:after,#munsell-picker .atlas-splitter:focus-visible:after,#munsell-picker .sidebar-divider:focus-visible:after{background:#8bd6ff}
+#munsell-picker .atlas-splitter:focus-visible{outline:1px solid #8bd6ff;border-radius:3px}
+#preview-layers>.atlas-splitter{top:-6px;left:0;right:0}
+#preview-layers{height:var(--atlas-layers-height,var(--atlas-layers-default-height,auto));display:flex;flex-direction:column;box-sizing:border-box}
+#preview-layers[style*="--atlas-layers-"] #preview-layer-list{flex:1;max-height:none}
+#munsell-picker .studio-ramp{container-type:inline-size}
+@container(max-width:560px){#munsell-picker .studio-ramp-title{display:flex;flex-wrap:wrap}#munsell-picker .studio-ramp-settings{order:1}#munsell-picker .studio-ramp-position{order:2;flex:1 1 140px;width:auto;max-width:320px}#munsell-picker .studio-export-actions{order:3;margin-left:auto}}
+@media(min-width:1000px) and (min-height:800px){#munsell-picker .studio-author [data-field="lab-height-divider"]{display:block}#munsell-picker .studio-author .mp-vfx-lab{height:min(var(--atlas-graph-height,var(--studio-fitted-graph-size,235px)),var(--studio-fitted-graph-size,420px))!important}}
+@media(min-width:1200px) and (min-height:800px){#munsell-picker .atlas-splitter{display:block}#munsell-picker .studio-main{grid-template-columns:var(--atlas-columns,minmax(260px,1.05fr) minmax(200px,.7fr) minmax(0,1.35fr))!important;grid-template-rows:minmax(420px,1fr) var(--atlas-ramp-height,auto)!important}}

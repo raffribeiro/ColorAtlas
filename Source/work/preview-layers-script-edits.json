@@ -1,0 +1,30 @@
+[
+  [
+    "function drawExplosionMap(){if(!explosionPixels)return;",
+    "function drawExplosionMap(){syncPreviewLayer();if(!explosionPixels)return;"
+  ],
+  [
+    "const signature=JSON.stringify([state.gradientLayers",
+    "const signature=JSON.stringify([previewRevision,state.gradientLayers"
+  ],
+  [
+    "const lut=Array.from({length:256},(_,v)=>{const sample=previewGradientSample(v/255,layers);return [...sample.rgb.map(c=>Math.round(encodeSRGB(c)*255)),Math.round(sample.alpha*255)];});for(let i=0;i<explosionPixels.length;i++){const color=lut[explosionPixels[i]];const offset=i*4;pixels.data[offset]=color[0];pixels.data[offset+1]=color[1];pixels.data[offset+2]=color[2];pixels.data[offset+3]=Math.round(color[3]*explosionAlpha[i]/255);}",
+    "previewComposite(pixels.data,previewImages);"
+  ],
+  [
+    "ctx.putImageData(pixels,0,0);drawExplosionMap();};image.src=",
+    "ctx.putImageData(pixels,0,0);previewReferenceReady(image.src);drawExplosionMap();};image.src="
+  ],
+  [
+    "loadGradientColor();initializeExplosion();",
+    "initializePreviewLayers();loadGradientColor();initializeExplosion();"
+  ],
+  [
+    "for(const heading of panel.querySelectorAll?.(':scope > h3, .studio-preview-toolbar h3')||[])heading.remove();",
+    "for(const heading of panel.querySelectorAll?.(':scope > h3, .studio-preview-toolbar h3')||[])if(!heading.classList?.contains('studio-panel-title'))heading.remove();"
+  ],
+  [
+    "function remember(strict=false){const col=",
+    "function remember(strict=false){savePreviewStack();const col="
+  ]
+]

@@ -1,0 +1,740 @@
+Unique rendered/stop colors: 1003380
+Uniform OKLab in-gamut grid: 54198
+{
+  "overall": {
+    "gridCells": 54198,
+    "covered025Pct": 100.0,
+    "covered04Pct": 100.0,
+    "meanDistance": 0.00591,
+    "p95Distance": 0.0136,
+    "maxDistance": 0.01997
+  },
+  "hues": [
+    {
+      "hue": 10,
+      "name": "Purple / magenta",
+      "degrees": [
+        300,
+        330
+      ],
+      "gradientAreaPct": 7.004,
+      "chromaticAreaPct": 7.757,
+      "gamutVolumePct": 14.722,
+      "representationRatio": 0.527,
+      "templatesVisiting": 313,
+      "gridCells": 7827,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00708,
+      "p95Distance": 0.0141,
+      "maxDistance": 0.01987
+    },
+    {
+      "hue": 9,
+      "name": "Indigo / violet",
+      "degrees": [
+        270,
+        300
+      ],
+      "gradientAreaPct": 7.707,
+      "chromaticAreaPct": 8.536,
+      "gamutVolumePct": 14.684,
+      "representationRatio": 0.581,
+      "templatesVisiting": 303,
+      "gridCells": 7807,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00701,
+      "p95Distance": 0.01439,
+      "maxDistance": 0.01992
+    },
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "degrees": [
+        0,
+        30
+      ],
+      "gradientAreaPct": 6.398,
+      "chromaticAreaPct": 7.086,
+      "gamutVolumePct": 11.048,
+      "representationRatio": 0.641,
+      "templatesVisiting": 320,
+      "gridCells": 5874,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00567,
+      "p95Distance": 0.0123,
+      "maxDistance": 0.0198
+    },
+    {
+      "hue": 11,
+      "name": "Pink / crimson",
+      "degrees": [
+        330,
+        360
+      ],
+      "gradientAreaPct": 6.756,
+      "chromaticAreaPct": 7.482,
+      "gamutVolumePct": 11.59,
+      "representationRatio": 0.646,
+      "templatesVisiting": 310,
+      "gridCells": 6162,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00659,
+      "p95Distance": 0.01389,
+      "maxDistance": 0.01986
+    },
+    {
+      "hue": 4,
+      "name": "Leaf green",
+      "degrees": [
+        120,
+        150
+      ],
+      "gradientAreaPct": 6.553,
+      "chromaticAreaPct": 7.258,
+      "gamutVolumePct": 10.345,
+      "representationRatio": 0.702,
+      "templatesVisiting": 301,
+      "gridCells": 5500,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00675,
+      "p95Distance": 0.01416,
+      "maxDistance": 0.01994
+    },
+    {
+      "hue": 5,
+      "name": "Emerald / mint",
+      "degrees": [
+        150,
+        180
+      ],
+      "gradientAreaPct": 4.982,
+      "chromaticAreaPct": 5.517,
+      "gamutVolumePct": 6.401,
+      "representationRatio": 0.862,
+      "templatesVisiting": 290,
+      "gridCells": 3403,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00569,
+      "p95Distance": 0.0134,
+      "maxDistance": 0.01997
+    },
+    {
+      "hue": 3,
+      "name": "Lime / chartreuse",
+      "degrees": [
+        90,
+        120
+      ],
+      "gradientAreaPct": 7.514,
+      "chromaticAreaPct": 8.322,
+      "gamutVolumePct": 5.778,
+      "representationRatio": 1.44,
+      "templatesVisiting": 438,
+      "gridCells": 3072,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.0062,
+      "p95Distance": 0.01394,
+      "maxDistance": 0.01961
+    },
+    {
+      "hue": 1,
+      "name": "Orange / amber",
+      "degrees": [
+        30,
+        60
+      ],
+      "gradientAreaPct": 8.494,
+      "chromaticAreaPct": 9.408,
+      "gamutVolumePct": 6.461,
+      "representationRatio": 1.456,
+      "templatesVisiting": 399,
+      "gridCells": 3435,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00393,
+      "p95Distance": 0.00862,
+      "maxDistance": 0.01789
+    },
+    {
+      "hue": 6,
+      "name": "Teal / turquoise",
+      "degrees": [
+        180,
+        210
+      ],
+      "gradientAreaPct": 4.241,
+      "chromaticAreaPct": 4.697,
+      "gamutVolumePct": 3.143,
+      "representationRatio": 1.494,
+      "templatesVisiting": 281,
+      "gridCells": 1671,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00491,
+      "p95Distance": 0.01273,
+      "maxDistance": 0.01913
+    },
+    {
+      "hue": 8,
+      "name": "Azure / blue",
+      "degrees": [
+        240,
+        270
+      ],
+      "gradientAreaPct": 10.385,
+      "chromaticAreaPct": 11.502,
+      "gamutVolumePct": 6.925,
+      "representationRatio": 1.661,
+      "templatesVisiting": 369,
+      "gridCells": 3682,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00518,
+      "p95Distance": 0.01238,
+      "maxDistance": 0.01951
+    },
+    {
+      "hue": 7,
+      "name": "Cyan / sky",
+      "degrees": [
+        210,
+        240
+      ],
+      "gradientAreaPct": 6.189,
+      "chromaticAreaPct": 6.854,
+      "gamutVolumePct": 3.442,
+      "representationRatio": 1.991,
+      "templatesVisiting": 309,
+      "gridCells": 1830,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00375,
+      "p95Distance": 0.00969,
+      "maxDistance": 0.01906
+    },
+    {
+      "hue": 2,
+      "name": "Yellow / gold",
+      "degrees": [
+        60,
+        90
+      ],
+      "gradientAreaPct": 14.069,
+      "chromaticAreaPct": 15.581,
+      "gamutVolumePct": 5.46,
+      "representationRatio": 2.854,
+      "templatesVisiting": 509,
+      "gridCells": 2903,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.0034,
+      "p95Distance": 0.00833,
+      "maxDistance": 0.01557
+    }
+  ],
+  "chroma": [
+    {
+      "name": "Neutral",
+      "gradientAreaPct": 9.71,
+      "gridCells": 1032,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00296,
+      "p95Distance": 0.00874,
+      "maxDistance": 0.01794
+    },
+    {
+      "name": "Muted",
+      "gradientAreaPct": 33.68,
+      "gridCells": 7896,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00342,
+      "p95Distance": 0.00774,
+      "maxDistance": 0.01901
+    },
+    {
+      "name": "Moderate",
+      "gradientAreaPct": 41.6,
+      "gridCells": 24498,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00508,
+      "p95Distance": 0.01147,
+      "maxDistance": 0.01987
+    },
+    {
+      "name": "Rich",
+      "gradientAreaPct": 11.08,
+      "gridCells": 16096,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00766,
+      "p95Distance": 0.01447,
+      "maxDistance": 0.01997
+    },
+    {
+      "name": "High chroma",
+      "gradientAreaPct": 3.94,
+      "gridCells": 4676,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00907,
+      "p95Distance": 0.01525,
+      "maxDistance": 0.01994
+    }
+  ],
+  "worstRegions": [
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "lightness": "Very dark",
+      "lightnessRange": [
+        0,
+        0.2
+      ],
+      "chroma": "Muted",
+      "chromaRange": [
+        0.02,
+        0.06
+      ],
+      "gradientAreaPct": 0.1746,
+      "representationRatio": 0.937,
+      "gridCells": 101,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.0055,
+      "p95Distance": 0.01116,
+      "maxDistance": 0.01608
+    },
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "lightness": "Dark",
+      "lightnessRange": [
+        0.2,
+        0.4
+      ],
+      "chroma": "Muted",
+      "chromaRange": [
+        0.02,
+        0.06
+      ],
+      "gradientAreaPct": 0.2563,
+      "representationRatio": 0.694,
+      "gridCells": 200,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00403,
+      "p95Distance": 0.00843,
+      "maxDistance": 0.01026
+    },
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "lightness": "Dark",
+      "lightnessRange": [
+        0.2,
+        0.4
+      ],
+      "chroma": "Moderate",
+      "chromaRange": [
+        0.06,
+        0.14
+      ],
+      "gradientAreaPct": 0.4969,
+      "representationRatio": 0.432,
+      "gridCells": 624,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00552,
+      "p95Distance": 0.01147,
+      "maxDistance": 0.0169
+    },
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "lightness": "Dark",
+      "lightnessRange": [
+        0.2,
+        0.4
+      ],
+      "chroma": "Rich",
+      "chromaRange": [
+        0.14,
+        0.22
+      ],
+      "gradientAreaPct": 0.0183,
+      "representationRatio": 0.242,
+      "gridCells": 41,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00925,
+      "p95Distance": 0.01718,
+      "maxDistance": 0.0196
+    },
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "lightness": "Midtone",
+      "lightnessRange": [
+        0.4,
+        0.6
+      ],
+      "chroma": "Muted",
+      "chromaRange": [
+        0.02,
+        0.06
+      ],
+      "gradientAreaPct": 0.2376,
+      "representationRatio": 0.644,
+      "gridCells": 200,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00461,
+      "p95Distance": 0.00937,
+      "maxDistance": 0.01259
+    },
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "lightness": "Midtone",
+      "lightnessRange": [
+        0.4,
+        0.6
+      ],
+      "chroma": "Moderate",
+      "chromaRange": [
+        0.06,
+        0.14
+      ],
+      "gradientAreaPct": 0.9847,
+      "representationRatio": 0.58,
+      "gridCells": 920,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00487,
+      "p95Distance": 0.00996,
+      "maxDistance": 0.01341
+    },
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "lightness": "Midtone",
+      "lightnessRange": [
+        0.4,
+        0.6
+      ],
+      "chroma": "Rich",
+      "chromaRange": [
+        0.14,
+        0.22
+      ],
+      "gradientAreaPct": 1.3413,
+      "representationRatio": 0.661,
+      "gridCells": 1099,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00626,
+      "p95Distance": 0.01286,
+      "maxDistance": 0.0181
+    },
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "lightness": "Midtone",
+      "lightnessRange": [
+        0.4,
+        0.6
+      ],
+      "chroma": "High chroma",
+      "chromaRange": [
+        0.22,
+        1
+      ],
+      "gradientAreaPct": 0.0547,
+      "representationRatio": 0.449,
+      "gridCells": 66,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00829,
+      "p95Distance": 0.01336,
+      "maxDistance": 0.01719
+    },
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "lightness": "Light",
+      "lightnessRange": [
+        0.6,
+        0.8
+      ],
+      "chroma": "Muted",
+      "chromaRange": [
+        0.02,
+        0.06
+      ],
+      "gradientAreaPct": 0.4226,
+      "representationRatio": 1.145,
+      "gridCells": 200,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00354,
+      "p95Distance": 0.00588,
+      "maxDistance": 0.01027
+    },
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "lightness": "Light",
+      "lightnessRange": [
+        0.6,
+        0.8
+      ],
+      "chroma": "Moderate",
+      "chromaRange": [
+        0.06,
+        0.14
+      ],
+      "gradientAreaPct": 1.0055,
+      "representationRatio": 0.603,
+      "gridCells": 904,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00454,
+      "p95Distance": 0.00914,
+      "maxDistance": 0.01245
+    },
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "lightness": "Light",
+      "lightnessRange": [
+        0.6,
+        0.8
+      ],
+      "chroma": "Rich",
+      "chromaRange": [
+        0.14,
+        0.22
+      ],
+      "gradientAreaPct": 0.8437,
+      "representationRatio": 0.469,
+      "gridCells": 974,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00706,
+      "p95Distance": 0.0138,
+      "maxDistance": 0.01784
+    },
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "lightness": "Light",
+      "lightnessRange": [
+        0.6,
+        0.8
+      ],
+      "chroma": "High chroma",
+      "chromaRange": [
+        0.22,
+        1
+      ],
+      "gradientAreaPct": 0.0779,
+      "representationRatio": 0.171,
+      "gridCells": 247,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00972,
+      "p95Distance": 0.01656,
+      "maxDistance": 0.0198
+    },
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "lightness": "Very light",
+      "lightnessRange": [
+        0.8,
+        1.0001
+      ],
+      "chroma": "Muted",
+      "chromaRange": [
+        0.02,
+        0.06
+      ],
+      "gradientAreaPct": 0.3336,
+      "representationRatio": 1.359,
+      "gridCells": 133,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00311,
+      "p95Distance": 0.00626,
+      "maxDistance": 0.00986
+    },
+    {
+      "hue": 0,
+      "name": "Red / coral",
+      "lightness": "Very light",
+      "lightnessRange": [
+        0.8,
+        1.0001
+      ],
+      "chroma": "Moderate",
+      "chromaRange": [
+        0.06,
+        0.14
+      ],
+      "gradientAreaPct": 0.137,
+      "representationRatio": 0.519,
+      "gridCells": 143,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00475,
+      "p95Distance": 0.00943,
+      "maxDistance": 0.01317
+    },
+    {
+      "hue": 1,
+      "name": "Orange / amber",
+      "lightness": "Very dark",
+      "lightnessRange": [
+        0,
+        0.2
+      ],
+      "chroma": "Muted",
+      "chromaRange": [
+        0.02,
+        0.06
+      ],
+      "gradientAreaPct": 0.0748,
+      "representationRatio": 1.014,
+      "gridCells": 40,
+      "covered025Pct": 100.0,
+      "covered04Pct": 100.0,
+      "meanDistance": 0.00496,
+      "p95Distance": 0.00846,
+      "maxDistance": 0.01057
+    }
+  ],
+  "gaps": [
+    {
+      "hex": "#0CCC6A",
+      "lab": [
+        0.74,
+        -0.16999999999999982,
+        0.09000000000000041
+      ],
+      "hue": 152.1,
+      "chroma": 0.1924,
+      "distance": 0.01997,
+      "nearestHex": "#46C86A",
+      "nearestPreset": "OKLab · Leaf Green · Luminous Chroma",
+      "nearestId": "coverage-fill-h04-l2-1"
+    },
+    {
+      "hex": "#50E83F",
+      "lab": [
+        0.8200000000000001,
+        -0.18999999999999984,
+        0.15000000000000047
+      ],
+      "hue": 141.7,
+      "chroma": 0.2421,
+      "distance": 0.01994,
+      "nearestHex": "#58EF47",
+      "nearestPreset": "OKLab · Leaf Green · Highlight Chroma 03",
+      "nearestId": "coverage-fill-h04-l3-3"
+    },
+    {
+      "hex": "#4E4CFC",
+      "lab": [
+        0.54,
+        0.02000000000000035,
+        -0.2499999999999999
+      ],
+      "hue": 274.6,
+      "chroma": 0.2508,
+      "distance": 0.01992,
+      "nearestHex": "#4A45F4",
+      "nearestPreset": "OKLab · Indigo Violet · Luminous Chroma 05",
+      "nearestId": "coverage-fill-h09-l2-5"
+    },
+    {
+      "hex": "#A885EA",
+      "lab": [
+        0.6900000000000001,
+        0.0700000000000004,
+        -0.12999999999999978
+      ],
+      "hue": 298.3,
+      "chroma": 0.1476,
+      "distance": 0.01992,
+      "nearestHex": "#9E89E4",
+      "nearestPreset": "Teleport · Arcane Arrival",
+      "nearestId": "teleport"
+    },
+    {
+      "hex": "#9FF766",
+      "lab": [
+        0.89,
+        -0.1399999999999998,
+        0.14000000000000046
+      ],
+      "hue": 135.0,
+      "chroma": 0.198,
+      "distance": 0.01992,
+      "nearestHex": "#8CFC6B",
+      "nearestPreset": "Neon Riot · bold",
+      "nearestId": "neonriot"
+    },
+    {
+      "hex": "#01001E",
+      "lab": [
+        0.11,
+        3.3306690738754696e-16,
+        -0.06999999999999973
+      ],
+      "hue": 270.0,
+      "chroma": 0.07,
+      "distance": 0.01987,
+      "nearestHex": "#05011B",
+      "nearestPreset": "OKLab · Electric · Cyan Accent",
+      "nearestId": "perceptual-electric-accent"
+    },
+    {
+      "hex": "#F19FF2",
+      "lab": [
+        0.81,
+        0.12000000000000044,
+        -0.07999999999999974
+      ],
+      "hue": 326.3,
+      "chroma": 0.1442,
+      "distance": 0.01987,
+      "nearestHex": "#EBA2FF",
+      "nearestPreset": "Void · Saturated Rift",
+      "nearestId": "gamut-violet-void"
+    },
+    {
+      "hex": "#A0066D",
+      "lab": [
+        0.47000000000000003,
+        0.1900000000000005,
+        -0.0399999999999997
+      ],
+      "hue": 348.1,
+      "chroma": 0.1942,
+      "distance": 0.01986,
+      "nearestHex": "#A80267",
+      "nearestPreset": "OKLab · Fuchsia Gamut Edge",
+      "nearestId": "gamut-fuchsia-boundary"
+    }
+  ]
+}

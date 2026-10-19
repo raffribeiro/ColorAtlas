@@ -1,0 +1,25 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const box={require,console,structuredClone,setImmediate,queueMicrotask};vm.runInNewContext(fs.readFileSync('work/check_preview_layers_ui.cjs','utf8').split('(async()=>{')[0]+'\nglobalThis.h={c,get,tick,timers,writes};',box);const {c,get,tick,timers,writes}=box.h;
+const rows=()=>get('#preview-layer-list').children;
+const dice=index=>rows()[index].children[2];
+(async()=>{
+ c.initializePreviewLayers();await tick();
+ const file=get('#preview-layer-file');get('[data-preview-action="add"]').handlers.click();file.files=[{name:'Second.png',type:'image/png',size:10}];await file.handlers.change({target:file});
+ assert(dice(0),'Each image needs a Random toggle');
+ assert.equal(dice(0)['aria-pressed'],'false','New images start with Random off');assert.equal(dice(1)['aria-pressed'],'true','Selecting the import keeps the original die on');dice(1).handlers.click();dice(0).handlers.click();assert.equal(dice(0)['aria-pressed'],'true');assert(dice(0).innerHTML.endsWith('ON'));assert(dice(0).innerHTML.includes('<svg'),'Dice use a drawn icon rather than an unsupported font glyph');assert.equal(dice(1)['aria-pressed'],'false');
+ const active=vm.runInContext('previewSelected',c);let calls=[];c.randomAllLayers=()=>{calls.push(vm.runInContext('previewSelected',c));c.state.gradientColors[0].hex='#123456'};
+ dice(0).handlers.click();assert.equal(dice(0)['aria-pressed'],'false');assert(dice(0).innerHTML.endsWith('OFF'));calls=[];c.randomPreviewLayers();assert.equal(calls.length,0,'All dice off must not randomize the active image');
+ dice(1).handlers.click();const other=vm.runInContext('previewImages[0].id',c);assert.equal(vm.runInContext('previewSelected',c),active,'Dice do not change the editing layer');c.randomPreviewLayers();assert.deepEqual(calls,[other],'One enabled non-active image receives Random');assert.equal(vm.runInContext('previewSelected',c),active);
+ get('#preview-layer-name').focus=()=>{};get('#preview-layer-name').select=()=>{};get('[data-preview-action="rename"]').focus=()=>{};
+ assert(!get('[data-preview-action="rename"]').disabled);get('[data-preview-action="rename"]').handlers.click();assert.equal(get('#preview-layer-name').value,'Second.png');assert.equal(get('#preview-layer-rename').hidden,false);
+ const submit=()=>get('#preview-layer-rename').handlers.submit({preventDefault(){}});
+ get('#preview-layer-name').value='   ';submit();assert.equal(vm.runInContext('previewImages[1].name',c),'Second.png','Blank names are rejected');assert.equal(get('#preview-layer-rename').hidden,false);
+ get('#preview-layer-name').value='  Smoke detail  ';const before=JSON.stringify(vm.runInContext('previewImages[1].map',c));submit();assert.equal(vm.runInContext('previewImages[1].name',c),'Smoke detail');assert.equal(JSON.stringify(vm.runInContext('previewImages[1].map',c)),before,'Renaming preserves maps');assert.equal(get('#preview-layer-rename').hidden,true);
+ for(const [id,t] of [...timers])if(t.ms===350){timers.delete(id);t.fn();}await tick();assert(writes.some(doc=>doc?.layers?.[1]?.name==='Smoke detail'),'Successful rename is sent to durable scene storage');
+ const doc=vm.runInContext('previewDocument(previewImages,previewSelected)',c);assert.equal(doc.layers[1].name,'Smoke detail');await c.restorePreviewStack(doc,true,vm.runInContext('previewRevision',c));assert.equal(vm.runInContext('previewImages[1].name',c),'Smoke detail','Stored scene restore retains names');
+ get('[data-preview-action="rename"]').handlers.click();get('#preview-layer-name').value='No change';get('[data-preview-action="rename-cancel"]').handlers.click();assert.equal(vm.runInContext('previewImages[1].name',c),'Smoke detail');
+ get('[data-preview-action="rename"]').handlers.click();get('#preview-layer-name').value='x'.repeat(81);submit();assert.equal(vm.runInContext('previewImages[1].name',c),'Smoke detail','Names above 80 characters are rejected');
+ get('#preview-layer-name').handlers.keydown({key:'Escape',preventDefault(){}});assert.equal(get('#preview-layer-rename').hidden,true);
+ get('[data-preview-action="remove"]').handlers.click();get('[data-preview-action="remove"]').handlers.click();assert(get('[data-preview-action="rename"]').disabled,'Empty stacks cannot be renamed');
+ console.log('PASS: dice toggle all/none/non-active Random targets independently; rename validates, cancels, preserves maps and survives scene restore.');
+})().catch(error=>{console.error(error);process.exitCode=1});

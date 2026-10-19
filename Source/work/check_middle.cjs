@@ -1,0 +1,3 @@
+const assert=require('node:assert/strict');
+function middleGradientIndex(keys=state.gradientColors){const ordered=keys.map((k,i)=>({k,i})).sort((a,b)=>b.k.t-a.k.t||a.i-b.i);return ordered[Math.min(3,ordered.length-1)].i;}
+assert.equal(middleGradientIndex([{t:0},{t:.2},{t:.4},{t:.6},{t:1}]),1);assert.equal(middleGradientIndex([{t:1},{t:.5},{t:0}]),2);assert.equal(middleGradientIndex([{t:0},{t:.2},{t:.4},{t:.6},{t:.7},{t:.8},{t:.9},{t:1}]),4);console.log('PASS: selects displayed color 4; short palettes clamp to available keys.');

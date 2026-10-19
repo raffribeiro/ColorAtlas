@@ -1,0 +1,10 @@
+[
+  [
+    " svg+=window.AtlasLabSurface.svg(color.l,labColor,fitLabToSRGB,project,state.system==='vfx'?'vfx-surface':'lab-surface');",
+    " svg+=window.AtlasNeutralAxis.svg(color.l,project,l=>labColor(l,0,0).hex,state.system==='vfx'?'vfx':'lab','back');\n svg+=window.AtlasLabSurface.svg(color.l,labColor,fitLabToSRGB,project,state.system==='vfx'?'vfx-surface':'lab-surface');\n svg+=window.AtlasNeutralAxis.svg(color.l,project,l=>labColor(l,0,0).hex,state.system==='vfx'?'vfx':'lab','front');"
+  ],
+  [
+    "for(const axis of axes){svg+=line(axis.start,axis.end,",
+    "for(const axis of axes.filter(axis=>axis.id!=='l')){svg+=line(axis.start,axis.end,"
+  ]
+]

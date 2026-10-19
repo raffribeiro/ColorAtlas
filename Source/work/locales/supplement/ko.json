@@ -1,0 +1,9 @@
+{
+  "(Unity 6); Linear RGB uses": "(Unity 6). 선형 RGB에서 사용하는 것은",
+  ", Bands uses": ", 단계형에서 사용하는 것은",
+  "A gradient map is a lookup. A value": "그라디언트 맵은 조회표입니다. 값",
+  "Copy Unity C# builds": "Unity C# 복사가 만드는 것은",
+  "between 0 and 1 picks a position on the ramp, and the ramp returns the color at that position. Black pixels of the source read the left end, white pixels read the right end. In an engine,": "이 0에서 1 사이에서 램프의 위치를 선택하면 해당 위치의 색을 반환합니다. 원본의 검정 픽셀은 왼쪽, 흰색 픽셀은 오른쪽 끝을 읽습니다. 엔진에서",
+  "can be anything normalized: a texture channel, particle age, distance or a dynamic parameter.": "는 정규화된 값이면 됩니다. 텍스처 채널, 파티클 수명, 거리, 동적 매개변수 등을 사용할 수 있습니다.",
+  "objects. Perceptual uses": "객체입니다. 지각적 모드에서 사용하는 것은"
+}

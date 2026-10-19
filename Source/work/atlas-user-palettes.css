@@ -1,0 +1,22 @@
+#munsell-picker .studio-palette-row>.studio-delete{flex:0 0 22px;width:22px;padding:0;justify-content:center;color:#8798ab;background:transparent;border-color:transparent;font-size:17px}
+#munsell-picker .studio-delete:hover{color:#f1a4a4;background:#34232a}
+#munsell-picker .studio-delete:focus-visible{outline:2px solid #e6c777;outline-offset:1px}
+#munsell-picker .atlas-palette-form{display:grid;gap:14px}
+#munsell-picker .atlas-palette-form label{display:grid;gap:6px;font-size:12px}
+#munsell-picker .atlas-palette-form input,#munsell-picker .atlas-palette-form textarea,#munsell-picker .atlas-palette-form select{width:100%;box-sizing:border-box;background:#101923;color:#edf4fd;border:1px solid #3a4c60;border-radius:5px;padding:8px;font:inherit}
+#munsell-picker .atlas-palette-form textarea{resize:vertical;min-height:72px;max-height:160px}
+#munsell-picker .atlas-palette-form p,#munsell-picker #palette-delete-dialog p{font-size:12px;line-height:1.5;margin:0;color:#a7b8ca}
+#munsell-picker .atlas-palette-hint{font-size:11px!important}
+#munsell-picker #palette-delete-dialog>p{margin:18px 0}
+#munsell-picker #palette-save-status:empty,#munsell-picker #palette-delete-status:empty,#munsell-picker [data-field=user-palette-status]:empty{display:none}
+#munsell-picker #palette-save-status,#munsell-picker #palette-delete-status{color:#f2cf91}
+#munsell-picker .studio-png-dialog footer{display:flex;justify-content:flex-end;gap:8px}
+#munsell-picker .atlas-palette-primary{border-color:#acb1d5}
+#munsell-picker .atlas-palette-danger{border-color:#af626e;color:#ffd1d1}
+#munsell-picker [data-field=user-palette-status]{display:none}
+
+/* Save remains discoverable while Export keeps the strongest emphasis. */
+#munsell-picker .studio-ramp-settings .btn[data-action="gradient-save"]{color:#c4cddd;font-weight:500;padding:2px 10px;white-space:nowrap}
+#munsell-picker .studio-ramp-settings .btn[data-action="gradient-save"]:before{opacity:.48;transition:opacity 110ms ease}
+#munsell-picker .studio-ramp-settings .btn[data-action="gradient-save"]:hover:not(:disabled){background:#1c2631;color:#e1e8f3}
+#munsell-picker .studio-ramp-settings .btn[data-action="gradient-save"]:hover:not(:disabled):before{opacity:.75}

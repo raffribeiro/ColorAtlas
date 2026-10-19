@@ -1,0 +1,9 @@
+#munsell-picker .mp-explosion-previews figure{overflow:hidden;background:#090e14;border-radius:4px;outline:none}
+#munsell-picker .mp-explosion-previews [data-field="explosion-mapped"],#munsell-picker .mp-explosion-previews #vision-compare-original{border:0;position:absolute;inset:auto;left:50%;top:50%;width:var(--studio-preview-image-size,100%)!important;height:var(--studio-preview-image-size,100%)!important;transform:translate(calc(-50% + var(--preview-pan-x,0%)),calc(-50% + var(--preview-pan-y,0%))) scale(var(--preview-zoom,1))!important;transform-origin:center}
+#munsell-picker .mp-explosion-previews #vision-compare-original{clip-path:inset(0 calc(100% - var(--preview-image-split,var(--vision-split))) 0 0)}
+#munsell-picker .mp-explosion-previews figure[data-vision-comparison="true"] [data-field="explosion-mapped"]{clip-path:inset(0 0 0 var(--preview-image-split,var(--vision-split)))}
+#munsell-picker figure[data-preview-zoomed="true"]{cursor:grab;touch-action:none}
+#munsell-picker figure[data-preview-panning="true"]{cursor:grabbing}
+#munsell-picker .studio-preview .mp-explosion-previews{width:100%}
+#munsell-picker .studio-preview .mp-explosion-previews figure{width:100%;flex:none;aspect-ratio:1 / 1}
+@media(min-width:1000px) and (min-height:800px){#munsell-picker .studio-preview .mp-explosion-previews figure{height:var(--studio-preview-height,100%);aspect-ratio:auto}}

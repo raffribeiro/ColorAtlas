@@ -1,0 +1,586 @@
+PAGE 1
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 2
+THE THREE WHEEL SYSTEM
+IMPORTANT:
+There can be a big difference in color from one screen to another, between what 
+appears on your screen and what comes out of your printer, or even from the 
+poster (CMYK space) to a screen (RGB space). It’s impossible to guarantee color 
+constancy on all screens and devices. I use the “monitor red *” as a reference 
+point: this color is 100% red on all RGB screens and in real life it’s comparable to 
+the Coca Cola red, or stop sign red… which is more or less cadmium red medium 
+PR108.
+Color can’t always be reproduced with perfect accuracy, remember that the most 
+important is how colors are related to each other. And the most important for you, 
+as a painter, is to understand how your pigments behave.
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 3
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 4
+COLOR MIXING WHEEL
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 5
+Copyright 2020 Florent Farges
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 6
+HOW TO USE THE COLOR MIXING WHEEL
+Connect two pigments 
+to see the mixing line 
+(note: it may be a 
+curve, depending on 
+the pigments)
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 7
+HOW TO MIX THE “RIGHT” COLOR
+Let’s assume that I want to create a paint 
+mixture that has exactly the same color as 
+this purple ball right here. 
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 8
+HOW TO MIX THE “RIGHT” COLOR - STEP 1 - FIND CANDIDATE PIGMENTS
+The first thing to do is to find a 
+couple of candidate pigments. 
+There are two options here : one, 
+you already have your go-to palette 
+and your favorite pigments that you 
+use all the time or two, you select 
+pigments depending on the type of 
+subject you need to paint. 
+With this second, option, I would 
+need to pick the pigment that’s the 
+closest to the color of the sphere, 
+here, I think it would be cobalt violet 
+pv14 or ultramarine violet pv15.
+But let’s say that we are using or 
+ordinary palette with no violet 
+pigment.
+For this tutorial, let’s say that we can only use the two closest pigments we can find : in this case, for example, quinacridone 
+rose PV19 and prussian blue PB27. By navigating the color wheel, as shown above, I see that by mixing those two 
+pigments, theoretically, I can get the purple I need to paint the sphere. 
+Prussian Blue 
+PB27
+Quince. Rose 
+PV19
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 9
+HOW TO MIX THE “RIGHT” COLOR
+There is an order to follow if we want to get the right 
+color easily. First, hue, then value and finally chroma. 
+Let’s refresh our memories on hue, value and chroma 
+just to be sure.
+STEP 2 - MIX IN THE RIGHT ORDER : HUE ➡ VALUE ➡ CHROMA
+→ Hue
+Hue is certainly the most commonly 
+known property of color. In fact, 
+most people use the word color 
+when in reality they mean «hue». It 
+can be defined as a shade of the 
+spectrum of visible light. Red, 
+yellow, blue etc.
+→ Value
+The value of a color is its perceived 
+luminosity. 
+→ Chroma
+Chroma can be defined as the level 
+of purity of a color compared to 
+gray. This is what we understand 
+when a color is said to be more or 
+less vivid. For those who use 
+computer image editing software, 
+chroma, although different, can be 
+compared to saturation.
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 10
+1 - GET THE RIGHT HUE
+Hue : So, first, hue : I’ve 
+mixed prussian blue and 
+quinacridone rose in 
+equal proportions. Of 
+course, here, it’s way too 
+dark so I add some white 
+to get closer to my target 
+color. I can see that the 
+result is too much on the 
+blue side, so what I’ll do is 
+add some more 
+quinacridone rose to pull 
+in the opposite direction. If 
+I add too much rose, I 
+need to balance again 
+with more prussian blue. 
+And with trial and error, 
+with subtle adjustments, I 
+create a hue that’s just 
+exactly what I need.
+Titanium White 
+PW6
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 11
+2 - GET THE RIGHT VALUE
+Once I’m done with hue, 
+I can make the 
+highlights and the 
+shadows. I add ivory 
+black and I mix it with 
+prussian blue and 
+quinacridone rose to 
+obtain those darker 
+shades in the shadows. 
+I don’t use only black, I 
+adjust with the other 
+pigments and try to 
+keep the character of 
+the shadows. I am 
+going to make three 
+mixtures but you can 
+create the entire 9 step 
+value scale, the color 
+wheel and the diagrams 
+will help you do that.
+IVORY BLACK PBk9
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 12
+3 - GET THE RIGHT CHROMA
+The final thing to adjust is 
+the chroma. During the 
+mixing process, the 
+chroma can go out of 
+control, so it’s important to 
+check that everything 
+looks fine before painting. 
+In this case, prussian blue 
+and quinacridone rose can 
+make the chroma higher, 
+whereas black and white 
+will lower it considerably.
+Ivory Black > Lowers Chroma
+Titanium White > Lowers Chroma
+Prussian Blue > Raises Chroma
+Quincacr. Rose > Raises Chroma
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 13
+COLOR MIXING EXERCISE
+Here is an exercise to familiarize yourself with the mixing system. It will 
+help you learn how to navigate the mixing wheel.
+CREATE A NEUTRAL GRAY
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 14
+STEP 1 : PREDICT THE RESULT OF THE MIX
+Take two pigments at 
+random. Any of them… 
+Here, I have Burnt Sienna 
+and Cobalt teal blue.
+Step one: Try to predict 
+what color will result from 
+this mix. 
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 15
+STEP 2 : TURN IT INTO A NEUTRAL GRAY
+The entire exercise now consists in 
+finding a third pigment that can work as 
+a complement to this green mix. 
+Remember, a complement is always on 
+the opposite side of the wheel, so 
+we’re looking for a pigment that’s 
+somewhat opposed to the resulting 
+green mix. It doesn’t have to be 
+perfectly placed, take the best pigment 
+you have. It must at least be on the 
+other side of the wheel, so that the 
+central gray is included in the triangle 
+of the three pigments. 
+In our example, let’s make a triangle 
+with burnt sienna, cobalt teal blue 
+and… permanent rose (or quinacridone 
+rose), because it's a color that's ideally 
+located in relation to this green.
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 16
+STEP 2 : TURN IT INTO A NEUTRAL GRAY
+At this stage, I actually find myself with 
+three mixing primaries and I try to find 
+the neutral point of this gamut. 
+Somewhere in this triangle, there is a 
+very precise center point where all three 
+pigments neutralize each other. This 
+neutral point can be hard difficult to find 
+but if you have aimed correctly, using the 
+mixing wheel, your three pigments 
+should work.
+I proceed by trial and error and I play 
+with the triangle formed by the three 
+pigments. As soon as one color 
+dominates, I add a little bit of the other 
+two to pull in the opposite direction. I 
+always imagine my little strings pulling on 
+each side of the triangle, I pull slightly on 
+one side, then on the other and so on 
+until I reach a mixture that does not have 
+the chromatic mark of any of the starting 
+primaries. As I progress, I should use 
+less and less paint and get closer and 
+closer.
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 17
+STEP 3 : CHECK YOUR MIX
+In the end, I add a little bit of 
+titanium white to make it easier to 
+find a neutral gray. Only white is 
+allowed for this exercise... no 
+other pigments! I compare using 
+my scale of values. If the gray 
+pulls too much on one side, I can 
+still adjust using one of the three 
+starting colors. I do this until I get 
+a gray as close as possible to the 
+neutral gray. No need to try to get 
+a perfect gray, the goal is simply 
+to be as close as possible.
+Do this exercise 10 times using 
+different combinations and your 
+pigments will no longer have any 
+secrets for you!
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 18
+COLOR DIAGRAMS
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 19
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 20
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 21
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 22
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 23
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 24
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 25
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 26
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 27
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 28
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 29
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 30
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 31
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 32
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 33
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 34
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 35
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 36
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 37
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 38
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 39
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 40
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 41
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 42
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 43
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 44
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 45
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 46
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 47
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 48
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 49
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 50
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 51
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 52
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 53
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 54
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 55
+HOW TO USE THE COLOR DIAGRAMS 1/2
+Locate the local color and trace a “bow curve” connecting the black, white and local color (not a straight line).
+The color diagrams can help you create color scales to paint values easily. This color mixing system is called 
+“closed palette”. 
+The idea is to premix between 3 and 9 value gradations of a given hue to paint the volume easily and save time 
+during the painting.
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 56
+HOW TO USE THE COLOR DIAGRAMS 2/2
+CLOSED PALETTE
+When you have found the right 
+diagram for the color you want to 
+mix, check the wheels to find the 
+appropriate pigments. Here, for 
+20RO, I choose Yellow Ochre, 
+Burnt Sienna, Alizarin Crimson, 
+Burnt Umber (+ some colors from 
+the blue side to balance). I mix 
+these colors in various proportions 
+to get a nice, even scale. 
+The number of gradations doesn’t 
+really matter, as you can mix 
+intermediate steps with your brush 
+but the color diagrams can help 
+you make up to 9.
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 57
+MAKING A VALUE SCALE 1/8
+ANOTHER EXAMPLE
+Let’s imagine that we need to paint 
+this yellow ball. 
+First, we need to find the right 
+pigments around the color wheel. 
+Going back to page 3 (or 5), we 
+see that yellow ochre (PY42) is 50 
+OY and cadmium yellow lemon 
+(PY35) 80 Y. Since these pigments 
+are the two closest we have, we 
+are going to use them both and mix 
+them to get a color in the 60 OY 
+range.
+We will also use titanium white 
+PW6, burnt umber PBr7 and ivory 
+black PBk9.
+Titanium white 
+PW6
+Cadmium yellow 
+lemon PY35Yellow ochre
+PY42Burnt Umber
+PBr7Ivory black
+PBk9
+I suggest to make high quality prints of the diagrams for better results.
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 58
+MAKING A VALUE SCALE 2/8
+FINDING THE LOCAL 
+COLOR
+First, we need to mix the local 
+color.
+By mixing various proportions of 
+cadmium yellow and yellow ochre, 
+we can get something pretty close.
+Titanium white 
+PW6
+Cadmium yellow 
+lemon PY35Yellow ochre
+PY42Burnt Umber
+PBr7Ivory black
+PBk9
+Mix of Cadmium Yellow 
+Lemon PY35 + Yellow 
+ochre PY42
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 59
+MAKING A VALUE SCALE 3/8
+LOCATING THE LOCAL 
+COLOR ON THE 
+DIAGRAM
+Now that we have the local color of 
+our ball, we need to know where it 
+would fit in the color space of the 
+diagram. By simply dragging our 
+palette knife above the diagram, we 
+can see that it would apparently be 
+a 90 in value and a 70 in chroma. 
+To be honest, the numbers don’t 
+really matter here, what’s more 
+important is the position of this 
+color compared to the other ones in 
+the scale : it will be the one with 
+the highest chroma of the entire 
+scale.
+Titanium white 
+PW6
+Cadmium yellow 
+lemon PY35Yellow ochre
+PY42Burnt Umber
+PBr7Ivory black
+PBk9
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 60
+MAKING A VALUE SCALE 4/8
+MIXING THE MID-TONES
+Next, let’s mix some mid-tones for 
+our subject.
+In this case, I have simply added 
+some burnt umber (PBr7) because 
+it’s a dark color from the warm side 
+of the color, closer to yellow. Ivory 
+black is too blueish in nature and 
+would tend to make the yellow 
+greenish.
+Titanium white 
+PW6
+Cadmium yellow 
+lemon PY35Yellow ochre
+PY42Burnt Umber
+PBr7Ivory black
+PBk9
+Adding burnt Umber 
+(PBr7) to make darker 
+shades
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 61
+MAKING A VALUE SCALE 5/8
+COMPLETE THE BOW 
+CURVE
+I continue to mix mid-tones and 
+values for the shadows. For the 
+darkest values, I add a touch of 
+Ivory black (PBk9). 
+By mixing the mid-tones with the 
+local color I started with, I can 
+easily obtain my gradations and 
+place them on the diagram.
+As you can see, the bow curve is 
+starting to appear. 
+Note that there is no color above 
+the local we’ve started with.
+Titanium white 
+PW6
+Cadmium yellow 
+lemon PY35Yellow ochre
+PY42Burnt Umber
+PBr7Ivory black
+PBk9
+The bow curve 
+starts to appear...
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 62
+MAKING A VALUE SCALE 6/8
+MIXING THE 
+HIGHLIGHTS
+Now, I only need to find a color for 
+the highlights.
+In my case, the local color is 
+already very light (value 90) 
+because it’s a yellow and yellow is 
+naturally bright , so there is only 
+one highlight color to find and it is 
+the shiny reflection of the lamp.
+Titanium white 
+PW6
+Cadmium yellow 
+lemon PY35Yellow ochre
+PY42Burnt Umber
+PBr7Ivory black
+PBk9
+Adding Titanium White 
+(PW6) for the highlight
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 63
+MAKING A VALUE SCALE 7/8
+REMOVE THE DIAGRAM
+Now I’m pretty much done with the color mixing, I have everything I need to 
+start painting. 
+For practical reasons, let’s remove the diagram from our glass palette and 
+tidy up.
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 64
+MAKING A VALUE SCALE 8/8
+THAT’S IT!
+Here we are, I’ve reduced the 
+number of gradations because I 
+don’t need to use nine for a simple 
+subject like this. I know that I can 
+always recreate the missing steps 
+if needed by mixing between the 
+pools of color.
+Now, the only thing left to do is 
+pick up a brush and start painting.
+Keep this process intuitive and 
+fun. Remember that painting is an 
+art, not an exact science.
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 65
+THE “HUMAN” COLOR WHEEL
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 66
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 67
+HUE HARMONY WHEEL
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 68
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 69
+HOW TO USE THE HUE HARMONY WHEEL
+Create a cardboard 
+or paper mask and 
+rotate it around the 
+wheel to find the 
+color harmony of 
+your choice.
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 70
+EXAMPLES OF HUE HARMONY
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 71
+MONOCHROMATIC
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 72
+COMPLEMENTARY
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 73
+SPLIT COMPLEMENTARY
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 74
+ANALOGOUS
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 75
+FREE COMBINATION
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 76
+TRIADIC
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 77
+QUATERNARY
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 78
+CLASSICAL
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 79
+RYB PRIMARIES
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 80
+CHROMATIC COMPOSITION
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 81
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 82
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 83
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 84
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 85
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 86
+raffribeiro@gmail.com 01 Oct 2026
+PAGE 87
+TO CONTACT ME : www.florentfarges.com/contact
+You are free to use these documents and print them for personal and 
+artistic/professional use. Commercial reproduction and printing is prohibited. If you 
+want to share these pictures, please respect the copyright. Feel free to contact me if 
+you need more information, for instance if you want to use these pictures in a class 
+or art group.
+raffribeiro@gmail.com 01 Oct 2026

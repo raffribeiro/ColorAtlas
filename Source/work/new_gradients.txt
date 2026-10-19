@@ -1,0 +1,33 @@
+// Native OKLab coordinates: L in percent, chroma scaled by 250.
+function perceptualRampColor(l,c,h){const angle=h*Math.PI/180,fit=fitLabToSRGB(l,c*Math.cos(angle),c*Math.sin(angle));return labColor(fit.l,fit.a,fit.b).hex;}
+function buildPerceptualRamp({family='sequential',hue=250,span=70,chroma=45,count=8,layer='emission',phase=0}){
+ const ceiling=layer==='smoke'?84:97,floor=layer==='smoke'?12:7;
+ return Array.from({length:count},(_,i)=>{const t=i/(count-1);let l,c,h;
+ if(family==='diverging'){const d=Math.abs(2*t-1);l=95-61*d;c=chroma*d**.8;h=t<.5?hue:hue+span;}
+ else if(family==='cyclic'){l=68+5*Math.sin(2*Math.PI*t);c=chroma*.78;h=hue+360*t;}
+ else if(family==='accent'){l=floor+(ceiling-floor)*t;c=chroma*Math.sin(Math.PI*t)**.65;h=hue+(t<.65?span*t*.35:span+100*(t-.65));}
+ else{l=floor+(ceiling-floor)*t;c=chroma*Math.sin(Math.PI*t)**.75;h=hue+span*(t-.5)+phase*Math.sin(Math.PI*t);}
+ return {t,hex:perceptualRampColor(l,c,h)};
+ });
+}
+const perceptualTemplates=[
+ ['abyss-cyan','Abyss → Cyan','sequential',250,-65,43],
+ ['blue-lime','Blue → Cyan → Lime','sequential',205,-150,48],
+ ['violet-rose','Violet → Magenta → Ivory','sequential',330,90,47],
+ ['ember-gold','Ember → Gold','sequential',55,65,48],
+ ['forest-mint','Forest → Mint','sequential',155,35,38],
+ ['indigo-ice','Indigo → Ice','sequential',270,-75,42],
+ ['copper-cream','Copper → Cream','sequential',52,20,28],
+ ['neutral-value','Neutral · Value Study','sequential',0,0,0],
+ ['cyan-coral','Cyan / Neutral / Coral','diverging',215,-185,42],
+ ['blue-orange','Blue / Neutral / Orange','diverging',260,-205,46],
+ ['violet-lime','Violet / Neutral / Lime','diverging',300,-175,44],
+ ['green-magenta','Green / Neutral / Magenta','diverging',155,180,40],
+ ['cool-warm','Cool / Neutral / Warm','diverging',245,-200,25],
+ ['phase-spectrum','Phase · Closed Spectrum','cyclic',255,360,42],
+ ['phase-soft','Phase · Soft Spectrum','cyclic',25,360,25],
+ ['electric-accent','Electric · Cyan Accent','accent',285,-100,48],
+ ['solar-accent','Solar · Violet Accent','accent',45,200,43],
+ ['toxic-accent','Toxic · Magenta Accent','accent',135,180,44]
+];
+for(const [id,name,family,hue,span,chroma] of perceptualTemplates){const keys=buildPerceptualRamp({family,hue,span,chroma,count:family==='diverging'?7:8});gradientPresets.push({id:'perceptual-'+id,name:'OKLab · '+name,category:'Perceptual',description:family==='diverging'?'Two hue families separated by a bright neutral center.':family==='cyclic'?'Closed hue cycle with matching endpoints; intended for phase and periodic fields.':family==='accent'?'Progressive lightness with an accent hue in the highlights.':'Progressive OKLab lightness, controlled chroma and sRGB gamut mapping.',colors:keys.map(k=>k.hex),positions:keys.map(k=>k.t)});}

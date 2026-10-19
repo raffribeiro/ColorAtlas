@@ -1,0 +1,1479 @@
+{
+  "version": 1,
+  "scope": "Bundled public metadata only; user-authored names and internal identifiers are preserved. Editorial review, not trademark clearance.",
+  "names": {
+    "arcane": "Energy · Indigo Glow",
+    "neonriot": "Neon Contrast · Bold",
+    "void": "Violet Depth · Bright Rim",
+    "shadowisles": "Mist · Deep Teal",
+    "bloodmagic": "Crimson · Warm Highlight",
+    "fae": "Pastel · Lilac Bloom",
+    "soulfire": "Blue Flame · Icy Highlight",
+    "sandmagic": "Sand · Golden Light",
+    "runes": "Sapphire · Luminous Lines",
+    "corruption": "Violet & Lime · Hazy Contrast",
+    "celestial": "Starlight · Warm Spark",
+    "hellfire": "Fire · Obsidian Orange",
+    "holy": "Light · Soft Gold",
+    "curseviolet": "Pulse · Deep Violet",
+    "teleport": "Transition · Blue Flash",
+    "holyheal": "Recovery · Pearl Gold",
+    "smokeviolet": "Smoke · Violet Haze",
+    "smokepink": "Smoke · Rose Vapor",
+    "celviolet": "Cel · Violet Contrast",
+    "gamedev-undead-skin": "Surface · Gray Olive",
+    "gamedev-demon-skin": "Surface · Warm Crimson",
+    "gamedev-holy-smite": "Impact · Pearl Gold",
+    "gamedev-arcane-missile": "Projectile · Indigo Glow",
+    "gamedev-mana-reserve": "Resource · Blue Reserve",
+    "lol-jinx": "Cobalt & Magenta · Bright Accents",
+    "lol-ahri": "Rose & Cyan · Pearl Accents",
+    "lol-lux": "Azure & Gold · Pale Highlights",
+    "lol-yasuo": "Slate & Cyan · Soft Highlights",
+    "lol-yone": "Wine & Coral · Pale Highlights",
+    "lol-zed": "Graphite & Crimson · Warm Edge",
+    "lol-akali": "Jade & Olive · Muted Highlights",
+    "lol-ekko": "Teal & Mint · Bright Highlights",
+    "lol-vi": "Rose & Bronze · Warm Accents",
+    "lol-caitlyn": "Sapphire & Brass · Muted Accents",
+    "lol-ashe": "Blue & Ice · Clear Highlights",
+    "lol-thresh": "Jade & Mint · Luminous Accents",
+    "lol-viego": "Deep Teal · Misty Highlights",
+    "lol-kaisa": "Violet & Orchid · Bright Accents",
+    "lol-viktor": "Steel & Ochre · Warm Highlights",
+    "lol-aurelion": "Cobalt & Gold · Fine Accents",
+    "lol-leona": "Copper & Amber · Bright Highlights",
+    "lol-diana": "Indigo & Silver · Cool Highlights",
+    "lol-morgana": "Deep Plum · Dusty Highlights",
+    "lol-brand": "Ember & Gold · Hot Highlights",
+    "lol-nami": "Seafoam & Teal · Pale Highlights",
+    "lol-teemo": "Moss & Lime · Ochre Accents",
+    "lol-seraphine": "Lavender & Rose · Pastel Accents",
+    "lol-jhin": "Burgundy & Sand · Muted Highlights",
+    "trope-valorant-jett": "Frosted Cyan · Pale Highlights",
+    "trope-valorant-sage": "Jade & Celadon · Soft Highlights",
+    "trope-valorant-omen": "Ink & Violet · Soft Highlights",
+    "trope-valorant-phoenix": "Ember & Tangerine · Bright Highlights",
+    "trope-valorant-viper": "Forest & Lime · Bright Accents",
+    "trope-valorant-reyna": "Magenta & Blush · Pale Highlights",
+    "trope-valorant-neon": "Blue & Lemon · Electric Accents",
+    "trope-valorant-raze": "Ochre & Orange · Warm Highlights",
+    "trope-ow-tracer": "Steel Blue & Amber · Warm Accents",
+    "trope-ow-mercy": "Pearl & Gold · Soft Contrast",
+    "trope-ow-genji": "Charcoal & Jade · Lime Accents",
+    "trope-ow-dva": "Slate & Rose · Pastel Highlights",
+    "trope-ow-reaper": "Graphite & Mauve · Dusty Highlights",
+    "trope-ow-sombra": "Purple & Lilac · Bright Accents",
+    "trope-wow-arthas": "Frosted Steel · Pale Highlights",
+    "trope-wow-illidan": "Plum & Lime · Sharp Contrast",
+    "trope-wow-jaina": "Dusty Azure · Pearl Highlights",
+    "trope-diablo": "Charcoal & Ember · Cream Highlights",
+    "trope-diablo-tyrael": "Stone & Brass · Pale Highlights",
+    "trope-sc-kerrigan": "Plum & Tan · Muted Highlights",
+    "trope-sc-protoss": "Indigo & Sand · Golden Highlights",
+    "trope-sc-terran": "Slate & Copper · Warm Highlights",
+    "trope-env-temple": "Environment · Sunlit Stone",
+    "trope-env-moon-temple": "Environment · Moonlit Stone",
+    "trope-env-forest": "Environment · Luminous Forest",
+    "trope-env-swamp": "Environment · Misty Swamp",
+    "trope-env-cathedral": "Environment · Arched Stone Hall",
+    "trope-env-undersea": "Environment · Submerged Stone",
+    "trope-env-pirate": "Environment · Coastal Harbor",
+    "trope-env-sacred": "Environment · Sunlit Grove",
+    "trope-env-boss": "Environment · Crimson Stadium",
+    "vfx-classic-heal-spirit": "VFX · Recovery · Cool Glow",
+    "vfx-classic-holy-divine": "VFX · Light · Diffuse Gold",
+    "vfx-classic-holy-celestial": "VFX · Light · Pearl Rays",
+    "vfx-classic-holy-sun": "VFX · Light · Solar Gold",
+    "vfx-classic-corrupt-fel": "VFX · Contrast · Acid Green",
+    "vfx-classic-vampire-blood": "VFX · Crimson · Liquid",
+    "vfx-classic-vampire-drain": "VFX · Crimson · Flow",
+    "vfx-classic-vampire-ritual": "VFX · Crimson · Circular Pulse",
+    "vfx-classic-arcane-magic": "VFX · Energy · Blue Reserve",
+    "vfx-classic-arcane-rune": "VFX · Energy · Sapphire Lines",
+    "vfx-classic-wind-spirit": "VFX · Wind · Pale Current",
+    "suite-print-riso": "Print · Two-Ink Overlay",
+    "art-design-146": "Memphis · Primary Stack",
+    "art-design-2": "Renaissance · Seafoam Contrast",
+    "stylized-direction-glass-crimson": "Stained Glass · Crimson Arches",
+    "gamut-fuchsia-magic": "Glow · Luminous Fuchsia Bloom",
+    "gamut-fuchsia-aura": "Glow · Fuchsia Rim",
+    "vfx-trope-slash-main": "VFX · Sharp Slash",
+    "vfx-trope-slash-soft": "VFX · Sharp Slash · Soft",
+    "vfx-trope-bullet-main": "VFX · Projectile Streak",
+    "vfx-trope-bullet-soft": "VFX · Projectile Streak · Soft",
+    "vfx-trope-rune-main": "VFX · Golden Linework",
+    "vfx-trope-rune-soft": "VFX · Golden Linework · Soft",
+    "vfx-trope-curse-main": "VFX · Violet Attenuation",
+    "vfx-trope-curse-soft": "VFX · Violet Attenuation · Soft",
+    "vfx-trope-hex-main": "VFX · Violet Interference",
+    "vfx-trope-hex-soft": "VFX · Violet Interference · Soft",
+    "vfx-trope-necromancy-main": "VFX · Green Dissolve",
+    "vfx-trope-necromancy-soft": "VFX · Green Dissolve · Soft",
+    "vfx-trope-spirit-main": "VFX · Pale Wisps",
+    "vfx-trope-spirit-soft": "VFX · Pale Wisps · Soft",
+    "vfx-trope-trail-main": "VFX · Flowing Trail",
+    "vfx-trope-trail-soft": "VFX · Flowing Trail · Soft",
+    "vfx-trope-pixel-magic-main": "VFX · Pixel Glow",
+    "vfx-trope-pixel-magic-soft": "VFX · Pixel Glow · Soft",
+    "vfx-trope-charm-main": "VFX · Rose Pulse",
+    "vfx-trope-charm-soft": "VFX · Rose Pulse · Soft",
+    "expanded-hybrid-0": "Mixed Effects · Fire + Ice",
+    "expanded-hybrid-1": "Mixed Effects · Gold + Violet / Lime",
+    "expanded-hybrid-2": "Mixed Effects · Blood + Electricity",
+    "expanded-hybrid-3": "Mixed Effects · Nature + Crystal",
+    "expanded-hybrid-4": "Mixed Effects · Void + Solar",
+    "expanded-hybrid-5": "Mixed Effects · Water + Poison",
+    "art-design-171": "Chromatic Abstraction · Translucent Window Rhythm",
+    "art-design-172": "Chromatic Abstraction · Primary Color Wheels",
+    "art-design-173": "Chromatic Abstraction · Electric Magenta Prisms",
+    "art-design-174": "Chromatic Abstraction · Market Color Pulse",
+    "art-design-175": "Chromatic Abstraction · Solar Color Discs",
+    "stylized-extra-riso-coral": "Two-Ink Print · Coral Indigo",
+    "stylized-extra-riso-mint": "Two-Ink Print · Mint Vermilion",
+    "stylized-extra-riso-plum": "Two-Ink Print · Plum Mustard",
+    "stylized-extra-riso-tangerine": "Two-Ink Print · Blue Tangerine"
+  },
+  "categories": [
+    [
+      "Effects",
+      "Effects"
+    ],
+    [
+      "World",
+      "Nature & materials"
+    ],
+    [
+      "Champions",
+      "Color studies"
+    ],
+    [
+      "Data",
+      "Data & diagnostics"
+    ],
+    [
+      "Art",
+      "Art studies"
+    ],
+    [
+      "Design",
+      "Design studies"
+    ],
+    [
+      "Creative",
+      "Color & experiments"
+    ]
+  ],
+  "themes": {
+    "Fantasy": "Color accents",
+    "Game Tropes": "Color accents",
+    "Character": "Surface materials",
+    "Classic VFX": "Effect basics",
+    "VFX Tropes": "Effect families",
+    "Orphism": "Chromatic Abstraction"
+  },
+  "patches": {
+    "plasma": {
+      "originalCategory": "Color accents"
+    },
+    "arcane": {
+      "name": "Energy · Indigo Glow",
+      "searchAliases": "Energy · Indigo Glow",
+      "originalCategory": "Color accents"
+    },
+    "neonriot": {
+      "name": "Neon Contrast · Bold",
+      "searchAliases": "Neon Contrast · Bold"
+    },
+    "void": {
+      "name": "Violet Depth · Bright Rim",
+      "searchAliases": "Violet Depth · Bright Rim",
+      "originalCategory": "Color accents"
+    },
+    "shadowisles": {
+      "name": "Mist · Deep Teal",
+      "searchAliases": "Mist · Deep Teal",
+      "originalCategory": "Color accents"
+    },
+    "hextech": {
+      "originalCategory": "Color accents"
+    },
+    "celestial": {
+      "name": "Starlight · Warm Spark",
+      "searchAliases": "Starlight · Warm Spark",
+      "originalCategory": "Color accents"
+    },
+    "bloodmagic": {
+      "name": "Crimson · Warm Highlight",
+      "searchAliases": "Crimson · Warm Highlight",
+      "description": "Visual color study: Crimson · Warm Highlight. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "fae": {
+      "name": "Pastel · Lilac Bloom",
+      "searchAliases": "Pastel · Lilac Bloom",
+      "originalCategory": "Color accents"
+    },
+    "soulfire": {
+      "name": "Blue Flame · Icy Highlight",
+      "searchAliases": "Blue Flame · Icy Highlight",
+      "originalCategory": "Color accents"
+    },
+    "sandmagic": {
+      "name": "Sand · Golden Light",
+      "searchAliases": "Sand · Golden Light",
+      "originalCategory": "Color accents"
+    },
+    "runes": {
+      "name": "Sapphire · Luminous Lines",
+      "searchAliases": "Sapphire · Luminous Lines",
+      "originalCategory": "Color accents"
+    },
+    "corruption": {
+      "name": "Violet & Lime · Hazy Contrast",
+      "searchAliases": "Violet & Lime · Hazy Contrast",
+      "originalCategory": "Color accents"
+    },
+    "hellfire": {
+      "name": "Fire · Obsidian Orange",
+      "searchAliases": "Fire · Obsidian Orange"
+    },
+    "holy": {
+      "name": "Light · Soft Gold",
+      "searchAliases": "Light · Soft Gold"
+    },
+    "curseviolet": {
+      "name": "Pulse · Deep Violet",
+      "searchAliases": "Pulse · Deep Violet",
+      "description": "Visual color study: Pulse · Deep Violet. Adapt masks, contrast and exposure to the asset."
+    },
+    "teleport": {
+      "name": "Transition · Blue Flash",
+      "searchAliases": "Transition · Blue Flash"
+    },
+    "holyheal": {
+      "name": "Recovery · Pearl Gold",
+      "searchAliases": "Recovery · Pearl Gold",
+      "description": "Visual color study: Recovery · Pearl Gold. Adapt masks, contrast and exposure to the asset."
+    },
+    "smokeviolet": {
+      "name": "Smoke · Violet Haze",
+      "searchAliases": "Smoke · Violet Haze"
+    },
+    "smokepink": {
+      "name": "Smoke · Rose Vapor",
+      "searchAliases": "Smoke · Rose Vapor",
+      "description": "Visual color study: Smoke · Rose Vapor. Adapt masks, contrast and exposure to the asset."
+    },
+    "celviolet": {
+      "name": "Cel · Violet Contrast",
+      "searchAliases": "Cel · Violet Contrast"
+    },
+    "gamedev-skin-warm": {
+      "originalCategory": "Surface materials",
+      "category": "World"
+    },
+    "gamedev-skin-cool": {
+      "originalCategory": "Surface materials",
+      "category": "World"
+    },
+    "gamedev-skin-deep": {
+      "originalCategory": "Surface materials",
+      "category": "World"
+    },
+    "gamedev-skin-golden": {
+      "originalCategory": "Surface materials",
+      "category": "World"
+    },
+    "gamedev-undead-skin": {
+      "name": "Surface · Gray Olive",
+      "searchAliases": "Surface · Gray Olive",
+      "description": "Visual color study: Surface · Gray Olive. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Surface materials",
+      "category": "World"
+    },
+    "gamedev-demon-skin": {
+      "name": "Surface · Warm Crimson",
+      "searchAliases": "Surface · Warm Crimson",
+      "description": "Visual color study: Surface · Warm Crimson. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Surface materials",
+      "category": "World"
+    },
+    "gamedev-ivory-cloth": {
+      "originalCategory": "Surface materials",
+      "category": "World"
+    },
+    "gamedev-crimson-cloth": {
+      "originalCategory": "Surface materials",
+      "category": "World"
+    },
+    "gamedev-royal-blue-cloth": {
+      "originalCategory": "Surface materials",
+      "category": "World"
+    },
+    "gamedev-silver-hair": {
+      "originalCategory": "Surface materials",
+      "category": "World"
+    },
+    "gamedev-mana-reserve": {
+      "name": "Resource · Blue Reserve",
+      "searchAliases": "Resource · Blue Reserve",
+      "description": "Visual color study: Resource · Blue Reserve. Adapt masks, contrast and exposure to the asset."
+    },
+    "gamedev-holy-smite": {
+      "name": "Impact · Pearl Gold",
+      "searchAliases": "Impact · Pearl Gold"
+    },
+    "gamedev-arcane-missile": {
+      "name": "Projectile · Indigo Glow",
+      "searchAliases": "Projectile · Indigo Glow"
+    },
+    "lol-jinx": {
+      "name": "Cobalt & Magenta · Bright Accents",
+      "searchAliases": "Cobalt & Magenta · Bright Accents",
+      "description": "Visual color study: Cobalt & Magenta · Bright Accents. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-ahri": {
+      "name": "Rose & Cyan · Pearl Accents",
+      "searchAliases": "Rose & Cyan · Pearl Accents",
+      "description": "Visual color study: Rose & Cyan · Pearl Accents. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-lux": {
+      "name": "Azure & Gold · Pale Highlights",
+      "searchAliases": "Azure & Gold · Pale Highlights",
+      "description": "Visual color study: Azure & Gold · Pale Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-yasuo": {
+      "name": "Slate & Cyan · Soft Highlights",
+      "searchAliases": "Slate & Cyan · Soft Highlights",
+      "description": "Visual color study: Slate & Cyan · Soft Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-yone": {
+      "name": "Wine & Coral · Pale Highlights",
+      "searchAliases": "Wine & Coral · Pale Highlights",
+      "description": "Visual color study: Wine & Coral · Pale Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-zed": {
+      "name": "Graphite & Crimson · Warm Edge",
+      "searchAliases": "Graphite & Crimson · Warm Edge",
+      "description": "Visual color study: Graphite & Crimson · Warm Edge. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-akali": {
+      "name": "Jade & Olive · Muted Highlights",
+      "searchAliases": "Jade & Olive · Muted Highlights",
+      "description": "Visual color study: Jade & Olive · Muted Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-ekko": {
+      "name": "Teal & Mint · Bright Highlights",
+      "searchAliases": "Teal & Mint · Bright Highlights",
+      "description": "Visual color study: Teal & Mint · Bright Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-vi": {
+      "name": "Rose & Bronze · Warm Accents",
+      "searchAliases": "Rose & Bronze · Warm Accents",
+      "description": "Visual color study: Rose & Bronze · Warm Accents. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-caitlyn": {
+      "name": "Sapphire & Brass · Muted Accents",
+      "searchAliases": "Sapphire & Brass · Muted Accents",
+      "description": "Visual color study: Sapphire & Brass · Muted Accents. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-ashe": {
+      "name": "Blue & Ice · Clear Highlights",
+      "searchAliases": "Blue & Ice · Clear Highlights",
+      "description": "Visual color study: Blue & Ice · Clear Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-thresh": {
+      "name": "Jade & Mint · Luminous Accents",
+      "searchAliases": "Jade & Mint · Luminous Accents",
+      "description": "Visual color study: Jade & Mint · Luminous Accents. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-viego": {
+      "name": "Deep Teal · Misty Highlights",
+      "searchAliases": "Deep Teal · Misty Highlights",
+      "description": "Visual color study: Deep Teal · Misty Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-kaisa": {
+      "name": "Violet & Orchid · Bright Accents",
+      "searchAliases": "Violet & Orchid · Bright Accents",
+      "description": "Visual color study: Violet & Orchid · Bright Accents. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-viktor": {
+      "name": "Steel & Ochre · Warm Highlights",
+      "searchAliases": "Steel & Ochre · Warm Highlights",
+      "description": "Visual color study: Steel & Ochre · Warm Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-aurelion": {
+      "name": "Cobalt & Gold · Fine Accents",
+      "searchAliases": "Cobalt & Gold · Fine Accents",
+      "description": "Visual color study: Cobalt & Gold · Fine Accents. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-leona": {
+      "name": "Copper & Amber · Bright Highlights",
+      "searchAliases": "Copper & Amber · Bright Highlights",
+      "description": "Visual color study: Copper & Amber · Bright Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-diana": {
+      "name": "Indigo & Silver · Cool Highlights",
+      "searchAliases": "Indigo & Silver · Cool Highlights",
+      "description": "Visual color study: Indigo & Silver · Cool Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-morgana": {
+      "name": "Deep Plum · Dusty Highlights",
+      "searchAliases": "Deep Plum · Dusty Highlights",
+      "description": "Visual color study: Deep Plum · Dusty Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-brand": {
+      "name": "Ember & Gold · Hot Highlights",
+      "searchAliases": "Ember & Gold · Hot Highlights",
+      "description": "Visual color study: Ember & Gold · Hot Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-nami": {
+      "name": "Seafoam & Teal · Pale Highlights",
+      "searchAliases": "Seafoam & Teal · Pale Highlights",
+      "description": "Visual color study: Seafoam & Teal · Pale Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-teemo": {
+      "name": "Moss & Lime · Ochre Accents",
+      "searchAliases": "Moss & Lime · Ochre Accents",
+      "description": "Visual color study: Moss & Lime · Ochre Accents. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-seraphine": {
+      "name": "Lavender & Rose · Pastel Accents",
+      "searchAliases": "Lavender & Rose · Pastel Accents",
+      "description": "Visual color study: Lavender & Rose · Pastel Accents. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "lol-jhin": {
+      "name": "Burgundy & Sand · Muted Highlights",
+      "searchAliases": "Burgundy & Sand · Muted Highlights",
+      "description": "Visual color study: Burgundy & Sand · Muted Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "suite-print-riso": {
+      "name": "Print · Two-Ink Overlay",
+      "searchAliases": "Print · Two-Ink Overlay"
+    },
+    "trope-valorant-jett": {
+      "name": "Frosted Cyan · Pale Highlights",
+      "searchAliases": "Frosted Cyan · Pale Highlights",
+      "description": "Visual color study: Frosted Cyan · Pale Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-valorant-sage": {
+      "name": "Jade & Celadon · Soft Highlights",
+      "searchAliases": "Jade & Celadon · Soft Highlights",
+      "description": "Visual color study: Jade & Celadon · Soft Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-valorant-omen": {
+      "name": "Ink & Violet · Soft Highlights",
+      "searchAliases": "Ink & Violet · Soft Highlights",
+      "description": "Visual color study: Ink & Violet · Soft Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-valorant-phoenix": {
+      "name": "Ember & Tangerine · Bright Highlights",
+      "searchAliases": "Ember & Tangerine · Bright Highlights",
+      "description": "Visual color study: Ember & Tangerine · Bright Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-valorant-viper": {
+      "name": "Forest & Lime · Bright Accents",
+      "searchAliases": "Forest & Lime · Bright Accents",
+      "description": "Visual color study: Forest & Lime · Bright Accents. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-valorant-reyna": {
+      "name": "Magenta & Blush · Pale Highlights",
+      "searchAliases": "Magenta & Blush · Pale Highlights",
+      "description": "Visual color study: Magenta & Blush · Pale Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-valorant-neon": {
+      "name": "Blue & Lemon · Electric Accents",
+      "searchAliases": "Blue & Lemon · Electric Accents",
+      "description": "Visual color study: Blue & Lemon · Electric Accents. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-valorant-raze": {
+      "name": "Ochre & Orange · Warm Highlights",
+      "searchAliases": "Ochre & Orange · Warm Highlights",
+      "description": "Visual color study: Ochre & Orange · Warm Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-ow-tracer": {
+      "name": "Steel Blue & Amber · Warm Accents",
+      "searchAliases": "Steel Blue & Amber · Warm Accents",
+      "description": "Visual color study: Steel Blue & Amber · Warm Accents. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-ow-mercy": {
+      "name": "Pearl & Gold · Soft Contrast",
+      "searchAliases": "Pearl & Gold · Soft Contrast",
+      "description": "Visual color study: Pearl & Gold · Soft Contrast. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-ow-genji": {
+      "name": "Charcoal & Jade · Lime Accents",
+      "searchAliases": "Charcoal & Jade · Lime Accents",
+      "description": "Visual color study: Charcoal & Jade · Lime Accents. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-ow-dva": {
+      "name": "Slate & Rose · Pastel Highlights",
+      "searchAliases": "Slate & Rose · Pastel Highlights",
+      "description": "Visual color study: Slate & Rose · Pastel Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-ow-reaper": {
+      "name": "Graphite & Mauve · Dusty Highlights",
+      "searchAliases": "Graphite & Mauve · Dusty Highlights",
+      "description": "Visual color study: Graphite & Mauve · Dusty Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-ow-sombra": {
+      "name": "Purple & Lilac · Bright Accents",
+      "searchAliases": "Purple & Lilac · Bright Accents",
+      "description": "Visual color study: Purple & Lilac · Bright Accents. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-wow-arthas": {
+      "name": "Frosted Steel · Pale Highlights",
+      "searchAliases": "Frosted Steel · Pale Highlights",
+      "description": "Visual color study: Frosted Steel · Pale Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-wow-illidan": {
+      "name": "Plum & Lime · Sharp Contrast",
+      "searchAliases": "Plum & Lime · Sharp Contrast",
+      "description": "Visual color study: Plum & Lime · Sharp Contrast. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-wow-jaina": {
+      "name": "Dusty Azure · Pearl Highlights",
+      "searchAliases": "Dusty Azure · Pearl Highlights",
+      "description": "Visual color study: Dusty Azure · Pearl Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-diablo": {
+      "name": "Charcoal & Ember · Cream Highlights",
+      "searchAliases": "Charcoal & Ember · Cream Highlights",
+      "description": "Visual color study: Charcoal & Ember · Cream Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-diablo-tyrael": {
+      "name": "Stone & Brass · Pale Highlights",
+      "searchAliases": "Stone & Brass · Pale Highlights",
+      "description": "Visual color study: Stone & Brass · Pale Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-sc-kerrigan": {
+      "name": "Plum & Tan · Muted Highlights",
+      "searchAliases": "Plum & Tan · Muted Highlights",
+      "description": "Visual color study: Plum & Tan · Muted Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-sc-protoss": {
+      "name": "Indigo & Sand · Golden Highlights",
+      "searchAliases": "Indigo & Sand · Golden Highlights",
+      "description": "Visual color study: Indigo & Sand · Golden Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-sc-terran": {
+      "name": "Slate & Copper · Warm Highlights",
+      "searchAliases": "Slate & Copper · Warm Highlights",
+      "description": "Visual color study: Slate & Copper · Warm Highlights. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Color accents"
+    },
+    "trope-env-temple": {
+      "name": "Environment · Sunlit Stone",
+      "searchAliases": "Environment · Sunlit Stone",
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-moon-temple": {
+      "name": "Environment · Moonlit Stone",
+      "searchAliases": "Environment · Moonlit Stone",
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-jungle-ruins": {
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-forest": {
+      "name": "Environment · Luminous Forest",
+      "searchAliases": "Environment · Luminous Forest",
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-autumn": {
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-desert": {
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-desert-night": {
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-tundra": {
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-volcano": {
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-swamp": {
+      "name": "Environment · Misty Swamp",
+      "searchAliases": "Environment · Misty Swamp",
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-cathedral": {
+      "name": "Environment · Arched Stone Hall",
+      "searchAliases": "Environment · Arched Stone Hall",
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-undersea": {
+      "name": "Environment · Submerged Stone",
+      "searchAliases": "Environment · Submerged Stone",
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-neon-city": {
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-space-station": {
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-crystal": {
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-pirate": {
+      "name": "Environment · Coastal Harbor",
+      "searchAliases": "Environment · Coastal Harbor",
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-sacred": {
+      "name": "Environment · Sunlit Grove",
+      "searchAliases": "Environment · Sunlit Grove",
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "trope-env-boss": {
+      "name": "Environment · Crimson Stadium",
+      "searchAliases": "Environment · Crimson Stadium",
+      "category": "World",
+      "originalCategory": "Environment"
+    },
+    "vfx-classic-poison-acid": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-poison-vapor": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-poison-venom": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-heal-life": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-heal-spirit": {
+      "name": "VFX · Recovery · Cool Glow",
+      "searchAliases": "VFX · Recovery · Cool Glow",
+      "description": "Visual color study: VFX · Recovery · Cool Glow. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-heal-restoration": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-holy-divine": {
+      "name": "VFX · Light · Diffuse Gold",
+      "searchAliases": "VFX · Light · Diffuse Gold",
+      "description": "Visual color study: VFX · Light · Diffuse Gold. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-holy-celestial": {
+      "name": "VFX · Light · Pearl Rays",
+      "searchAliases": "VFX · Light · Pearl Rays",
+      "description": "Visual color study: VFX · Light · Pearl Rays. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-holy-sun": {
+      "name": "VFX · Light · Solar Gold",
+      "searchAliases": "VFX · Light · Solar Gold",
+      "description": "Visual color study: VFX · Light · Solar Gold. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-corrupt-blight": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-corrupt-fel": {
+      "name": "VFX · Contrast · Acid Green",
+      "searchAliases": "VFX · Contrast · Acid Green",
+      "description": "Visual color study: VFX · Contrast · Acid Green. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-corrupt-dark": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-fire-ember": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-fire-inferno": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-fire-blue": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-fire-smolder": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-water-ocean": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-water-splash": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-water-deep": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-ice-frost": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-ice-crystal": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-ice-blizzard": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-void-rift": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-void-antimatter": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-void-cosmic": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-vampire-blood": {
+      "name": "VFX · Crimson · Liquid",
+      "searchAliases": "VFX · Crimson · Liquid",
+      "description": "Visual color study: VFX · Crimson · Liquid. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-vampire-drain": {
+      "name": "VFX · Crimson · Flow",
+      "searchAliases": "VFX · Crimson · Flow",
+      "description": "Visual color study: VFX · Crimson · Flow. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-vampire-ritual": {
+      "name": "VFX · Crimson · Circular Pulse",
+      "searchAliases": "VFX · Crimson · Circular Pulse",
+      "description": "Visual color study: VFX · Crimson · Circular Pulse. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-electric-arc": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-electric-storm": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-arcane-magic": {
+      "name": "VFX · Energy · Blue Reserve",
+      "searchAliases": "VFX · Energy · Blue Reserve",
+      "description": "Visual color study: VFX · Energy · Blue Reserve. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-arcane-rune": {
+      "name": "VFX · Energy · Sapphire Lines",
+      "searchAliases": "VFX · Energy · Sapphire Lines",
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-earth-dust": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-earth-magma": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-wind-air": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-wind-spirit": {
+      "name": "VFX · Wind · Pale Current",
+      "searchAliases": "VFX · Wind · Pale Current",
+      "description": "Visual color study: VFX · Wind · Pale Current. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-nature-leaf": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-classic-nature-spore": {
+      "originalCategory": "Effect basics"
+    },
+    "vfx-trope-impact-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-impact-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-metal-hit-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-metal-hit-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-shield-hit-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-shield-hit-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-slash-main": {
+      "name": "VFX · Sharp Slash",
+      "searchAliases": "VFX · Sharp Slash",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-slash-soft": {
+      "name": "VFX · Sharp Slash · Soft",
+      "searchAliases": "VFX · Sharp Slash · Soft",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-bullet-main": {
+      "name": "VFX · Projectile Streak",
+      "searchAliases": "VFX · Projectile Streak",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-bullet-soft": {
+      "name": "VFX · Projectile Streak · Soft",
+      "searchAliases": "VFX · Projectile Streak · Soft",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-muzzle-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-muzzle-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-ricochet-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-ricochet-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-shockwave-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-shockwave-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-detonation-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-detonation-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-debris-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-debris-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-sandstorm-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-sandstorm-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-ash-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-ash-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-steam-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-steam-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-mist-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-mist-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-foam-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-foam-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-rain-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-rain-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-snow-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-snow-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-bubble-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-bubble-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-spark-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-spark-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-laser-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-laser-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-plasma-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-plasma-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-reactor-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-reactor-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-emp-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-emp-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-magnetic-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-magnetic-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-radiation-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-radiation-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-gravity-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-gravity-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-blackhole-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-blackhole-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-nebula-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-nebula-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-solar-flare-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-solar-flare-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-portal-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-portal-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-teleport-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-teleport-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-summon-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-summon-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-banish-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-banish-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-time-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-time-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-illusion-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-illusion-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-rune-main": {
+      "name": "VFX · Golden Linework",
+      "searchAliases": "VFX · Golden Linework",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-rune-soft": {
+      "name": "VFX · Golden Linework · Soft",
+      "searchAliases": "VFX · Golden Linework · Soft",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-curse-main": {
+      "name": "VFX · Violet Attenuation",
+      "searchAliases": "VFX · Violet Attenuation",
+      "description": "Visual color study: VFX · Violet Attenuation. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-curse-soft": {
+      "name": "VFX · Violet Attenuation · Soft",
+      "searchAliases": "VFX · Violet Attenuation · Soft",
+      "description": "Visual color study: VFX · Violet Attenuation · Soft. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-hex-main": {
+      "name": "VFX · Violet Interference",
+      "searchAliases": "VFX · Violet Interference",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-hex-soft": {
+      "name": "VFX · Violet Interference · Soft",
+      "searchAliases": "VFX · Violet Interference · Soft",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-necromancy-main": {
+      "name": "VFX · Green Dissolve",
+      "searchAliases": "VFX · Green Dissolve",
+      "description": "Visual color study: VFX · Green Dissolve. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-necromancy-soft": {
+      "name": "VFX · Green Dissolve · Soft",
+      "searchAliases": "VFX · Green Dissolve · Soft",
+      "description": "Visual color study: VFX · Green Dissolve · Soft. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-spirit-main": {
+      "name": "VFX · Pale Wisps",
+      "searchAliases": "VFX · Pale Wisps",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-spirit-soft": {
+      "name": "VFX · Pale Wisps · Soft",
+      "searchAliases": "VFX · Pale Wisps · Soft",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-blood-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-blood-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-slime-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-slime-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-disease-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-disease-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-spore-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-spore-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-pollen-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-pollen-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-petals-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-petals-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-web-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-web-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-ink-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-ink-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-paint-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-paint-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-lightning-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-lightning-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-storm-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-storm-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-earthquake-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-earthquake-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-crystal-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-crystal-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-glass-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-glass-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-hologram-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-hologram-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-scan-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-scan-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-glitch-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-glitch-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-dissolve-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-dissolve-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-disintegrate-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-disintegrate-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-spawn-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-spawn-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-despawn-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-despawn-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-speed-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-speed-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-trail-main": {
+      "name": "VFX · Flowing Trail",
+      "searchAliases": "VFX · Flowing Trail",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-trail-soft": {
+      "name": "VFX · Flowing Trail · Soft",
+      "searchAliases": "VFX · Flowing Trail · Soft",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-smear-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-smear-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-toon-impact-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-toon-impact-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-comic-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-comic-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-pixel-magic-main": {
+      "name": "VFX · Pixel Glow",
+      "searchAliases": "VFX · Pixel Glow",
+      "description": "Visual color study: VFX · Pixel Glow. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-pixel-magic-soft": {
+      "name": "VFX · Pixel Glow · Soft",
+      "searchAliases": "VFX · Pixel Glow · Soft",
+      "description": "Visual color study: VFX · Pixel Glow · Soft. Adapt masks, contrast and exposure to the asset.",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-confetti-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-confetti-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-fireworks-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-fireworks-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-buff-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-buff-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-debuff-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-debuff-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-stealth-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-stealth-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-sonic-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-sonic-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-dream-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-dream-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-fear-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-fear-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-rage-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-rage-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-charm-main": {
+      "name": "VFX · Rose Pulse",
+      "searchAliases": "VFX · Rose Pulse",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-charm-soft": {
+      "name": "VFX · Rose Pulse · Soft",
+      "searchAliases": "VFX · Rose Pulse · Soft",
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-lunar-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-lunar-soft": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-solar-main": {
+      "originalCategory": "Effect families"
+    },
+    "vfx-trope-solar-soft": {
+      "originalCategory": "Effect families"
+    },
+    "expanded-hybrid-0": {
+      "name": "Mixed Effects · Fire + Ice",
+      "searchAliases": "Mixed Effects · Fire + Ice"
+    },
+    "expanded-hybrid-1": {
+      "name": "Mixed Effects · Gold + Violet / Lime",
+      "searchAliases": "Mixed Effects · Gold + Violet / Lime"
+    },
+    "expanded-hybrid-2": {
+      "name": "Mixed Effects · Blood + Electricity",
+      "searchAliases": "Mixed Effects · Blood + Electricity"
+    },
+    "expanded-hybrid-3": {
+      "name": "Mixed Effects · Nature + Crystal",
+      "searchAliases": "Mixed Effects · Nature + Crystal"
+    },
+    "expanded-hybrid-4": {
+      "name": "Mixed Effects · Void + Solar",
+      "searchAliases": "Mixed Effects · Void + Solar"
+    },
+    "expanded-hybrid-5": {
+      "name": "Mixed Effects · Water + Poison",
+      "searchAliases": "Mixed Effects · Water + Poison"
+    },
+    "art-design-2": {
+      "name": "Renaissance · Seafoam Contrast",
+      "searchAliases": "Renaissance · Seafoam Contrast"
+    },
+    "art-design-146": {
+      "name": "Memphis · Primary Stack",
+      "searchAliases": "Memphis · Primary Stack",
+      "description": "Visual color study: Memphis · Primary Stack. Adapt masks, contrast and exposure to the asset."
+    },
+    "art-design-171": {
+      "name": "Chromatic Abstraction · Translucent Window Rhythm",
+      "searchAliases": "Chromatic Abstraction · Translucent Window Rhythm",
+      "description": "Chromatic abstraction study: Chromatic Abstraction · Translucent Window Rhythm. Adapt contrast, coverage and exposure to the asset.",
+      "movement": "Chromatic Abstraction"
+    },
+    "art-design-172": {
+      "name": "Chromatic Abstraction · Primary Color Wheels",
+      "searchAliases": "Chromatic Abstraction · Primary Color Wheels",
+      "description": "Chromatic abstraction study: Chromatic Abstraction · Primary Color Wheels. Adapt contrast, coverage and exposure to the asset.",
+      "movement": "Chromatic Abstraction"
+    },
+    "art-design-173": {
+      "name": "Chromatic Abstraction · Electric Magenta Prisms",
+      "searchAliases": "Chromatic Abstraction · Electric Magenta Prisms",
+      "description": "Chromatic abstraction study: Chromatic Abstraction · Electric Magenta Prisms. Adapt contrast, coverage and exposure to the asset.",
+      "movement": "Chromatic Abstraction"
+    },
+    "art-design-174": {
+      "name": "Chromatic Abstraction · Market Color Pulse",
+      "searchAliases": "Chromatic Abstraction · Market Color Pulse",
+      "description": "Chromatic abstraction study: Chromatic Abstraction · Market Color Pulse. Adapt contrast, coverage and exposure to the asset.",
+      "movement": "Chromatic Abstraction"
+    },
+    "art-design-175": {
+      "name": "Chromatic Abstraction · Solar Color Discs",
+      "searchAliases": "Chromatic Abstraction · Solar Color Discs",
+      "description": "Chromatic abstraction study: Chromatic Abstraction · Solar Color Discs. Adapt contrast, coverage and exposure to the asset.",
+      "movement": "Chromatic Abstraction"
+    },
+    "gamut-magenta-plasma": {
+      "originalCategory": "Effect families"
+    },
+    "gamut-magenta-portal": {
+      "originalCategory": "Effect families"
+    },
+    "gamut-violet-void": {
+      "originalCategory": "Effect families"
+    },
+    "gamut-blue-deepwater": {
+      "originalCategory": "Effect families"
+    },
+    "gamut-green-venom": {
+      "originalCategory": "Effect families"
+    },
+    "gamut-green-spores": {
+      "originalCategory": "Effect families"
+    },
+    "gamut-fuchsia-magic": {
+      "name": "Glow · Luminous Fuchsia Bloom",
+      "searchAliases": "Glow · Luminous Fuchsia Bloom",
+      "originalCategory": "Effect families"
+    },
+    "gamut-fuchsia-aura": {
+      "name": "Glow · Fuchsia Rim",
+      "searchAliases": "Glow · Fuchsia Rim",
+      "originalCategory": "Effect families"
+    },
+    "stylized-extra-riso-coral": {
+      "name": "Two-Ink Print · Coral Indigo",
+      "searchAliases": "Two-Ink Print · Coral Indigo"
+    },
+    "stylized-extra-riso-mint": {
+      "name": "Two-Ink Print · Mint Vermilion",
+      "searchAliases": "Two-Ink Print · Mint Vermilion"
+    },
+    "stylized-extra-riso-plum": {
+      "name": "Two-Ink Print · Plum Mustard",
+      "searchAliases": "Two-Ink Print · Plum Mustard"
+    },
+    "stylized-extra-riso-tangerine": {
+      "name": "Two-Ink Print · Blue Tangerine",
+      "searchAliases": "Two-Ink Print · Blue Tangerine"
+    },
+    "stylized-direction-glass-crimson": {
+      "name": "Stained Glass · Crimson Arches",
+      "searchAliases": "Stained Glass · Crimson Arches"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+#munsell-picker .studio-topbar h2{align-items:baseline!important;font-size:26px!important;line-height:1.15;gap:6px!important}
+#munsell-picker .studio-topbar h2 small{font-size:11px;line-height:1;letter-spacing:1px}
+#munsell-picker .mp-vfx-lab[data-editing-color="true"] [data-lab-context]{opacity:.18}
+#munsell-picker .mp-vfx-lab [data-lab-node-rank]{opacity:.35;font-weight:400}
+#munsell-picker .mp-vfx-lab [data-lab-selected-rank]{opacity:.55}
+#munsell-picker .studio-preview .mp-explosion-previews figure{position:relative;--vision-split:50%}
+#munsell-picker #vision-compare-original{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;box-sizing:border-box;border:1px solid #222a33;clip-path:inset(0 calc(100% - var(--vision-split)) 0 0);border-radius:4px}
+#munsell-picker figure[data-vision-comparison="true"] [data-field="explosion-mapped"]{clip-path:inset(0 0 0 var(--vision-split))}
+#munsell-picker #vision-comparison{position:absolute;inset:0;pointer-events:none}
+#munsell-picker #vision-comparison[hidden],#munsell-picker #vision-compare-original[hidden]{display:none}
+#munsell-picker #vision-compare-position{position:absolute;top:calc(50% - 22px);left:0;width:100%;height:44px;margin:0;opacity:0;pointer-events:auto;cursor:ew-resize;touch-action:pan-y}
+#munsell-picker .vision-compare-divider{position:absolute;left:var(--vision-split);top:0;bottom:0;width:2px;transform:translateX(-1px);background:#f0f5fb;box-shadow:0 0 3px #000}
+#munsell-picker .vision-compare-divider:after{content:'↔';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:32px;height:32px;border:2px solid #f0f5fb;border-radius:50%;background:#17202d;color:#f0f5fb;font-size:18px}
+#munsell-picker #vision-compare-position:focus-visible~.vision-compare-divider:after{outline:3px solid #8acbfa;outline-offset:3px}
+#munsell-picker .vision-compare-label{position:absolute;top:8px;padding:3px 6px;border-radius:3px;background:#101721d9;color:#ecf2fb;font-size:10px}
+#munsell-picker .vision-compare-regular{left:8px}#munsell-picker .vision-compare-filter{right:8px}
+@media(max-width:700px){#munsell-picker .studio-topbar h2{font-size:22px!important;gap:4px!important}}
+
+/* Keep the color surface and selected marker clear during direct color editing. */
+#munsell-picker :is(.mp-vfx-lab,.mp-lab-plane)[data-editing-color="true"] :is([data-lab-axis],line:has(+ [data-lab-axis])){opacity:.08}
+#munsell-picker :is(.mp-vfx-lab,.mp-lab-plane)[data-editing-color="true"] [data-neutral-axis]{opacity:.03}
+#munsell-picker :is(.mp-vfx-lab,.mp-lab-plane)[data-editing-color="true"] .lab-axis-label:not([data-lab-node-rank]){opacity:.12}

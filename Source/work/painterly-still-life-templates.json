@@ -1,0 +1,240 @@
+[
+  {
+    "id": "painterly-still-tropical",
+    "name": "Painterly · Tropical Still Life",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#1E477C",
+      "#434B5F",
+      "#636574",
+      "#9D6971",
+      "#D0656A",
+      "#958697",
+      "#D48770",
+      "#E7995F",
+      "#EAAE6B",
+      "#B1C9BC",
+      "#EED296",
+      "#E5EAD4"
+    ],
+    "positions": [
+      0,
+      0.08,
+      0.18,
+      0.28,
+      0.36,
+      0.44,
+      0.53,
+      0.63,
+      0.73,
+      0.83,
+      0.91,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "painterly still life painted fruit colorful shadows warm light pintura frutas sombras coloridas tropical",
+    "description": "Representative sampled blues, lavender-gray, painted coral, mango orange, mint reflection and pale porcelain from the supplied still-life reference. Smooth OKLab interpolation keeps a continuous value ramp with visible warm/cool hue shifts. Positions are authored tonal proportions. Brush strokes and separate object colors come from the source image or masks."
+  },
+  {
+    "id": "painterly-still-mango",
+    "name": "Painterly · Mango & Lavender",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#304661",
+      "#696487",
+      "#9A7B9F",
+      "#D18781",
+      "#EDA354",
+      "#F3D282",
+      "#F4F0D3"
+    ],
+    "positions": [
+      0,
+      0.16,
+      0.31,
+      0.47,
+      0.67,
+      0.86,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "painterly still life painted fruit colorful shadows warm light pintura frutas sombras coloridas mango",
+    "description": "Lavender and blue-gray shadows shift through warm coral into golden mango and soft cream light. Smooth OKLab interpolation keeps a continuous value ramp with visible warm/cool hue shifts. Positions are authored tonal proportions. Brush strokes and separate object colors come from the source image or masks."
+  },
+  {
+    "id": "painterly-still-citrus",
+    "name": "Painterly · Citrus & Turquoise",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#234C68",
+      "#5A8391",
+      "#75AB9E",
+      "#D09B74",
+      "#EDA458",
+      "#F4C977",
+      "#CDE3C1",
+      "#F4F0D7"
+    ],
+    "positions": [
+      0,
+      0.13,
+      0.3,
+      0.46,
+      0.63,
+      0.79,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "painterly still life painted fruit colorful shadows warm light pintura frutas sombras coloridas citrus",
+    "description": "Cool blue and turquoise reflections turn toward orange citrus, golden skin and mint-tinted porcelain. Smooth OKLab interpolation keeps a continuous value ramp with visible warm/cool hue shifts. Positions are authored tonal proportions. Brush strokes and separate object colors come from the source image or masks."
+  },
+  {
+    "id": "painterly-still-strawberry",
+    "name": "Painterly · Strawberry & Periwinkle",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#343F6C",
+      "#706994",
+      "#AF6F9A",
+      "#D77682",
+      "#EA9B92",
+      "#E5BDAA",
+      "#F3E6CA"
+    ],
+    "positions": [
+      0,
+      0.17,
+      0.34,
+      0.54,
+      0.73,
+      0.88,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "painterly still life painted fruit colorful shadows warm light pintura frutas sombras coloridas strawberry",
+    "description": "Periwinkle shadows support rose and coral fruit tones with restrained pale peach highlights. Smooth OKLab interpolation keeps a continuous value ramp with visible warm/cool hue shifts. Positions are authored tonal proportions. Brush strokes and separate object colors come from the source image or masks."
+  },
+  {
+    "id": "painterly-still-kiwi",
+    "name": "Painterly · Kiwi & Blue Ink",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#264F66",
+      "#637D74",
+      "#8AA164",
+      "#B3C765",
+      "#DCE19C",
+      "#EDF0D3"
+    ],
+    "positions": [
+      0,
+      0.21,
+      0.43,
+      0.66,
+      0.85,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "painterly still life painted fruit colorful shadows warm light pintura frutas sombras coloridas kiwi",
+    "description": "Blue ink shadows rise through dusty teal, kiwi green and yellow-green flesh to pale creamy light. Smooth OKLab interpolation keeps a continuous value ramp with visible warm/cool hue shifts. Positions are authored tonal proportions. Brush strokes and separate object colors come from the source image or masks."
+  },
+  {
+    "id": "painterly-still-plum",
+    "name": "Painterly · Plum & Mint Light",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#333D66",
+      "#70658A",
+      "#A275A0",
+      "#C78DA9",
+      "#E5B1B0",
+      "#B6D9C5",
+      "#D9E8CE",
+      "#F2F0D8"
+    ],
+    "positions": [
+      0,
+      0.14,
+      0.3,
+      0.46,
+      0.63,
+      0.79,
+      0.91,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "painterly still life painted fruit colorful shadows warm light pintura frutas sombras coloridas plum",
+    "description": "Slate blue and mauve plum shadows brighten through dusty rose before catching soft mint reflected light. Smooth OKLab interpolation keeps a continuous value ramp with visible warm/cool hue shifts. Positions are authored tonal proportions. Brush strokes and separate object colors come from the source image or masks."
+  },
+  {
+    "id": "painterly-still-peach",
+    "name": "Painterly · Peach & Cool Porcelain",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#31485D",
+      "#65768A",
+      "#958AAB",
+      "#C18F99",
+      "#D9A08B",
+      "#EAB68B",
+      "#EECDA3",
+      "#CFE1D5",
+      "#F5EFDA"
+    ],
+    "positions": [
+      0,
+      0.12,
+      0.25,
+      0.4,
+      0.55,
+      0.7,
+      0.82,
+      0.92,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "painterly still life painted fruit colorful shadows warm light pintura frutas sombras coloridas peach",
+    "description": "Cool porcelain blues and lilac reflections meet peach skin, warm orange flesh and pale celadon highlights. Smooth OKLab interpolation keeps a continuous value ramp with visible warm/cool hue shifts. Positions are authored tonal proportions. Brush strokes and separate object colors come from the source image or masks."
+  },
+  {
+    "id": "painterly-still-golden",
+    "name": "Painterly · Golden Fruit & Violet Shade",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#2E4264",
+      "#605F83",
+      "#867394",
+      "#AD889C",
+      "#CC978B",
+      "#DFA171",
+      "#ECB55C",
+      "#EFC97D",
+      "#EADBAB",
+      "#F5F0D2"
+    ],
+    "positions": [
+      0,
+      0.1,
+      0.21,
+      0.33,
+      0.46,
+      0.59,
+      0.72,
+      0.83,
+      0.92,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "painterly still life painted fruit colorful shadows warm light pintura frutas sombras coloridas golden",
+    "description": "A detailed violet-to-gold ramp preserves painted shadow color, coral bounce and broad golden midtones. Smooth OKLab interpolation keeps a continuous value ramp with visible warm/cool hue shifts. Positions are authored tonal proportions. Brush strokes and separate object colors come from the source image or masks."
+  }
+]

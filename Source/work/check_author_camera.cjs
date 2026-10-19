@@ -1,0 +1,14 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const source=process.env.ATLAS_TEST_SOURCE||'/Users/raffribeiro/.codex/visualizations/2026/10/01/01a0f83c-7569-7dd0-ad8b-3e73b2b454df/munsell-selector.html';
+let html=fs.readFileSync(source,'utf8');if(html.includes('data-srcdoc="'))html=html.match(/data-srcdoc="([^"]*)"/)[1].replace(/&quot;/g,'"').replace(/&#x27;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');
+const defaults=html.match(/const labDefaultView=\{[^;]+;/)[0],project=html.match(/function projectLab\([\s\S]*?\n\}/)[0],reset=html.match(/\$\('\[data-action="lab-reset-zoom"\]'\)\.addEventListener\('click',[^\n]+/)[0];
+let handler,draws=0;const c={$:()=>({addEventListener:(type,fn)=>handler=fn}),drawLabPlane:()=>draws++};
+vm.createContext(c);vm.runInContext(defaults+'let labView={...labDefaultView};'+project+reset+';globalThis.view=labView;globalThis.project=projectLab;',c);
+assert.deepEqual(JSON.parse(JSON.stringify(c.view)),{yaw:.25,pitch:-.75,zoom:1,panX:0,panY:0});
+const center=c.project({l:50,a:0,b:0},366,292),red=c.project({l:50,a:110,b:0},366,292),yellow=c.project({l:50,a:0,b:110},366,292);
+assert.equal(center.x,183);assert.equal(center.y,146);
+assert(red.x>center.x&&red.y>center.y,'Reference: red axis points right and slightly down');
+assert(yellow.x>center.x&&yellow.y<center.y,'Reference: yellow axis points up-right');
+Object.assign(c.view,{yaw:0,pitch:.8,zoom:2,panX:.3,panY:-.2});let stopped=0;handler({preventDefault:()=>stopped++,stopPropagation:()=>stopped++});
+assert.deepEqual(JSON.parse(JSON.stringify(c.view)),{yaw:.25,pitch:-.75,zoom:1,panX:0,panY:0});assert.equal(draws,1);assert.equal(stopped,2);
+console.log('PASS: Authoring startup and Reset view use centered reference camera, orientation and scale.');

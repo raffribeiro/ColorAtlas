@@ -1,0 +1,6 @@
+#munsell-picker .studio-keys .studio-wheel{border-top:0;padding-top:0}
+#munsell-picker .studio-keys .studio-wheel [data-field=selected-color-preview]{margin:0!important;flex:none}
+#munsell-picker .studio-keys .studio-wheel [data-field=wheel-divider]{position:relative;top:auto;left:auto;right:auto;width:100%;height:12px;flex:none;border-top:1px solid #29323e;box-sizing:border-box}
+@media(min-width:1000px) and (min-height:800px){#munsell-picker .studio-columns>.studio-keys{grid-template-rows:auto var(--studio-fitted-list-size,minmax(84px,1fr)) auto!important}}
+#munsell-picker [data-field="color-wheel"]>text{fill:#666666!important}
+#munsell-picker .studio-keys .wheel-toolbar>span{grid-column:1/-1;justify-content:center;pointer-events:none}

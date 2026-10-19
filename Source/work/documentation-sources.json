@@ -1,0 +1,661 @@
+{
+ "checked_on": "2026-10-07",
+ "scope": "Sources cited or cross-checked for the Color Atlas guide; roles distinguish algorithm origins, dataset lineage, API references and documentation design.",
+ "sources": [
+  {
+   "id": "oklab",
+   "title": "A perceptual color space for image processing",
+   "kind": "Author technical article",
+   "author": "Björn Ottosson",
+   "year": "2020; matrices updated 2021",
+   "used_for": "Definition of OKLab/OKLCh, conversion coefficients, perceptual editing and interpolation. This is the author’s technical article, not a journal paper.",
+   "topics": [
+    "color-spaces",
+    "volume-wheel",
+    "interpolation",
+    "random"
+   ],
+   "links": [
+    {
+     "label": "Original article and implementation",
+     "url": "https://bottosson.github.io/posts/oklab/"
+    }
+   ],
+   "guide": "Definition of OKLab and the conversion matrices used for editing and Smooth blending."
+  },
+  {
+   "id": "css-color",
+   "title": "CSS Color Module Level 4",
+   "kind": "Standard / specification",
+   "author": "W3C CSS Working Group",
+   "year": "Living specification",
+   "used_for": "sRGB conversion, OKLab/OKLCh definitions, interpolation-space choices and chroma-reduction gamut mapping.",
+   "topics": [
+    "color-spaces",
+    "gamut",
+    "interpolation",
+    "grayscale-mapping"
+   ],
+   "links": [
+    {
+     "label": "Conversion algorithms",
+     "url": "https://www.w3.org/TR/css-color-4/#color-conversion-code"
+    },
+    {
+     "label": "Interpolation-space guidance",
+     "url": "https://www.w3.org/TR/css-color-4/#interpolation-space"
+    },
+    {
+     "label": "Chroma-reduction gamut mapping",
+     "url": "https://www.w3.org/TR/css-color-4/#chroma-reduction"
+    }
+   ],
+   "guide": "sRGB transfer functions, OKLab/OKLCh and guidance on interpolation spaces and gamut mapping."
+  },
+  {
+   "id": "munsell-paper",
+   "title": "Final Report of the O.S.A. Subcommittee on the Spacing of the Munsell Colors",
+   "kind": "Journal paper",
+   "author": "Sidney M. Newhall, Dorothy Nickerson and Deane B. Judd",
+   "year": "1943",
+   "used_for": "Historical publication behind the renotation dataset. JOSA 33(7), 385–418. The app uses the distributed data and checks the neutral-value relation against the reference implementation; it does not reconstruct the visual experiment.",
+   "topics": [
+    "munsell"
+   ],
+   "links": [
+    {
+     "label": "DOI: 10.1364/JOSA.33.000385",
+     "url": "https://doi.org/10.1364/JOSA.33.000385"
+    },
+    {
+     "label": "Publisher record",
+     "url": "https://opg.optica.org/josa/abstract.cfm?uri=josa-33-7-385"
+    }
+   ],
+   "guide": "Origin of the 1943 renotation: the Munsell samples behind the Munsell example and its Value scale."
+  },
+  {
+   "id": "cvd-paper",
+   "title": "A Physiologically-based Model for Simulation of Color Vision Deficiency",
+   "kind": "Journal paper",
+   "author": "Gustavo M. Machado, Manuel M. Oliveira and Leandro A. F. Fernandes",
+   "year": "2009",
+   "used_for": "Source model for the color-vision simulation matrices. IEEE Transactions on Visualization and Computer Graphics 15(6), 1291–1298.",
+   "topics": [
+    "color-vision"
+   ],
+   "links": [
+    {
+     "label": "DOI: 10.1109/TVCG.2009.113",
+     "url": "https://doi.org/10.1109/TVCG.2009.113"
+    },
+    {
+     "label": "IEEE publisher record",
+     "url": "https://ieeexplore.ieee.org/document/5290741"
+    },
+    {
+     "label": "Authors’ model and matrix resources",
+     "url": "https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html"
+    },
+    {
+     "label": "Bibliographic record",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19834201/"
+    }
+   ],
+   "guide": "Matrices behind the color-vision simulation."
+  },
+  {
+   "id": "munsell-data",
+   "title": "Munsell Renotation Data",
+   "kind": "Dataset / implementation reference",
+   "author": "RIT Munsell Color Science Laboratory",
+   "year": "1943 renotation; institutional distribution",
+   "used_for": "Source of the real.dat xyY samples, Illuminant C / 2° observer convention and 0.975 luminance correction. Renotation coordinates are not direct measurements of the bundled screen previews.",
+   "topics": [
+    "munsell"
+   ],
+   "links": [
+    {
+     "label": "Dataset description and conventions",
+     "url": "https://www.rit.edu/science/munsell-color-science-lab-educational-resources"
+    },
+    {
+     "label": "real.dat data file",
+     "url": "https://www.rit-mcsl.org/MunsellRenotation/real.dat"
+    },
+    {
+     "label": "Laboratory overview",
+     "url": "https://www.rit.edu/science/munsell-color-lab"
+    }
+   ],
+   "guide": "The xyY samples (Illuminant C, 2° observer) converted to the sRGB chips of the Munsell example."
+  },
+  {
+   "id": "colour-munsell",
+   "title": "Colour — MUNSELL_COLOURS",
+   "kind": "Dataset / implementation reference",
+   "author": "Colour Developers",
+   "year": "Online API reference",
+   "used_for": "Cross-check of the renotation dataset and its luminance convention; the app’s data generator is local code rather than a runtime dependency on Colour.",
+   "topics": [
+    "munsell"
+   ],
+   "links": [
+    {
+     "label": "API reference",
+     "url": "https://colour.readthedocs.io/en/master/generated/colour.MUNSELL_COLOURS.html"
+    }
+   ]
+  },
+  {
+   "id": "colour-bradford",
+   "title": "Colour — Bradford chromatic adaptation transform",
+   "kind": "Dataset / implementation reference",
+   "author": "Colour Developers",
+   "year": "Online API and source reference",
+   "used_for": "Reference matrix for the Illuminant C → D65 Bradford adaptation used by the Munsell data generator. This reference does not introduce a new adaptation method.",
+   "topics": [
+    "munsell",
+    "color-spaces"
+   ],
+   "links": [
+    {
+     "label": "Bradford matrix reference",
+     "url": "https://colour.readthedocs.io/en/master/generated/colour.adaptation.CAT_BRADFORD.html"
+    },
+    {
+     "label": "Reference implementation source",
+     "url": "https://github.com/colour-science/colour/blob/develop/colour/adaptation/datasets/cat.py"
+    }
+   ],
+   "guide": "Bradford adaptation from Illuminant C to D65 used to convert the Munsell samples to sRGB."
+  },
+  {
+   "id": "colour-neutral",
+   "title": "Colour — luminance_Newhall1943",
+   "kind": "Dataset / implementation reference",
+   "author": "Colour Developers; method attributed to Newhall, Nickerson and Judd",
+   "year": "1943 method; online API reference",
+   "used_for": "Reference for the Munsell Value-to-luminance polynomial used for neutral samples, with the app’s separate 0.975 scaling and endpoint handling.",
+   "topics": [
+    "munsell"
+   ],
+   "links": [
+    {
+     "label": "API reference and historical citation",
+     "url": "https://colour.readthedocs.io/en/master/generated/colour.colorimetry.luminance_Newhall1943.html"
+    }
+   ]
+  },
+  {
+   "id": "unity-perceptual",
+   "title": "Unity — GradientMode.PerceptualBlend",
+   "kind": "Engine / browser API manual",
+   "author": "Unity Technologies",
+   "year": "Unity 6 (6000.0)",
+   "used_for": "Native OKLab interpolation selected by perceptual Unity C# export.",
+   "topics": [
+    "engine-integration",
+    "interpolation",
+    "png-export"
+   ],
+   "links": [
+    {
+     "label": "Unity API reference",
+     "url": "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GradientMode.PerceptualBlend.html"
+    }
+   ],
+   "guide": "Native OKLab gradient mode used by the Perceptual Unity export."
+  },
+  {
+   "id": "unity-space",
+   "title": "Unity — Gradient.colorSpace",
+   "kind": "Engine / browser API manual",
+   "author": "Unity Technologies",
+   "year": "Unity 6 (6000.0)",
+   "used_for": "Color-space declaration for PerceptualBlend. Color Atlas exports decoded linear-sRGB keys and sets ColorSpace.Linear.",
+   "topics": [
+    "engine-integration",
+    "png-export"
+   ],
+   "links": [
+    {
+     "label": "Unity API reference",
+     "url": "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Gradient-colorSpace.html"
+    }
+   ],
+   "guide": "Color-space declaration for PerceptualBlend keys."
+  },
+  {
+   "id": "unity-keys",
+   "title": "Unity — Gradient.SetKeys",
+   "kind": "Engine / browser API manual",
+   "author": "Unity Technologies",
+   "year": "Online API reference",
+   "used_for": "Gradient color/alpha key limits and SetKeys usage; the app preserves larger ramps through its JSON fallback.",
+   "topics": [
+    "engine-integration"
+   ],
+   "links": [
+    {
+     "label": "Unity API reference",
+     "url": "https://docs.unity3d.com/ScriptReference/Gradient.SetKeys.html"
+    }
+   ],
+   "guide": "Gradient key limits behind the JSON fallback."
+  },
+  {
+   "id": "unity-textures",
+   "title": "Unity — Working with linear textures",
+   "kind": "Engine / browser API manual",
+   "author": "Unity Technologies",
+   "year": "Online manual",
+   "used_for": "sRGB decoding and linear texture import behavior used in the engine integration guidance.",
+   "topics": [
+    "engine-integration"
+   ],
+   "links": [
+    {
+     "label": "Unity manual",
+     "url": "https://docs.unity3d.com/Manual/linear-textures.html"
+    }
+   ],
+   "guide": "sRGB texture import and decoding."
+  },
+  {
+   "id": "unreal-curves",
+   "title": "Curve Atlases in Unreal Engine Materials",
+   "kind": "Engine / browser API manual",
+   "author": "Epic Games",
+   "year": "Online Unreal Engine manual",
+   "used_for": "CurveLinearColor / Curve Atlas workflow referenced as an integration option. Color Atlas JSON is descriptive data, not a native asset importer.",
+   "topics": [
+    "engine-integration"
+   ],
+   "links": [
+    {
+     "label": "Epic Games documentation",
+     "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/curve-atlases-in-unreal-engine-materials"
+    }
+   ],
+   "guide": "Curve atlases and CurveLinearColor as an Unreal alternative to the PNG."
+  },
+  {
+   "id": "html-canvas",
+   "title": "HTML Standard — Canvas, downloads and dialog",
+   "kind": "Engine / browser API manual",
+   "author": "WHATWG",
+   "year": "Living standard",
+   "used_for": "Browser APIs underlying canvas PNG encoding, the download attribute and the native export dialog. These are implementation references checked for the guide.",
+   "topics": [
+    "png-export",
+    "state"
+   ],
+   "links": [
+    {
+     "label": "Canvas and toBlob",
+     "url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-canvas-toblob"
+    },
+    {
+     "label": "Download attribute",
+     "url": "https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-download"
+    },
+    {
+     "label": "Dialog element",
+     "url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element"
+    }
+   ]
+  },
+  {
+   "id": "png",
+   "title": "Portable Network Graphics (PNG) Specification, Third Edition",
+   "kind": "Standard / specification",
+   "author": "W3C",
+   "year": "2025",
+   "used_for": "Format reference for exported PNG images. The app’s dimensions, sampling and canvas precision limits are verified from its implementation.",
+   "topics": [
+    "png-export"
+   ],
+   "links": [
+    {
+     "label": "PNG specification",
+     "url": "https://www.w3.org/TR/png-3/"
+    }
+   ]
+  },
+  {
+   "id": "compositing",
+   "title": "Compositing and Blending Level 1",
+   "kind": "Standard / specification",
+   "author": "W3C",
+   "year": "Online specification",
+   "used_for": "Reference for screen blending used in preview bloom. The app’s thresholds, strengths and repeated passes are app-specific choices.",
+   "topics": [
+    "bloom"
+   ],
+   "links": [
+    {
+     "label": "Blending functions",
+     "url": "https://www.w3.org/TR/compositing-1/#blending"
+    }
+   ]
+  },
+  {
+   "id": "filters",
+   "title": "Filter Effects Module Level 1",
+   "kind": "Standard / specification",
+   "author": "W3C",
+   "year": "Online specification",
+   "used_for": "Reference for blur filter semantics; the preview’s blur radii are chosen by the app.",
+   "topics": [
+    "bloom"
+   ],
+   "links": [
+    {
+     "label": "Blur filter",
+     "url": "https://www.w3.org/TR/filter-effects-1/#funcdef-filter-blur"
+    }
+   ]
+  },
+  {
+   "id": "motion",
+   "title": "Motion — animate()",
+   "kind": "Library documentation",
+   "author": "Motion project",
+   "year": "Bundled library version 14.0.0",
+   "used_for": "Reference for the animate() call shape. From v0.90.16 the app embeds work/atlas-motion-lite.js, a Web Animations API implementation of the calls it makes, validated against Motion 14 timing; the Motion bundle is no longer shipped.",
+   "topics": [
+    "state"
+   ],
+   "links": [
+    {
+     "label": "Official animation documentation",
+     "url": "https://motion.dev/docs/animate"
+    },
+    {
+     "label": "Project source repository",
+     "url": "https://github.com/motiondivision/motion"
+    }
+   ]
+  },
+  {
+   "id": "reduced-motion",
+   "title": "Media Queries Level 5 — prefers-reduced-motion",
+   "kind": "Standard / specification",
+   "author": "W3C",
+   "year": "Online specification",
+   "used_for": "Platform preference used to reduce automatic and interaction motion.",
+   "topics": [
+    "state"
+   ],
+   "links": [
+    {
+     "label": "Reduced-motion preference",
+     "url": "https://www.w3.org/TR/mediaqueries-5/#prefers-reduced-motion"
+    }
+   ]
+  },
+  {
+   "id": "embergen",
+   "title": "EmberGen documentation",
+   "kind": "Documentation design reference",
+   "author": "JangaFX",
+   "year": "Online manual",
+   "used_for": "Reference for the wiki-like documentation structure requested for Color Atlas. It is not the source of Color Atlas’s color equations or reference simulation.",
+   "topics": [
+    "overview"
+   ],
+   "links": [
+    {
+     "label": "EmberGen manual",
+     "url": "https://docs.jangafx.com/embergen/"
+    }
+   ]
+  },
+  {
+   "id": "albers-color-context",
+   "title": "Interaction of Color — contextual teaching and One Color Becomes Two",
+   "kind": "Artist teaching reference",
+   "author": "Josef Albers; Josef & Anni Albers Foundation",
+   "year": "1963 book; online teaching resources",
+   "used_for": "Inspiration for ColorPlay’s read-only context experiments and attention to color relationships. Candidate construction, OKLab metrics, thresholds and ranking are original Color Atlas heuristics, not formulas authored or validated by Albers.",
+   "topics": [
+    "random"
+   ],
+   "links": [
+    {
+     "label": "Foundation — Interaction of Color teaching approach",
+     "url": "https://www.albersfoundation.org/alberses/teaching/interaction-of-color"
+    },
+    {
+     "label": "Foundation — One Color Becomes Two exercise",
+     "url": "https://www.albersfoundation.org/learning/workshops/one-color-becomes-two"
+    }
+   ],
+   "guide": "Inspiration for ColorPlay and its Compare view."
+  },
+  {
+   "id": "clipboard-api",
+   "title": "Clipboard writing and selection-copy compatibility",
+   "kind": "Browser API reference",
+   "author": "MDN Web Docs contributors",
+   "year": "Online API reference; checked 2026-10-06",
+   "used_for": "Clipboard.writeText success/rejection and secure-context requirements; deprecated Document.execCommand selection-copy behavior. The synchronous compatibility route, visible manual dialog and feedback policy are Color Atlas implementation choices.",
+   "topics": [
+    "interface",
+    "png-export",
+    "state",
+    "troubleshooting"
+   ],
+   "links": [
+    {
+     "label": "Clipboard.writeText API",
+     "url": "https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText"
+    },
+    {
+     "label": "Document.execCommand compatibility and deprecation",
+     "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand"
+    }
+   ]
+  },
+  {
+   "id": "itti-saliency",
+   "title": "A Model of Saliency-Based Visual Attention for Rapid Scene Analysis",
+   "kind": "Journal paper",
+   "author": "Laurent Itti, Christof Koch and Ernst Niebur",
+   "year": "1998",
+   "used_for": "Multiscale feature contrast and inhibition of return. Color Atlas is an adaptation with different channels, filters and spatial selection, not the published model.",
+   "topics": [
+    "attention"
+   ],
+   "links": [
+    {
+     "label": "Paper at author laboratory",
+     "url": "https://ilab.usc.edu/publications/doc/Itti_etal98pami.pdf"
+    },
+    {
+     "label": "DOI",
+     "url": "https://doi.org/10.1109/34.730558"
+    }
+   ],
+   "guide": "Multiscale contrast and inhibition of return, adapted for the attention overlay."
+  },
+  {
+   "id": "achanta-saliency",
+   "title": "Frequency-Tuned Salient Region Detection",
+   "kind": "Conference paper",
+   "author": "Radhakrishna Achanta, Sheila Hemami, Francisco Estrada and Sabine Süsstrunk",
+   "year": "2009",
+   "used_for": "Global color-distance idea. The paper uses CIELAB; Color Atlas uses OKLab and a blended multiscale score, with app-specific alpha handling.",
+   "topics": [
+    "attention"
+   ],
+   "links": [
+    {
+     "label": "Author project, paper and code",
+     "url": "https://ivrlwww.epfl.ch/supplementary_material/RK_CVPR09/index.html"
+    },
+    {
+     "label": "DOI",
+     "url": "https://doi.org/10.1109/CVPR.2009.5206596"
+    }
+   ],
+   "guide": "Global color-distance term, adapted (OKLab instead of CIELAB) for the attention overlay."
+  },
+  {
+   "id": "saliency-toolbox",
+   "title": "SaliencyToolbox — centerSurround.m",
+   "kind": "Research implementation reference",
+   "author": "Dirk B. Walther and California Institute of Technology",
+   "year": "GitHub source inspected 2026-10-06",
+   "used_for": "Inspected scale difference and exclusion-mask handling. Used as a conceptual cross-check only; no MATLAB or repository code is copied, ported or bundled.",
+   "topics": [
+    "attention"
+   ],
+   "links": [
+    {
+     "label": "GitHub repository",
+     "url": "https://github.com/DirkBWalther/SaliencyToolbox"
+    },
+    {
+     "label": "Inspected center-surround source",
+     "url": "https://github.com/DirkBWalther/SaliencyToolbox/blob/main/centerSurround.m"
+    }
+   ]
+  },
+  {
+   "id": "image-compositing",
+   "title": "Compositing and Blending Level 1",
+   "kind": "Standard / specification",
+   "author": "W3C CSS Working Group",
+   "year": "2024 Candidate Recommendation Draft",
+   "used_for": "Separable blend formulas and source-over alpha. Linear-sRGB image blending, bounded Add, layer UI and local persistence are Color Atlas choices.",
+   "topics": [
+    "importance-layers"
+   ],
+   "links": [
+    {
+     "label": "Blend and compositing equations",
+     "url": "https://www.w3.org/TR/compositing-1/"
+    }
+   ],
+   "guide": "Separable blend formulas and source-over alpha used by the layer stack."
+  },
+  {
+   "id": "inpi-naming-scope",
+   "title": "INPI basic trademark guide",
+   "kind": "Government guidance",
+   "author": "Instituto Nacional da Propriedade Industrial",
+   "year": "checked 2026-10-07",
+   "used_for": "Scope of editorial naming review: the guide recommends prior database searches for similar marks. No per-name trademark clearance was performed. Neutral visual labels, grouping choices and compatibility identifiers are app editorial decisions.",
+   "topics": [
+    "palettes"
+   ],
+   "links": [
+    {
+     "label": "INPI basic guide",
+     "url": "https://www.gov.br/inpi/pt-br/servicos/marcas/guia-basico"
+    }
+   ]
+  },
+  {
+   "id": "svg-perlin-splash",
+   "title": "SVG filter effects — feTurbulence",
+   "kind": "W3C specification",
+   "author": "W3C",
+   "year": "2011; checked 2026-10-07",
+   "used_for": "SVG Perlin fractal noise and animated baseFrequency. Broad grayscale patches, a 65-sample OKLab map at L=0.07–0.28, 1.35-second presentation, early visibility guard, covered warmup and load-gated reveal are app choices. No external artwork or library code is bundled.",
+   "topics": [
+    "overview",
+    "quick-start",
+    "state"
+   ],
+   "links": [
+    {
+     "label": "SVG feTurbulence specification",
+     "url": "https://www.w3.org/TR/SVG11/filters.html#feTurbulenceElement"
+    }
+   ]
+  },
+  {
+   "id": "loading-art-user",
+   "title": "User artwork",
+   "kind": "User asset",
+   "author": "User",
+   "year": "2026",
+   "used_for": "Loading art/layout and TEMP_PresetDesign.jpeg preview; user assets, not technical evidence.",
+   "topics": [
+    "overview"
+   ],
+   "links": []
+  },
+  {
+   "id": "unreal-texture-editor",
+   "title": "Texture Asset Editor in Unreal Engine",
+   "kind": "Engine / browser API manual",
+   "author": "Epic Games",
+   "year": "Online Unreal Engine manual",
+   "used_for": "Texture settings referenced by the Unreal setup steps (sRGB, compression, mip generation, filtering, tiling).",
+   "topics": [
+    "export"
+   ],
+   "links": [
+    {
+     "label": "Epic Games documentation",
+     "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/texture-asset-editor-in-unreal-engine"
+    }
+   ],
+   "guide": "Texture settings for the Unreal setup steps: sRGB, compression, mip generation, filtering and tiling."
+  },
+  {
+   "id": "munsell-hvc-method",
+   "title": "The Color Atlas — Munsell Hue, Value and Chroma",
+   "kind": "Primary historical method reference",
+   "author": "A. H. Munsell",
+   "used_for": "Hue/Value/Chroma organization and H V/C notation. Interactive tree is original app work using the existing bundled renotation display samples; geometry is schematic, not an OKLab plot.",
+   "topics": [
+    "editing-color"
+   ],
+   "links": [
+    {
+     "url": "https://munsell.com/wp-content/uploads/2014/03/atlas-munsell-color.pdf",
+     "label": "The Color Atlas (Munsell)"
+    }
+   ],
+   "guide": "Hue, Value and Chroma organization and H V/C notation.",
+   "year": "Historical atlas, digital edition"
+  }
+ ],
+ "app_assets": [
+  {
+   "id": "default-preview-user-images",
+   "title": "Codex Use Esse default Preview assets",
+   "kind": "User-provided assets and app design choice",
+   "used_for": "Explosion_Emissive.png, Explosion_Smoke.png and BG.png supplied on 2026-10-14; top-to-bottom order and Add emissive blend explicitly requested. Embedded offline fallback and Data seed are app implementation choices.",
+   "topics": [
+    "preview"
+   ],
+   "links": []
+  },
+  {
+   "id": "munsell-diagram-user-reference",
+   "title": "User Munsell diagram reference",
+   "kind": "User-provided visual reference and original app implementation",
+   "used_for": "Hue ring, neutral Value column and numbered radial Chroma layout inspired by Screenshot_2026-10-14_at_12.38.56.png. Diagram is drawn in canvas with bundled samples; schematic geometry does not replace the editor’s OKLab implementation.",
+   "topics": [
+    "editing-color"
+   ],
+   "links": []
+  },
+  {
+   "id": "editor-volume-illustration",
+   "title": "Color Atlas editor graph illustration",
+   "kind": "Original app-rendered graphic",
+   "used_for": "Passive copy of the editor’s actual OKLab SVG in Reading the 3D view; no external artwork. Includes the rendered sRGB cloud, current lightness plane and numbered ramp.",
+   "topics": [
+    "editing-color"
+   ],
+   "links": []
+  }
+ ]
+}

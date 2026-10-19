@@ -1,0 +1,42 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const s=fs.readFileSync('/Users/raffribeiro/.codex/visualizations/2026/10/01/01a0f83c-7569-7dd0-ad8b-3e73b2b454df/munsell-selector.html','utf8');
+const start=s.indexOf('function studioKeySizes('),end=s.indexOf('function setStudioSize(',start);
+assert(start>=0,'Keys list and wheel need their own explicit height budget');
+const c={};vm.createContext(c);vm.runInContext(s.slice(start,end),c);
+for(const available of [0,50,140,176,220,319,440,600])for(const requested of [80,118,200,434]){
+ const size=c.studioKeySizes(available,requested);
+ assert(size.list>=0&&size.wheel>=0);assert.equal(size.list+size.wheel,available);
+ if(available>=164)assert(size.list>=84&&size.wheel>=80,'keep list and wheel usable');
+ if(available>=164)assert(size.wheel<=available-84,'wheel is bounded by the available panel, not 200 px');
+}
+assert.equal(c.studioKeySizes(600,434).wheel,434,'Dragging upward can enlarge the wheel beyond its startup size');
+assert.equal(c.studioKeySizes(334).wheel,200,'Reference layout starts with a larger 200 px wheel');
+const element=(height,extra={})=>{
+ const values={};return {children:[],style:{getPropertyValue:k=>values[k]||'',setProperty(k,v){values[k]=v},removeProperty(k){delete values[k]}},values,clientHeight:height,getBoundingClientRect(){return {height}},...extra};
+};
+const list=element(220),title=element(16),buttons=element(28),position=element(28),swatch=element(24);
+const graph=element(100),svg=element(114),caption=element(16),controls=element(236);
+const visuals=element(120,{children:[caption,graph],css:{rowGap:'4px'}});
+const layout=element(348,{children:[visuals,controls],css:{rowGap:'8px'}});
+const divider=element(12,{css:{position:'absolute'}}),toolbar=element(24);
+const wheel=element(179,{children:[divider,toolbar,svg],css:{paddingTop:'8px',borderTopWidth:'1px',rowGap:'8px'}});
+svg.parentElement=wheel;
+const keys=element(559,{children:[buttons,list,swatch,wheel],css:{paddingTop:'12px',paddingBottom:'12px',rowGap:'8px'}});
+const author=element(559,{children:[buttons,layout],css:{paddingTop:'12px',paddingBottom:'12px',rowGap:'8px'}});
+Object.assign(c,{state:{system:'vfx'},root:{querySelector(selector){return {'.studio-keys':keys,'.studio-author':author,'.studio-author-layout':layout,'.mp-vfx-visuals':visuals}[selector]}},vfxLab:graph,field(n){return n==='gradient-keys'?list:svg},matchMedia:()=>({matches:true}),getComputedStyle(el){return {display:'block',position:'static',...(el.css||{})}},innerHeight:956});
+c.fitStudioKeys();
+const total=()=>parseFloat(keys.values['--studio-fitted-list-size'])+parseFloat(keys.values['--studio-fitted-wheel-size']);
+assert.equal(total(),418,'Keys reserve controls, wheel toolbar, padding and all gaps');
+assert.equal(parseFloat(keys.values['--studio-fitted-wheel-size']),200,'Opening the app uses the reference wheel height');
+assert.equal(parseFloat(keys.values['--studio-fitted-list-size']),218);
+assert.equal(parseFloat(author.values['--studio-fitted-graph-size']),235,'Author has no wheel reservation');
+keys.clientHeight=654;c.fitStudioKeys();assert.equal(parseFloat(keys.values['--studio-fitted-list-size']),313,'Reference-height panel gives the wheel 40 px more space');assert.equal(parseFloat(keys.values['--studio-fitted-wheel-size']),200);keys.clientHeight=559;
+svg.style.setProperty('--studio-wheel-size','100px');c.fitStudioKeys();assert.equal(parseFloat(keys.values['--studio-fitted-wheel-size']),100,'Manual resizing overrides the startup default');
+svg.style.removeProperty('--studio-wheel-size');c.fitStudioKeys();assert.equal(parseFloat(keys.values['--studio-fitted-wheel-size']),200,'A fresh layout returns to the reference default');
+svg.style.setProperty('--studio-wheel-size','434px');c.fitStudioKeys();assert.equal(parseFloat(keys.values['--studio-fitted-wheel-size']),334,'wheel can consume the available height above 200 px');
+assert.equal(parseFloat(keys.values['--studio-fitted-list-size']),84);
+const authorHeight=author.values['--studio-fitted-graph-size'];wheel.css.rowGap='16px';c.fitStudioKeys();assert.equal(total(),410);assert.equal(author.values['--studio-fitted-graph-size'],authorHeight,'wheel changes cannot shrink Author');
+keys.clientHeight=350;author.clientHeight=430;c.fitStudioKeys();assert.equal(total(),201);assert.equal(parseFloat(author.values['--studio-fitted-graph-size']),106,'short windows keep independent budgets');
+assert(parseFloat(keys.values['--studio-fitted-list-size'])>=0);
+c.state.system='munsell';const old=keys.values['--studio-fitted-list-size'];keys.clientHeight=999;c.fitStudioKeys();assert.equal(keys.values['--studio-fitted-list-size'],old,'other editor modes are untouched');
+console.log('PASS: reference startup sizes, manual override, fresh default, measured key list/wheel budget, bounded resizing, independent Author graph, small panels and unchanged non-VFX mode.');

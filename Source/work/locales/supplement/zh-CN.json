@@ -1,0 +1,9 @@
+{
+  "(Unity 6); Linear RGB uses": "（Unity 6）；线性 RGB 使用",
+  ", Bands uses": "，色带使用",
+  "A gradient map is a lookup. A value": "渐变映射是一种查找。一个数值",
+  "Copy Unity C# builds": "复制 Unity C# 会构建",
+  "between 0 and 1 picks a position on the ramp, and the ramp returns the color at that position. Black pixels of the source read the left end, white pixels read the right end. In an engine,": "介于 0 与 1 之间，选择渐变上的位置，再返回该位置的颜色。源图的黑像素读取左端，白像素读取右端。在引擎中，",
+  "can be anything normalized: a texture channel, particle age, distance or a dynamic parameter.": "可以是任何归一化信号：纹理通道、粒子年龄、距离或动态参数。",
+  "objects. Perceptual uses": "对象。感知模式使用"
+}

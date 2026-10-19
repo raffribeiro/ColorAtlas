@@ -1,0 +1,10 @@
+[
+  [
+    " const nodeLabels=keys.map(p=>({x:p.x+10,y:p.y+4,text:String(p.rank),nodeIndex:p.index,nodeRank:true,selectedRank:state.gradientSelection.kind==='color'&&state.gradientSelection.index===p.index}));\n const selectedLabel=nodeLabels.find(p=>p.selectedRank);\n if(selectedLabel)labelAnchors.unshift({...selectedLabel,x:marker.x+18,y:marker.y});\n labelAnchors.push(...nodeLabels.filter(p=>!p.selectedRank));\n const labLabels=layoutLabLabels(labelAnchors,w,H,[{left:marker.x-16,right:marker.x+16,top:marker.y-16,bottom:marker.y+16},...keys.filter(p=>p.index!==selectedLabel?.nodeIndex).map(p=>({left:p.x-5,right:p.x+5,top:p.y-5,bottom:p.y+5}))]);\n",
+    " const nodeLabels=keys.map(p=>{const selected=state.gradientSelection.kind==='color'&&state.gradientSelection.index===p.index;return {x:Math.max(8,Math.min(w-8,p.x+(selected?18:10))),y:Math.max(12,Math.min(H-6,p.y+4)),text:String(p.rank),nodeIndex:p.index,nodeRank:true,selectedRank:selected};});\n const labLabels=layoutLabLabels(labelAnchors,w,H,[{left:marker.x-16,right:marker.x+16,top:marker.y-16,bottom:marker.y+16}]).concat(nodeLabels);\n"
+  ],
+  [
+    "style=\"pointer-events:none\"><title>Gradient key",
+    "style=\"cursor:pointer\"><title>Gradient key"
+  ]
+]

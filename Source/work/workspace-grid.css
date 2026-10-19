@@ -1,0 +1,74 @@
+<style id="color-atlas-workspace-grid">
+/* Four-pixel rhythm; panel headings and toolbars share the same rows. */
+#munsell-picker{--studio-space-1:4px;--studio-space-2:8px;--studio-space-3:12px;--studio-space-4:16px}
+#munsell-picker .studio-topbar{padding:12px 16px;gap:12px}
+#munsell-picker .studio-main{padding:12px;gap:8px}
+#munsell-picker .studio-columns{gap:12px;align-items:stretch}
+#munsell-picker .studio-columns>.studio-card{padding:12px;gap:8px}
+#munsell-picker .studio-columns>.studio-card>h3{margin:0;font-size:10px;line-height:16px;letter-spacing:.7px;flex:none}
+#munsell-picker .studio-author>.viz-row{height:28px;min-height:28px;margin:0;gap:8px;flex-wrap:nowrap;align-items:center}
+#munsell-picker .studio-author-layout{gap:8px!important}
+#munsell-picker .studio-author .mp-vfx-visuals{gap:4px}
+#munsell-picker .studio-graph-caption{display:flex;align-items:center;justify-content:space-between;gap:8px;flex:none;height:16px;padding:0 4px;font-size:10px;line-height:16px;color:#98a9bb;white-space:nowrap}
+#munsell-picker .studio-author .mp-controls{gap:4px!important}
+#munsell-picker .studio-topbar .form-select,
+#munsell-picker .studio-main .btn:not(.studio-key-select):not(.studio-key-copy),
+#munsell-picker .studio-main .form-control,#munsell-picker .studio-main .form-select{height:28px;min-height:28px;box-sizing:border-box;padding:4px 8px;line-height:18px;font-size:11px}
+#munsell-picker .studio-author [data-action="lab-reset-zoom"],#munsell-picker .wheel-toolbar [data-action="wheel-reset-view"]{padding:4px 8px!important;margin:0!important;font-size:10px!important}
+#munsell-picker .studio-keys{row-gap:8px}
+#munsell-picker .studio-keys>.viz-row:not([data-field="gradient-keys"]){min-height:28px;margin:0;gap:8px;align-items:center}
+#munsell-picker .studio-keys>.viz-row:has(#gradient-position){display:grid;grid-template-columns:auto minmax(0,1fr) 48px;gap:8px;margin:0}
+#munsell-picker [data-field="gradient-position-value"]{text-align:right;font-variant-numeric:tabular-nums}
+#munsell-picker .studio-keys [data-field="gradient-keys"]{gap:4px;margin:0;align-content:start;grid-auto-rows:40px}
+#munsell-picker .studio-key-row{gap:4px;padding:4px}
+#munsell-picker .studio-key-row[data-selected=true]{padding:4px}
+#munsell-picker .studio-keys [data-field="gradient-keys"] .studio-key-select{padding:0 4px!important;min-height:28px;gap:8px}
+#munsell-picker .studio-keys [data-field="gradient-keys"] .studio-key-copy{padding:4px 8px!important;font-size:10px!important;height:28px;line-height:18px}
+#munsell-picker .studio-wheel{display:flex;flex-direction:column;gap:8px;margin:0;padding:8px 0 0}
+#munsell-picker [data-field="selected-color-preview"]{height:24px!important;min-height:24px!important;margin:0!important}
+#munsell-picker .wheel-toolbar{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:8px;height:28px;min-height:28px}
+#munsell-picker .wheel-toolbar>span{order:1;margin:0;font-size:9px;line-height:16px}
+#munsell-picker .wheel-toolbar>label{order:2;justify-self:end;display:flex;align-items:center;gap:4px;font-size:10px!important;line-height:16px}
+#munsell-picker .wheel-toolbar>button{order:3;justify-self:end}
+#munsell-picker .studio-preview-toolbar{grid-template-columns:auto minmax(0,.85fr) minmax(0,1.15fr) auto;grid-template-rows:28px;gap:8px;height:28px;margin:0;flex:none}
+#munsell-picker .studio-preview-toolbar .form-select{padding:4px 20px 4px 8px}
+#munsell-picker .studio-preview .mp-explosion-previews{margin:0;align-items:flex-start;justify-content:center}
+#munsell-picker .studio-preview figcaption{text-align:center;margin:0 0 8px;font-size:9px;line-height:12px}
+#munsell-picker .preview-controls{margin:0;gap:8px;grid-template-columns:120px minmax(0,1fr) 40px;align-items:center}
+#munsell-picker .preview-controls output{font-variant-numeric:tabular-nums}
+#munsell-picker #explosion-view{width:min(100%,176px);max-width:176px;height:24px;min-height:24px;justify-self:end;font-size:10px;line-height:16px;padding:3px 24px 3px 8px}
+#munsell-picker .studio-ramp{margin:0!important;padding:12px}
+#munsell-picker .studio-ramp-title{gap:8px;margin:0 0 8px}
+#munsell-picker .studio-export-actions{gap:8px}
+#munsell-picker .studio-ramp [data-action="gradient-toggle-layer"]{padding:4px 8px!important;font-size:16px!important;line-height:18px}
+#munsell-picker .studio-ramp .mp-gradient{height:104px}
+#munsell-picker .studio-sidebar{padding:12px}
+#munsell-picker .studio-sidebar>.studio-eyebrow:first-of-type{margin:0 0 8px}
+#munsell-picker .studio-sidebar>label{margin:0 0 4px}
+#munsell-picker .studio-sidebar>.studio-eyebrow:not(:first-of-type){margin:12px 0 8px;font-size:9px;line-height:16px}
+#munsell-picker #studio-search{height:28px;min-height:28px;padding:4px 8px;font-size:11px;line-height:18px;box-sizing:border-box}
+#munsell-picker .studio-sidebar .studio-library{margin:0;gap:4px}
+#munsell-picker .studio-folder>summary{min-height:28px;padding:4px 0;box-sizing:border-box;gap:4px;align-items:center}
+#munsell-picker .studio-folder-items{padding-left:12px}
+#munsell-picker .studio-library button{padding:4px;min-height:28px;font-size:11px;line-height:16px}
+#munsell-picker .studio-lab{display:none!important}
+#munsell-picker .studio-credit{font-size:9px;line-height:16px;margin:0 12px 4px}
+/* A single renderer animates only the border, keeping all selected centers still. */
+#munsell-picker .color-marker.is-selected,#munsell-picker .studio-key-row[data-selected=true] .studio-key-swatch{animation:none}
+#munsell-picker .studio-selection-ring{position:absolute;left:50%;top:50%;width:32px;height:32px;overflow:visible;transform:translate(-50%,-50%);pointer-events:none}
+@media(min-width:1000px) and (min-height:800px){
+ #munsell-picker .studio-author .mp-vfx-lab{flex:1 1 0;min-height:0;height:0!important}
+ #munsell-picker .studio-keys{grid-template-rows:auto auto var(--studio-fitted-list-size,minmax(84px,1fr)) auto auto}
+ #munsell-picker .studio-wheel svg{flex:none}
+ #munsell-picker .studio-key-row .studio-selection-ring{height:32px!important;max-height:none}
+}
+@media(max-width:999px){
+ #munsell-picker .studio-main{display:flex;flex-direction:column}
+ #munsell-picker .studio-author,#munsell-picker .studio-preview{display:flex;flex-direction:column}
+ #munsell-picker .studio-keys{display:grid;grid-template-rows:auto auto auto auto auto}
+}
+@media(max-width:720px){
+ #munsell-picker .preview-controls{grid-template-columns:104px minmax(0,1fr) 36px}
+ #munsell-picker .studio-topbar{padding:12px;gap:8px}
+}
+</style>

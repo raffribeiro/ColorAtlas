@@ -1,0 +1,7 @@
+#munsell-picker .studio-sidebar .atlas-library-heading{display:flex;align-items:center;justify-content:space-between;gap:8px}
+#munsell-picker .atlas-library-io{display:inline-flex;gap:4px;letter-spacing:0;text-transform:none}
+#munsell-picker .atlas-library-io button{font:inherit;font-size:11px;line-height:1;padding:5px 8px;border-radius:5px;border:1px solid #2f3d4e;background:#121a24;color:#b9c7d8;cursor:pointer}
+#munsell-picker .atlas-library-io button:hover{color:#eef3fa;border-color:#46607c}
+#munsell-picker .atlas-library-io button:focus-visible{outline:2px solid #d4dfea;outline-offset:2px}
+#munsell-picker .atlas-library-status{margin:4px 0 8px;font-size:11.5px;line-height:1.5;color:#bff7e3;background:rgba(127,240,200,.07);border:1px solid rgba(127,240,200,.25);border-radius:6px;padding:6px 8px}
+#munsell-picker .atlas-library-status[hidden]{display:none}

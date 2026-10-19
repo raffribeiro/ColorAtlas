@@ -1,0 +1,10 @@
+#munsell-picker .studio-colorplay-dialog{width:min(560px,calc(100vw - 32px))}
+#munsell-picker .studio-colorplay-dialog p{font-size:12px;line-height:1.6;color:#aebfd2;margin:14px 0}
+#munsell-picker .colorplay-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+#munsell-picker .colorplay-ground{height:110px;display:grid;place-items:center;border-radius:4px}
+#munsell-picker .colorplay-patch{width:40px;height:40px}
+#munsell-picker .colorplay-grid canvas{width:100%;height:auto;aspect-ratio:1;image-rendering:auto;border-radius:4px}
+#munsell-picker #colorplay-hex{font-family:monospace;color:#e8eef6}
+#munsell-picker [data-action="colorplay-study"]{background:transparent;border-color:transparent;font-size:11px;color:#aebfd2;padding:4px}
+#munsell-picker [data-action="colorplay-study"][hidden]{display:none}
+#munsell-picker .studio-preview-toolbar:has([data-action="colorplay-study"]:not([hidden])){grid-template-columns:auto minmax(0,1fr) auto minmax(0,1fr) auto}

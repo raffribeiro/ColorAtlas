@@ -1,0 +1,22 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const source=fs.readFileSync('/Users/raffribeiro/.codex/visualizations/2026/10/01/01a0f83c-7569-7dd0-ad8b-3e73b2b454df/munsell-selector.html','utf8');
+const handlers={},points={'#111111':{l:25,a:-50,b:20},'#222222':{l:60,a:0,b:0},'#333333':{l:60,a:0,b:0}},state={system:'vfx',vfx:{...points['#222222']},gradientColors:Object.keys(points).map((hex,i)=>({hex,t:i/2})),gradientSelection:{kind:'color',index:1}};
+let saved=0,loaded=0,painted=0,captured=false;
+const target={clientWidth:370,clientHeight:240,addEventListener(k,f){handlers[k]=f},setAttribute(){},getScreenCTM(){return {inverse(){return {a:1,d:1,e:0,f:0}}}},createSVGPoint(){return {matrixTransform(m){return {x:this.x*m.a+m.e,y:this.y*m.d+m.f}}}},getBoundingClientRect:()=>({width:370,height:240}),setPointerCapture(){captured=true},hasPointerCapture:()=>captured,releasePointerCapture(){captured=false}};
+const c={state,labView:{zoom:1,yaw:0,pitch:.5,panX:0,panY:0},lab3dDrag:null,labPlane:{addEventListener(){}},vfxLab:target,rgbToLab:hex=>points[hex],fitLabToSRGB:(l,a,b)=>({l,a,b}),loadGradientColor(){loaded++;Object.assign(state.vfx,points[state.gradientColors[state.gradientSelection.index].hex])},drawLabPlane(){painted++},drawSystem(){painted++},remember(){saved++},window:{},requestAnimationFrame(){return 1},cancelAnimationFrame(){}};
+vm.createContext(c);vm.runInContext(source.slice(source.indexOf('function projectLab('),source.indexOf('// Two restrained OKLab spectra')),c);vm.runInContext(source.slice(source.indexOf('function labClickColor('),source.indexOf('function hsvRGB(')),c);
+const event=(p,extra={})=>({clientX:p.x,clientY:p.y,button:0,pointerId:1,preventDefault(){},...extra});
+const point=i=>c.projectLab(points[state.gradientColors[i].hex],370,240);
+const before=JSON.stringify(state.gradientColors);
+let p=point(0);handlers.pointerdown(event(p));assert.equal(state.gradientSelection.index,1,'Press alone does not mutate the selection');handlers.pointerup(event(p));assert.equal(state.gradientSelection.index,0,'Clicking a node selects its actual key');assert.equal(loaded,1);assert.equal(saved,1);assert(!captured);
+p=point(0);handlers.pointerdown(event(p));assert.equal(c.lab3dDrag.mode,'color','A selected node can be dragged on the next press');handlers.pointerup(event(p));assert.equal(saved,1);
+state.gradientSelection.index=1;Object.assign(state.vfx,points['#222222']);p=point(2);handlers.pointerdown(event(p));assert.equal(c.lab3dDrag.mode,'color','The selected circle has priority when another node overlaps it');handlers.pointerup(event(p));assert.equal(state.gradientSelection.index,1);assert.equal(loaded,1);
+// Separate the previously overlapping node by changing the angle.
+points['#333333']={l:60,a:0,b:80};c.labView.yaw=1.5;p=point(2);handlers.pointerdown(event(p));handlers.pointerup(event(p));assert.equal(state.gradientSelection.index,2);
+state.gradientSelection.index=1;Object.assign(state.vfx,points['#222222']);p=point(0);handlers.pointerdown(event(p));handlers.pointercancel(event(p));assert.equal(state.gradientSelection.index,1,'Canceled pointer gestures do not select');
+handlers.pointerdown(event(p));handlers.pointermove(event({x:p.x+30,y:p.y+8}));assert.equal(c.lab3dDrag.mode,'rotate','Dragging an unselected node keeps camera rotation');handlers.pointerup(event({x:p.x+30,y:p.y+8}));assert.equal(state.gradientSelection.index,1);
+for(const extra of [{shiftKey:true},{button:1}]){p=point(0);handlers.pointerdown(event(p,extra));handlers.pointerup(event(p,extra));assert.equal(state.gradientSelection.index,1,'Shift rotation and middle pan never select a key');}
+p=point(0);handlers.pointerdown(event(p));handlers.pointerup(event(p,{pointerId:9}));assert(c.lab3dDrag,'An unrelated pointer cannot complete selection');handlers.pointerup(event(p));assert.equal(state.gradientSelection.index,0);
+state.gradientSelection.index=1;Object.assign(state.vfx,points['#222222']);target.getScreenCTM=()=>({inverse:()=>({a:.5,d:.5,e:-50,f:-25})});p=point(0);const screen={x:p.x*2+100,y:p.y*2+50};handlers.pointerdown(event(screen));handlers.pointerup(event(screen));assert.equal(state.gradientSelection.index,0,'Node picking follows SVG screen transforms');
+assert.equal(JSON.stringify(state.gradientColors),before,'Node selection preserves colors and stop positions');assert(painted>0);
+console.log('PASS: click selects 3D keys; selected overlap priority; camera-angle access, no drag/cancel/shift/middle selection; pointer IDs, scaling and unchanged colors.');

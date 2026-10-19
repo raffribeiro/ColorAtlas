@@ -1,0 +1,54 @@
+let labReferencePixels=null,labComparison=null,labSaved=[];
+const labStorageKey='color-atlas-user-gradients-v1';
+function validLabEntry(p){return p&&typeof p.name==='string'&&Array.isArray(p.colors)&&p.colors.length>=2&&p.colors.length<=16&&p.colors.every(k=>k&&Number.isFinite(k.t)&&k.t>=0&&k.t<=1&&/^#[a-f0-9]{6}$/i.test(k.hex))&&Array.isArray(p.alphas)&&p.alphas.length>=2&&p.alphas.length<=16&&p.alphas.every(k=>k&&Number.isFinite(k.t)&&k.t>=0&&k.t<=1&&Number.isFinite(k.a)&&k.a>=0&&k.a<=1);}
+function labMessage(text){$('#lab-report').textContent=text;}
+function adaptiveGradient(points,tolerance=.018){
+ if(points.length<2)return [];
+ const chosen=new Set([0,points.length-1]);
+ while(chosen.size<16){const indices=[...chosen].sort((a,b)=>a-b);let worst=tolerance,winner=-1;
+ for(let j=1;j<indices.length;j++){const start=indices[j-1],end=indices[j],a=points[start],b=points[end];for(let i=start+1;i<end;i++){const q=points[i],u=(q.t-a.t)/(b.t-a.t||1),expected={l:a.l+(b.l-a.l)*u,a:a.a+(b.a-a.a)*u,b:a.b+(b.b-a.b)*u},error=perceptualDistance(q,expected);if(error>worst){worst=error;winner=i;}}}
+ if(winner<0)break;chosen.add(winner);
+ }
+ return [...chosen].sort((a,b)=>a-b).map(i=>{const p=points[i],fit=fitLabToSRGB(p.l,p.a,p.b);return {t:p.t,hex:labColor(fit.l,fit.a,fit.b).hex};});
+}
+function imageGradientPoints(rgba){
+ const bins=Array.from({length:64},()=>({l:0,a:0,b:0,w:0}));
+ for(let i=0;i<rgba.length;i+=16){const weight=rgba[i+3]/255;if(!weight)continue;const hex='#'+[rgba[i],rgba[i+1],rgba[i+2]].map(v=>v.toString(16).padStart(2,'0')).join(''),p=rgbToLab(hex),bin=bins[Math.min(63,Math.floor(p.l/100*64))];bin.l+=p.l*weight;bin.a+=p.a*weight;bin.b+=p.b*weight;bin.w+=weight;}
+ const points=bins.filter(p=>p.w).map(p=>({l:p.l/p.w,a:p.a/p.w,b:p.b/p.w,t:p.l/p.w/100}));
+ if(points.length===1){const p=points[0];return [{...p,t:0},{...p,t:1}];}
+ if(points.length){if(points[0].t>0)points.unshift({...points[0],t:0});if(points.at(-1).t<1)points.push({...points.at(-1),t:1});}return points;
+}
+function labSetColors(colors){state.gradientColors=colors;state.gradientAlphas=[{t:0,a:1},{t:1,a:1}];state.artistTransition='smooth';state.gradientSelection={kind:'color',index:Math.floor(colors.length/2)};loadGradientColor();gradientChange();labAnalyze();}
+function labSetPreview(mode){
+ if(mode==='reference'&&!labReferencePixels){labMessage('Importe uma imagem para usar a referência.');return;}
+ const grayCtx=field('explosion-gray').getContext('2d'),img=grayCtx.createImageData(512,512);explosionPixels=new Uint8Array(512*512);explosionAlpha=new Uint8Array(512*512);
+ for(let y=0;y<512;y++)for(let x=0;x<512;x++){const i=y*512+x,j=i*4,u=x/511,v=y/511;let t,alpha=255;
+ if(mode==='reference'){const rgba=labReferencePixels,hex='#'+[rgba[j],rgba[j+1],rgba[j+2]].map(n=>n.toString(16).padStart(2,'0')).join('');t=rgbToLab(hex).l/100;alpha=rgba[j+3];}
+ else if(mode==='material'){const dx=(u-.5)*2,dy=(v-.5)*2,z=Math.sqrt(Math.max(0,1-dx*dx-dy*dy));t=Math.max(0,.12+.8*(-dx*.45-dy*.5+z*.7));alpha=dx*dx+dy*dy<=1?255:0;}
+ else if(mode==='portrait'){const dx=(u-.5)/.32,dy=(v-.48)/.44,z=Math.sqrt(Math.max(0,1-dx*dx-dy*dy));t=.12+.68*z*(.65+.35*(1-u));t-=.16*Math.exp(-((v-.42)/.035)**2)*Math.exp(-((Math.abs(u-.5)-.12)/.06)**2);alpha=dx*dx+dy*dy<1?255:0;}
+ else if(mode==='terrain')t=.5+.22*Math.sin(u*15+v*4)+.14*Math.cos(v*22-u*8)+.10*Math.sin(u*40+v*28);
+ else t=(.5+.3*Math.sin(u*11+v*9)*Math.cos(v*15-u*5))*Math.exp(-((u-.5)**2+(v-.5)**2)*3);
+ const value=Math.round(Math.max(0,Math.min(1,t))*255);explosionPixels[i]=value;explosionAlpha[i]=alpha;img.data.set([value,value,value,alpha],j);
+ }grayCtx.putImageData(img,0,0);explosionRenderSignature=null;drawExplosionMap();
+}
+function labAnalyze(){const ctx=$('#lab-chart').getContext('2d');ctx.clearRect(0,0,640,100);ctx.fillStyle='#101923';ctx.fillRect(0,0,640,100);let prev=null,min=Infinity,max=0,reversals=0;
+ const colors=[...state.gradientColors].sort((a,b)=>a.t-b.t),labs=colors.map(k=>rgbToLab(k.hex));for(let i=1;i<labs.length;i++){const d=perceptualDistance(labs[i-1],labs[i]);min=Math.min(min,d);max=Math.max(max,d);if(i>1&&(labs[i].l-labs[i-1].l)*(labs[i-1].l-labs[i-2].l)<0)reversals++;}
+ for(const [keys,alpha,stroke] of [[labComparison?.colors,labComparison?.alphas,'#b991de'],[state.gradientColors,state.gradientAlphas,'#8adfda']]){if(!keys)continue;ctx.strokeStyle=stroke;ctx.beginPath();for(let x=0;x<640;x++){const sample=gradientSample(x/639,keys,alpha),hex=rgbHex(sample.rgb.map(encodeSRGB)),p=rgbToLab(hex);if(x===0)ctx.moveTo(x,95-p.l*.9);else ctx.lineTo(x,95-p.l*.9);}ctx.stroke();}
+ labMessage(`${colors.length}/16 pontos · ΔE OK entre keys: ${min.toFixed(3)}–${max.toFixed(3)} · ${reversals} inversões de luminosidade. Curva cyan: L atual; violeta: comparação. Distância entre keys não considera a largura de cada trecho.`);
+}
+function labRenderLibrary(){const container=$('#lab-library');container.replaceChildren();const query=$('#lab-search').value.toLowerCase();for(const entry of labSaved.filter(p=>(p.name+' '+(p.tags||'')).toLowerCase().includes(query))){const item=document.createElement('div'),load=document.createElement('button'),star=document.createElement('button'),remove=document.createElement('button');load.className=star.className=remove.className='btn';load.textContent=entry.name;load.title=entry.tags||'';load.style.borderBottom='4px solid '+entry.colors[Math.floor(entry.colors.length/2)].hex;load.onclick=()=>{state.gradientColors=structuredClone(entry.colors);state.gradientAlphas=structuredClone(entry.alphas);state.artistTransition=entry.transition==='bands'?'bands':'smooth';state.gradientSelection={kind:'color',index:0};loadGradientColor();gradientChange();labAnalyze();};star.textContent=entry.favorite?'★':'☆';star.setAttribute('aria-label','Alternar favorito');star.onclick=()=>{entry.favorite=!entry.favorite;labPersist();};remove.textContent='×';remove.setAttribute('aria-label','Excluir '+entry.name);remove.onclick=()=>{labSaved=labSaved.filter(p=>p!==entry);labPersist();};item.append(load,star,remove);container.appendChild(item);}}
+function labPersist(){labSaved.sort((a,b)=>Number(!!b.favorite)-Number(!!a.favorite));try{localStorage.setItem(labStorageKey,JSON.stringify(labSaved));}catch{labMessage('Não foi possível salvar localmente. Exporte a biblioteca para preservar suas variantes.');}labRenderLibrary();}
+function labDownload(data,name,type){const url=URL.createObjectURL(new Blob([data],{type})),link=document.createElement('a');link.href=url;link.download=name;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+$('#lab-image-input').addEventListener('change',async e=>{const file=e.target.files[0];if(!file)return;const url=URL.createObjectURL(file),image=new Image();image.onload=()=>{const canvas=document.createElement('canvas');canvas.width=canvas.height=512;const ctx=canvas.getContext('2d'),scale=Math.min(512/image.width,512/image.height);ctx.drawImage(image,(512-image.width*scale)/2,(512-image.height*scale)/2,image.width*scale,image.height*scale);labReferencePixels=ctx.getImageData(0,0,512,512).data;URL.revokeObjectURL(url);$('#lab-preview').value='reference';labSetPreview('reference');labMessage('Imagem carregada localmente. Extração agrupa cores por luminosidade OKLab.');};image.onerror=()=>{URL.revokeObjectURL(url);labMessage('Não foi possível abrir essa imagem.');};image.src=url;});
+$('#lab-extract').onclick=()=>{if(!labReferencePixels){labMessage('Importe uma imagem primeiro.');return;}const points=imageGradientPoints(labReferencePixels);if(!points.length){labMessage('A imagem não contém pixels visíveis.');return;}labSetColors(adaptiveGradient(points,Number($('#lab-precision').value)));};
+$('#lab-preview').onchange=()=>labSetPreview($('#lab-preview').value);
+$('#lab-structure').onclick=()=>{const power=Number($('#lab-tone').value),highlight=Number($('#lab-highlight').value);for(const k of state.gradientColors)k.t=Math.min(1,Math.pow(k.t,power)*highlight);gradientChange();labAnalyze();};
+$('#lab-analyze').onclick=labAnalyze;
+$('#lab-compare').onclick=()=>{labComparison={colors:structuredClone(state.gradientColors),alphas:structuredClone(state.gradientAlphas),transition:state.artistTransition};labAnalyze();};
+$('#lab-restore').onclick=()=>{if(!labComparison){labMessage('Guarde uma comparação primeiro.');return;}state.gradientColors=structuredClone(labComparison.colors);state.gradientAlphas=structuredClone(labComparison.alphas);state.artistTransition=labComparison.transition;state.gradientSelection={kind:'color',index:0};loadGradientColor();gradientChange();labAnalyze();};
+$('#lab-save').onclick=()=>{const name=$('#lab-name').value.trim();if(!name){labMessage('Digite um nome para a variante.');return;}labSaved.push({name:name.slice(0,60),tags:$('#lab-tags').value.slice(0,120),favorite:true,colors:structuredClone(state.gradientColors),alphas:structuredClone(state.gradientAlphas),transition:state.artistTransition});labPersist();};
+$('#lab-search').oninput=labRenderLibrary;
+$('#lab-library-export').onclick=()=>labDownload(JSON.stringify({version:1,palettes:labSaved},null,2),'color-atlas-library.json','application/json');
+$('#lab-library-import').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>2000000)throw Error();const data=JSON.parse(await file.text());if(data.version!==1||!Array.isArray(data.palettes)||data.palettes.length>500||!data.palettes.every(validLabEntry))throw Error();labSaved.push(...data.palettes.map(p=>({...p,name:p.name.slice(0,60),tags:typeof p.tags==='string'?p.tags.slice(0,120):''})));labPersist();}catch{labMessage('Biblioteca inválida: esperado JSON v1 com 2–16 keys por canal.');}};
+$('#lab-export-texture').onclick=()=>{const canvas=document.createElement('canvas'),w=Number($('#lab-export-resolution').value);canvas.width=w;canvas.height=16;const ctx=canvas.getContext('2d'),img=ctx.createImageData(w,16);for(let x=0;x<w;x++){const sample=gradientSample(x/(w-1)),rgba=[...sample.rgb.map(v=>Math.round(encodeSRGB(v)*255)),Math.round(sample.alpha*255)];for(let y=0;y<16;y++)img.data.set(rgba,(y*w+x)*4);}ctx.putImageData(img,0,0);canvas.toBlob(blob=>{if(blob)labDownload(blob,'gradient-oklab-'+w+'.png','image/png');});};
+try{const saved=JSON.parse(localStorage.getItem(labStorageKey)||'[]');if(Array.isArray(saved))labSaved=saved.filter(validLabEntry).slice(0,500);}catch{}labRenderLibrary();

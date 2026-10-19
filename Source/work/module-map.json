@@ -1,0 +1,478 @@
+{
+  "schema": 1,
+  "canonical": "/Users/raffribeiro/.codex/visualizations/2026/10/01/01a0f83c-7569-7dd0-ad8b-3e73b2b454df/munsell-selector.html",
+  "generated": "outputs/munsell-color-picker.html",
+  "export_integrations": [
+    "atlas-random-luma.js",
+    "atlas-random-roles.js",
+    "atlas-layer-drop.js",
+    "atlas-gradient-editing.js",
+    "atlas-preset-connection.js",
+    "atlas-preset-update.js",
+    {
+      "marker": "Atlas history integration",
+      "files": [
+        "atlas-history-core.js",
+        "atlas-history-ui.js"
+      ]
+    },
+    "atlas-app-width.js",
+    "atlas-lightness-readout.js",
+    "atlas-wheel-swatch.js",
+    "atlas-preview-export.js",
+    "atlas-graphic-design.js",
+    "atlas-normalize-values.js",
+    "atlas-random-performance.js",
+    "atlas-i18n-graphics.js",
+    "atlas-i18n-library.js"
+  ],
+  "groups": {
+    "graphics": {
+      "sources": [
+        "work/atlas-lab-live-color.js",
+        "work/atlas-lab-surface.js",
+        "work/atlas-neutral-axis.js",
+        "work/lab-axes-script-edits.json",
+        "work/atlas-preview-camera.js",
+        "work/atlas-preview-fit.js"
+      ],
+      "install": [
+        "work/build_lab_live_color.cjs",
+        "work/install_lab_live_color.py",
+        "work/install_lab_surface.py",
+        "work/install_neutral_axis.py",
+        "work/build_workspace_modules.cjs",
+        "work/install_preview_camera.py",
+        "work/install_preview_fit.py"
+      ],
+      "checks": [
+        "work/check_lab_camera_schedule.cjs",
+        "work/check_lab_surface.cjs",
+        "work/check_neutral_axis.cjs",
+        "work/check_lab_axes.cjs",
+        "work/check_lab_live_color.cjs",
+        "work/check_lab_node_numbers.cjs"
+      ],
+      "core_symbols": [
+        "projectLab",
+        "drawLabPlane",
+        "labColor",
+        "fitLabToSRGB",
+        "drawColorWheel"
+      ]
+    },
+    "history": {
+      "sources": [
+        "work/atlas-history-core.js",
+        "work/atlas-history-ui.js",
+        "work/atlas-gradient-editing.js"
+      ],
+      "install": [],
+      "checks": [
+        "work/check_history.cjs",
+        "work/check_gradient_history.cjs",
+        "work/check_history_editor.cjs"
+      ]
+    },
+    "random": {
+      "sources": [
+        "work/atlas-random-generation.js",
+        "work/atlas-random-luma.js",
+        "work/atlas-random-roles.js",
+        "work/atlas-random-performance.js",
+        "work/atlas-graphic-design.js",
+        "work/atlas-colorplay.js"
+      ],
+      "install": [],
+      "checks": [
+        "work/check_role_random.cjs",
+        "work/check_graphic_design.cjs",
+        "work/check_random_batch.cjs",
+        "work/check_random_performance.cjs"
+      ],
+      "core_symbols": [
+        "randomPreviewLayers"
+      ]
+    },
+    "preview": {
+      "sources": [
+        "work/atlas-preview-layers-core.js",
+        "work/atlas-preview-layers.js",
+        "work/atlas-preview-presets.js",
+        "work/atlas-preview-storage.js",
+        "work/atlas-normalize-values.js",
+        "work/atlas-preview-export.js"
+      ],
+      "install": [
+        "work/build_preview_layers.cjs",
+        "work/install_preview_layers.py"
+      ],
+      "checks": [
+        "work/check_preview_layers.cjs",
+        "work/check_normalize_values.cjs"
+      ],
+      "core_symbols": [
+        "drawExplosionMap"
+      ]
+    },
+    "onboarding": {
+      "sources": [
+        "work/atlas-onboarding.js",
+        "work/atlas-onboarding.css",
+        "work/atlas-onboarding-state.js",
+        "work/atlas-brand.css"
+      ],
+      "install": [
+        "work/install_onboarding.py"
+      ],
+      "checks": [
+        "work/check_onboarding.cjs",
+        "work/check_onboarding_performance.cjs",
+        "work/check_tour_viewport.cjs",
+        "work/check_tour_revision.cjs",
+        "work/check_tour_wheel_key.cjs"
+      ]
+    },
+    "documentation": {
+      "sources": [
+        "work/build_documentation.py",
+        "work/atlas-documentation.js",
+        "work/atlas-documentation.css",
+        "work/atlas-documentation-examples.js",
+        "work/documentation-sources.json"
+      ],
+      "install": [
+        "work/build_documentation.py",
+        "work/build_workspace_modules.cjs",
+        "work/install_documentation_v2.py"
+      ],
+      "checks": [
+        "work/check_documentation_content.py",
+        "work/check_documentation_math.cjs"
+      ]
+    },
+    "library": {
+      "sources": [
+        "work/atlas-library-folders.js",
+        "work/atlas-library-io.js",
+        "work/atlas-library-io.css",
+        "work/atlas-user-palettes.js"
+      ],
+      "install": [
+        "work/build_workspace_modules.cjs",
+        "work/install_onboarding.py"
+      ],
+      "checks": [
+        "work/check_user_palettes.cjs",
+        "work/check_workspace_cleanup.cjs"
+      ]
+    },
+    "motion": {
+      "sources": [
+        "work/atlas-motion-lite.js",
+        "work/atlas-motion-ui.js",
+        "work/atlas-motion-ui.css"
+      ],
+      "install": [
+        "work/build_workspace_modules.cjs",
+        "work/install_workspace_resize.py",
+        "work/install_motion_lite.py"
+      ],
+      "checks": [
+        "work/check_motion_lite.cjs",
+        "work/check_motion_subset.cjs",
+        "work/check_motion_ui.cjs",
+        "work/check_motion_propagation.cjs"
+      ]
+    },
+    "build": {
+      "sources": [
+        "work/build_standalone.py",
+        "work/fit_local_page.py",
+        "work/atlas_build.py",
+        "work/module-map.json",
+        "work/standalone-shell.html",
+        "work/standalone-frame-prefix.html",
+        "work/standalone-frame-suffix.html",
+        "work/project_index.py",
+        "work/check_project.py"
+      ],
+      "install": [],
+      "checks": [
+        "work/test_build_pipeline.py",
+        "work/check_project_index.py",
+        "work/test_project_checks.py",
+        "work/check_bundle_sync.cjs"
+      ]
+    },
+    "release": {
+      "sources": [
+        "work/package_standalone.py",
+        "work/sync_release_folder.py",
+        "work/release_preflight.py",
+        "work/RELEASES.md"
+      ],
+      "install": [],
+      "checks": [
+        "work/check_build_safety.py"
+      ]
+    },
+    "export": {
+      "sources": [
+        "work/atlas-png-export.js",
+        "work/atlas-preview-export.js"
+      ],
+      "install": [
+        "work/build_workspace_modules.cjs",
+        "work/install_workspace_resize.py"
+      ],
+      "checks": [
+        "work/check_png_export.cjs",
+        "work/check_export_interpolation.cjs"
+      ]
+    },
+    "workspace": {
+      "sources": [
+        "work/atlas-app-width.js",
+        "work/atlas-workspace-resize.js",
+        "work/atlas-lightness-readout.js",
+        "work/atlas-wheel-swatch.js",
+        "work/atlas-library-naming.js",
+        "work/atlas-editor-refinements.js",
+        "work/atlas-editor-refinements.css",
+        "work/atlas-clipboard.js",
+        "work/atlas-splash.js"
+      ],
+      "install": [
+        "work/build_workspace_modules.cjs",
+        "work/install_workspace_resize.py",
+        "work/install_editor_refinements.py",
+        "work/install_clipboard.py",
+        "work/build_splash.cjs",
+        "work/install_splash.py"
+      ],
+      "checks": [
+        "work/check_editor_refinements.cjs"
+      ]
+    },
+    "analysis": {
+      "sources": [
+        "work/atlas-attention.js"
+      ],
+      "install": [
+        "work/build_workspace_modules.cjs",
+        "work/install_attention.py"
+      ],
+      "checks": [
+        "work/check_attention.cjs"
+      ]
+    },
+    "help": {
+      "sources": [
+        "work/atlas-context-help.js",
+        "work/atlas-context-help.css"
+      ],
+      "install": [
+        "work/install_context_help.py"
+      ],
+      "checks": [
+        "work/check_context_help.cjs",
+        "work/test_documentation_install.py"
+      ]
+    },
+    "language": {
+      "sources": [
+        "work/atlas-i18n.js",
+        "work/atlas-i18n.css",
+        "work/atlas-i18n-host.js",
+        "work/locales/de.json",
+        "work/locales/en.json",
+        "work/locales/es.json",
+        "work/locales/fr.json",
+        "work/locales/it.json",
+        "work/locales/ja.json",
+        "work/locales/ko.json",
+        "work/locales/pt-BR.json",
+        "work/locales/zh-CN.json",
+        "work/atlas-i18n-graphics.js",
+        "work/extract_i18n.cjs",
+        "work/locales/full/de.json",
+        "work/locales/full/en.json",
+        "work/locales/full/es.json",
+        "work/locales/full/fr.json",
+        "work/locales/full/it.json",
+        "work/locales/full/ja.json",
+        "work/locales/full/ko.json",
+        "work/locales/full/pt-BR.json",
+        "work/locales/full/zh-CN.json",
+        "work/locales/supplement/de.json",
+        "work/locales/supplement/en.json",
+        "work/locales/supplement/es.json",
+        "work/locales/supplement/fr.json",
+        "work/locales/supplement/it.json",
+        "work/locales/supplement/ja.json",
+        "work/locales/supplement/ko.json",
+        "work/locales/supplement/pt-BR.json",
+        "work/locales/supplement/zh-CN.json",
+        "work/atlas-i18n-library.js",
+        "work/locales/extra/de.json",
+        "work/locales/extra/en.json",
+        "work/locales/extra/es.json",
+        "work/locales/extra/fr.json",
+        "work/locales/extra/it.json",
+        "work/locales/extra/ja.json",
+        "work/locales/extra/ko.json",
+        "work/locales/extra/pt-BR.json",
+        "work/locales/extra/zh-CN.json"
+      ],
+      "install": [
+        "work/build_standalone.py"
+      ],
+      "checks": [
+        "work/check_i18n.py"
+      ]
+    }
+  },
+  "browser_suites": {
+    "onboarding": "work/test_onboarding_e2e.py",
+    "wheel": "work/test_wheel_surface_e2e.py",
+    "drag-guides": "work/test_lab_drag_guides.py",
+    "documentation-help": "work/test_documentation_help_e2e.py",
+    "language": "work/test_i18n_e2e.py",
+    "language-full": "work/test_i18n_full_e2e.py",
+    "language-dynamic": "work/test_i18n_dynamic_e2e.py"
+  },
+  "historical_checks": {
+    "work/check_domain_data.cjs": "Expects inline 64-preset data; current data is bundled.",
+    "work/check_simple_random.cjs": "Old preset/key-count assumptions (7 vs 8); shared harness still used by current Random checks.",
+    "work/check_wheel_pan.cjs": "Old picker stub and coordinate convention; use wheel browser suite.",
+    "work/check_wheel_hit.cjs": "Old appearance/hit expectations; use wheel browser suite.",
+    "work/check_documentation.cjs": "Old minimal DOM mock asserts chapter-filter search; superseded by real browser section-search/scroll/reset acceptance in test_documentation_help_e2e.py."
+  },
+  "known_failures": {
+    "work/check_preview_storage.cjs": "Protected Default refresh expectation differs from host name-only seed policy; review reported, behavior not changed."
+  },
+  "current_checks": [
+    "work/check_documentation_content.py",
+    "work/check_documentation_math.cjs",
+    "work/check_documentation_munsell.cjs",
+    "work/check_documentation_volume.cjs",
+    "work/check_onboarding.cjs",
+    "work/check_onboarding_performance.cjs",
+    "work/check_neutral_axis.cjs",
+    "work/check_lab_axes.cjs",
+    "work/check_lab_live_color.cjs",
+    "work/check_lab_node_numbers.cjs",
+    "work/check_lab_surface.cjs",
+    "work/check_lab_camera_schedule.cjs",
+    "work/check_wheel_resolution.cjs",
+    "work/check_wheel_orientation.cjs",
+    "work/check_preview_layers.cjs",
+    "work/check_preview_layers_ui.cjs",
+    "work/check_graphic_design.cjs",
+    "work/check_role_random.cjs",
+    "work/check_random_batch.cjs",
+    "work/check_random_performance.cjs",
+    "work/check_gradient_history.cjs",
+    "work/check_history.cjs",
+    "work/check_user_palettes.cjs",
+    "work/check_png_export.cjs",
+    "work/check_export_interpolation.cjs",
+    "work/check_motion_lite.cjs",
+    "work/check_motion_subset.cjs",
+    "work/check_workspace_cleanup.cjs",
+    "work/check_preview_multiselect.cjs",
+    "work/check_normalize_values.cjs",
+    "work/check_editor_refinements.cjs",
+    "work/check_build_safety.py",
+    "work/test_build_pipeline.py",
+    "work/check_project_index.py",
+    "work/check_syntax.cjs",
+    "work/test_project_checks.py",
+    "work/check_bundle_sync.cjs",
+    "work/check_context_help.cjs",
+    "work/test_documentation_install.py",
+    "work/check_i18n.py"
+  ],
+  "inactive_runtime": {
+    "work/atlas-folder-data.js": "Legacy folder-store path; browser release uses atlas-preview-storage.js.",
+    "work/atlas-fullscreen.js": "Not shipped by the current browser exporter; it removes atlas-fullscreen-ui explicitly."
+  },
+  "routes": {
+    "work/atlas-motion-ui.js": {
+      "compile": "work/build_workspace_modules.cjs",
+      "install": "work/install_workspace_resize.py",
+      "target": "script#atlas-motion-ui"
+    },
+    "work/atlas-motion-lite.js": {
+      "compile": null,
+      "install": "work/install_motion_lite.py",
+      "target": "script#atlas-motion-vendor"
+    },
+    "work/atlas-png-export.js": {
+      "compile": "work/build_workspace_modules.cjs",
+      "install": "work/install_workspace_resize.py",
+      "target": "PNG export options marker in canonical core"
+    },
+    "work/atlas-colorplay.js": {
+      "compile": "work/build_workspace_modules.cjs",
+      "install": "work/install_workspace_resize.py",
+      "target": "ColorPlay contextual generation marker in canonical core"
+    },
+    "work/atlas-preview-camera.js": {
+      "compile": "work/build_workspace_modules.cjs",
+      "install": "work/install_preview_camera.py",
+      "target": "script#atlas-preview-camera-ui"
+    },
+    "work/atlas-preview-fit.js": {
+      "compile": "work/build_workspace_modules.cjs",
+      "install": "work/install_preview_fit.py",
+      "target": "script#color-atlas-preview-fit"
+    },
+    "work/atlas-attention.js": {
+      "compile": "work/build_workspace_modules.cjs",
+      "install": "work/install_attention.py",
+      "target": "Color Atlas adaptation marker in canonical core"
+    },
+    "work/atlas-workspace-resize.js": {
+      "compile": "work/build_workspace_modules.cjs",
+      "install": "work/install_workspace_resize.py",
+      "target": "script#atlas-workspace-resize"
+    },
+    "work/atlas-documentation.js": {
+      "compile": "work/build_workspace_modules.cjs",
+      "install": "work/install_documentation_v2.py",
+      "target": "script#atlas-documentation-ui; compiled navigation plus generated articles/styles/examples"
+    },
+    "work/atlas-editor-refinements.js": {
+      "compile": "work/build_workspace_modules.cjs",
+      "install": "work/install_editor_refinements.py",
+      "target": "Editor comparison and selection visibility marker; legacy migrations may conflict, inspect first"
+    },
+    "work/atlas-editor-refinements.css": {
+      "compile": null,
+      "install": "work/install_editor_refinements.py --styles-only",
+      "target": "style#atlas-editor-refinements-style"
+    },
+    "work/atlas-splash.js": {
+      "compile": "work/build_splash.cjs",
+      "install": "work/install_splash.py",
+      "target": "script#atlas-splash-ui"
+    },
+    "work/atlas-preview-layers.js": {
+      "compile": "work/build_preview_layers.cjs",
+      "install": "work/install_preview_layers.py",
+      "target": "Preview-layer module in core; legacy installer also restores old Motion vendor, inspect before use and restore motion-lite"
+    },
+    "work/atlas-history-core.js": {
+      "compile": null,
+      "install": null,
+      "target": "export-only; build_standalone.py injects from export_integrations"
+    },
+    "work/atlas-graphic-design.js": {
+      "compile": null,
+      "install": null,
+      "target": "export-only; build_standalone.py injects from export_integrations"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const source=fs.readFileSync('/Users/raffribeiro/.codex/visualizations/2026/10/01/01a0f83c-7569-7dd0-ad8b-3e73b2b454df/munsell-selector.html','utf8');
+const html=fs.readFileSync('outputs/munsell-color-picker.html','utf8');
+const css=source.match(/<style id="color-atlas-viewport-fit">([\s\S]*?)<\/style>/)?.[1];
+assert(css,'Desktop workspace must be bounded by available viewport height');
+assert(css.includes('height:100dvh'),'Use the actual iframe viewport rather than natural document height');
+assert(css.includes('flex:1 1 0')&&css.includes('min-height:0'),'Panels yield space to the visible gradient and footer');
+assert(/\.viz-row:not\(\[data-field="?gradient-keys"?\]\)/.test(css),'The key list must remain flexible instead of inheriting fixed toolbar sizing');
+assert(!css.includes('transform:scale'),'Do not shrink text or controls');
+assert(css.includes('overflow-y:auto'),'Long key/library lists remain accessible');
+assert(source.includes('class="studio-card studio-lab"'),'Expanded lab has its own bounded workspace');
+const script=source.match(/<script id="color-atlas-preview-fit">([\s\S]*?)<\/script>/)?.[1];
+assert(script,'Preview must use its available rectangular slot');
+const area={clientWidth:500,clientHeight:360,style:{setProperty(k,v){this[k]=v}}};
+const caption={getBoundingClientRect(){return {height:12}}};
+const root={querySelector(s){return s.includes('figcaption')?caption:area}};
+const context={window:{},document:{getElementById(){return root}},ResizeObserver:class{observe(){}},addEventListener(){},requestAnimationFrame(fn){fn()}};
+vm.runInNewContext(script,context);
+for(const [width,height] of [[500,360],[262,440],[650,500],[900,240]]){
+ area.clientWidth=width;area.clientHeight=height;context.fitStudioPreview();
+ const size=parseFloat(area.style['--studio-preview-height']);
+ assert.equal(size,height-20,'Reserve the caption while filling available height');
+ assert.equal(parseFloat(area.style['--studio-preview-image-size']),Math.max(width,height-20),'Square images retain their proportions within the rectangular frame');
+}
+const outer=html.match(/<style id="color-atlas-viewport">([\s\S]*?)<\/style>/)?.[1];
+assert(outer.includes('height:calc(100dvh - 24px)!important'),'Height reports cannot grow the desktop iframe beyond the viewport');
+assert(outer.includes('min-height:800px'),'Short/narrow windows retain accessible scrolling');
+assert.equal((html.match(/id="color-atlas-viewport"/g)||[]).length,1);
+assert(html.includes('data:image/webp;base64,'),'Retain the offline explosion image');
+console.log('PASS: bounded desktop height, height-fitted preview at four width/height combinations, accessible lists and offline image.');

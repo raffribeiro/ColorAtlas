@@ -1,0 +1,21 @@
+// Relative propagation distances for an artistic additive beam-overlap model.
+function buildPrismRamp(distance=1,reverse=false){
+ const spread=.055+.30*distance,width=.21,centers=[.5+spread,.5,.5-spread];
+ return Array.from({length:8},(_,i)=>{const t=i/7,x=reverse?1-t:t,rgb=centers.map(center=>Math.exp(-.5*((x-center)/width)**2)),hex='#'+rgb.map(v=>Math.round(encodeSRGB(v)*255).toString(16).padStart(2,'0')).join('');return {t,hex};});
+}
+for(const [id,name,distance] of [['contact','Contact · White overlap',0],['near','Near · Soft fringes',.25],['medium','Medium · Cyan / White / Yellow',.6],['far','Far · Separated spectrum',1],['remote','Remote · Wide dispersion',1.35]]){
+ const keys=buildPrismRamp(distance);gradientPresets.push({id:'prism-'+id,name:'Prism · '+name,category:'Optics',description:'Artistic linear-light RGB beam overlap at relative distance '+distance+'. Fixed beam width; increased separation. Not calibrated prism optics or a spatial aberration shader.',colors:keys.map(k=>k.hex),positions:keys.map(k=>k.t)});
+}
+for(const [id,name,distance] of [['reverse-near','Reverse · Near',.25],['reverse-far','Reverse · Far',1]]){const keys=buildPrismRamp(distance,true);gradientPresets.push({id:'prism-'+id,name:'Prism · '+name,category:'Optics',description:'Reversed dispersion direction; relative distance '+distance+'. Artistic RGB overlap.',colors:keys.map(k=>k.hex),positions:keys.map(k=>k.t)});}
+const dataVizTemplates=[
+ ['density','Density · Navy / Cyan / Lime','sequential',210,-155,43],
+ ['energy','Energy · Violet / Rose / Cream','sequential',325,90,42],
+ ['heat','Heat · Charcoal / Ember / Ivory','sequential',55,55,40],
+ ['depth','Depth · Navy / Ice','sequential',250,-45,28],
+ ['concentration','Concentration · Green / Mint','sequential',155,25,32],
+ ['anomaly','Anomaly · Blue / Neutral / Orange','diverging',255,-200,42],
+ ['residual','Residual · Teal / Neutral / Rose','diverging',195,160,35],
+ ['phase','Phase · Closed hue cycle','cyclic',250,360,32],
+ ['intensity','Intensity · Neutral grayscale','sequential',0,0,0]
+];
+for(const [id,name,family,hue,span,chroma] of dataVizTemplates){const keys=buildPerceptualRamp({family,hue,span,chroma,count:family==='diverging'?7:8});gradientPresets.push({id:'data-'+id,name:'Data · '+name,category:'DataViz',description:family==='sequential'?'Ordered magnitude: increasing OKLab lightness. Original 8-key ramp, not a sampled standard colormap.':family==='diverging'?'Signed data: light neutral midpoint at 0.5, balanced lightness endpoints.':'Periodic data: matching endpoints for phase and direction; hue-based distinction.',colors:keys.map(k=>k.hex),positions:keys.map(k=>k.t)});}

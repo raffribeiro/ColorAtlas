@@ -1,0 +1,24 @@
+{
+  "fixture": "Sharp-resized reference, Smooth fire palette, no bloom or vision filter; not browser acceptance",
+  "opaquePixels": 262144,
+  "peaks": [
+    {
+      "x": 283,
+      "y": 304,
+      "score": 1,
+      "rank": 1
+    },
+    {
+      "x": 342,
+      "y": 139,
+      "score": 0.9779852628707886,
+      "rank": 2
+    },
+    {
+      "x": 336,
+      "y": 201,
+      "score": 0.9254987835884094,
+      "rank": 3
+    }
+  ]
+}

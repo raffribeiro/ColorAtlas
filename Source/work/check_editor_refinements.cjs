@@ -1,0 +1,26 @@
+const fs=require('node:fs'),assert=require('node:assert/strict'),vm=require('node:vm');
+const source=fs.readFileSync('/Users/raffribeiro/.codex/visualizations/2026/10/01/01a0f83c-7569-7dd0-ad8b-3e73b2b454df/munsell-selector.html','utf8');
+assert(source.includes('function revealSelectedGradientKey('),'Selecting a key must reveal its row in the list');
+const scripts=fs.readFileSync('work/atlas-editor-refinements.js','utf8');assert(source.includes(fs.readFileSync('work/atlas-editor-refinements-bundle.js','utf8').trim()),'Compiled editable module is embedded');
+let row={getBoundingClientRect:()=>({top:250,bottom:290})},selected=1;
+const list={clientHeight:100,scrollHeight:400,scrollTop:0,getBoundingClientRect:()=>({top:100,bottom:200}),querySelector:()=>row};
+const handlers={},values=new Map();function n(id){if(!values.has(id))values.set(id,{hidden:false,value:50,style:{setProperty(k,v){this[k]=v}},setAttribute(k,v){this[k]=v},addEventListener(k,f){handlers[id+':'+k]=f},getContext:()=>({putImageData(){copied++}})});return values.get(id);}
+let copied=0;const state={colorVision:'normal',gradientLayer:'emission',gradientSelection:{kind:'color',index:1},gradientColors:[{t:0},{t:1}]};
+const c={window:{},state,field:()=>list,$:n,Math};vm.createContext(c);vm.runInContext(scripts,c);
+c.revealSelectedGradientKey();assert.equal(list.scrollTop,90,'Reveal a clipped lower row without scrolling the page');
+list.scrollTop=30;c.revealSelectedGradientKey();assert.equal(list.scrollTop,30,'Color repaint preserves manual list scroll');
+c.requestGradientKeyReveal();c.revealSelectedGradientKey();assert.equal(list.scrollTop,120,'Explicitly reselecting the same key reveals it again');list.scrollTop=30;
+state.gradientSelection.index=0;row={getBoundingClientRect:()=>({top:80,bottom:120})};c.revealSelectedGradientKey();assert.equal(list.scrollTop,10,'Reveal clipped upper row');
+state.gradientLayer='smoke';row={getBoundingClientRect:()=>({top:110,bottom:140})};c.revealSelectedGradientKey();assert.equal(list.scrollTop,10,'An already visible selected row does not move');
+const ctx={getImageData:()=>({data:new Uint8ClampedArray(512*512*4)})};
+c.syncVisionComparison(ctx);assert(n('#vision-comparison').hidden);assert.equal(copied,0);
+state.colorVision='protanopia';c.syncVisionComparison(ctx);assert(!n('#vision-comparison').hidden);assert.equal(copied,1);assert.equal(n('#vision-compare-position').value,50);
+n('#vision-compare-position').value=80;handlers['#vision-compare-position:input']({target:n('#vision-compare-position')});assert.equal(n('#vision-comparison').style['--vision-split'],'80%');assert(n('#vision-compare-position')['aria-valuetext'].includes('80%'));
+c.syncVisionComparison(ctx);assert.equal(n('#vision-compare-position').value,80,'Palette updates retain divider position');
+state.colorVision='tritanopia';c.syncVisionComparison(ctx);assert.equal(n('#vision-compare-position').value,50,'New vision mode starts centered');
+state.colorVision='normal';c.syncVisionComparison(ctx);assert(n('#vision-comparison').hidden);
+assert(source.includes('drawHotBloom(ctx);syncVisionComparison(ctx);applyColorVisionPreview(ctx,state.colorVision);'),'Regular side captures the same mapped/bloomed image before the filter');
+assert(source.includes('data-lab-context'),'Other lightness points and paths can be dimmed during color drag');
+assert(source.includes('data-editing-color'),'Drag state controls temporary emphasis');
+assert(source.includes('align-items:baseline!important')&&source.includes('font-size:26px!important'),'Logo enlarges with VFX on its baseline');
+console.log('PASS: selected-row reveal, manual-scroll preservation, centered vision comparison, keyboard range, filter order and visual refinements.');

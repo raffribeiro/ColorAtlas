@@ -1,0 +1,66 @@
+#munsell-picker{--studio-wheel-size:200px}
+#munsell-picker .studio-keys .studio-wheel{margin:0;padding-top:8px}
+#munsell-picker .studio-keys [data-field="selected-color-preview"]{flex:none;width:100%;box-sizing:border-box}
+#munsell-picker .studio-keys [data-field="gradient-keys"] .studio-key-select{gap:6px;padding:0 2px!important}
+#munsell-picker .studio-keys [data-field="gradient-keys"] .studio-key-copy{font-size:9px!important;padding:4px 6px!important;white-space:nowrap}
+
+#munsell-picker .studio-author .studio-hex-tools{display:grid!important;grid-template-columns:auto minmax(0,110px) auto;align-items:center;justify-content:start;gap:6px;min-width:0;margin:0}
+#munsell-picker .studio-author .studio-hex-tools .btn,#munsell-picker .studio-author .studio-hex-tools .form-control{height:24px!important;min-height:24px!important;padding:2px 5px!important;font-size:10px!important;line-height:18px!important;color:#a8bacd}
+#munsell-picker .studio-author .studio-hex-tools .btn{background:transparent;border-color:transparent;white-space:nowrap}
+#munsell-picker .studio-author .studio-hex-tools .btn:hover,#munsell-picker .studio-author .studio-hex-tools .btn:focus-visible{color:#e8eef6;border-color:#526273}
+#munsell-picker .studio-author .studio-hex-tools .form-control{width:100%;min-width:0;background:transparent;border-color:#303943}
+#munsell-picker .studio-author .studio-hex-tools .form-control:focus{border-color:#71859a}
+#munsell-picker .studio-author .studio-hex-tools [data-field="hex-error"]{grid-column:1/-1;font-size:10px;line-height:14px}
+#munsell-picker .studio-author .studio-hex-tools [data-field="hex-error"]:empty{display:none}
+
+#munsell-picker .studio-keys .wheel-toolbar{display:grid;align-items:center;white-space:nowrap;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:24px;gap:4px 8px;height:24px;min-height:24px}
+#munsell-picker .studio-keys .wheel-toolbar>span{grid-column:1;grid-row:1;display:flex;align-items:center;height:24px;margin:0;font-size:9px;line-height:18px;letter-spacing:.5px}
+#munsell-picker .studio-keys .wheel-toolbar>button{grid-column:2;grid-row:1;justify-self:end;margin:0!important;line-height:18px!important;order:2;padding:2px 6px!important;font-size:9px!important;height:24px!important;min-height:24px!important}
+@media(min-width:1000px){
+ #munsell-picker .studio-columns{grid-template-columns:minmax(260px,1.05fr) minmax(200px,.65fr) minmax(0,1.4fr)}
+}
+
+@media(min-width:1200px){
+ #munsell-picker .studio-shell{grid-template-columns:310px minmax(0,1fr)}
+}
+@media(min-width:1000px) and (min-height:800px){
+ #munsell-picker .studio-columns>.studio-keys{grid-template-rows:auto var(--studio-fitted-list-size,minmax(84px,1fr)) auto auto}
+ #munsell-picker .studio-author{gap:4px}
+ #munsell-picker .studio-author-layout{align-items:stretch}
+ #munsell-picker .studio-author .mp-vfx-visuals{max-height:none}
+ #munsell-picker .studio-author .mp-vfx-lab{flex:none;height:var(--studio-fitted-graph-size,120px)!important}
+ #munsell-picker .studio-keys .studio-wheel [data-field="color-wheel"]{height:var(--studio-fitted-wheel-size,200px)!important;min-height:0;max-height:none}
+ #munsell-picker .studio-author [data-field="lab-height-divider"]{display:none}
+ #munsell-picker .studio-author .mp-axis-slider{display:grid;grid-template-columns:30px minmax(0,1fr) 30px;grid-template-rows:28px;align-items:center;gap:4px}
+ #munsell-picker .studio-author .mp-axis-slider>.form-range{grid-column:2;grid-row:1;width:100%;min-width:0}
+ #munsell-picker .studio-author .mp-axis-ends{display:contents}
+ #munsell-picker .studio-author .mp-axis-ends>span{grid-row:1;font-size:9px;white-space:nowrap}
+ #munsell-picker .studio-author .mp-axis-ends>span:first-child{grid-column:1;text-align:left}
+ #munsell-picker .studio-author .mp-axis-ends>span:last-child{grid-column:3;text-align:right}
+ #munsell-picker .studio-author .mp-color-slider-group:has(#vfx-saturation){display:grid;grid-template-columns:minmax(0,1fr);align-items:center;gap:0}
+ #munsell-picker .studio-author label[for="vfx-saturation"]{font-size:11px;line-height:16px;margin:0}
+ #munsell-picker .studio-author #vfx-saturation{height:28px;width:100%;min-width:0}
+}
+
+
+#munsell-picker .studio-ramp{position:relative}
+#munsell-picker .studio-ramp::before{content:"";position:absolute;inset:-1px;border-radius:inherit;padding:1px;background:var(--atlas-chroma-control);opacity:.48;-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+#munsell-picker .studio-ramp-title{display:grid;grid-template-columns:auto minmax(160px,260px) minmax(0,1fr) auto;align-items:center;gap:4px 12px;margin:0 0 8px}
+#munsell-picker .studio-ramp-title>strong{grid-column:1;grid-row:1;font-size:11px;line-height:16px;white-space:nowrap}
+#munsell-picker .studio-ramp-position{grid-column:3;grid-row:1;width:min(100%,320px);display:grid;grid-template-columns:auto minmax(0,1fr) 44px;align-items:center;gap:8px;min-width:0;margin:0}
+#munsell-picker .studio-ramp-position>.form-label{font-size:10px;color:#a8bacd;margin:0}
+#munsell-picker .studio-ramp-position>.form-range{width:100%;min-width:0;height:28px}
+#munsell-picker .studio-ramp-position>output{font-size:10px;line-height:16px;text-align:right;font-variant-numeric:tabular-nums}
+#munsell-picker .studio-ramp-settings{grid-column:2;grid-row:1;display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;min-width:0}
+#munsell-picker .studio-ramp-settings :is(.form-select,.btn){height:24px!important;min-height:24px!important;padding:2px 6px;font-size:10px!important;line-height:18px;color:#a8bacd;border-color:transparent;background-color:transparent;box-shadow:none}
+#munsell-picker .studio-ramp-settings .form-select{max-width:160px}
+#munsell-picker .studio-ramp-settings [data-action="gradient-toggle-layer"]{padding:2px 6px!important;font-size:14px!important}
+#munsell-picker .studio-export-actions{grid-column:4;grid-row:1;justify-self:end;align-items:center;margin:0;gap:8px;white-space:nowrap}
+#munsell-picker .studio-export-actions .btn{font-size:10px!important}
+@media(max-width:700px){
+ #munsell-picker .studio-ramp-title{display:flex;flex-wrap:wrap;gap:4px 8px}
+ #munsell-picker .studio-ramp-title>strong{order:2;flex:none}
+ #munsell-picker .studio-ramp-position{order:4;flex:0 1 320px;max-width:100%}
+ #munsell-picker .studio-ramp-settings{order:3;flex-basis:auto}
+ #munsell-picker .studio-export-actions{order:5;margin-left:auto;flex-basis:auto;justify-content:flex-end}
+}

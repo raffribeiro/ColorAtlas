@@ -1,0 +1,570 @@
+[
+  {
+    "id": "stylized-direction-paper-citrus",
+    "name": "Paper Cut · Citrus Layers",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#24384B",
+      "#24384B",
+      "#4B8065",
+      "#4B8065",
+      "#F2A13C",
+      "#F2A13C",
+      "#F9DE89",
+      "#F9DE89"
+    ],
+    "positions": [
+      0,
+      0.2399,
+      0.2401,
+      0.5799,
+      0.5801,
+      0.8499,
+      0.8501,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions paper cut paper citrus",
+    "description": "Cut-paper citrus composition with cool blue shadows, leaf green, orange and pale yellow. Paired keys retain flat regions with narrow transitions; widths are authored tonal regions, not measured final image coverage. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-paper-forest",
+    "name": "Paper Cut · Forest Collage",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#192B38",
+      "#192B38",
+      "#2E5548",
+      "#2E5548",
+      "#729A58",
+      "#729A58",
+      "#CBCC80",
+      "#CBCC80",
+      "#F0E7BA",
+      "#F0E7BA"
+    ],
+    "positions": [
+      0,
+      0.1999,
+      0.2001,
+      0.4999,
+      0.5001,
+      0.7699,
+      0.7701,
+      0.9299,
+      0.9301,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions paper cut paper forest",
+    "description": "Layered woodland collage, from blue-green silhouettes to leafy greens and warm paper light. Paired keys retain flat regions with narrow transitions; widths are authored tonal regions, not measured final image coverage. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-rubber-butter",
+    "name": "Rubber Hose · Ink & Butter",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#16151F",
+      "#16151F",
+      "#C99549",
+      "#C99549",
+      "#FFE5A0",
+      "#FFE5A0"
+    ],
+    "positions": [
+      0,
+      0.4199,
+      0.4201,
+      0.7599,
+      0.7601,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions rubber hose rubber butter",
+    "description": "Expressive near-black ink, warm ochre midtones and butter-cream highlights. Paired keys retain flat regions with narrow transitions; widths are authored tonal regions, not measured final image coverage. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-rubber-cherry",
+    "name": "Rubber Hose · Cherry Cartoon",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#201724",
+      "#201724",
+      "#D5434B",
+      "#D5434B",
+      "#FFE7C5",
+      "#FFE7C5"
+    ],
+    "positions": [
+      0,
+      0.3399,
+      0.3401,
+      0.7699,
+      0.7701,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions rubber hose rubber cherry",
+    "description": "Cartoon ink, a dominant cherry-red body and warm cream accents. Paired keys retain flat regions with narrow transitions; widths are authored tonal regions, not measured final image coverage. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-cyanotype-prussian",
+    "name": "Cyanotype · Prussian Paper",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#061A30",
+      "#143A61",
+      "#2A648A",
+      "#8BB3C6",
+      "#E8F1E8"
+    ],
+    "positions": [
+      0,
+      0.2,
+      0.43,
+      0.78,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions cyanotype cyanotype prussian",
+    "description": "Prussian-blue print interpretation with progressive lightness and a soft warm-paper highlight; not a measured pigment or calibrated print profile. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-cyanotype-midnight",
+    "name": "Cyanotype · Midnight Blueprint",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#071329",
+      "#234576",
+      "#5A8CAB",
+      "#D1E7E5"
+    ],
+    "positions": [
+      0,
+      0.28,
+      0.68,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions cyanotype cyanotype midnight",
+    "description": "Four-point deep-blue blueprint direction, keeping saturated blue shadows and pale cyan paper. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-wash-indigo",
+    "name": "Ink Wash · Indigo Bleed",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#10162A",
+      "#273650",
+      "#49647B",
+      "#8197A6",
+      "#C1CCCA",
+      "#F2EFE3"
+    ],
+    "positions": [
+      0,
+      0.16,
+      0.36,
+      0.61,
+      0.83,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions ink wash wash indigo",
+    "description": "Indigo pigment gradually dissolving toward warm paper, with smooth tonal transitions. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-wash-sepia",
+    "name": "Ink Wash · Sepia Mist",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#30241F",
+      "#665448",
+      "#A58B6E",
+      "#E9DDC5"
+    ],
+    "positions": [
+      0,
+      0.26,
+      0.63,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions ink wash wash sepia",
+    "description": "Four-point sepia wash, balancing deep umber pigment, warm diluted tones and cream paper. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-chalk-carnival",
+    "name": "Chalk & Pastel · Dusty Carnival",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#45445F",
+      "#6E6B8A",
+      "#AF89A3",
+      "#D39C92",
+      "#E4BBA1",
+      "#E6D5B7",
+      "#F4EAD9"
+    ],
+    "positions": [
+      0,
+      0.14,
+      0.31,
+      0.49,
+      0.66,
+      0.84,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions chalk & pastel chalk carnival",
+    "description": "Opaque violet shadows and dusty rose, coral and cream pastel tones; restrained chroma supports a soft illustration mood. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-chalk-lavender",
+    "name": "Chalk & Pastel · Lavender Peach",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#4B4261",
+      "#867198",
+      "#B599B3",
+      "#E4B39C",
+      "#F8E4CB"
+    ],
+    "positions": [
+      0,
+      0.2,
+      0.45,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions chalk & pastel chalk lavender",
+    "description": "Lavender shadows blend through muted mauve toward peach and pale cream. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-solar-copper",
+    "name": "Solarization · Copper Inversion",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#131827",
+      "#557584",
+      "#C1DDC9",
+      "#F9EDD2",
+      "#D58E52",
+      "#713820",
+      "#351B38",
+      "#81476E",
+      "#D78387",
+      "#FFE0B0"
+    ],
+    "positions": [
+      0,
+      0.09,
+      0.21,
+      0.33,
+      0.43,
+      0.52,
+      0.61,
+      0.73,
+      0.86,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions solarization solar copper",
+    "description": "Intentional lightness reversal: cool shadows brighten to paper, plunge into copper and violet, then return to warm highlights. Artistic solarization color direction, not an emulation of a specific photochemical process. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-solar-sunset",
+    "name": "Solarization · Electric Sunset",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#171137",
+      "#4045B9",
+      "#2DBFCA",
+      "#A5F1B8",
+      "#FCEB6C",
+      "#F38944",
+      "#98204F",
+      "#38165D",
+      "#8041CC",
+      "#DB64B5",
+      "#FFBD86",
+      "#FFF0B0"
+    ],
+    "positions": [
+      0,
+      0.08,
+      0.17,
+      0.27,
+      0.37,
+      0.46,
+      0.55,
+      0.63,
+      0.72,
+      0.82,
+      0.92,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions solarization solar sunset",
+    "description": "Multiple deliberate lightness turns cross blue, cyan, citrus, crimson and violet for a solarized sunset treatment. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-foil-gold",
+    "name": "Foil Print · Midnight Gold",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#111A2B",
+      "#111A2B",
+      "#28364D",
+      "#28364D",
+      "#89622E",
+      "#89622E",
+      "#D3AE52",
+      "#D3AE52",
+      "#F9E6AB",
+      "#F9E6AB"
+    ],
+    "positions": [
+      0,
+      0.5799,
+      0.5801,
+      0.8099,
+      0.8101,
+      0.8899,
+      0.8901,
+      0.9599,
+      0.9601,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions foil print foil gold",
+    "description": "Midnight paper dominates 81% of authored tonal regions; bronze, gold and pale gleam are small accents. Metallic reflection remains view-dependent. Paired keys retain flat regions with narrow transitions; widths are authored tonal regions, not measured final image coverage. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-foil-copper",
+    "name": "Foil Print · Emerald Copper",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#0F2827",
+      "#0F2827",
+      "#225344",
+      "#225344",
+      "#9B5338",
+      "#9B5338",
+      "#D98D5B",
+      "#D98D5B",
+      "#F6D0A1",
+      "#F6D0A1"
+    ],
+    "positions": [
+      0,
+      0.4999,
+      0.5001,
+      0.8099,
+      0.8101,
+      0.8999,
+      0.9001,
+      0.9699,
+      0.9701,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions foil print foil copper",
+    "description": "Dark emerald paper holds the composition while copper and warm gleams remain concentrated accents. Metallic reflection remains view-dependent. Paired keys retain flat regions with narrow transitions; widths are authored tonal regions, not measured final image coverage. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-glass-jewel",
+    "name": "Stained Glass · Jewel Window",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#141828",
+      "#141828",
+      "#2446AB",
+      "#2446AB",
+      "#102C39",
+      "#102C39",
+      "#18A695",
+      "#18A695",
+      "#27182E",
+      "#27182E",
+      "#C13074",
+      "#C13074",
+      "#DCAB36",
+      "#DCAB36",
+      "#F7E8AF",
+      "#F7E8AF"
+    ],
+    "positions": [
+      0,
+      0.1599,
+      0.1601,
+      0.3399,
+      0.3401,
+      0.4099,
+      0.4101,
+      0.6099,
+      0.6101,
+      0.6799,
+      0.6801,
+      0.8499,
+      0.8501,
+      0.9499,
+      0.9501,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions stained glass glass jewel",
+    "description": "Eight-region jewel study with dark separators, cobalt and jade panes, a ruby accent and warm gold light. Paired keys retain flat regions with narrow transitions; widths are authored tonal regions, not measured final image coverage. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-glass-crimson",
+    "name": "Stained Glass · Crimson Cathedral",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#1E1020",
+      "#1E1020",
+      "#6B193F",
+      "#6B193F",
+      "#231A43",
+      "#231A43",
+      "#BE3048",
+      "#BE3048",
+      "#E98444",
+      "#E98444",
+      "#F8D6A1",
+      "#F8D6A1"
+    ],
+    "positions": [
+      0,
+      0.2399,
+      0.2401,
+      0.4399,
+      0.4401,
+      0.5399,
+      0.5401,
+      0.8199,
+      0.8201,
+      0.9399,
+      0.9401,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions stained glass glass crimson",
+    "description": "Crimson panes and violet shadows create strong dark/light separation before amber transmission highlights. Paired keys retain flat regions with narrow transitions; widths are authored tonal regions, not measured final image coverage. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-negative-candy",
+    "name": "Photographic Negative · Candy Negative",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#FFF1D5",
+      "#DBED8C",
+      "#76D5CA",
+      "#9A85C4",
+      "#4D3B7F",
+      "#211D36"
+    ],
+    "positions": [
+      0,
+      0.2,
+      0.4,
+      0.62,
+      0.82,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions photographic negative negative candy",
+    "description": "Reversed lightness: cream and lime occupy source shadows while lavender and deep violet occupy highlights. An artistic negative palette, not channelwise photographic inversion. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-negative-alien",
+    "name": "Photographic Negative · Alien Portrait",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#E2FFD5",
+      "#7ADAB5",
+      "#55A9B7",
+      "#714B9A",
+      "#271C4C"
+    ],
+    "positions": [
+      0,
+      0.22,
+      0.48,
+      0.75,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions photographic negative negative alien",
+    "description": "Luminous green shadows descend through teal into violet highlights for an alien negative portrait direction. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-animation-peach",
+    "name": "Limited Animation · Peach Shadow",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#4C355A",
+      "#4C355A",
+      "#D4927F",
+      "#D4927F",
+      "#F8D7AF",
+      "#F8D7AF"
+    ],
+    "positions": [
+      0,
+      0.2699,
+      0.2701,
+      0.8299,
+      0.8301,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions limited animation animation peach",
+    "description": "Three distinct values: violet shadow, a dominant peach body and restrained cream light. Paired keys retain flat regions with narrow transitions; widths are authored tonal regions, not measured final image coverage. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  },
+  {
+    "id": "stylized-direction-animation-mint",
+    "name": "Limited Animation · Mint Midnight",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#152C3E",
+      "#152C3E",
+      "#53A58E",
+      "#53A58E",
+      "#C8E6B5",
+      "#C8E6B5"
+    ],
+    "positions": [
+      0,
+      0.2899,
+      0.2901,
+      0.8399,
+      0.8401,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "stylized directions limited animation animation mint",
+    "description": "Three distinct values: midnight-blue shadow, mint-green body and pale yellow-green light. Paired keys retain flat regions with narrow transitions; widths are authored tonal regions, not measured final image coverage. Original sRGB art-direction palette using Smooth OKLab interpolation. Adapt value masks to the asset. Color direction only; paper, brush marks, outlines, foil reflection, glass geometry and other surface treatments need their own shading or texture."
+  }
+]

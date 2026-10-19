@@ -1,0 +1,1048 @@
+[
+  {
+    "id": "gamut-magenta-plasma",
+    "name": "Plasma · Electric Magenta",
+    "category": "Effects",
+    "originalCategory": "VFX Tropes",
+    "colors": [
+      "#130520",
+      "#45065E",
+      "#8C0CAA",
+      "#C516FC",
+      "#F005FE",
+      "#FF8FF3",
+      "#FFF0FD"
+    ],
+    "positions": [
+      0,
+      0.1,
+      0.24,
+      0.46,
+      0.68,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated magenta plasma",
+    "description": "Dense magenta plasma body with a short pale emission cap. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-magenta-orchid",
+    "name": "Orchid · Ultraviolet Petals",
+    "category": "World",
+    "originalCategory": "Botanical foliage flowers vegetation petals",
+    "colors": [
+      "#25082E",
+      "#75178C",
+      "#C516FC",
+      "#F005FE",
+      "#FB5BFD",
+      "#FFB2F3"
+    ],
+    "positions": [
+      0,
+      0.12,
+      0.32,
+      0.62,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated magenta orchid",
+    "description": "Petal shadows, saturated local pigment and translucent highlights; an artistic botanical interpretation. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-magenta-beetle",
+    "name": "Beetle · Purple Iridescent Shell",
+    "category": "World",
+    "originalCategory": "Animals birds butterflies fauna",
+    "colors": [
+      "#160B20",
+      "#580C84",
+      "#8809FE",
+      "#C516FC",
+      "#F005FE",
+      "#FC68EB",
+      "#FFD1F6",
+      "#FFF6FD"
+    ],
+    "positions": [
+      0,
+      0.08,
+      0.2,
+      0.36,
+      0.55,
+      0.74,
+      0.92,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated magenta beetle",
+    "description": "Purple shell sheen with a concentrated spectral-looking accent. Iridescence requires view-dependent shading. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-magenta-laser",
+    "name": "Laser · Violet to Magenta",
+    "category": "Effects",
+    "originalCategory": "Combat",
+    "colors": [
+      "#8809FE",
+      "#F005FE"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated magenta laser",
+    "description": "Two-color emissive beam, retaining high chroma across the body. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-magenta-portal",
+    "name": "Portal · Magenta Singularity",
+    "category": "Effects",
+    "originalCategory": "VFX Tropes",
+    "colors": [
+      "#10021E",
+      "#6900A8",
+      "#F005FE",
+      "#FF46ED",
+      "#FFC7F8"
+    ],
+    "positions": [
+      0,
+      0.15,
+      0.42,
+      0.86,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated magenta portal",
+    "description": "Deep aperture rim to saturated magenta core and a restrained bright edge. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-magenta-glass",
+    "name": "Glass · Electric Purple Transmission",
+    "category": "World",
+    "originalCategory": "Materials",
+    "colors": [
+      "#36004C",
+      "#A900E8",
+      "#F005FE",
+      "#FB5BFD",
+      "#FFDDF9"
+    ],
+    "positions": [
+      0,
+      0.15,
+      0.42,
+      0.86,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated magenta glass",
+    "description": "Purple stained-glass transmission; use a separate mask for neutral reflections. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-magenta-energy",
+    "name": "Energy · Purple Pulse",
+    "category": "Effects",
+    "originalCategory": "Elements",
+    "colors": [
+      "#4A006B",
+      "#C516FC",
+      "#F005FE",
+      "#FA35F0"
+    ],
+    "positions": [
+      0,
+      0.18,
+      0.82,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated magenta energy",
+    "description": "Compact energy ramp with a broad saturated body and no white washout. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-violet-arc",
+    "name": "Lightning · Deep Violet Arc",
+    "category": "Effects",
+    "originalCategory": "Elements",
+    "colors": [
+      "#050419",
+      "#230075",
+      "#5606EC",
+      "#8809FE",
+      "#BD5BFF",
+      "#F5DCFF"
+    ],
+    "positions": [
+      0,
+      0.12,
+      0.32,
+      0.62,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated violet arc",
+    "description": "Dark violet arc, saturated discharge and pale spark. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-violet-void",
+    "name": "Void · Saturated Rift",
+    "category": "Effects",
+    "originalCategory": "VFX Tropes",
+    "colors": [
+      "#04020C",
+      "#200040",
+      "#4900A0",
+      "#5606EC",
+      "#8809FE",
+      "#C516FC",
+      "#F3B7FF"
+    ],
+    "positions": [
+      0,
+      0.1,
+      0.24,
+      0.46,
+      0.68,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated violet void",
+    "description": "Violet rift with a readable dark silhouette and intensely colored interior. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-violet-butterfly",
+    "name": "Butterfly · Electric Violet Wing",
+    "category": "World",
+    "originalCategory": "Animals birds butterflies fauna",
+    "colors": [
+      "#090623",
+      "#280066",
+      "#5606EC",
+      "#8809FE",
+      "#B730FF",
+      "#EDB2FF"
+    ],
+    "positions": [
+      0,
+      0.12,
+      0.32,
+      0.62,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated violet butterfly",
+    "description": "Artistic violet wing coloration; use pattern masks and view-dependent shading for structural color. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-violet-iris",
+    "name": "Iris · Vivid Purple Petals",
+    "category": "World",
+    "originalCategory": "Botanical foliage flowers vegetation petals",
+    "colors": [
+      "#1A0A31",
+      "#4A168A",
+      "#8809FE",
+      "#C44FFF",
+      "#E8A3FF",
+      "#FFF0FF"
+    ],
+    "positions": [
+      0,
+      0.12,
+      0.32,
+      0.62,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated violet iris",
+    "description": "Violet petal body with independent pale tips; flower centers need a separate map. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-violet-pigment",
+    "name": "Pigment · Indigo to Electric Violet",
+    "category": "World",
+    "originalCategory": "Materials",
+    "colors": [
+      "#2400AD",
+      "#8809FE"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated violet pigment",
+    "description": "Two-color pigment study of saturated indigo and violet without a pale endpoint. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-violet-crystal",
+    "name": "Crystal · Violet Facet Depth",
+    "category": "World",
+    "originalCategory": "minerals",
+    "colors": [
+      "#10062D",
+      "#2C0872",
+      "#5606EC",
+      "#8809FE",
+      "#B02AFF",
+      "#D173FF",
+      "#EEBAFF",
+      "#FFEDFF"
+    ],
+    "positions": [
+      0,
+      0.08,
+      0.2,
+      0.36,
+      0.55,
+      0.74,
+      0.92,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated violet crystal",
+    "description": "Violet crystal depth, colored internal reflections and a narrow specular region. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-violet-surge",
+    "name": "Energy · Indigo Surge",
+    "category": "Effects",
+    "originalCategory": "Elements",
+    "colors": [
+      "#110042",
+      "#5606EC",
+      "#8809FE"
+    ],
+    "positions": [
+      0,
+      0.7,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated violet surge",
+    "description": "Three-point indigo-to-violet surge with a broad chromatic highlight. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-blue-discharge",
+    "name": "Lightning · Pure Blue Discharge",
+    "category": "Effects",
+    "originalCategory": "Elements",
+    "colors": [
+      "#020414",
+      "#030664",
+      "#0B03C1",
+      "#0306F4",
+      "#3156FF",
+      "#A6C4FF",
+      "#F5FAFF"
+    ],
+    "positions": [
+      0,
+      0.1,
+      0.24,
+      0.46,
+      0.68,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated blue discharge",
+    "description": "Blue discharge with near-primary saturated body, softened sparks and white tips. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-blue-deepwater",
+    "name": "Water · Abyssal Blue Current",
+    "category": "Effects",
+    "originalCategory": "VFX Tropes",
+    "colors": [
+      "#010313",
+      "#010690",
+      "#0B03C1",
+      "#0306F4",
+      "#3266FF",
+      "#8EBBFF"
+    ],
+    "positions": [
+      0,
+      0.12,
+      0.32,
+      0.62,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated blue deepwater",
+    "description": "Deep-water art direction with saturated blue caustic accents; not a measured depth scale. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-blue-emitter",
+    "name": "Energy · Cobalt Emitter",
+    "category": "Effects",
+    "originalCategory": "Production",
+    "colors": [
+      "#0B03C1",
+      "#0306F4",
+      "#5367FF",
+      "#E0EAFF"
+    ],
+    "positions": [
+      0,
+      0.18,
+      0.82,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated blue emitter",
+    "description": "Compact cobalt emitter body with short pale core; emission intensity remains separate. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-blue-wing",
+    "name": "Butterfly · Cobalt Wing Flash",
+    "category": "World",
+    "originalCategory": "Animals birds butterflies fauna",
+    "colors": [
+      "#050624",
+      "#171369",
+      "#0B03C1",
+      "#0306F4",
+      "#3865FF",
+      "#97BDFF",
+      "#E9F5FF"
+    ],
+    "positions": [
+      0,
+      0.1,
+      0.24,
+      0.46,
+      0.68,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated blue wing",
+    "description": "Cobalt wing interpretation with saturated structural-color accents. Iridescence needs view-dependent shading. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-blue-glass",
+    "name": "Glass · Ultramarine Transmission",
+    "category": "World",
+    "originalCategory": "Materials",
+    "colors": [
+      "#050A43",
+      "#0B03C1",
+      "#0306F4",
+      "#5B8CFF",
+      "#DCEAFF"
+    ],
+    "positions": [
+      0,
+      0.15,
+      0.42,
+      0.86,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated blue glass",
+    "description": "Ultramarine glass body to luminous transmission; isolate reflections from pigment. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-blue-laser",
+    "name": "Laser · Primary Blue Beam",
+    "category": "Effects",
+    "originalCategory": "Combat",
+    "colors": [
+      "#0B03C1",
+      "#0306F4"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated blue laser",
+    "description": "Two-point blue beam that keeps color intensity instead of drifting toward cyan. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-blue-flower",
+    "name": "Flower · Electric Blue Petals",
+    "category": "World",
+    "originalCategory": "Botanical foliage flowers vegetation petals",
+    "colors": [
+      "#101344",
+      "#242CA1",
+      "#0306F4",
+      "#4669FF",
+      "#9DBAFF",
+      "#EDF2FF"
+    ],
+    "positions": [
+      0,
+      0.12,
+      0.32,
+      0.62,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated blue flower",
+    "description": "Stylized electric-blue petals and cool highlights; this is an artistic pigment interpretation. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-green-venom",
+    "name": "Poison · Electric Green Venom",
+    "category": "Effects",
+    "originalCategory": "VFX Tropes",
+    "colors": [
+      "#021107",
+      "#064A17",
+      "#00A620",
+      "#2CF722",
+      "#51FF20",
+      "#C8FF81",
+      "#F1FFD7"
+    ],
+    "positions": [
+      0,
+      0.1,
+      0.24,
+      0.46,
+      0.68,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated green venom",
+    "description": "Dark venom edge, saturated green body and brief yellow-green emission cap. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-green-bioluminescence",
+    "name": "Bioluminescence · Green Signal",
+    "category": "Effects",
+    "originalCategory": "Elements",
+    "colors": [
+      "#003E20",
+      "#00C52F",
+      "#2CF722",
+      "#7BFF62",
+      "#C5FFAB"
+    ],
+    "positions": [
+      0,
+      0.15,
+      0.42,
+      0.86,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated green bioluminescence",
+    "description": "Green emissive tissue art direction; actual brightness requires emission and compositing. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-green-leaf",
+    "name": "Foliage · Electric Backlit Leaf",
+    "category": "World",
+    "originalCategory": "Botanical foliage flowers vegetation petals",
+    "colors": [
+      "#032A15",
+      "#126E2E",
+      "#28BD2D",
+      "#2CF722",
+      "#69FF2E",
+      "#CBFF87"
+    ],
+    "positions": [
+      0,
+      0.12,
+      0.32,
+      0.62,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated green leaf",
+    "description": "Stylized translucent leaf with saturated green light; use separate front-light and backlight masks. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-green-frog",
+    "name": "Frog · Lime Skin Accent",
+    "category": "World",
+    "originalCategory": "Animals birds butterflies fauna",
+    "colors": [
+      "#09251B",
+      "#1F6831",
+      "#32C22B",
+      "#2CF722",
+      "#B4FF52"
+    ],
+    "positions": [
+      0,
+      0.15,
+      0.42,
+      0.86,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated green frog",
+    "description": "Artistic green skin ramp; separate eyes, markings and skin-pattern masks. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-green-laser",
+    "name": "Laser · Electric Green Beam",
+    "category": "Effects",
+    "originalCategory": "Combat",
+    "colors": [
+      "#00DB20",
+      "#2CF722"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated green laser",
+    "description": "Two-point high-chroma green beam without a neutralized highlight. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-green-crystal",
+    "name": "Crystal · Acid Green Facets",
+    "category": "World",
+    "originalCategory": "minerals",
+    "colors": [
+      "#03221C",
+      "#075838",
+      "#169847",
+      "#00D92C",
+      "#2CF722",
+      "#76FF3A",
+      "#C3FF79",
+      "#F4FFD2"
+    ],
+    "positions": [
+      0,
+      0.08,
+      0.2,
+      0.36,
+      0.55,
+      0.74,
+      0.92,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated green crystal",
+    "description": "Saturated green crystal reflections; highlights occupy a short final region. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-green-spores",
+    "name": "Spores · Luminous Green Cloud",
+    "category": "Effects",
+    "originalCategory": "VFX Tropes",
+    "colors": [
+      "#045027",
+      "#2CF722",
+      "#93FF52"
+    ],
+    "positions": [
+      0,
+      0.7,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated green spores",
+    "description": "Three-point green spore glow with a vivid broad body, for stylized effects. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-fuchsia-magic",
+    "name": "Magic · Luminous Fuchsia Bloom",
+    "category": "Effects",
+    "originalCategory": "VFX Tropes",
+    "colors": [
+      "#240826",
+      "#83106E",
+      "#DA11BE",
+      "#F005FE",
+      "#FB5BFD",
+      "#FFA8F4",
+      "#FFE8FB"
+    ],
+    "positions": [
+      0,
+      0.1,
+      0.24,
+      0.46,
+      0.68,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated fuchsia magic",
+    "description": "Fuchsia spell bloom with a vivid core and a narrow pale trail. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-fuchsia-flower",
+    "name": "Flower · Radiant Fuchsia Petals",
+    "category": "World",
+    "originalCategory": "Botanical foliage flowers vegetation petals",
+    "colors": [
+      "#470B41",
+      "#A01591",
+      "#E72ADF",
+      "#FB5BFD",
+      "#FFA8F2",
+      "#FFDBF8"
+    ],
+    "positions": [
+      0,
+      0.12,
+      0.32,
+      0.62,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated fuchsia flower",
+    "description": "Bright fuchsia pigment and translucent petal highlights; centers and veins need separate masks. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-fuchsia-feather",
+    "name": "Bird · Fuchsia Feather Accent",
+    "category": "World",
+    "originalCategory": "Animals birds butterflies fauna",
+    "colors": [
+      "#481133",
+      "#A82475",
+      "#F031BA",
+      "#FB5BFD",
+      "#FFB4EF"
+    ],
+    "positions": [
+      0,
+      0.15,
+      0.42,
+      0.86,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated fuchsia feather",
+    "description": "Stylized vivid feather accents; the ramp is not an anatomical color distribution. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-fuchsia-glass",
+    "name": "Glass · Radiant Rose Transmission",
+    "category": "World",
+    "originalCategory": "Materials",
+    "colors": [
+      "#94046D",
+      "#F005FE",
+      "#FB5BFD",
+      "#FFB8F3"
+    ],
+    "positions": [
+      0,
+      0.18,
+      0.82,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated fuchsia glass",
+    "description": "Rose glass transmission with a saturated bright range; use separate neutral reflections. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-fuchsia-ribbon",
+    "name": "Energy · Fuchsia Ribbon",
+    "category": "Effects",
+    "originalCategory": "Elements",
+    "colors": [
+      "#E900A7",
+      "#FB5BFD"
+    ],
+    "positions": [
+      0,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated fuchsia ribbon",
+    "description": "Two-point energy ribbon spanning saturated warm pink and luminous fuchsia. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-fuchsia-prism",
+    "name": "Optics · Fuchsia Fringe",
+    "category": "Creative",
+    "originalCategory": "Optics",
+    "colors": [
+      "#280850",
+      "#6800CD",
+      "#C516FC",
+      "#F005FE",
+      "#FB5BFD",
+      "#FFAAF4",
+      "#FFF0FB"
+    ],
+    "positions": [
+      0,
+      0.1,
+      0.24,
+      0.46,
+      0.68,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated fuchsia prism",
+    "description": "Artistic prism-like fuchsia fringe, not calibrated wavelength dispersion or a chromatic-aberration shader. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-fuchsia-aura",
+    "name": "Aura · Fuchsia Halo",
+    "category": "Effects",
+    "originalCategory": "VFX Tropes",
+    "colors": [
+      "#8D087E",
+      "#F005FE",
+      "#FB5BFD",
+      "#FFADF2"
+    ],
+    "positions": [
+      0,
+      0.18,
+      0.82,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated fuchsia aura",
+    "description": "Four-point luminous halo with a broad saturated rim and short softer falloff. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-magenta-boundary",
+    "name": "OKLab · Purple Gamut Edge",
+    "category": "Creative",
+    "originalCategory": "Perceptual",
+    "colors": [
+      "#8E04EC",
+      "#9704F2",
+      "#A004F8",
+      "#AA04FD",
+      "#B219FE",
+      "#B928FE",
+      "#C133FE",
+      "#C83DFE",
+      "#CF46FE",
+      "#D74EFF",
+      "#DE55FF",
+      "#E55DFF",
+      "#EC64FF",
+      "#F36BFF",
+      "#FA72FF",
+      "#FF7CFD"
+    ],
+    "positions": [
+      0.0,
+      0.066667,
+      0.133333,
+      0.2,
+      0.266667,
+      0.333333,
+      0.4,
+      0.466667,
+      0.533333,
+      0.6,
+      0.666667,
+      0.733333,
+      0.8,
+      0.866667,
+      0.933333,
+      1.0
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated magenta boundary",
+    "description": "Sixteen-point study following a saturated sRGB boundary through hue and lightness. These positions represent gradient coordinates, not wavelengths or measured physical energy. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-violet-boundary",
+    "name": "OKLab · Violet Gamut Edge",
+    "category": "Creative",
+    "originalCategory": "Perceptual",
+    "colors": [
+      "#31019C",
+      "#3901A7",
+      "#4002B2",
+      "#4902BD",
+      "#5102C7",
+      "#5A02D2",
+      "#6303DC",
+      "#6D03E6",
+      "#7603F0",
+      "#8004F9",
+      "#8917FE",
+      "#912CFE",
+      "#993AFE",
+      "#A246FE",
+      "#AA51FE",
+      "#B15BFE"
+    ],
+    "positions": [
+      0.0,
+      0.066667,
+      0.133333,
+      0.2,
+      0.266667,
+      0.333333,
+      0.4,
+      0.466667,
+      0.533333,
+      0.6,
+      0.666667,
+      0.733333,
+      0.8,
+      0.866667,
+      0.933333,
+      1.0
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated violet boundary",
+    "description": "Sixteen-point study following a saturated sRGB boundary through hue and lightness. These positions represent gradient coordinates, not wavelengths or measured physical energy. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-blue-boundary",
+    "name": "OKLab · Deep Blue Gamut Edge",
+    "category": "Creative",
+    "originalCategory": "Perceptual",
+    "colors": [
+      "#000E59",
+      "#010176",
+      "#020188",
+      "#04019A",
+      "#0602AC",
+      "#0A02BF",
+      "#0F02D2",
+      "#1303E5",
+      "#1803F8",
+      "#1C27FE",
+      "#223EFE",
+      "#2C4FFE",
+      "#375DFE",
+      "#436AFE",
+      "#4F76FE",
+      "#5B81FE"
+    ],
+    "positions": [
+      0.0,
+      0.066667,
+      0.133333,
+      0.2,
+      0.266667,
+      0.333333,
+      0.4,
+      0.466667,
+      0.533333,
+      0.6,
+      0.666667,
+      0.733333,
+      0.8,
+      0.866667,
+      0.933333,
+      1.0
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated blue boundary",
+    "description": "Sixteen-point study following a saturated sRGB boundary through hue and lightness. These positions represent gradient coordinates, not wavelengths or measured physical energy. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-green-boundary",
+    "name": "OKLab · Electric Green Gamut Edge",
+    "category": "Creative",
+    "originalCategory": "Perceptual",
+    "colors": [
+      "#01612A",
+      "#026C2C",
+      "#02772C",
+      "#02832C",
+      "#038F29",
+      "#039B23",
+      "#04A817",
+      "#16B404",
+      "#2FBF04",
+      "#42CA05",
+      "#53D506",
+      "#63E006",
+      "#72EC07",
+      "#82F708",
+      "#9DFF4D",
+      "#C8FFA0"
+    ],
+    "positions": [
+      0.0,
+      0.066667,
+      0.133333,
+      0.2,
+      0.266667,
+      0.333333,
+      0.4,
+      0.466667,
+      0.533333,
+      0.6,
+      0.666667,
+      0.733333,
+      0.8,
+      0.866667,
+      0.933333,
+      1.0
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated green boundary",
+    "description": "Sixteen-point study following a saturated sRGB boundary through hue and lightness. These positions represent gradient coordinates, not wavelengths or measured physical energy. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  },
+  {
+    "id": "gamut-fuchsia-boundary",
+    "name": "OKLab · Fuchsia Gamut Edge",
+    "category": "Creative",
+    "originalCategory": "Perceptual",
+    "colors": [
+      "#A80267",
+      "#B10271",
+      "#BA037B",
+      "#C30385",
+      "#CC0390",
+      "#D6049B",
+      "#DF04A6",
+      "#E804B2",
+      "#F005BF",
+      "#F905CC",
+      "#FF22D7",
+      "#FF41DE",
+      "#FF57E5",
+      "#FF68EB",
+      "#FF77F1",
+      "#FF86F6"
+    ],
+    "positions": [
+      0.0,
+      0.066667,
+      0.133333,
+      0.2,
+      0.266667,
+      0.333333,
+      0.4,
+      0.466667,
+      0.533333,
+      0.6,
+      0.666667,
+      0.733333,
+      0.8,
+      0.866667,
+      0.933333,
+      1.0
+    ],
+    "transition": "smooth",
+    "searchAliases": "gamut expansion high chroma saturated fuchsia boundary",
+    "description": "Sixteen-point study following a saturated sRGB boundary through hue and lightness. These positions represent gradient coordinates, not wavelengths or measured physical energy. Original high-chroma sRGB art-direction study with Smooth OKLab interpolation. Tune masks, alpha and exposure to the asset; luminous appearance requires compositing."
+  }
+]

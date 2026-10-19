@@ -1,0 +1,30 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+assert(fs.existsSync('work/atlas-random-luma.js'),'Harmonic/Perceptual need bright-source-aware generation');
+let boot=fs.readFileSync('work/check_simple_random.cjs','utf8').split("console.log('PASS: full app")[0];
+boot=boot.replace('resetDefaultExplosion,restore};','resetDefaultExplosion,restore,sourceBrightStrength,brightSourcePalette,atlasVaryAddFamily,muteDraw:()=>{drawGradient=()=>{};},setBlend:mode=>{previewImages.find(p=>p.id===previewSelected).blend=mode;},setImage:(p,a)=>{explosionPixels=p;explosionAlpha=a;}};');
+boot=boot.replace('const script=[...html.matchAll(/<script>([\\s\\S]*?)<\\/script>/g)][0][1];','let script=[...html.matchAll(/<script>([\\s\\S]*?)<\\/script>/g)].find(m=>m[1].includes("const raw=JSON.parse"))[1];const historyStart=script.indexOf("// Atlas history integration"),historyEnd=script.indexOf("// End Atlas history integration",historyStart);if(historyStart>=0)script=script.slice(0,historyStart)+script.slice(historyEnd+"// End Atlas history integration".length);if(!script.includes("// Bright-source Random integration"))script=script.replace("new ResizeObserver(()=>{drawScene();",fs.readFileSync("work/atlas-random-luma.js","utf8")+"new ResizeObserver(()=>{drawScene();");');
+if(process.env.ATLAS_TEST_SOURCE)boot=boot.replace("const file='/Users/raffribeiro/.codex/visualizations/2026/10/01/01a0f83c-7569-7dd0-ad8b-3e73b2b454df/munsell-selector.html';",'const file='+JSON.stringify(process.env.ATLAS_TEST_SOURCE)+';');
+const box={require,console,process,structuredClone};vm.runInNewContext(boot+';globalThis.app=context.inspectMunsell;',box);const app=box.app,s=app.state;app.muteDraw();
+const luma=hex=>hex.match(/[a-f0-9]{2}/gi).map(v=>parseInt(v,16)/255).reduce((a,v,i)=>a+v*[.2126,.7152,.0722][i],0);
+const colors=[0,.25,.5,.75,1].map(t=>({t,hex:'#112233'})),alphas=[{t:0,a:.3},{t:1,a:.9}];
+const setup=()=>{s.gradientLayers=Object.fromEntries(['emission','smoke'].map(id=>[id,{colors:structuredClone(colors),alphas:structuredClone(alphas),transition:'bands',preset:'custom'}]));s.gradientLayer='emission';s.gradientColors=s.gradientLayers.emission.colors;s.gradientAlphas=s.gradientLayers.emission.alphas;s.explosionView='active';s.explosionSplit=.62;};
+const rng=()=>{let seed=91;return()=>((seed=Math.imul(seed,1664525)+1013904223>>>0)/4294967296)};
+for(const mode of ['auto','perceptual','true-random','colorplay','monochromatic']){
+ setup();s.randomType=mode;app.setImage(Uint8Array.from([20,20,20,20]),Uint8Array.from([255,255,255,255]));app.randomAllLayers(rng(),false);const dark=JSON.parse(JSON.stringify(s.gradientLayers));
+ setup();s.randomType=mode;app.setImage(Uint8Array.from([230,230,230,230]),Uint8Array.from([255,255,255,255]));app.randomAllLayers(rng(),false);const bright=JSON.parse(JSON.stringify(s.gradientLayers));
+ if(['auto','perceptual'].includes(mode)){
+  for(const id of ['emission','smoke']){assert.equal(bright[id].colors.length,colors.length);assert.deepEqual(bright[id].alphas,alphas);}
+ }else assert.deepEqual(bright,dark,'Other Random modes are unchanged');
+}
+app.setImage(Uint8Array.from([255,0]),Uint8Array.from([0,255]));assert.equal(app.sourceBrightStrength(),0,'Transparent white pixels do not brighten generation');app.setImage(Uint8Array.from([255]),Uint8Array.from([0]));assert.equal(app.sourceBrightStrength(),0);app.setImage(null,null);assert.equal(app.sourceBrightStrength(),0);
+setup();s.explosionView='combined';app.setImage(Uint8Array.from([240]),Uint8Array.from([255]));const smoke=app.brightSourcePalette(colors,'smoke',1),emission=app.brightSourcePalette(colors,'emission',1);for(const k of smoke)assert(luma(k.hex)>=k.t*.62-.006);for(const k of emission)assert(luma(k.hex)>=.62+k.t*.38-.006);
+for(const mode of ['auto','perceptual']){setup();s.randomType=mode;s.explosionView='combined';app.setBlend('add');app.setImage(Uint8Array.from([240]),Uint8Array.from([255]));app.randomAllLayers(rng(),false);for(const id of ['emission','smoke']){const keys=s.gradientLayers[id].colors,min=Math.min(...keys.map(k=>k.t));assert(keys.filter(k=>k.t===min).every(k=>k.hex==='#000000'),'Bright Add ramps retain a black low endpoint after Random');assert.deepEqual(JSON.parse(JSON.stringify(s.gradientLayers[id].alphas)),alphas);}}
+console.log('PASS: real Harmonic/Perceptual preserve bright-source ramp luma, alpha/counts and split coordinates; transparency/fallbacks and other modes are unchanged.');
+
+for(const mode of ['auto','perceptual']){setup();s.randomType=mode;app.setBlend('add');app.setImage(Uint8Array.from([20]),Uint8Array.from([255]));app.randomAllLayers(rng(),false);for(const id of ['emission','smoke']){const keys=s.gradientLayers[id].colors,min=Math.min(...keys.map(k=>k.t));assert(keys.filter(k=>k.t===min).every(k=>k.hex==='#000000'),'Every Add Random keeps black even for dark sources');}}
+
+for(const mode of ['auto','perceptual','true-random']){setup();s.randomType=mode;app.setBlend('normal');for(const id of ['emission','smoke'])s.gradientLayers[id].colors[1].t=.175;app.randomAllLayers(rng(),false);for(const id of ['emission','smoke'])assert.deepEqual(Array.from(s.gradientLayers[id].colors,k=>k.t),[0,.175,.5,.75,1],'Random preserves manually adjusted spacing');}
+
+setup();app.setBlend('add');const profile=app.brightSourcePalette([0,.12,.35,.65,.85,1].map(t=>({t,hex:'#558855'})),'emission',0);const chroma=k=>{const p=app.rgbToLab(k.hex);return Math.hypot(p.a,p.b)};assert(chroma(profile[1])<=6,'Add penultimate color has low chroma');assert.equal(profile[0].hex,'#000000');
+
+const basis=['#000000','#0d2017','#286127','#76b829','#d2e86c','#f4fbc7'].map((hex,i)=>({t:i/5,hex}));assert.equal(typeof app.atlasVaryAddFamily,'function');const varied=app.atlasVaryAddFamily(basis,basis.map(k=>({...k,hex:'#8855dd'})),rng());for(let i=1;i<basis.length;i++){const a=app.rgbToLab(basis[i].hex),b=app.rgbToLab(varied[i].hex);assert(Math.abs(a.l-b.l)<5,'Family variations preserve the lightness structure');assert.equal(varied[i].t,basis[i].t);}assert(varied.some((k,i)=>k.hex!==basis[i].hex));

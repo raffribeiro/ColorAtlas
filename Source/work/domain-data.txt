@@ -1,0 +1,38 @@
+const domainDataTemplates=[
+ ['Military','radar','Radar · Return strength','sequential',150,20,32,'Relative echo strength; not target identity.'],
+ ['Military','infrared','Infrared · Thermal intensity','sequential',55,65,42,'Relative intensity; requires a calibrated legend for temperature.'],
+ ['Military','terrain','Terrain · Elevation','sequential',140,-100,26,'Ordered elevation; sea level is not encoded as a midpoint.'],
+ ['Military','visibility','Visibility · Coverage','sequential',230,-70,30,'Relative coverage or visibility score.'],
+ ['Military','confidence','Intelligence · Confidence','sequential',260,-110,25,'Low to high confidence; color is not a probability calibration.'],
+ ['Military','deviation','Navigation · Cross-track error','diverging',245,-200,32,'Signed deviation around zero at the neutral center.'],
+ ['Military','change','Change detection · Loss / Gain','diverging',275,-210,36,'Negative and positive change around a shared baseline.'],
+ ['Military','bearing','Bearing · Direction','cyclic',260,360,30,'0–360° bearing; matching endpoints.'],
+ ['Military','risk','Risk · Ordered levels','threshold',0,0,0,'Five ordered severity bands; define thresholds in the consuming visualization.'],
+ ['Military','status','Asset · Status classes','categorical',0,0,0,'Unordered classes; requires explicit labels, no semantic interpolation.'],
+ ['Scientific','pressure','Pressure · Magnitude','sequential',250,-95,34,'Ordered scalar pressure.'],
+ ['Scientific','temperature','Temperature · Magnitude','sequential',35,75,40,'Ordered scalar temperature; supply units and range.'],
+ ['Scientific','concentration','Chemistry · Concentration','sequential',160,-65,35,'Ordered scalar concentration.'],
+ ['Scientific','radiation','Radiation · Intensity','sequential',320,75,40,'Relative scalar intensity; not a safety threshold scale.'],
+ ['Scientific','probability','Probability · 0–1','sequential',255,-75,28,'Ordered probability with endpoints 0 and 1.'],
+ ['Scientific','uncertainty','Uncertainty · Magnitude','sequential',290,35,18,'Low to high uncertainty; higher lightness indicates more uncertainty.'],
+ ['Scientific','velocity','Velocity · Signed component','diverging',235,-180,35,'Negative / zero / positive component; not vector magnitude.'],
+ ['Scientific','charge','Electric potential · Signed','diverging',275,-195,38,'Signed field around a neutral zero.'],
+ ['Scientific','residual','Model · Residual','diverging',210,155,30,'Prediction residuals around zero.'],
+ ['Scientific','phase','Wave · Phase','cyclic',280,360,32,'Periodic phase; endpoints represent the same angle.'],
+ ['Scientific','classes','Samples · Classes','categorical',0,0,0,'Unordered sample groups; use discrete mapping and labels.'],
+ ['TechArt','roughness','Roughness · 0–1','sequential',0,0,0,'Neutral scalar ramp for roughness inspection.'],
+ ['TechArt','metallic','Metallic · 0–1','sequential',245,-25,18,'Scalar metallic mask inspection; display palette only.'],
+ ['TechArt','ao','Ambient occlusion · Visibility','sequential',0,0,0,'0 occluded to 1 unoccluded; display palette only.'],
+ ['TechArt','overdraw','Overdraw · Cost','sequential',330,110,45,'Ordered relative overdraw; not engine profiler calibration.'],
+ ['TechArt','density','Texel density · Deviation','diverging',245,-195,35,'Below target / on target / above target.'],
+ ['TechArt','sdf','SDF · Inside / Outside','diverging',260,-200,33,'Signed distance with surface at neutral midpoint.'],
+ ['TechArt','uv','UV · Angle','cyclic',220,360,34,'Periodic scalar UV angle; not a two-component UV encoding.'],
+ ['TechArt','lod','LOD · Discrete levels','threshold',0,0,0,'Five ordered LOD bands; requires discrete index mapping.'],
+ ['TechArt','material','Material ID · Classes','categorical',0,0,0,'Unordered material IDs; use labels and discrete sampling.']
+];
+for(const [domain,id,name,dataType,hue,span,chroma,usage] of domainDataTemplates){
+ const discrete=dataType==='categorical'||dataType==='threshold';
+ const keys=discrete?(dataType==='categorical'?['#4477AA','#EE6677','#228833','#CCBB44','#66CCEE','#AA3377']:['#18263A','#315A85','#7F8F45','#DDAA45','#F07862']).map((hex,i,colors)=>({hex,t:i/(colors.length-1)})):buildPerceptualRamp({family:dataType,hue,span,chroma,count:dataType==='diverging'?7:8});
+ gradientPresets.push({id:'data-'+domain.toLowerCase()+'-'+id,name:domain+' · '+name,category:domain,dataType,transition:discrete?'bands':'smooth',description:usage+' Original visualization palette, not an official operational standard.',colors:keys.map(k=>k.hex),positions:keys.map(k=>k.t)});
+}
+for(const p of gradientPresets.filter(p=>p.category==='DataViz'))p.dataType=dataVizTemplates.find(row=>'data-'+row[0]===p.id)?.[2];

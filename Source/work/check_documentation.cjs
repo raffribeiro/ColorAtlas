@@ -1,0 +1,25 @@
+const fs=require('fs'),assert=require('assert'),vm=require('vm');
+const html=fs.readFileSync('/Users/raffribeiro/.codex/visualizations/2026/10/01/01a0f83c-7569-7dd0-ad8b-3e73b2b454df/munsell-selector.html','utf8');
+const script=html.match(/<script id="atlas-documentation-ui">([\s\S]*?)<\/script>/)?.[1];
+assert(script,'Documentation needs a working navigation module');
+function el(attrs={},textContent=''){return{attrs,textContent,value:'',hidden:false,dataset:{},style:{},handlers:{},setAttribute(k,v){this.attrs[k]=v},getAttribute(k){return this.attrs[k]},addEventListener(k,f){this.handlers[k]=f},focus(){this.focused=true},querySelector(){return null}};}
+const topics=[el({'data-doc-topic':'overview'},'Overview learn workflow'),el({'data-doc-topic':'interpolation'},'OKLab interpolation technical formula'),el({'data-doc-topic':'png-export'},'Export dimensions transparency PNG')];
+const links=topics.map(t=>el({'data-doc-link':t.attrs['data-doc-topic']},t.textContent.split(' ')[0]));
+const tabs=['editor','documentation'].map(view=>el({'data-studio-view':view}));
+const panel=el(),search=el(),count=el(),reader=el(),previous=el(),next=el(),root=el();panel.hidden=true;root.dataset.view='editor';
+const editorSnapshot={gradientLayer:'smoke',gradientColors:[{t:.75,hex:'#abcdef'}],favoritePresets:['atlas-realistic-fire']},before=JSON.stringify(editorSnapshot);
+const nodes={'#atlas-documentation':panel,'#atlas-doc-search':search,'#atlas-doc-results':count,'.atlas-docs-reading':reader,'[data-doc-previous]':previous,'[data-doc-next]':next};
+root.querySelector=s=>nodes[s]||null;root.querySelectorAll=s=>s==='[data-studio-view]'?tabs:s==='[data-doc-topic]'?topics:s==='[data-doc-link]'?links:[];
+panel.querySelectorAll=s=>root.querySelectorAll(s);panel.querySelector=s=>root.querySelector(s);
+topics.forEach(t=>{t.querySelector=()=>el()});
+const context={document:{getElementById:()=>root},requestAnimationFrame:fn=>fn(),window:{}};vm.runInNewContext(script,context);
+tabs[1].handlers.click();assert.equal(root.dataset.view,'documentation');assert(!panel.hidden);assert.equal(tabs[1].attrs['aria-pressed'],'true');assert(!topics[0].hidden);assert(topics[1].hidden);
+links[1].handlers.click({preventDefault(){}});assert(!topics[1].hidden);assert(topics[0].hidden);assert.equal(reader.scrollTop,0);assert.equal(links[1].attrs['aria-current'],'page');
+search.value='TRANSPARENCY';search.handlers.input();assert(!links[2].hidden);assert(links[0].hidden);assert(!topics[2].hidden);assert.equal(count.textContent,'1 topic');
+search.value='xyz impossible';search.handlers.input();assert(links.every(l=>l.hidden));assert.equal(count.textContent,'No matching topics');assert(topics.every(t=>t.hidden),'Empty search results must not show an unrelated article');
+search.value='';search.handlers.input();assert(links.every(l=>!l.hidden));
+previous.handlers.click();assert(!topics[1].hidden);next.handlers.click();assert(!topics[2].hidden);assert(next.disabled);
+reader.scrollTop=120;tabs[0].handlers.click();assert(panel.hidden);assert.equal(root.dataset.view,'editor');assert.equal(JSON.stringify(editorSnapshot),before,'Reading documentation must never mutate editor state');
+tabs[1].handlers.click();assert(!topics[2].hidden,'Returning to documentation keeps the reading topic');assert.equal(reader.scrollTop,120,'Reading scroll position survives visiting Editor');
+assert(html.includes('OKLCh · cylindrical OKLab · D65'),'System label must name the implemented color space');
+console.log('PASS: Documentation/Editor navigation, topic selection, full-text search, no-results recovery, previous/next, focus/scroll and preserved editor state.');

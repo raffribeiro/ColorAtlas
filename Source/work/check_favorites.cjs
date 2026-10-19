@@ -1,0 +1,81 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const file='/Users/raffribeiro/.codex/visualizations/2026/10/01/01a0f83c-7569-7dd0-ad8b-3e73b2b454df/munsell-selector.html';
+const html=fs.readFileSync(file,'utf8'),data=html.match(/<script type="application\/json" id="mp-data">([\s\S]*?)<\/script>/)[1];
+const nodes=new Map();function node(k){if(k==='[data-field="vfx-doc-link"]')return null;if(!nodes.has(k))nodes.set(k,{value:'',textContent:'',innerHTML:'',style:{setProperty(k,v){this[k]=v}},parentElement:{hidden:true},clientWidth:k.includes('scene')?420:700,clientHeight:390,handlers:{},attrs:{},addEventListener(n,f){this.handlers[n]=f},setAttribute(n,v){this.attrs[n]=v},getBoundingClientRect(){return {left:0,top:0}},setPointerCapture(id){this.capture=id},hasPointerCapture(id){return this.capture===id},releasePointerCapture(){this.capture=null},select(){},appendChild(){},append(){},replaceChildren(){},focus(){},querySelector(){return null},contains(){return false},options:[]});return nodes.get(k);}
+const root={getBoundingClientRect(){return {left:0,top:0,width:700}},querySelector:node,addEventListener(n,f){node("root").handlers[n]=f}};node('#mp-data').textContent=data;
+const script=[...html.matchAll(/<script>([\s\S]*?)<\/script>/g)][0][1];
+const context={CSS:{escape:value=>value},Image:class{constructor(){context.explosionImage=this}set src(v){}},requestAnimationFrame(){return 1},cancelAnimationFrame(){},setTimeout(){return 1},clearTimeout(){},document:{getElementById(){return root},createElement:()=>node('created-'+Math.random()),body:{appendChild(){}},addEventListener(){}},localStorage:{getItem(){return null},setItem(){}},structuredClone,window:{openai:{widgetState:{modelContent:{h:'5G',v:4,c:0,system:process.env.START_VFX?'vfx':'munsell'}},setWidgetState(value){context.savedState=value;return Promise.resolve()}},addEventListener(){}},navigator:{},ResizeObserver:class{constructor(fn){}observe(){}},console};
+vm.runInNewContext(script.replace('new ResizeObserver', 'globalThis.inspectMunsell={state,restore,gradientPresets,applyGradientPreset,renderStudioLibrary,studioLibraryGroups:typeof studioLibraryGroups==="function"?studioLibraryGroups:null,libraryFolderIsOpen:typeof libraryFolderIsOpen==="function"?libraryFolderIsOpen:null}; new ResizeObserver'),context);
+
+
+const app=context.inspectMunsell,libraryNode=node('[data-field="studio-library"]');
+app.renderStudioLibrary();
+const markup=()=>libraryNode.innerHTML;
+assert(markup().includes('data-studio-folder="category:Favorites"'),'Favorites folder must always be discoverable');
+assert(markup().indexOf('category:Favorites')<markup().indexOf('category:Effects'));
+assert(markup().includes('Favoritos'));
+assert.deepEqual(Array.from(app.state.favoritePresets),['atlas-explosion-fire','laserblue'],'Seed the two requested starter favorites');
+assert.equal(app.state.favoriteDefaultsVersion,1);
+assert.equal(app.gradientPresets.find(p=>p.id==='atlas-explosion-fire').name,'Atlas · Realistic Explosion / Fire');
+assert.equal(app.gradientPresets.find(p=>p.id==='laserblue').name,'Laser · Blue Beam');
+app.state.libraryFolders['category:My palettes']=false;
+assert.equal(app.libraryFolderIsOpen('category:My palettes',[],''),false,'Manual collapse of My palettes works during the visit');
+app.state.libraryFolders['category:My palettes']=true;
+assert.equal(app.libraryFolderIsOpen('category:Effects',[],''),false);
+app.state.libraryFolders['category:Effects']=true;
+assert.equal(app.libraryFolderIsOpen('category:Effects',[],''),true,'Manual expansion is honored during the visit');
+delete app.state.libraryFolders['category:Effects'];
+assert.equal(app.libraryFolderIsOpen('category:Effects',[],'fire'),true,'Search expands matching folders');
+assert(markup().includes('data-studio-folder="category:Favorites" open'));
+assert.deepEqual([...markup().matchAll(/<details[^>]*data-studio-folder="([^"]+)"[^>]* open/g)].map(m=>m[1]),['category:Favorites','category:My palettes'],'Favorites and My palettes start expanded; preset categories stay collapsed');
+assert.equal((markup().match(/data-studio-favorite=/g)||[]).length,1088);
+app.restore({favoritePresets:[]});app.renderStudioLibrary();
+assert(markup().includes('Clique na estrela'));
+assert.equal((markup().match(/data-studio-favorite=/g)||[]).length,1086);
+function star(id,folder='category:Effects'){
+ const button={dataset:{studioFavorite:id},closest(){return {dataset:{studioFolder:folder}}}};
+ libraryNode.handlers.click({target:{closest(selector){return selector==='[data-studio-favorite]'?button:null}}});
+}
+const gradient=()=>JSON.stringify([app.state.gradientPreset,app.state.gradientColors,app.state.gradientAlphas,app.state.gradientLayers,app.state.gradientSelection]);
+const before=gradient();
+star('fire');assert.equal(gradient(),before,'Favoriting must never apply a preset or modify the gradient');
+assert.deepEqual(Array.from(app.state.favoritePresets),['fire']);
+assert.deepEqual(Array.from(context.savedState.modelContent.favoritePresets),['fire'],'Persist favorite IDs in widget state');
+assert.equal((markup().match(/data-studio-favorite="fire" aria-pressed="true"/g)||[]).length,2,'Folder and original palette show the same star state');
+assert(markup().includes('data-studio-folder="category:Favorites" open'));
+assert(markup().includes('aria-label="Remover Fire dos favoritos"'));
+star('not-a-real-preset');assert.deepEqual(Array.from(app.state.favoritePresets),['fire']);
+node('#studio-search').value='Quiet Olive Portrait';node('#studio-search').handlers.input();
+assert(!markup().includes('data-studio-favorite="fire"'));assert(markup().includes('Nenhum favorito encontrado'));
+node('#studio-search').value='';node('#studio-search').handlers.input();
+star('fire','category:Favorites');assert.deepEqual(Array.from(app.state.favoritePresets),[]);assert(markup().includes('Clique na estrela'));
+assert.equal((markup().match(/data-studio-favorite="fire" aria-pressed="false"/g)||[]).length,1);
+app.restore({favoritePresets:['fire','fire','ice',null,4,'<script>','unknown-id'],libraryFolders:{'category:Favorites':false}});app.renderStudioLibrary();
+assert.deepEqual(Array.from(app.state.favoritePresets),['fire','ice'],'Restore deduplicates and ignores invalid or removed presets');
+assert(!markup().includes('data-studio-folder="category:Favorites" open'),'Explicit collapsed preference survives restore');
+star('ice');assert.deepEqual(Array.from(app.state.favoritePresets),['fire']);
+assert.deepEqual(Array.from(context.savedState.modelContent.favoritePresets),['fire']);
+assert.equal(context.savedState.modelContent.libraryFolders['category:Favorites'],false);
+assert.equal(app.studioLibraryGroups('').flatMap(g=>g.presets).length,1086,'Favorites do not duplicate or reclassify templates');
+libraryNode.handlers.click({target:{closest(selector){return selector==='[data-studio-preset]'?{dataset:{studioPreset:'ice'}}:null}}});
+assert.equal(app.state.gradientPreset,'ice','Palette button still applies a gradient');
+assert(html.includes('.studio-palette-row'));assert(html.includes('.studio-favorite:focus-visible'));
+assert(!/<button[^>]*data-studio-preset[^>]*>[\s\S]*?<button/.test(markup().split('</button>')[0]),'Star must be a sibling button');
+context.window.openai.widgetState=JSON.parse(JSON.stringify(context.savedState));
+vm.runInNewContext(script.replace('new ResizeObserver', 'globalThis.reopenedApp={state,renderStudioLibrary}; new ResizeObserver'),context);
+context.reopenedApp.renderStudioLibrary();assert.deepEqual(Array.from(context.reopenedApp.state.favoritePresets),['fire'],'Reopening app restores persisted stars');
+assert.equal(context.reopenedApp.state.libraryFolders['category:Favorites'],true,'Favorites reopens expanded at startup');
+assert.deepEqual([...markup().matchAll(/<details[^>]*data-studio-folder="([^"]+)"[^>]* open/g)].map(m=>m[1]),['category:Favorites','category:My palettes']);
+assert.equal((markup().match(/data-studio-favorite="fire" aria-pressed="true"/g)||[]).length,2);
+// Upgrade older saved libraries once without deleting existing favorites.
+context.window.openai.widgetState={modelContent:{favoritePresets:['ice','laserblue'],libraryFolders:{'category:Effects':true,'theme:Effects:Production':true,'category:Favorites':false}}};
+vm.runInNewContext(script.replace('new ResizeObserver', 'globalThis.migratedApp={state,renderStudioLibrary}; new ResizeObserver'),context);
+context.migratedApp.renderStudioLibrary();
+assert.deepEqual(Array.from(context.migratedApp.state.favoritePresets),['ice','laserblue','atlas-explosion-fire']);
+assert.equal(context.migratedApp.state.favoriteDefaultsVersion,1);
+assert.deepEqual([...markup().matchAll(/<details[^>]*data-studio-folder="([^"]+)"[^>]* open/g)].map(m=>m[1]),['category:Favorites','category:My palettes']);
+context.window.openai.widgetState={modelContent:{favoritePresets:[],favoriteDefaultsVersion:1}};
+vm.runInNewContext(script.replace('new ResizeObserver', 'globalThis.emptyReopenedApp={state,renderStudioLibrary}; new ResizeObserver'),context);
+assert.deepEqual(Array.from(context.emptyReopenedApp.state.favoritePresets),[],'Removed starter favorites stay removed after reopening');
+
+console.log('PASS: two starter favorites, existing favorites preserved, one-time seeding, compact startup folders, manual expansion/search, removals persist, toggles and unchanged gradient/library.');

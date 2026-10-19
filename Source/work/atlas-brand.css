@@ -1,0 +1,32 @@
+/* Color Atlas brand: one set of tokens drives both the header lockup and the
+   loading screen, so a change here updates both. */
+#munsell-picker{
+ --brand-font:"SF Pro Display","Inter","Segoe UI Variable Display",system-ui,-apple-system,"Segoe UI",sans-serif;
+ --brand-weight:650;
+ --brand-tracking:-.02em;
+ --brand-gradient:linear-gradient(90deg,#c6b6f0 0%,#8fb6ff 18%,#6fd3e3 36%,#97e39a 54%,#f1cf7a 72%,#ffa08f 88%,#f59ad2 100%);
+ --brand-mark-fill:linear-gradient(#141b24,#0f151c);
+ --brand-mark-border:linear-gradient(135deg,#8fb6ff,#c6b6f0 30%,#f59ad2 60%,#f1cf7a 85%,#97e39a);
+ --brand-mark-text:#eef3fa;
+ --brand-tag-text:#aebcd0;
+ --brand-tag-border:#33465b
+}
+/* OKLab hue path at near-constant lightness, chroma varying per stop. */
+@supports (background:linear-gradient(90deg in oklab,red,blue)){#munsell-picker{
+ --brand-gradient:linear-gradient(90deg in oklab,oklch(.84 .08 300) 0%,oklch(.80 .13 258) 18%,oklch(.84 .10 205) 36%,oklch(.87 .15 145) 54%,oklch(.87 .12 85) 72%,oklch(.79 .15 30) 88%,oklch(.82 .13 350) 100%);
+ --brand-mark-border:linear-gradient(135deg in oklab,oklch(.80 .13 258),oklch(.84 .08 300) 30%,oklch(.82 .13 350) 60%,oklch(.87 .12 85) 85%,oklch(.87 .15 145))
+}}
+
+/* Header lockup */
+#munsell-picker .studio-topbar h2.atlas-lockup{display:flex!important;align-items:baseline!important;gap:12px!important;margin:0 auto 0 0!important;font-family:var(--brand-font);font-size:24px!important;line-height:1!important;letter-spacing:0!important;font-weight:var(--brand-weight)}
+#munsell-picker .atlas-lockup-mark{align-self:center;display:grid;place-items:center;flex:none;width:32px;height:32px;box-sizing:border-box;border-radius:9px;border:1.5px solid transparent;background:var(--brand-mark-fill) padding-box,var(--brand-mark-border) border-box;font-size:14.5px;font-weight:600;letter-spacing:-.2px;color:var(--brand-mark-text);box-shadow:0 2px 10px rgba(0,0,0,.35)}
+#munsell-picker .studio-topbar h2.atlas-lockup .studio-brand{color:#cfd9f7;letter-spacing:var(--brand-tracking);font-weight:var(--brand-weight);white-space:nowrap;background-image:var(--brand-gradient)!important;-webkit-background-clip:text!important;background-clip:text!important;-webkit-text-fill-color:transparent!important}
+#munsell-picker .atlas-lockup-accent{font-weight:450}
+#munsell-picker .studio-topbar h2.atlas-lockup small{align-self:baseline;font-family:var(--brand-font);font-size:9.5px!important;line-height:1!important;font-weight:600;letter-spacing:1.4px!important;color:var(--brand-tag-text);padding:0;border:0;border-radius:0;background:none;margin-left:1px;transform:none}
+@media(max-width:700px){#munsell-picker .studio-topbar h2.atlas-lockup{font-size:21px!important;gap:10px!important}#munsell-picker .atlas-lockup-mark{width:29px;height:29px;font-size:13px}}
+
+/* Loading screen: same mark, wordmark and tag, scaled up */
+#munsell-picker #atlas-splash .splash-mark{width:66px;height:66px;box-sizing:border-box;border-radius:18px;border:2px solid transparent;background:var(--brand-mark-fill) padding-box,var(--brand-mark-border) border-box;color:var(--brand-mark-text);font-family:var(--brand-font);font-size:30px;font-weight:600;letter-spacing:-.5px;box-shadow:0 6px 24px rgba(0,0,0,.4)}
+#munsell-picker #atlas-splash h1{font-family:var(--brand-font);font-weight:var(--brand-weight);letter-spacing:var(--brand-tracking);font-size:34px;text-transform:none;display:inline-flex;align-items:center;gap:12px}
+#munsell-picker #atlas-splash h1 .studio-brand{text-transform:none;letter-spacing:var(--brand-tracking);font-weight:var(--brand-weight);color:#cfd9f7;background-image:var(--brand-gradient)!important;-webkit-background-clip:text!important;background-clip:text!important;-webkit-text-fill-color:transparent!important;animation:none}
+#munsell-picker #atlas-splash h1 small{-webkit-text-fill-color:var(--brand-tag-text);color:var(--brand-tag-text);font-family:var(--brand-font);font-size:10.5px;font-weight:600;letter-spacing:1.5px;line-height:1;padding:5px 7px 4px;border:1px solid var(--brand-tag-border);border-radius:5px}

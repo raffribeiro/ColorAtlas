@@ -1,0 +1,39 @@
+#munsell-picker .studio-main{display:grid!important;grid-template-columns:minmax(0,1fr);grid-template-areas:"author" "keys" "ramp" "preview";gap:10px}
+#munsell-picker .studio-columns{display:contents!important}
+#munsell-picker .studio-author{grid-area:author}
+#munsell-picker .studio-keys{grid-area:keys}
+#munsell-picker .studio-ramp{grid-area:ramp;min-width:0}
+#munsell-picker .studio-preview{grid-area:preview;display:flex;flex-direction:column;min-height:0}
+#munsell-picker .studio-panel-title{flex:none;font-size:11px;line-height:20px;letter-spacing:.8px;font-weight:500;margin:0 0 8px;color:#becbdb}
+#munsell-picker .studio-preview>.studio-panel-title{margin:0 0 8px}
+#preview-layers{flex:none;min-height:0;margin-top:12px;padding-top:20px;border-top:1px solid #303c49}
+#preview-layers .preview-layer-heading{display:flex;align-items:center;justify-content:space-between;gap:6px;min-height:28px}
+#preview-layers strong{font-size:10px;letter-spacing:1px;font-weight:500}
+#preview-layers .btn{font-size:10px;padding:3px 6px;min-height:24px}
+#preview-layers .preview-layer-settings{display:grid;grid-template-columns:minmax(80px,1fr) auto minmax(40px,1fr) 38px;align-items:center;gap:6px;margin:5px 0;font-size:10px}
+#preview-layers .form-select{height:26px;padding:3px 6px;font-size:10px;min-width:0;width:100%}
+#preview-layers .form-range{min-width:0;width:100%;height:26px}
+#preview-layer-list{max-height:136px;min-height:38px;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain}
+#preview-layer-list .preview-layer-row{display:grid;grid-template-columns:24px minmax(0,1fr) 54px;align-items:center;gap:4px;margin:3px 0;padding:3px;border:1px solid transparent;border-radius:4px}
+#preview-layer-list .preview-layer-row[data-selected=true]{border-color:transparent;background:linear-gradient(#1b2531,#1b2531) padding-box,var(--atlas-chroma-control) border-box}
+#preview-layer-list button{display:flex;align-items:center;gap:8px;border:0;background:none;color:#c4d1e1;padding:2px;text-align:left;min-width:0;cursor:pointer;font-size:11px}
+#preview-layer-list img{width:30px;height:30px;object-fit:contain;background:#0d141d;flex:none;border-radius:3px}
+#preview-layer-list button span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#preview-layer-list input{margin:0}
+#preview-layer-status{font-size:9px;line-height:14px;color:#97aabd;min-height:14px;margin:5px 0 0}
+@media(min-width:1000px){#munsell-picker .studio-main{grid-template-columns:minmax(260px,1.05fr) minmax(200px,.65fr) minmax(0,1.4fr);grid-template-rows:minmax(520px,1fr) auto;grid-template-areas:"author keys preview" "ramp ramp preview"}}
+@media(min-width:1000px) and (min-height:800px){#munsell-picker .studio-main{grid-template-rows:minmax(0,1fr) auto}#munsell-picker .studio-ramp{margin:0!important}#munsell-picker .studio-author>.studio-panel-title{flex:none}}
+
+#preview-layers .preview-layer-heading>div{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px}
+#munsell-picker .preview-preset-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-bottom:6px;flex:none}
+#munsell-picker .preview-preset-toolbar select{flex:1;min-width:110px;width:0;height:27px;font-size:11px}
+#munsell-picker .preview-preset-toolbar button{font-size:10px;padding:3px 6px;white-space:nowrap}
+#preview-preset-status{font-size:10px;color:#97aabd;margin:0 0 5px;flex:none}
+#preview-preset-status:empty{display:none}
+#preview-preset-name-row[hidden]{display:none!important}
+
+#munsell-picker select{color-scheme:dark}#munsell-picker option,#munsell-picker optgroup{background:#18212b;color:#e2eaf4}
+
+#preview-layer-list .preview-layer-row[data-active=true]{outline:1px solid #71859a66;outline-offset:-2px}
+
+#preview-layer-list .preview-layer-random{justify-content:center;gap:4px;font-size:10px;font-weight:700;color:#8190a1;background:#111820;border-radius:3px}#preview-layer-list .preview-layer-random[aria-pressed=true]{color:#fff;background:var(--atlas-chroma-control)}#preview-layer-rename{display:flex;gap:4px;margin:5px 0}#preview-layer-rename[hidden]{display:none}#preview-layer-name{min-width:0;flex:1}

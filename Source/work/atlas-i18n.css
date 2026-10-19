@@ -1,0 +1,4 @@
+/* Native language menu belongs to navigation, never to the workspace snapshot. */
+#munsell-picker .atlas-language{max-width:150px;min-width:100px;min-height:30px;padding:4px 24px 4px 8px;margin-left:8px;border:1px solid #334252;border-radius:5px;background:#151d27;color:#dbe5f2;font:inherit;font-size:12px}
+#munsell-picker .atlas-language:focus-visible{outline:2px solid #a5b9ef;outline-offset:2px}
+@media(max-width:700px){#munsell-picker .studio-topbar{flex-wrap:wrap}#munsell-picker .studio-workspace-nav{flex-wrap:wrap;gap:4px}#munsell-picker .atlas-language{max-width:130px;margin-left:3px}}

@@ -1,0 +1,240 @@
+Renaissance|art
+Mona Lisa|Leonardo da Vinci|17241D 394932 777044 B39A67 D0BB8C
+The Birth of Venus|Sandro Botticelli|244C56 66897F C9B480 E8D7BC F2E7D3
+The School of Athens|Raphael|303A48 6B6558 B97254 C7AB81 E6DBC6
+The Creation of Adam|Michelangelo|495947 927569 BE9F84 DCCBB0 E8DFCA
+Primavera|Sandro Botticelli|111F19 304430 65563A AE8060 D9C5A3
+Baroque|art
+The Night Watch|Rembrandt|16150E 443821 8C6535 C0A060 E2CF9B
+Las Meninas|Diego Velazquez|23201D 4B4740 8B7460 C4AE98 E5D8C8
+The Calling of Saint Matthew|Caravaggio|12130F 3E372B 796149 AD8F64 D8C8A2
+Girl with a Pearl Earring|Johannes Vermeer|101E1B 344F62 978056 C8A983 E8D1B4
+The Milkmaid|Johannes Vermeer|263638 486184 B49A45 D3BD8B EAE0B9
+Rococo|art
+The Swing|Jean-Honore Fragonard|253A2C 66805A ADB884 DAA4A0 EBD3BD
+The Embarkation for Cythera|Antoine Watteau|34453C 77765A AA9070 D1B29B E9D9C3
+Madame de Pompadour|Francois Boucher|365A56 77A197 B59C83 D9B6AE EAE2D2
+The Blue Boy|Thomas Gainsborough|233037 476986 779AB0 AFAC98 DBC9AE
+The Stolen Kiss|Jean-Honore Fragonard|463F36 9C8670 CDB69A DEC8AF F3E9D6
+Neoclassicism|art
+Oath of the Horatii|Jacques-Louis David|211E1A 5A4A3B 9A3D31 B59170 D7C9AF
+The Death of Socrates|Jacques-Louis David|313A38 746D62 B89580 D4C4B1 E8DFCC
+The Death of Marat|Jacques-Louis David|233A2C 596249 A39373 C5B395 E5DEC6
+Napoleon Crossing the Alps|Jacques-Louis David|29363E 68584B A83F29 C8A57A E4D5BB
+The Grande Odalisque|Jean-Auguste-Dominique Ingres|1F3F51 477B94 AE976E D5BDA2 E9DAC1
+Romanticism|art
+Liberty Leading the People|Eugene Delacroix|292721 625B45 A48455 C3AB7C DCD3B3
+The Raft of the Medusa|Theodore Gericault|172A27 5C5B43 9D8563 C0A682 D8CBAC
+Wanderer above the Sea of Fog|Caspar David Friedrich|263D3D 587277 8EA5A5 C2CFCA E3E5D9
+The Fighting Temeraire|J. M. W. Turner|304757 8A9BA4 C5AD87 E8C68C F2E6C8
+The Third of May 1808|Francisco Goya|211B17 51412D 947442 C7AD74 E9DFBC
+Realism|art
+The Gleaners|Jean-Francois Millet|423F2C 797045 A99962 C9B98B DED2B0
+The Stone Breakers|Gustave Courbet|353A30 6A6753 9B8264 C0A17B D2C4A0
+A Burial at Ornans|Gustave Courbet|171B1B 454843 817565 A89987 C7BCAD
+The Horse Fair|Rosa Bonheur|252F28 626E53 A68C66 C6AE85 E0D1AA
+The Gross Clinic|Thomas Eakins|171514 41352D 7A4C3E B08C76 D1B9A4
+Impressionism|art
+Impression Sunrise|Claude Monet|3B596B 7193A1 A4B5B2 D19B73 EF8B45
+Water Lilies|Claude Monet|344C64 647F91 829D87 AFB5BB D0C8D7
+Dance at Le Moulin de la Galette|Pierre-Auguste Renoir|26364C 5F6B84 A18C87 CBAA95 E7D6B9
+The Ballet Class|Edgar Degas|3E4B43 8A947B B8A481 D6CAB2 EAE2D0
+Paris Street Rainy Day|Gustave Caillebotte|283B43 627478 939B95 B9B5A5 DCD7C8
+Post-Impressionism|art
+The Starry Night|Vincent van Gogh|172954 284A86 4E82AE A7AF81 E6D06E
+Sunflowers|Vincent van Gogh|5C5731 9A7931 C9A541 E3C864 EDDD9C
+A Sunday on La Grande Jatte|Georges Seurat|283C38 4F755B 8C9C64 B9BD92 E0CFAD
+Mont Sainte-Victoire|Paul Cezanne|344D6C 678480 90A27A C6B486 DBD1B3
+Where Do We Come From|Paul Gauguin|183E47 365C5B 8B7D43 C9A45E E7C489
+Symbolism|art
+The Isle of the Dead|Arnold Bocklin|162C2D 3D5147 7B8070 B3B19B DAD5BF
+The Cyclops|Odilon Redon|384B5A 767881 AF9583 C8BA91 E2D4B2
+The Eye Like a Strange Balloon|Odilon Redon|252525 65635D A2A096 D8D2C2
+The Apparition|Gustave Moreau|332934 725154 AD8760 D2B882 EADDAC
+Death and Life|Gustav Klimt|253B4F 546A72 8A797B BDA995 E4CEAE
+Art Nouveau|art
+The Kiss|Gustav Klimt|303728 786B36 B79845 DDC76E ECE0AD
+Judith I|Gustav Klimt|252923 7C6636 B9944B D3B878 E5D3A2
+Gismonda|Alphonse Mucha|3F5B57 938C66 C6AC81 DCC9A2 EEE4CD
+Job|Alphonse Mucha|4A3A40 8B6350 BDA066 D6C490 EBE0C1
+The Peacock Skirt|Aubrey Beardsley|101010 55534F AAA69B EEE8D7
+Fauvism|art
+Woman with a Hat|Henri Matisse|354E70 5C9668 B65D78 DE8855 E9C373
+The Joy of Life|Henri Matisse|395E67 7EA35A D1BA6E E69978 EDD99C
+The Dance|Henri Matisse|174981 368751 CA593A E17B57
+The River Seine at Chatou|Maurice de Vlaminck|263F76 4C7889 82A857 CC8251 EAC57B
+Charing Cross Bridge|Andre Derain|345681 689293 B8A657 DA7655 E8BB82
+Expressionism|art
+The Scream|Edvard Munch|283C4A 54615A A16743 D78B4D E8AD6C
+Street Berlin|Ernst Ludwig Kirchner|303048 685B79 A96073 CE907D E9BE9F
+Blue Horse I|Franz Marc|172B58 365EC1 738DBB B89D65 D7C090
+The Large Blue Horses|Franz Marc|263E6E 537EC0 8B8B83 C6AA74 E8CF9B
+Portrait of Adele Bloch-Bauer II|Gustav Klimt|294A4B 766275 A98965 D0B489 E2D7B5
+Cubism|art
+Les Demoiselles d'Avignon|Pablo Picasso|343A4C 7F6A60 B38A7A D2AD91 E6CBB0
+Guernica|Pablo Picasso|161616 515151 929292 C8C8C8 ECECEC
+Girl with a Mandolin|Pablo Picasso|3C382A 71634B A19371 C7BB9A DED5B8
+Violin and Candlestick|Georges Braque|38382F 68634B 9F9679 C1B699 D7CEB7
+The Portuguese|Georges Braque|302F29 615A43 928367 BAA68B D3C4A4
+Futurism|art
+The City Rises|Umberto Boccioni|253F58 67776D AD6945 DC9253 E6BD80
+Dynamism of a Dog on a Leash|Giacomo Balla|222629 5A6061 929188 C9C4B1 E4DECB
+Street Light|Giacomo Balla|173943 527B64 B8BA6A E8D275 F3E6B5
+Unique Forms of Continuity in Space|Umberto Boccioni|352E23 766044 AF9158 D4B981 E7D8AA
+Armored Train in Action|Gino Severini|293F4B 657477 9F9270 C4B695 E0D5B4
+Suprematism|art
+Black Square|Kazimir Malevich|171817 E5E2D7
+White on White|Kazimir Malevich|D5D8D1 F0EFE7
+Red Square|Kazimir Malevich|B73D30 E9E4DA
+Suprematist Composition|Kazimir Malevich|1D2225 345886 B64230 D8B54A EAE5D8
+Eight Red Rectangles|Kazimir Malevich|B64030 ECE8DD
+Constructivism|art
+Beat the Whites with the Red Wedge|El Lissitzky|16191B BD342D DFDACD
+Books Please|Alexander Rodchenko|182B36 327A9C B83A32 E7D9BA
+Proun 19D|El Lissitzky|262D2E 6D7879 A09D8C E0DACC
+Pure Red Yellow and Blue|Alexander Rodchenko|BE302F D6B83B 345D9E
+Spatial Construction No. 12|Alexander Rodchenko|292D30 757D7D B6BCB6 E5E3D7
+De Stijl|art
+Composition with Red Blue and Yellow|Piet Mondrian|1A1C1D B43129 D7B82D 28549A E9E5D8
+Broadway Boogie Woogie|Piet Mondrian|33518C C24633 E0BF38 EBE6DA
+Victory Boogie Woogie|Piet Mondrian|282A2C 3C63A1 C8493C E2C747 EDE8DB
+Red Blue Chair|Gerrit Rietveld|171C22 244B8D BA352C D9BD39
+Cafe de Unie|J. J. P. Oud|222E38 366287 B84431 D8C55F E7DFCC
+Dada|art
+Fountain|Marcel Duchamp|292C2E 858A89 C6CAC4 E7E9E2
+L.H.O.O.Q.|Marcel Duchamp|353C2D 817858 B5A57D D9C9A0
+Cut with the Kitchen Knife|Hannah Hoch|262B2D 706957 A99979 D4C4A4
+The Elephant Celebes|Max Ernst|243B43 65726D 9D927A C1B59A D8D1B7
+Merz Picture 32A|Kurt Schwitters|333A36 736853 A28C68 C2B18B D9C9AA
+Surrealism|art
+The Persistence of Memory|Salvador Dali|293E49 668C94 AC8E59 D0B778 E8D1A0
+The Son of Man|Rene Magritte|233C43 547B7F 82A755 B1BEB9 D8DAD0
+The Treachery of Images|Rene Magritte|392E24 846445 B89A70 D6C6A4 E9DCC0
+The Two Fridas|Frida Kahlo|344A52 76868A B27D6C D2B39D E2D5C2
+The Menaced Assassin|Rene Magritte|26363A 5D6968 997C63 C1AC91 E1D5BE
+Abstract Expressionism|art
+Autumn Rhythm|Jackson Pollock|252821 766A51 A69777 D4C6A3 E8DFC8
+Number 1A 1948|Jackson Pollock|262B28 786C52 A79578 D3C4A6 E7DDC5
+Woman I|Willem de Kooning|343D41 6C7F73 B3837A CCAA85 E4D5AD
+Elegy to the Spanish Republic No. 110|Robert Motherwell|181B1C D7D0BC E9E3D3
+Chief|Franz Kline|191B1C E5E3DA
+Color Field|art
+Orange and Yellow|Mark Rothko|C45E21 E88D2B EAB941
+No. 61 Rust and Blue|Mark Rothko|263B65 5A5C7B 965641 B77858
+Vir Heroicus Sublimis|Barnett Newman|8E242C C2463B E0B899
+Mountains and Sea|Helen Frankenthaler|547C83 83A19A B3B996 CBA3A0 E3D6BD
+1957-D-No. 1|Clyfford Still|20262A 70532D B08B32 D8BE63 E5D6A0
+Pop Art|art
+Marilyn Diptych|Andy Warhol|393248 E7C438 E173A0 5BAEB0 F0D5B3
+Whaam|Roy Lichtenstein|242C32 B83B31 E1BC3A EAE5D3
+Campbell's Soup Cans|Andy Warhol|B52D28 C8B8A1 ECE6D7
+A Bigger Splash|David Hockney|285C83 6BAEC2 D2AE87 E7D7B7 F0E8D5
+Just What Is It|Richard Hamilton|303A35 8A7051 B39778 D1BA96 E4D5B7
+Op Art|art
+Movement in Squares|Bridget Riley|141617 E9E9E2
+Blaze 1|Bridget Riley|1B1B1D EDEBE3
+Current|Bridget Riley|202326 DFDFD9
+Vega-Nor|Victor Vasarely|1B3646 306D83 62AAB6 B2D2C8
+Fall|Bridget Riley|181A1D E5E6DE
+Minimalism|art
+Die|Tony Smith|14181B 333A3D
+Untitled Stack|Donald Judd|344E50 789093 A6BAB9 DCE0D8
+Equivalent VIII|Carl Andre|74634E B69E7B D1BE9D
+The Marriage of Reason and Squalor II|Frank Stella|191B1D BDBAB0 E7E3D7
+Untitled Fluorescent Light|Dan Flavin|2F5F57 67B397 BDE5C6 F0F5DD
+Arts and Crafts|design
+Strawberry Thief|William Morris|1C3D50 547264 B45045 B7AB73 DBD1AD
+Willow Boughs|William Morris|375746 7B9476 B5C3A2 E1DEC4
+Trellis|William Morris|385C4D 8B9364 BB7362 D3BD94 E8DEBC
+The Woodpecker|William Morris|274238 66714A A59157 C5B985 E4D8B1
+The Hill House Chair|Charles Rennie Mackintosh|1B2022 61615A A6A08B D3C9B1
+Bauhaus|design
+Bauhaus Exhibition Poster 1923|Joost Schmidt|27252B B84C30 D4AF71 E5D5B3
+Wassily Chair|Marcel Breuer|202629 7C8687 C3C5BC E1DFD3
+Bauhaus Building Dessau|Walter Gropius|2C3D45 84969B C5C9C4 E9E8DC
+Bauhaus Cradle|Peter Keler|254A86 B5392B D5B637 EBE2C7
+Tea Infuser MT49|Marianne Brandt|333A3D 858E8F C3C8C6 E4E4D9
+Art Deco|design
+Normandie Poster|A. M. Cassandre|1C3D54 536E7C A99B72 D2BA84 E8D9AD
+Dubo Dubon Dubonnet|A. M. Cassandre|233F4B 727B66 B28A54 D4B36C E5D1A1
+Paris 1925 Exhibition Poster|Robert Bonfils|3B433B 8D7752 B89B64 D9C18C E8DDC1
+Chrysler Building|William Van Alen|33434D 7D939C B7C3C5 E2E4DC
+Almanach des Modes|George Barbier|344D5D 876E75 B59076 D7BB99 E9DBBE
+Swiss Style|design
+Beethoven Poster|Josef Muller-Brockmann|1C1E20 EBE9DF
+Giselle Poster|Armin Hofmann|22262A A2A7A4 E7E6DC
+Musica Viva|Josef Muller-Brockmann|284E83 7792B1 DBDDD5
+Schutzt das Kind|Josef Muller-Brockmann|272E33 B83C31 E5E1D4
+Die Neue Grafik|Karl Gerstner|202D34 3F7187 B0C2C3 E4E5DB
+Mid-Century Modern|design
+Eames Lounge Chair|Charles and Ray Eames|202421 654C35 9E7951 C6AE87
+Ball Clock|George Nelson|253740 3D7885 C85B3F D7B35F E4DAC2
+Tulip Chair|Eero Saarinen|BD4537 E3E0D7 F1EFE5
+The Man with the Golden Arm Poster|Saul Bass|212427 BCA575 E5D9BD
+IBM Rebus Poster|Paul Rand|304D82 7A94B3 C9D0CE EAE7DA
+Memphis|design
+Carlton Room Divider|Ettore Sottsass|283844 367A99 CE4F45 E5BA52 EDD7B2
+Tahiti Lamp|Ettore Sottsass|303D47 D96478 71BDB8 E1C448 EADCC5
+Beverly Sideboard|Ettore Sottsass|313B46 519BA8 D36953 D9C35B E9DFC5
+Super Lamp|Martine Bedin|245AA0 7CB6BE D55948 E4BA44
+First Chair|Michele De Lucchi|294751 498DB0 B34B3E D6BB49 E6DED0
+Scandinavian Modern|design
+Paimio Chair|Alvar Aalto|594B36 AE9162 D4BD94 E9DDC3
+Egg Chair|Arne Jacobsen|314B4D 577873 94A69A D5D6C7
+Wishbone Chair|Hans Wegner|61513B A68C63 CFB68C E7D8B9
+PH Artichoke|Poul Henningsen|594A3F 9D7C65 C8A78C E6D3BC
+Unikko|Maija Isola|992D33 D15148 EDA486 F0DFCF
+Psychedelic Graphic Design|design
+Bob Dylan Poster|Milton Glaser|26213A 5E4FA1 D46D34 E9B946 E1D8BA
+Grateful Dead Skeleton and Roses|Stanley Mouse and Alton Kelley|212E39 4C7094 B73543 D4AE6D E7DCC3
+The Sound|Wes Wilson|3B2849 A13F67 E06E35 E4BC6F
+Aoxomoxoa Cover|Rick Griffin|294844 65A48B C76B46 D9BA69 E7DCC0
+Jimi Hendrix Flying Eyeball|Rick Griffin|3B2949 6A4CA6 BC485F E6974A E6CD82
+Pre-Raphaelitism|art
+Ophelia|John Everett Millais|203D30 58774C 9B9D68 C3B69A E5D3BB
+The Lady of Shalott|John William Waterhouse|2B3E2F 64684B A18A65 CAB99A E5DAC3
+The Light of the World|William Holman Hunt|29392E 71613D AA884B D0AF74 E5D2A3
+Proserpine|Dante Gabriel Rossetti|243D38 4D695D 9F7466 C8A18D E2C4AC
+The Golden Stairs|Edward Burne-Jones|464C43 8D8F7C BCB89D D6CFB4 E8E1CB
+Ukiyo-e|art
+The Great Wave off Kanagawa|Katsushika Hokusai|173B61 4F7999 A5B7BD D9D3BB EEE8D4
+Fine Wind Clear Morning|Katsushika Hokusai|27496D 819EB0 A95945 CC8869 E4D7BA
+Sudden Shower over Shin-Ohashi Bridge|Utagawa Hiroshige|243F53 547479 91A79B C6C9AC E3DDC3
+Plum Park in Kameido|Utagawa Hiroshige|303C35 776153 B8433E C59677 E3D6B8
+Three Beauties of the Present Day|Kitagawa Utamaro|272B2A 806F5D BAA184 D8C6AA EAE0CB
+Orphism|art
+Simultaneous Windows|Robert Delaunay|315A7A 64A68B B6B477 D39153 DCC895
+Circular Forms|Robert Delaunay|305A9A 58A085 C65540 E0B83B E3D9BD
+Electric Prisms|Sonia Delaunay|313B8B 76549C C45E67 E5A148 E4CB72
+Portuguese Market|Sonia Delaunay|324D73 548461 AD4F4F D29453 DCCE99
+Discs of Newton|Frantisek Kupka|304785 5C8F6F C56D43 D3B649 E4D5A4
+Mexican Muralism|art
+The History of Mexico|Diego Rivera|333D37 6F7154 AB794D C8A873 E1CAA4
+Man Controller of the Universe|Diego Rivera|29444A 687E78 A88062 C3AE87 DBD3B5
+The Flower Carrier|Diego Rivera|334634 77783F A3574A D2B46F E5D6A4
+Prometheus|Jose Clemente Orozco|352B27 8E483A BD7048 D3A076 E6C7A2
+Echo of a Scream|David Alfaro Siqueiros|293634 667268 9C8A6F C0AD8B D8CEB3
+Harlem Renaissance|art
+Aspects of Negro Life|Aaron Douglas|293C41 4C686C 7C9A93 B0B9A4 D5D7BC
+Song of the Towers|Aaron Douglas|243F3E 49685D 799177 ACB994 D3D4AF
+The Banjo Lesson|Henry Ossawa Tanner|283B3B 686D59 9E8C68 C5AF86 DEC9A1
+Blues|Archibald Motley|2C294D 6C4467 A54C66 C58865 D8B78A
+The Ascent of Ethiopia|Lois Mailou Jones|293B41 7B6245 B08C50 D4B46C E6D39C
+Brazilian Modernism|art
+Abaporu|Tarsila do Amaral|295F61 69A97A C4B36B D8BD8F E8D3AB
+A Negra|Tarsila do Amaral|334D40 83704F B48E62 CCAE82 E2CEAA
+Antropofagia|Tarsila do Amaral|335B44 6D995E B5B375 D4B28B E6CAA2
+Tropical|Anita Malfatti|354F3F 77774C AA8B59 CCB182 E3CEAA
+The Yellow Man|Anita Malfatti|303E39 7D7652 B59B53 D3B972 E8D6A5
+Postmodern Design|design
+Proust Armchair|Alessandro Mendini|355479 816387 B57274 C9B36F E0D3A5
+Juicy Salif|Philippe Starck|303B40 829295 BCC6C5 E5E7DF
+Groninger Museum|Alessandro Mendini|334B6C 648B94 C17C66 D0B556 E0D6B7
+Portland Building|Michael Graves|31525C 8F9A8B BE8C78 D0B694 E1D6BB
+Alessi 9093 Kettle|Michael Graves|304650 699399 B0BDB7 C5473E E3E0D4
+Space Age Design|design
+Panton Chair|Verner Panton|8F242A C6403A ED7254
+Bocca Sofa|Studio 65|7A202C BD3445 E67175
+Elda Chair|Joe Colombo|332E2D 775645 B59374 E4D9C7
+Ball Chair|Eero Aarnio|B82F3B E1D8CF F0ECE3
+Visiona 2|Verner Panton|3D2861 6557A5 C4537E E97953 E9BD69

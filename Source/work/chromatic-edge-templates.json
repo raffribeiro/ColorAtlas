@@ -1,0 +1,318 @@
+[
+  {
+    "id": "chromatic-edge-jade-silk",
+    "name": "Chromatic Edge · Jade Silk",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#0A131A",
+      "#193C3E",
+      "#267053",
+      "#009C66",
+      "#94B691",
+      "#D2D3C0",
+      "#F4F2EB"
+    ],
+    "positions": [
+      0,
+      0.22,
+      0.41,
+      0.52,
+      0.64,
+      0.8,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "chromatic edge saturated terminator painterly painting chinese-inspired limiar saturado luz sombra jade silk",
+    "description": "Blue-gray ink shadow, saturated jade at the edge, warm silk-colored light. Painterly art direction inspired by luminous ink-and-color contrasts, not a reconstruction of a specific painting or a claim about all Chinese painting. Chroma peaks around the light-shadow boundary while OKLab lightness rises smoothly. Align the edge with the source tonal mask; pigment texture and lighting remain separate treatments."
+  },
+  {
+    "id": "chromatic-edge-cinnabar-lantern",
+    "name": "Chromatic Edge · Cinnabar Lantern",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#18111A",
+      "#442A34",
+      "#864540",
+      "#D3472F",
+      "#CE957F",
+      "#D7C4AF",
+      "#E8E1D2",
+      "#F7F5F0"
+    ],
+    "positions": [
+      0,
+      0.2,
+      0.39,
+      0.5,
+      0.62,
+      0.77,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "chromatic edge saturated terminator painterly painting chinese-inspired limiar saturado luz sombra cinnabar lantern",
+    "description": "Plum shadow, a glowing cinnabar-orange boundary and golden ivory light. Painterly art direction inspired by luminous ink-and-color contrasts, not a reconstruction of a specific painting or a claim about all Chinese painting. Chroma peaks around the light-shadow boundary while OKLab lightness rises smoothly. Align the edge with the source tonal mask; pigment texture and lighting remain separate treatments."
+  },
+  {
+    "id": "chromatic-edge-indigo-mountains",
+    "name": "Chromatic Edge · Indigo Mountains",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#0F141E",
+      "#2F3D56",
+      "#4068AA",
+      "#4087FD",
+      "#B5CFDD",
+      "#EAF4F7"
+    ],
+    "positions": [
+      0,
+      0.26,
+      0.43,
+      0.55,
+      0.78,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "chromatic edge saturated terminator painterly painting chinese-inspired limiar saturado luz sombra indigo mountains",
+    "description": "Quiet slate-blue shadows rise through an indigo edge toward cool mountain mist. Painterly art direction inspired by luminous ink-and-color contrasts, not a reconstruction of a specific painting or a claim about all Chinese painting. Chroma peaks around the light-shadow boundary while OKLab lightness rises smoothly. Align the edge with the source tonal mask; pigment texture and lighting remain separate treatments."
+  },
+  {
+    "id": "chromatic-edge-plum-blossom",
+    "name": "Chromatic Edge · Plum Blossom",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#10101B",
+      "#3E2E45",
+      "#854970",
+      "#CA4D9B",
+      "#D298A9",
+      "#E3CAC6",
+      "#F9F0EC"
+    ],
+    "positions": [
+      0,
+      0.22,
+      0.41,
+      0.52,
+      0.64,
+      0.8,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "chromatic edge saturated terminator painterly painting chinese-inspired limiar saturado luz sombra plum blossom",
+    "description": "Violet ink shadows, a vivid rose-plum edge and pale warm blossom light. Painterly art direction inspired by luminous ink-and-color contrasts, not a reconstruction of a specific painting or a claim about all Chinese painting. Chroma peaks around the light-shadow boundary while OKLab lightness rises smoothly. Align the edge with the source tonal mask; pigment texture and lighting remain separate treatments."
+  },
+  {
+    "id": "chromatic-edge-amber-mist",
+    "name": "Chromatic Edge · Amber Mist",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#0A1915",
+      "#4C492D",
+      "#B17000",
+      "#C9C0AB",
+      "#F1EFE6"
+    ],
+    "positions": [
+      0,
+      0.3,
+      0.52,
+      0.77,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "chromatic edge saturated terminator painterly painting chinese-inspired limiar saturado luz sombra amber mist",
+    "description": "Muted green-gray shadow meets concentrated amber before fading to pale gold. Painterly art direction inspired by luminous ink-and-color contrasts, not a reconstruction of a specific painting or a claim about all Chinese painting. Chroma peaks around the light-shadow boundary while OKLab lightness rises smoothly. Align the edge with the source tonal mask; pigment texture and lighting remain separate treatments."
+  },
+  {
+    "id": "chromatic-edge-lotus-rose",
+    "name": "Chromatic Edge · Lotus Rose",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#081618",
+      "#303046",
+      "#814559",
+      "#CE475C",
+      "#CE9390",
+      "#DCC1B6",
+      "#EDDED5",
+      "#F9F4F1"
+    ],
+    "positions": [
+      0,
+      0.2,
+      0.39,
+      0.5,
+      0.62,
+      0.77,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "chromatic edge saturated terminator painterly painting chinese-inspired limiar saturado luz sombra lotus rose",
+    "description": "Cool teal-gray shadow, a coral-rose boundary and soft peach-ivory highlights. Painterly art direction inspired by luminous ink-and-color contrasts, not a reconstruction of a specific painting or a claim about all Chinese painting. Chroma peaks around the light-shadow boundary while OKLab lightness rises smoothly. Align the edge with the source tonal mask; pigment texture and lighting remain separate treatments."
+  },
+  {
+    "id": "chromatic-edge-peacock-veil",
+    "name": "Chromatic Edge · Peacock Veil",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#12131B",
+      "#2C404C",
+      "#22767E",
+      "#009FAC",
+      "#BDD0C8",
+      "#EEF3EF"
+    ],
+    "positions": [
+      0,
+      0.26,
+      0.43,
+      0.55,
+      0.78,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "chromatic edge saturated terminator painterly painting chinese-inspired limiar saturado luz sombra peacock veil",
+    "description": "Restrained indigo shadow gives way to a rich blue-teal edge and a pale jade veil. Painterly art direction inspired by luminous ink-and-color contrasts, not a reconstruction of a specific painting or a claim about all Chinese painting. Chroma peaks around the light-shadow boundary while OKLab lightness rises smoothly. Align the edge with the source tonal mask; pigment texture and lighting remain separate treatments."
+  },
+  {
+    "id": "chromatic-edge-orchid-dusk",
+    "name": "Chromatic Edge · Orchid Dusk",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#08131A",
+      "#2D344D",
+      "#6B528E",
+      "#9D60D8",
+      "#BA9ECC",
+      "#DBCBDC",
+      "#F6EFF5"
+    ],
+    "positions": [
+      0,
+      0.22,
+      0.41,
+      0.52,
+      0.64,
+      0.8,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "chromatic edge saturated terminator painterly painting chinese-inspired limiar saturado luz sombra orchid dusk",
+    "description": "Cool charcoal shadow crosses an orchid-purple edge into luminous lilac-pink light. Painterly art direction inspired by luminous ink-and-color contrasts, not a reconstruction of a specific painting or a claim about all Chinese painting. Chroma peaks around the light-shadow boundary while OKLab lightness rises smoothly. Align the edge with the source tonal mask; pigment texture and lighting remain separate treatments."
+  },
+  {
+    "id": "chromatic-edge-celadon-moon",
+    "name": "Chromatic Edge · Celadon Moon",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#0F171F",
+      "#2E4E4F",
+      "#00967C",
+      "#B7C6B6",
+      "#ECF0E9"
+    ],
+    "positions": [
+      0,
+      0.3,
+      0.52,
+      0.77,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "chromatic edge saturated terminator painterly painting chinese-inspired limiar saturado luz sombra celadon moon",
+    "description": "Blue-gray shadow, emerald-celadon at the boundary and gently green moonlight. Painterly art direction inspired by luminous ink-and-color contrasts, not a reconstruction of a specific painting or a claim about all Chinese painting. Chroma peaks around the light-shadow boundary while OKLab lightness rises smoothly. Align the edge with the source tonal mask; pigment texture and lighting remain separate treatments."
+  },
+  {
+    "id": "chromatic-edge-persimmon-glow",
+    "name": "Chromatic Edge · Persimmon Glow",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#0E141D",
+      "#3E2C3D",
+      "#84473C",
+      "#CB5300",
+      "#CA987C",
+      "#D7C3B1",
+      "#E9E0D3",
+      "#F8F5F0"
+    ],
+    "positions": [
+      0,
+      0.2,
+      0.39,
+      0.5,
+      0.62,
+      0.77,
+      0.9,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "chromatic edge saturated terminator painterly painting chinese-inspired limiar saturado luz sombra persimmon glow",
+    "description": "Navy ink shadow, intense persimmon-orange at the edge and pale apricot light. Painterly art direction inspired by luminous ink-and-color contrasts, not a reconstruction of a specific painting or a claim about all Chinese painting. Chroma peaks around the light-shadow boundary while OKLab lightness rises smoothly. Align the edge with the source tonal mask; pigment texture and lighting remain separate treatments."
+  },
+  {
+    "id": "chromatic-edge-malachite-ridge",
+    "name": "Chromatic Edge · Malachite Ridge",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#0A1714",
+      "#2A4435",
+      "#437745",
+      "#40A449",
+      "#CACDB8",
+      "#F3F2EB"
+    ],
+    "positions": [
+      0,
+      0.26,
+      0.43,
+      0.55,
+      0.78,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "chromatic edge saturated terminator painterly painting chinese-inspired limiar saturado luz sombra malachite ridge",
+    "description": "Deep green ink, saturated malachite at the ridge and warm leaf-ivory light. Painterly art direction inspired by luminous ink-and-color contrasts, not a reconstruction of a specific painting or a claim about all Chinese painting. Chroma peaks around the light-shadow boundary while OKLab lightness rises smoothly. Align the edge with the source tonal mask; pigment texture and lighting remain separate treatments."
+  },
+  {
+    "id": "chromatic-edge-azure-porcelain",
+    "name": "Chromatic Edge · Azure Porcelain",
+    "category": "Creative",
+    "originalCategory": "Stylized",
+    "colors": [
+      "#101119",
+      "#293649",
+      "#2D6789",
+      "#008EC5",
+      "#7DB7B7",
+      "#CFD3C2",
+      "#F4F2EB"
+    ],
+    "positions": [
+      0,
+      0.22,
+      0.41,
+      0.52,
+      0.64,
+      0.8,
+      1
+    ],
+    "transition": "smooth",
+    "searchAliases": "chromatic edge saturated terminator painterly painting chinese-inspired limiar saturado luz sombra azure porcelain",
+    "description": "Violet-blue shadow passes through vivid azure into restrained porcelain-ivory light. Painterly art direction inspired by luminous ink-and-color contrasts, not a reconstruction of a specific painting or a claim about all Chinese painting. Chroma peaks around the light-shadow boundary while OKLab lightness rises smoothly. Align the edge with the source tonal mask; pigment texture and lighting remain separate treatments."
+  }
+]

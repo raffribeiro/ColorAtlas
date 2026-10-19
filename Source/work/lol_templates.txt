@@ -1,0 +1,29 @@
+const championPalettes=[
+ ['jinx','Jinx · Powder & Neon',['#09162F','#164F9E','#20BCE0','#EA3B9A','#FFE2BC']],
+ ['ahri','Ahri · Spirit Orb',['#23102F','#8A285B','#E96BA9','#82DBED','#F7F1DC']],
+ ['lux','Lux · Radiant Light',['#283C74','#62AFDA','#F2D479','#FFFBE4']],
+ ['yasuo','Yasuo · Wind',['#112638','#356B86','#91CBD2','#EAF4EA']],
+ ['yone','Yone · Spirit Blade',['#180F25','#572444','#C93E59','#EF9386','#FAE6DA']],
+ ['zed','Zed · Shadow',['#080C13','#303747','#76283B','#D74954','#F3B69C']],
+ ['akali','Akali · Smoke & Jade',['#102322','#316C59','#82B867','#DED9A3']],
+ ['ekko','Ekko · Time Fracture',['#101B2D','#275574','#29B5BA','#AAEDDC','#FFF2CB']],
+ ['vi','Vi · Hextech Impact',['#25172D','#77344E','#E96688','#DD9853','#FAE4AF']],
+ ['caitlyn','Caitlyn · Precision',['#151A35','#414573','#7599C6','#CFB070','#F2E5C3']],
+ ['ashe','Ashe · Frost Arrow',['#0C213C','#245D8A','#60BFE0','#DFFAFF']],
+ ['thresh','Thresh · Soul Lantern',['#0B191A','#185348','#29A981','#8CE4B5','#EBFBE0']],
+ ['viego','Viego · Ruination',['#0A1518','#174A47','#3C9987','#A6E0C2']],
+ ['kaisa','Kai’Sa · Void Plasma',['#130E2D','#472168','#8D41BB','#DC7CC7','#F4E5F3']],
+ ['viktor','Viktor · Hex Core',['#101A29','#355371','#62B3C7','#B99563','#FBE9B7']],
+ ['aurelion','Aurelion Sol · Stardust',['#080F2D','#243F89','#4C9DDC','#CAB67D','#FFF3D1']],
+ ['leona','Leona · Solar Flare',['#321619','#974021','#ED922E','#FFE1A0','#FFF9E3']],
+ ['diana','Diana · Moonlight',['#121329','#474578','#8D9BBF','#EDF0FA']],
+ ['morgana','Morgana · Dark Binding',['#160E24','#49265C','#935CA2','#D1A0C1']],
+ ['brand','Brand · Living Flame',['#230D0A','#9E2914','#F37517','#FFCD68','#FFF6CC']],
+ ['nami','Nami · Tide',['#102C35','#217A86','#56C8B6','#DDF5CB']],
+ ['teemo','Teemo · Toxic Trail',['#273020','#658536','#A9CB54','#E3DE9A']],
+ ['seraphine','Seraphine · Harmonic Spark',['#382B61','#827BC4','#65D7D5','#EE94C4','#FFF0D9']],
+ ['jhin','Jhin · Curtain Call',['#241827','#663544','#B85262','#D5AF76','#F5E9CD']]
+];
+for(const [id,name,colors] of championPalettes)gradientPresets.push({id:'lol-'+id,name,category:'Champions',description:'Original artistic palette inspired by the champion; not sampled official Riot colors.',colors,positions:colors.map((_,i)=>i/(colors.length-1))});
+const templateCategories=[['Effects','Efeitos'],['World','Natureza e materiais'],['Champions','Personagens · LoL'],['Data','Dados e diagnóstico'],['Creative','Cor e experimentos']];
+for(const p of gradientPresets){p.originalCategory=p.category;p.category=['Production','Smoke','Elements','Combat'].includes(p.category)?'Effects':['Nature','Materials','Environment'].includes(p.category)?'World':['Champions','Fantasy','Character'].includes(p.category)?'Champions':['Military','Scientific','TechArt','DataViz'].includes(p.category)?'Data':'Creative';}

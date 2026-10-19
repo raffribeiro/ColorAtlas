@@ -1,0 +1,9 @@
+{
+  "(Unity 6); Linear RGB uses": "(Unity 6); RGB lineare usa",
+  ", Bands uses": ", Bande usa",
+  "A gradient map is a lookup. A value": "Una mappa gradiente è una tabella di corrispondenza. Un valore",
+  "Copy Unity C# builds": "Copia Unity C# costruisce",
+  "between 0 and 1 picks a position on the ramp, and the ramp returns the color at that position. Black pixels of the source read the left end, white pixels read the right end. In an engine,": "fra 0 e 1 sceglie una posizione della rampa, che restituisce il colore corrispondente. I pixel neri leggono l’estremo sinistro, i bianchi il destro. Nel motore,",
+  "can be anything normalized: a texture channel, particle age, distance or a dynamic parameter.": "può essere qualsiasi dato normalizzato: un canale texture, l’età di una particella, una distanza o un parametro dinamico.",
+  "objects. Perceptual uses": "oggetti. Percettivo usa"
+}

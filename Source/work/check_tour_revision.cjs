@@ -1,0 +1,10 @@
+const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict'),s=fs.readFileSync('work/atlas-onboarding.js','utf8');
+const eligibility=s.split('\n').find(l=>l.includes("title: 'Choose what Random can touch'"));
+const random=s.split('\n').find(l=>l.includes("title: 'Roll the dice'"));
+assert(s.indexOf("title: 'Normalize values'")<s.indexOf("title: 'Choose what Random can touch'"),'prepare Random after layer tools');
+assert(eligibility.includes('before: prepareRandom'),'load Default before the user chooses eligible layers');
+assert(!random.includes('before: prepareRandom'),'Random must retain the chips the user just changed');
+const code=s.match(/function isTourDrag\(start, e\) \{[\s\S]*?\n\}/);assert(code,'gesture check exists');const c={};vm.createContext(c);vm.runInContext(code[0]+';globalThis.check=isTourDrag;',c);
+assert(!c.check(null,{clientX:10,clientY:10}));assert(!c.check({x:10,y:10},{clientX:11,clientY:11}));assert(c.check({x:10,y:10},{clientX:20,clientY:10}));
+assert(fs.readFileSync('work/atlas-onboarding.css','utf8').includes('@media(max-width:640px){#munsell-picker .atlas-tour-card{transition:none}}'),'no position tween while the narrow host scrolls');
+console.log('PASS: eligibility survives Random setup; pointer tasks require a drag, not a tap.');

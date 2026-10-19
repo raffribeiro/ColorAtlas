@@ -1,0 +1,23 @@
+const expandedTemplateFamilies=[
+ ['minerals','World','Mineral',[
+ ['Labradorita',['#192936','#3C6481','#57A7A1','#B49D55']],['Malaquita',['#102F25','#287750','#88B478']],['Ametista',['#231C37','#694389','#B38EC4','#E9DCEB']],['Fluorita',['#193831','#658D77','#9074A2','#D1B5D6']],['Ágata',['#443235','#9E7763','#D9C2A2','#EFE5D1']],['Turmalina melancia',['#244A38','#7CA777','#DF9CA7','#A94C72']]]],
+ ['fungi','World','Fungos',[
+ ['Bioluminescência',['#102B32','#2C7777','#8BCEB1','#EBF4CF']],['Amanita',['#522C32','#AE443E','#E68B6B','#F0E4CF']],['Líquen dourado',['#3D4232','#8E914D','#CEC66A','#E7DEAA']],['Micélio',['#524538','#A4997E','#E1D8BE']]]],
+ ['food','World','Alimento',[
+ ['Figo',['#392044','#7C4A72','#C6859B','#E9C7AE']],['Pitaya',['#62304F','#D25089','#ECA4C3','#F5ECE1']],['Romã',['#3A152A','#A32D4E','#DF6875','#F2CAB2']],['Cítricos',['#547535','#A3B843','#E6BC3C','#FFE398']],['Caramelo',['#3F211D','#A75C2B','#DCA35C','#F2D7AA']],['Café com leite',['#2E231F','#78533A','#BA9370','#EAD5B5']]]],
+ ['optical','Creative','Óptica',[
+ ['Bolha de sabão',['#243852','#619BAA','#BC99CA','#D8BD80','#E7EDDA']],['Óleo sobre água',['#18263B','#405C9B','#74609F','#B78386','#72A898']],['Metal oxidado',['#283649','#6C6090','#A57279','#CDA779']],['Filme fino',['#344667','#5F96AE','#ADA18C','#C5859D','#6774AD']]]],
+ ['biome-light','World','Bioma',[
+ ['Floresta ao amanhecer',['#183937','#507B60','#B1B773','#EBD5A3']],['Deserto à noite',['#101A32','#485075','#9F7A87','#D3B7B0']],['Tundra ao pôr do sol',['#293956','#7F8CA8','#D5A9AD','#F6D9BE']],['Selva sob chuva',['#0C2D2C','#396B5A','#82A184','#C7CEAC']],['Pântano ao luar',['#142635','#4B626D','#8C9DA1','#C7CECB']]]],
+ ['transform','World','Transformação',[
+ ['Metal aquecendo',['#252A33','#7C3439','#D96931','#F1C46B','#FFF3CE']],['Gelo derretendo',['#243A58','#739BAF','#C4DEE0','#497D88']],['Madeira queimando',['#30241E','#86603D','#B26733','#E39F52','#1D1B20']],['Fruta amadurecendo',['#456843','#9CA64C','#D0B04B','#D4794E']]]],
+ ['hybrid','Effects','Magia híbrida',[
+ ['Fogo + Gelo',['#25203E','#497FAF','#95D4DF','#DC7D47','#FFF0BB']],['Sagrado + Corrupção',['#201D2C','#607542','#B2AF67','#DFBA6F','#FFF4D3']],['Sangue + Eletricidade',['#251831','#A44464','#547DC1','#BBDCF4']],['Natureza + Cristal',['#193B34','#628A65','#8A82BB','#D1C5E5']],['Void + Solar',['#100B25','#553774','#AB6079','#EDB967','#FFF0BA']],['Água + Veneno',['#113A43','#368894','#82B070','#DDE69A']]]],
+ ['game-state','Effects','Estado',[
+ ['Congelamento',['#18324D','#629BB8','#C4E4E9']],['Petrificação',['#303A3C','#7B8578','#C5C7AD']],['Envenenamento',['#25302A','#6A8F48','#BBCB7C']],['Sobrecarga',['#192447','#557BC8','#A7D2EF','#FFF1C7']],['Invulnerabilidade',['#3C3551','#9C93BD','#E7DDCE','#FFFAE8']],['Cegueira / Flash',['#59606D','#BBC6C5','#FFFDE9']]]],
+ ['aged','World','Envelhecido',[
+ ['Bronze com pátina',['#243F39','#438B73','#956D45','#D4AC6D']],['Tinta descascada',['#403A49','#7B8788','#B8B6A2','#D9C6AB']],['Concreto úmido',['#2C3842','#637076','#A1ADA7']],['Papel queimado',['#211D23','#786047','#C6A47C','#EFE0BC']],['Couro gasto',['#39292A','#8D6146','#C9A77D']]]],
+ ['art-style','Creative','Arte',[
+ ['Aquarela',['#4F5979','#8EACC0','#D5B7C4','#EFE1CD']],['Gouache',['#303F60','#758977','#CF9470','#F0D5A0']],['Ukiyo-e',['#263F5C','#75989C','#B96958','#D9C493','#F1E3C4']],['Vitral',['#232145','#4D659C','#9B4D7D','#D9AD58']],['Esmalte cerâmico',['#273A4D','#548C91','#ABBCA2','#E9DCC5']],['Posterização',['#25354F','#738EAA','#D1B99B','#F7E4BD']]]]
+];
+for(const [family,category,label,items] of expandedTemplateFamilies)items.forEach(([name,colors],index)=>{const n=colors.length,weights=n===3?[.18,.64,.18]:n===4?[.12,.48,.3,.1]:[.1,.24,.36,.23,.07];gradientPresets.push({id:'expanded-'+family+'-'+index,name:label+' · '+name,category,originalCategory:family,colors,positions:colorCoveragePositions(weights),coverage:weights,transition:'smooth',description:'Original art-direction palette with estimated color proportions. '+(family==='optical'?'Iridescence requires view-dependent shading; this ramp supplies only color.':family==='transform'?'Ordered transformation stages, not measured time or temperature.':'Adapt masks, exposure and compositing to the asset.')});});

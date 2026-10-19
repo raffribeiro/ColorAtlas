@@ -1,0 +1,8 @@
+const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict');
+async function run(resume){
+const original={selected:'custom',images:[{id:'design'}]},builtin={selected:'fire'},rendered=[],calls=[];
+const c={window:{AtlasOnboardingStore:{restorePreview:resume}},previewStore:async action=>{calls.push(action);return action==='read'?original:true},restorePreviewStack:async doc=>true,AtlasBuiltinPreview:builtin,previewRevision:0,previewImages:original.images,previewSelected:'custom',previewRandomSelection:new Set(['design']),syncPreviewLayer(){},previewDocument:(layers,selected)=>({layers,selected}),structuredClone,refreshPreviewPresets:async()=>{},renderPreviewPresets:id=>rendered.push(id),previewPresetsReady:true,presetField:()=>({textContent:''})};
+vm.createContext(c);vm.runInContext(fs.readFileSync('work/atlas-default-preview.js','utf8'),c);
+assert.equal(typeof c.window.AtlasTourPreviewSnapshot,'function','live scene snapshot provider exists');const snap=c.window.AtlasTourPreviewSnapshot();assert.equal(snap.selected,'custom');assert.deepEqual(Array.from(snap.randomOn),['design']);snap.layers[0].id='mutated';assert.equal(original.images[0].id,'design','snapshot is detached from the editor');
+const doc=await c.previewStore('read');assert.deepEqual(doc,resume?original:builtin);await c.restorePreviewStack(doc);assert.equal(rendered.at(-1),resume?'temp-design':'codex-use-esse');if(resume)assert.deepEqual(calls,['read']);}
+(async()=>{await run({preset:'temp-design'});await run(null);console.log('PASS: tutorial restoration reads saved scene; ordinary startup retains Default.');})();

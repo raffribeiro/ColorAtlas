@@ -1,0 +1,22 @@
+[
+  [
+    "Dots sample sRGB; the bright plane is the selected lightness.",
+    "Faint dots sample sRGB; the continuous color surface shows the available colors at the selected lightness."
+  ],
+  [
+    " const slice=[];\n for(let a=-104;a<=104;a+=4)for(let b=-104;b<=104;b+=4){const col=labColor(color.l,a,b);if(!col.outside)slice.push({l:color.l,a,b,hex:col.hex,slice:true});}\n lab3dPoints=labVolume.concat(slice).map(p=>({...p,...project(p)})).sort((a,b)=>a.depth-b.depth);",
+    " svg+=window.AtlasLabSurface.svg(color.l,labColor,fitLabToSRGB,project,state.system==='vfx'?'vfx-surface':'lab-surface');\n lab3dPoints=labVolume.map(p=>({...p,...project(p)})).sort((a,b)=>a.depth-b.depth);"
+  ],
+  [
+    "const wheelChromaSampleCache=new Map();\nfunction wheelChromaSamples(sampleL,zoom){\n const density=Math.max(1,Math.min(2.5,Math.floor(zoom*2)/2)),sampleStep=5/density,sampleRadius=sampleStep*.3;\n const key=[sampleL,density,Number(colorWheelShowAll),Number(!!state.vfxLock)].join(':');\n if(wheelChromaSampleCache.has(key)){\n  const cached=wheelChromaSampleCache.get(key);wheelChromaSampleCache.delete(key);wheelChromaSampleCache.set(key,cached);return cached;\n }\n let svg='';const extent=Math.floor(50/sampleStep);\n for(let iy=-extent;iy<=extent;iy++)for(let ix=-extent;ix<=extent;ix++){\n  const x=ix*sampleStep,y=iy*sampleStep;if(x*x+y*y>2500)continue;\n  const a=x/.55,b=-y/.55,fit=fitLabToSRGB(sampleL,a,b),color=labColor(fit.l,fit.a,fit.b),outside=labColor(sampleL,a,b).outside;\n  svg+=`<circle class=\"wheel-chroma-sample\" cx=\"${110+x}\" cy=\"${91+y}\" r=\"${sampleRadius}\" fill=\"${color.hex}\" fill-opacity=\"${(colorWheelShowAll?.22:1)*(state.vfxLock&&outside?.18:1)}\" data-outside-srgb=\"${outside}\" pointer-events=\"none\"><title>L* ${sampleL} \u00b7 C* ${Math.hypot(a,b).toFixed(1)}</title></circle>`;\n }\n wheelChromaSampleCache.set(key,svg);\n if(wheelChromaSampleCache.size>12)wheelChromaSampleCache.delete(wheelChromaSampleCache.keys().next().value);\n return svg;\n}",
+    "function wheelChromaSamples(sampleL,zoom){\n const project=p=>({x:110+p.a*.55,y:91-p.b*.55});\n return `<defs><clipPath id=\"wheel-color-surface-disc\"><circle cx=\"110\" cy=\"91\" r=\"50\"/></clipPath></defs><g data-wheel-color-surface opacity=\"${colorWheelShowAll?.22:1}\" clip-path=\"url(#wheel-color-surface-disc)\">${window.AtlasLabSurface.svg(sampleL,labColor,fitLabToSRGB,project,'wheel')}</g>`;\n}\n"
+  ],
+  [
+    "sampleL=Math.round((colorWheelShowAll?wheelMedian(state.gradientColors.map(k=>rgbToLab(k.hex).l)):selectedLab.l)*2)/2",
+    "sampleL=colorWheelShowAll?wheelMedian(state.gradientColors.map(k=>rgbToLab(k.hex).l)):selectedLab.l"
+  ],
+  [
+    "// Positive a points right; positive b (yellow) points up. Sampling follows zoom.",
+    "// Positive a points right; positive b (yellow) points up. The surface follows the wheel camera."
+  ]
+]

@@ -1,0 +1,22 @@
+const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict');
+const controls=[],messages=[];
+const c={Uint8Array,Float32Array,structuredClone,document:{createElement:()=>({dataset:{},style:{},setAttribute(k,v){this[k]=v},append(n){if(n?.type==='checkbox')this.control=n},addEventListener(k,f){this[k]=f}})},root:{querySelector:()=>({append:n=>controls.push(n)})},previewImages:[],previewSelected:null,renderPreviewLayerList(){},syncPreviewLayer(){},previewChanged(){c.changes=(c.changes||0)+1;c.renderPreviewLayerList()},remember(){},previewStatus:s=>messages.push(s),validGradientLayer:()=>true,encodeSRGB:x=>x};
+vm.createContext(c);vm.runInContext(fs.readFileSync('work/atlas-preview-layers-core.js','utf8')+fs.readFileSync('work/atlas-normalize-values.js','utf8'),c);
+const gray=new Uint8Array([0,50,100,150,255]),alpha=new Uint8Array([0,255,128,255,0]),map={layers:{emission:{},smoke:{}},active:'emission',view:'active',split:.5};
+const layer={id:'a',name:'a',gray,alpha,asset:'data:image/png;base64,AAAA',map,visible:true,blend:'normal',opacity:1},other={...layer,id:'b'};
+c.previewImages=[layer,other];c.previewSelected='a';c.renderPreviewLayerList();
+const checkbox=controls[0].control||controls[0];
+assert.equal(checkbox.type,'checkbox');assert.equal(checkbox.checked,false);
+vm.runInContext(fs.readFileSync('work/atlas-history-core.js','utf8'),c);
+const h=c.createAtlasHistory({read:()=>({normalizeValues:!!layer.normalizeValues}),apply:s=>{Object.assign(layer,s);c.renderPreviewLayerList()},signature:JSON.stringify,changed(){}});
+h.begin();checkbox.checked=true;checkbox.change();h.end('Normalize values');
+assert.equal(layer.normalizeValues,true);assert.deepEqual([...c.previewLayerGray(layer)],[0,0,128,255,255]);assert.equal(layer.gray,gray);assert.equal(layer.asset,'data:image/png;base64,AAAA');assert.equal(layer.alpha,alpha);assert.equal(other.normalizeValues,undefined);assert.equal(c.explosionPixels,c.previewLayerGray(layer));assert.equal(c.previewLayerGray(layer),c.previewLayerGray(layer),'Cache avoids repeat scans');
+h.undo();assert.equal(layer.normalizeValues,false);assert.equal(checkbox.checked,false);assert.equal(c.previewLayerGray(layer),gray);h.redo();assert.equal(layer.normalizeValues,true);assert.equal(h.entries().length,1);
+c.previewSelected='b';c.renderPreviewLayerList();assert.equal(checkbox.checked,false);c.previewSelected='a';c.renderPreviewLayerList();assert.equal(checkbox.checked,true);
+checkbox.checked=false;checkbox.change();assert.equal(c.explosionPixels,gray);assert.equal(layer.gray,gray);
+layer.normalizeValues=true;const old=c.previewLayerGray(layer);layer.gray=new Uint8Array([10,20,30,40,50]);assert.notEqual(c.previewLayerGray(layer),old,'Replacing source invalidates cache');assert.deepEqual([...c.previewLayerGray(layer)],[10,0,128,255,50]);
+for(const [g,a] of [[[0,255],[255,255]],[[70,70],[255,255]],[[10,20],[0,0]]]){const p={gray:new Uint8Array(g),alpha:new Uint8Array(a),normalizeValues:true};assert.equal(c.previewLayerGray(p),p.gray,'Full-range, flat and transparent no-op');}
+const doc=c.previewDocument([layer,other],'a');assert.equal(doc.layers[0].normalizeValues,true);assert.equal(doc.layers[1].normalizeValues,false);assert(!('gray' in doc.layers[0]));assert(c.cleanPreviewDocument(doc));doc.layers[0].normalizeValues='true';assert.equal(c.cleanPreviewDocument(doc),null);delete doc.layers[0].normalizeValues;assert(c.cleanPreviewDocument(doc),'Legacy documents default off');
+layer.gray=new Uint8Array([100,200]);layer.alpha=new Uint8Array([255,255]);layer._mapKey=null;const out=new Uint8ClampedArray(8),sample=t=>({rgb:[t,t,t],alpha:1});c.previewComposite(out,[layer],sample);assert.deepEqual([...out],[0,0,0,255,255,255,255,255]);layer.normalizeValues=false;c.previewComposite(out,[layer],sample);assert.deepEqual([...out],[100,100,100,255,200,200,200,255]);
+c.previewSelected=null;c.renderPreviewLayerList();assert.equal(checkbox.disabled,true);assert.equal(checkbox.checked,false);
+console.log('PASS: per-layer toggle, immutable source, alpha-aware cached stretch, selection context, replacement, legacy validation, persistence, composite/export and Undo/Redo.');

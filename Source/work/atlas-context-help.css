@@ -1,0 +1,12 @@
+/* A single, static tooltip. No blur, backdrop, continuous animation or hit area. */
+.atlas-context-help {
+ position:fixed; inset:auto; margin:0; box-sizing:border-box;
+ z-index:2147483647; pointer-events:none;
+ width:max-content; max-width:min(320px,calc(100vw - 16px));
+ padding:10px 12px; border:1px solid #61778e; border-radius:7px;
+ background:#182331; color:#edf3fa; box-shadow:0 3px 12px #0005;
+ font:400 12px/1.5 system-ui,sans-serif; letter-spacing:normal;
+ overflow-wrap:anywhere; text-align:left;
+}
+.atlas-context-help[hidden] { display:none; }
+@media (max-width:480px) { .atlas-context-help { max-width:calc(100vw - 20px); font-size:12px; } }

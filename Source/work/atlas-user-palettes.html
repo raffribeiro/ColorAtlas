@@ -1,0 +1,17 @@
+<dialog id="palette-save-dialog" class="studio-png-dialog" aria-labelledby="palette-save-title" aria-describedby="palette-save-help">
+<header><h2 id="palette-save-title">Save palette</h2><button class="btn" type="button" data-palette-save-close aria-label="Close save palette">×</button></header>
+<form id="palette-save-form" class="atlas-palette-form">
+<p id="palette-save-help">Keep a snapshot of your gradient in My palettes.</p>
+<label for="palette-save-name">Name<input id="palette-save-name" maxlength="64" required autocomplete="off" placeholder="Untitled palette"></label>
+<label for="palette-save-description">Description <span>(optional)</span><textarea id="palette-save-description" maxlength="240" rows="3" placeholder="Notes, mood or intended use"></textarea></label>
+
+<p class="atlas-palette-hint">Colors, key positions, opacity and Smooth / Bands are saved. Preview settings stay separate. Duplicate names create separate palettes.</p>
+<p id="palette-save-status" role="status" aria-live="polite"></p>
+<footer><button class="btn" type="button" data-palette-save-cancel>Cancel</button><button type="submit" class="btn atlas-palette-primary" data-palette-save-submit>Save palette</button></footer>
+</form></dialog>
+<dialog id="palette-delete-dialog" class="studio-png-dialog" aria-labelledby="palette-delete-title" aria-describedby="palette-delete-help">
+<header><h2 id="palette-delete-title">Delete palette?</h2><button class="btn" type="button" data-palette-delete-close aria-label="Close delete confirmation">×</button></header>
+<p id="palette-delete-help">Delete <strong id="palette-delete-name"></strong> from My palettes and Favorites? This cannot be undone. Your current gradient will stay in the editor.</p>
+<p id="palette-delete-status" role="status" aria-live="polite"></p>
+<footer><button class="btn" type="button" data-palette-delete-cancel>Cancel</button><button class="btn" type="button" class="btn atlas-palette-danger" data-palette-delete-confirm>Delete palette</button></footer>
+</dialog>

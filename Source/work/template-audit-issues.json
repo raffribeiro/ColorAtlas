@@ -1,0 +1,279 @@
+[
+  {
+    "id": "celanime",
+    "name": "Cel · Anime Ember",
+    "rev": 0,
+    "l": [
+      0.23,
+      0.23,
+      0.44,
+      0.44,
+      0.69,
+      0.69,
+      0.94,
+      0.94
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "celice",
+    "name": "Cel · Arctic Ink",
+    "rev": 0,
+    "l": [
+      0.24,
+      0.24,
+      0.44,
+      0.44,
+      0.77,
+      0.77,
+      0.98,
+      0.98
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "celtoxic",
+    "name": "Cel · Toxic Comic",
+    "rev": 0,
+    "l": [
+      0.23,
+      0.23,
+      0.47,
+      0.47,
+      0.82,
+      0.82,
+      0.98,
+      0.98
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "celviolet",
+    "name": "Cel · Arcane Toon",
+    "rev": 0,
+    "l": [
+      0.22,
+      0.22,
+      0.42,
+      0.42,
+      0.71,
+      0.71,
+      0.95,
+      0.95
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "celmono",
+    "name": "Cel · Manga Values",
+    "rev": 0,
+    "l": [
+      0.18,
+      0.18,
+      0.4,
+      0.4,
+      0.68,
+      0.68,
+      0.97,
+      0.97
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "gamedev-cel-sunset",
+    "name": "Cel Sunset",
+    "rev": 0,
+    "l": [
+      0.23,
+      0.23,
+      0.48,
+      0.48,
+      0.72,
+      0.72,
+      0.93,
+      0.93
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "gamedev-cel-ocean",
+    "name": "Cel Ocean",
+    "rev": 0,
+    "l": [
+      0.23,
+      0.23,
+      0.44,
+      0.44,
+      0.7,
+      0.7,
+      0.95,
+      0.95
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "gamedev-cel-candy",
+    "name": "Cel Candy",
+    "rev": 0,
+    "l": [
+      0.24,
+      0.24,
+      0.57,
+      0.57,
+      0.8,
+      0.8,
+      0.97,
+      0.97
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "gamedev-cel-forest",
+    "name": "Cel Forest",
+    "rev": 0,
+    "l": [
+      0.24,
+      0.24,
+      0.46,
+      0.46,
+      0.71,
+      0.71,
+      0.94,
+      0.94
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "gamedev-cel-noir",
+    "name": "Cel Noir",
+    "rev": 0,
+    "l": [
+      0.15,
+      0.15,
+      0.35,
+      0.35,
+      0.69,
+      0.69,
+      0.97,
+      0.97
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "gamedev-retro-gameboy",
+    "name": "Retro Gameboy",
+    "rev": 0,
+    "l": [
+      0.27,
+      0.27,
+      0.42,
+      0.42,
+      0.68,
+      0.68,
+      0.86,
+      0.86
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "gamedev-retro-copper-crt",
+    "name": "Retro Copper CRT",
+    "rev": 0,
+    "l": [
+      0.18,
+      0.18,
+      0.35,
+      0.35,
+      0.6,
+      0.6,
+      0.87,
+      0.87
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "gamedev-retro-ice-crt",
+    "name": "Retro Ice CRT",
+    "rev": 0,
+    "l": [
+      0.17,
+      0.17,
+      0.33,
+      0.33,
+      0.6,
+      0.6,
+      0.91,
+      0.91
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "gamedev-poster-pop",
+    "name": "Poster Pop",
+    "rev": 0,
+    "l": [
+      0.21,
+      0.21,
+      0.58,
+      0.58,
+      0.72,
+      0.72,
+      0.91,
+      0.91
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "gamedev-comic-halftone",
+    "name": "Comic Halftone",
+    "rev": 0,
+    "l": [
+      0.23,
+      0.23,
+      0.46,
+      0.46,
+      0.7,
+      0.7,
+      0.95,
+      0.95
+    ],
+    "minDE": 0
+  },
+  {
+    "id": "prism-contact",
+    "name": "Prism · Contact · White overlap",
+    "rev": 7,
+    "l": [
+      0.38,
+      0.48,
+      0.59,
+      0.7,
+      0.8,
+      0.89,
+      0.95,
+      0.99,
+      0.99,
+      0.97,
+      0.91,
+      0.83,
+      0.73,
+      0.62,
+      0.51,
+      0.41
+    ],
+    "minDE": 0.016
+  },
+  {
+    "id": "expanded-hybrid-0",
+    "name": "Hybrid Magic · Fire + Ice",
+    "rev": 1,
+    "l": [
+      0.27,
+      0.58,
+      0.83,
+      0.68,
+      0.95
+    ],
+    "minDE": 0.248
+  }
+]

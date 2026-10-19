@@ -1,0 +1,13 @@
+const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict');
+const source=fs.readFileSync('/Users/raffribeiro/.codex/visualizations/2026/10/01/01a0f83c-7569-7dd0-ad8b-3e73b2b454df/munsell-selector.html','utf8');
+const code=source.slice(source.indexOf('const labVolume=[];'),source.indexOf('function projectLab('));const c={rgbToLab:()=>({})};vm.createContext(c);vm.runInContext(code+';globalThis.points=labVolume;',c);
+assert.equal(c.points.length,1881,'background cloud stays unchanged');assert.equal(new Set(c.points.map(p=>p.hex)).size,1881,'no duplicate samples');
+const interior=c.points.filter(p=>!p.hex.match(/[a-f0-9]{2}/g).some(v=>v==='00'||v==='ff'));
+assert.equal(interior.length,343,'fill the interior rather than only adding shell points');
+for(const hex of ['#000000','#ffffff','#ff0000','#00ff00','#0000ff','#808080'])assert(c.points.some(p=>p.hex===hex),hex);
+assert(source.includes('window.AtlasLabSurface.svg(color.l,labColor,fitLabToSRGB,project'), 'selected lightness is a continuous gamut surface');
+assert(!source.includes('labVolume.concat(slice)'), 'no sampled slice holes remain');
+const render=source.slice(source.indexOf('for(const p of lab3dPoints)svg+='),source.indexOf(' const col=labColor(color.l,color.a,color.b)'));
+const rc={svg:'',color:{l:54.7},lab3dPoints:[{l:20,x:1,y:2,hex:'#abcdef'}]};vm.createContext(rc);vm.runInContext(render,rc);
+assert.deepEqual([...rc.svg.matchAll(/fill-opacity="([^"]+)"/g)].map(m=>Number(m[1])),[.08]);
+console.log('PASS: background remains 1,881 samples; continuous selected-lightness surface replaces dots; background opacity is 8%.');

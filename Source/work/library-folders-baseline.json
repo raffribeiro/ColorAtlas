@@ -1,0 +1,3692 @@
+[
+  {
+    "key": "category:Effects",
+    "label": "Effects",
+    "children": [
+      {
+        "label": "Production",
+        "presets": [
+          {
+            "id": "atlas-explosion-fire"
+          },
+          {
+            "id": "muzzleflash"
+          },
+          {
+            "id": "weldspark"
+          },
+          {
+            "id": "impactgold"
+          },
+          {
+            "id": "engineblue"
+          },
+          {
+            "id": "jetpurple"
+          },
+          {
+            "id": "healingmint"
+          },
+          {
+            "id": "healwarm"
+          },
+          {
+            "id": "shieldcyan"
+          },
+          {
+            "id": "shieldamber"
+          },
+          {
+            "id": "poisonstatus"
+          },
+          {
+            "id": "curseviolet"
+          },
+          {
+            "id": "teleport"
+          },
+          {
+            "id": "waterimpact"
+          },
+          {
+            "id": "iceimpact"
+          },
+          {
+            "id": "slashred"
+          },
+          {
+            "id": "laserred"
+          },
+          {
+            "id": "lasergreen"
+          },
+          {
+            "id": "laserblue"
+          },
+          {
+            "id": "lootglow"
+          },
+          {
+            "id": "holyheal"
+          },
+          {
+            "id": "gamut-blue-emitter"
+          }
+        ]
+      },
+      {
+        "label": "Smoke & atmosphere",
+        "presets": [
+          {
+            "id": "atlas-explosion-smoke"
+          },
+          {
+            "id": "sootdense"
+          },
+          {
+            "id": "steamsoft"
+          },
+          {
+            "id": "dustdesert"
+          },
+          {
+            "id": "dustconcrete"
+          },
+          {
+            "id": "smokeblue"
+          },
+          {
+            "id": "smokewarm"
+          },
+          {
+            "id": "smoketoxic"
+          },
+          {
+            "id": "smokeviolet"
+          },
+          {
+            "id": "smokepink"
+          },
+          {
+            "id": "ashvolcanic"
+          }
+        ]
+      },
+      {
+        "label": "Elements",
+        "presets": [
+          {
+            "id": "fire"
+          },
+          {
+            "id": "lava"
+          },
+          {
+            "id": "ice"
+          },
+          {
+            "id": "electric"
+          },
+          {
+            "id": "toxic"
+          },
+          {
+            "id": "solar"
+          },
+          {
+            "id": "hellfire"
+          },
+          {
+            "id": "frostbite"
+          },
+          {
+            "id": "storm"
+          },
+          {
+            "id": "thunder"
+          },
+          {
+            "id": "holy"
+          },
+          {
+            "id": "darkflame"
+          },
+          {
+            "id": "acid"
+          },
+          {
+            "id": "earth"
+          },
+          {
+            "id": "wind"
+          },
+          {
+            "id": "waterdeep"
+          },
+          {
+            "id": "gamut-magenta-energy"
+          },
+          {
+            "id": "gamut-violet-arc"
+          },
+          {
+            "id": "gamut-violet-surge"
+          },
+          {
+            "id": "gamut-blue-discharge"
+          },
+          {
+            "id": "gamut-green-bioluminescence"
+          },
+          {
+            "id": "gamut-fuchsia-ribbon"
+          }
+        ]
+      },
+      {
+        "label": "Combat",
+        "presets": [
+          {
+            "id": "gamedev-sword-spark"
+          },
+          {
+            "id": "gamedev-blood-impact"
+          },
+          {
+            "id": "gamedev-frost-shatter"
+          },
+          {
+            "id": "gamedev-shock-impact"
+          },
+          {
+            "id": "gamedev-poison-splash"
+          },
+          {
+            "id": "gamedev-holy-smite"
+          },
+          {
+            "id": "gamedev-shadow-slash"
+          },
+          {
+            "id": "gamedev-sand-burst"
+          },
+          {
+            "id": "gamedev-arcane-missile"
+          },
+          {
+            "id": "gamedev-shield-break"
+          },
+          {
+            "id": "gamut-magenta-laser"
+          },
+          {
+            "id": "gamut-blue-laser"
+          },
+          {
+            "id": "gamut-green-laser"
+          }
+        ]
+      },
+      {
+        "label": "Essentials",
+        "presets": [
+          {
+            "id": "suite-cinema-cool-warm"
+          },
+          {
+            "id": "suite-cinema-noir"
+          },
+          {
+            "id": "suite-cinema-bleach"
+          },
+          {
+            "id": "suite-cinema-faded"
+          },
+          {
+            "id": "suite-cinema-tungsten"
+          },
+          {
+            "id": "suite-cinema-moon"
+          }
+        ]
+      },
+      {
+        "label": "Effect basics",
+        "presets": [
+          {
+            "id": "vfx-classic-poison-acid"
+          },
+          {
+            "id": "vfx-classic-poison-vapor"
+          },
+          {
+            "id": "vfx-classic-poison-venom"
+          },
+          {
+            "id": "vfx-classic-heal-life"
+          },
+          {
+            "id": "vfx-classic-heal-spirit"
+          },
+          {
+            "id": "vfx-classic-heal-restoration"
+          },
+          {
+            "id": "vfx-classic-holy-divine"
+          },
+          {
+            "id": "vfx-classic-holy-celestial"
+          },
+          {
+            "id": "vfx-classic-holy-sun"
+          },
+          {
+            "id": "vfx-classic-corrupt-blight"
+          },
+          {
+            "id": "vfx-classic-corrupt-fel"
+          },
+          {
+            "id": "vfx-classic-corrupt-dark"
+          },
+          {
+            "id": "vfx-classic-fire-ember"
+          },
+          {
+            "id": "vfx-classic-fire-inferno"
+          },
+          {
+            "id": "vfx-classic-fire-blue"
+          },
+          {
+            "id": "vfx-classic-fire-smolder"
+          },
+          {
+            "id": "vfx-classic-water-ocean"
+          },
+          {
+            "id": "vfx-classic-water-splash"
+          },
+          {
+            "id": "vfx-classic-water-deep"
+          },
+          {
+            "id": "vfx-classic-ice-frost"
+          },
+          {
+            "id": "vfx-classic-ice-crystal"
+          },
+          {
+            "id": "vfx-classic-ice-blizzard"
+          },
+          {
+            "id": "vfx-classic-void-rift"
+          },
+          {
+            "id": "vfx-classic-void-antimatter"
+          },
+          {
+            "id": "vfx-classic-void-cosmic"
+          },
+          {
+            "id": "vfx-classic-vampire-blood"
+          },
+          {
+            "id": "vfx-classic-vampire-drain"
+          },
+          {
+            "id": "vfx-classic-vampire-ritual"
+          },
+          {
+            "id": "vfx-classic-electric-arc"
+          },
+          {
+            "id": "vfx-classic-electric-storm"
+          },
+          {
+            "id": "vfx-classic-arcane-magic"
+          },
+          {
+            "id": "vfx-classic-arcane-rune"
+          },
+          {
+            "id": "vfx-classic-earth-dust"
+          },
+          {
+            "id": "vfx-classic-earth-magma"
+          },
+          {
+            "id": "vfx-classic-wind-air"
+          },
+          {
+            "id": "vfx-classic-wind-spirit"
+          },
+          {
+            "id": "vfx-classic-nature-leaf"
+          },
+          {
+            "id": "vfx-classic-nature-spore"
+          }
+        ]
+      },
+      {
+        "label": "Effect families",
+        "presets": [
+          {
+            "id": "vfx-trope-impact-main"
+          },
+          {
+            "id": "vfx-trope-impact-soft"
+          },
+          {
+            "id": "vfx-trope-metal-hit-main"
+          },
+          {
+            "id": "vfx-trope-metal-hit-soft"
+          },
+          {
+            "id": "vfx-trope-shield-hit-main"
+          },
+          {
+            "id": "vfx-trope-shield-hit-soft"
+          },
+          {
+            "id": "vfx-trope-slash-main"
+          },
+          {
+            "id": "vfx-trope-slash-soft"
+          },
+          {
+            "id": "vfx-trope-bullet-main"
+          },
+          {
+            "id": "vfx-trope-bullet-soft"
+          },
+          {
+            "id": "vfx-trope-muzzle-main"
+          },
+          {
+            "id": "vfx-trope-muzzle-soft"
+          },
+          {
+            "id": "vfx-trope-ricochet-main"
+          },
+          {
+            "id": "vfx-trope-ricochet-soft"
+          },
+          {
+            "id": "vfx-trope-shockwave-main"
+          },
+          {
+            "id": "vfx-trope-shockwave-soft"
+          },
+          {
+            "id": "vfx-trope-detonation-main"
+          },
+          {
+            "id": "vfx-trope-detonation-soft"
+          },
+          {
+            "id": "vfx-trope-debris-main"
+          },
+          {
+            "id": "vfx-trope-debris-soft"
+          },
+          {
+            "id": "vfx-trope-sandstorm-main"
+          },
+          {
+            "id": "vfx-trope-sandstorm-soft"
+          },
+          {
+            "id": "vfx-trope-ash-main"
+          },
+          {
+            "id": "vfx-trope-ash-soft"
+          },
+          {
+            "id": "vfx-trope-steam-main"
+          },
+          {
+            "id": "vfx-trope-steam-soft"
+          },
+          {
+            "id": "vfx-trope-mist-main"
+          },
+          {
+            "id": "vfx-trope-mist-soft"
+          },
+          {
+            "id": "vfx-trope-foam-main"
+          },
+          {
+            "id": "vfx-trope-foam-soft"
+          },
+          {
+            "id": "vfx-trope-rain-main"
+          },
+          {
+            "id": "vfx-trope-rain-soft"
+          },
+          {
+            "id": "vfx-trope-snow-main"
+          },
+          {
+            "id": "vfx-trope-snow-soft"
+          },
+          {
+            "id": "vfx-trope-bubble-main"
+          },
+          {
+            "id": "vfx-trope-bubble-soft"
+          },
+          {
+            "id": "vfx-trope-spark-main"
+          },
+          {
+            "id": "vfx-trope-spark-soft"
+          },
+          {
+            "id": "vfx-trope-laser-main"
+          },
+          {
+            "id": "vfx-trope-laser-soft"
+          },
+          {
+            "id": "vfx-trope-plasma-main"
+          },
+          {
+            "id": "vfx-trope-plasma-soft"
+          },
+          {
+            "id": "vfx-trope-reactor-main"
+          },
+          {
+            "id": "vfx-trope-reactor-soft"
+          },
+          {
+            "id": "vfx-trope-emp-main"
+          },
+          {
+            "id": "vfx-trope-emp-soft"
+          },
+          {
+            "id": "vfx-trope-magnetic-main"
+          },
+          {
+            "id": "vfx-trope-magnetic-soft"
+          },
+          {
+            "id": "vfx-trope-radiation-main"
+          },
+          {
+            "id": "vfx-trope-radiation-soft"
+          },
+          {
+            "id": "vfx-trope-gravity-main"
+          },
+          {
+            "id": "vfx-trope-gravity-soft"
+          },
+          {
+            "id": "vfx-trope-blackhole-main"
+          },
+          {
+            "id": "vfx-trope-blackhole-soft"
+          },
+          {
+            "id": "vfx-trope-nebula-main"
+          },
+          {
+            "id": "vfx-trope-nebula-soft"
+          },
+          {
+            "id": "vfx-trope-solar-flare-main"
+          },
+          {
+            "id": "vfx-trope-solar-flare-soft"
+          },
+          {
+            "id": "vfx-trope-portal-main"
+          },
+          {
+            "id": "vfx-trope-portal-soft"
+          },
+          {
+            "id": "vfx-trope-teleport-main"
+          },
+          {
+            "id": "vfx-trope-teleport-soft"
+          },
+          {
+            "id": "vfx-trope-summon-main"
+          },
+          {
+            "id": "vfx-trope-summon-soft"
+          },
+          {
+            "id": "vfx-trope-banish-main"
+          },
+          {
+            "id": "vfx-trope-banish-soft"
+          },
+          {
+            "id": "vfx-trope-time-main"
+          },
+          {
+            "id": "vfx-trope-time-soft"
+          },
+          {
+            "id": "vfx-trope-illusion-main"
+          },
+          {
+            "id": "vfx-trope-illusion-soft"
+          },
+          {
+            "id": "vfx-trope-rune-main"
+          },
+          {
+            "id": "vfx-trope-rune-soft"
+          },
+          {
+            "id": "vfx-trope-curse-main"
+          },
+          {
+            "id": "vfx-trope-curse-soft"
+          },
+          {
+            "id": "vfx-trope-hex-main"
+          },
+          {
+            "id": "vfx-trope-hex-soft"
+          },
+          {
+            "id": "vfx-trope-necromancy-main"
+          },
+          {
+            "id": "vfx-trope-necromancy-soft"
+          },
+          {
+            "id": "vfx-trope-spirit-main"
+          },
+          {
+            "id": "vfx-trope-spirit-soft"
+          },
+          {
+            "id": "vfx-trope-blood-main"
+          },
+          {
+            "id": "vfx-trope-blood-soft"
+          },
+          {
+            "id": "vfx-trope-slime-main"
+          },
+          {
+            "id": "vfx-trope-slime-soft"
+          },
+          {
+            "id": "vfx-trope-disease-main"
+          },
+          {
+            "id": "vfx-trope-disease-soft"
+          },
+          {
+            "id": "vfx-trope-spore-main"
+          },
+          {
+            "id": "vfx-trope-spore-soft"
+          },
+          {
+            "id": "vfx-trope-pollen-main"
+          },
+          {
+            "id": "vfx-trope-pollen-soft"
+          },
+          {
+            "id": "vfx-trope-petals-main"
+          },
+          {
+            "id": "vfx-trope-petals-soft"
+          },
+          {
+            "id": "vfx-trope-web-main"
+          },
+          {
+            "id": "vfx-trope-web-soft"
+          },
+          {
+            "id": "vfx-trope-ink-main"
+          },
+          {
+            "id": "vfx-trope-ink-soft"
+          },
+          {
+            "id": "vfx-trope-paint-main"
+          },
+          {
+            "id": "vfx-trope-paint-soft"
+          },
+          {
+            "id": "vfx-trope-lightning-main"
+          },
+          {
+            "id": "vfx-trope-lightning-soft"
+          },
+          {
+            "id": "vfx-trope-storm-main"
+          },
+          {
+            "id": "vfx-trope-storm-soft"
+          },
+          {
+            "id": "vfx-trope-earthquake-main"
+          },
+          {
+            "id": "vfx-trope-earthquake-soft"
+          },
+          {
+            "id": "vfx-trope-crystal-main"
+          },
+          {
+            "id": "vfx-trope-crystal-soft"
+          },
+          {
+            "id": "vfx-trope-glass-main"
+          },
+          {
+            "id": "vfx-trope-glass-soft"
+          },
+          {
+            "id": "vfx-trope-hologram-main"
+          },
+          {
+            "id": "vfx-trope-hologram-soft"
+          },
+          {
+            "id": "vfx-trope-scan-main"
+          },
+          {
+            "id": "vfx-trope-scan-soft"
+          },
+          {
+            "id": "vfx-trope-glitch-main"
+          },
+          {
+            "id": "vfx-trope-glitch-soft"
+          },
+          {
+            "id": "vfx-trope-dissolve-main"
+          },
+          {
+            "id": "vfx-trope-dissolve-soft"
+          },
+          {
+            "id": "vfx-trope-disintegrate-main"
+          },
+          {
+            "id": "vfx-trope-disintegrate-soft"
+          },
+          {
+            "id": "vfx-trope-spawn-main"
+          },
+          {
+            "id": "vfx-trope-spawn-soft"
+          },
+          {
+            "id": "vfx-trope-despawn-main"
+          },
+          {
+            "id": "vfx-trope-despawn-soft"
+          },
+          {
+            "id": "vfx-trope-speed-main"
+          },
+          {
+            "id": "vfx-trope-speed-soft"
+          },
+          {
+            "id": "vfx-trope-trail-main"
+          },
+          {
+            "id": "vfx-trope-trail-soft"
+          },
+          {
+            "id": "vfx-trope-smear-main"
+          },
+          {
+            "id": "vfx-trope-smear-soft"
+          },
+          {
+            "id": "vfx-trope-toon-impact-main"
+          },
+          {
+            "id": "vfx-trope-toon-impact-soft"
+          },
+          {
+            "id": "vfx-trope-comic-main"
+          },
+          {
+            "id": "vfx-trope-comic-soft"
+          },
+          {
+            "id": "vfx-trope-pixel-magic-main"
+          },
+          {
+            "id": "vfx-trope-pixel-magic-soft"
+          },
+          {
+            "id": "vfx-trope-confetti-main"
+          },
+          {
+            "id": "vfx-trope-confetti-soft"
+          },
+          {
+            "id": "vfx-trope-fireworks-main"
+          },
+          {
+            "id": "vfx-trope-fireworks-soft"
+          },
+          {
+            "id": "vfx-trope-buff-main"
+          },
+          {
+            "id": "vfx-trope-buff-soft"
+          },
+          {
+            "id": "vfx-trope-debuff-main"
+          },
+          {
+            "id": "vfx-trope-debuff-soft"
+          },
+          {
+            "id": "vfx-trope-stealth-main"
+          },
+          {
+            "id": "vfx-trope-stealth-soft"
+          },
+          {
+            "id": "vfx-trope-sonic-main"
+          },
+          {
+            "id": "vfx-trope-sonic-soft"
+          },
+          {
+            "id": "vfx-trope-dream-main"
+          },
+          {
+            "id": "vfx-trope-dream-soft"
+          },
+          {
+            "id": "vfx-trope-fear-main"
+          },
+          {
+            "id": "vfx-trope-fear-soft"
+          },
+          {
+            "id": "vfx-trope-rage-main"
+          },
+          {
+            "id": "vfx-trope-rage-soft"
+          },
+          {
+            "id": "vfx-trope-charm-main"
+          },
+          {
+            "id": "vfx-trope-charm-soft"
+          },
+          {
+            "id": "vfx-trope-lunar-main"
+          },
+          {
+            "id": "vfx-trope-lunar-soft"
+          },
+          {
+            "id": "vfx-trope-solar-main"
+          },
+          {
+            "id": "vfx-trope-solar-soft"
+          },
+          {
+            "id": "gamut-magenta-plasma"
+          },
+          {
+            "id": "gamut-magenta-portal"
+          },
+          {
+            "id": "gamut-violet-void"
+          },
+          {
+            "id": "gamut-blue-deepwater"
+          },
+          {
+            "id": "gamut-green-venom"
+          },
+          {
+            "id": "gamut-green-spores"
+          },
+          {
+            "id": "gamut-fuchsia-magic"
+          },
+          {
+            "id": "gamut-fuchsia-aura"
+          }
+        ]
+      },
+      {
+        "label": "Hybrid effects",
+        "presets": [
+          {
+            "id": "expanded-hybrid-0"
+          },
+          {
+            "id": "expanded-hybrid-1"
+          },
+          {
+            "id": "expanded-hybrid-2"
+          },
+          {
+            "id": "expanded-hybrid-3"
+          },
+          {
+            "id": "expanded-hybrid-4"
+          },
+          {
+            "id": "expanded-hybrid-5"
+          }
+        ]
+      },
+      {
+        "label": "Game states",
+        "presets": [
+          {
+            "id": "expanded-game-state-0"
+          },
+          {
+            "id": "expanded-game-state-1"
+          },
+          {
+            "id": "expanded-game-state-2"
+          },
+          {
+            "id": "expanded-game-state-3"
+          },
+          {
+            "id": "expanded-game-state-4"
+          },
+          {
+            "id": "expanded-game-state-5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "category:World",
+    "label": "Nature & materials",
+    "children": [
+      {
+        "label": "Nature",
+        "presets": [
+          {
+            "id": "copper"
+          },
+          {
+            "id": "emerald"
+          },
+          {
+            "id": "ocean"
+          },
+          {
+            "id": "sakura"
+          },
+          {
+            "id": "smoke"
+          },
+          {
+            "id": "biolume"
+          },
+          {
+            "id": "jellyfish"
+          },
+          {
+            "id": "beetle"
+          },
+          {
+            "id": "opal"
+          },
+          {
+            "id": "obsidian"
+          },
+          {
+            "id": "cinder"
+          },
+          {
+            "id": "cumulus"
+          },
+          {
+            "id": "sunset"
+          },
+          {
+            "id": "moss"
+          },
+          {
+            "id": "polar"
+          }
+        ]
+      },
+      {
+        "label": "Materials",
+        "presets": [
+          {
+            "id": "gamedev-forged-steel"
+          },
+          {
+            "id": "gamedev-burnished-bronze"
+          },
+          {
+            "id": "gamedev-oxidized-copper"
+          },
+          {
+            "id": "gamedev-polished-gold"
+          },
+          {
+            "id": "gamedev-obsidian-glass"
+          },
+          {
+            "id": "gamedev-ruby-crystal"
+          },
+          {
+            "id": "gamedev-sapphire-crystal"
+          },
+          {
+            "id": "gamedev-jade-stone"
+          },
+          {
+            "id": "gamedev-leather-ochre"
+          },
+          {
+            "id": "gamedev-weathered-wood"
+          },
+          {
+            "id": "gamut-magenta-glass"
+          },
+          {
+            "id": "gamut-violet-pigment"
+          },
+          {
+            "id": "gamut-blue-glass"
+          },
+          {
+            "id": "gamut-fuchsia-glass"
+          }
+        ]
+      },
+      {
+        "label": "Environments",
+        "presets": [
+          {
+            "id": "gamedev-desert-dunes"
+          },
+          {
+            "id": "gamedev-forest-canopy"
+          },
+          {
+            "id": "gamedev-swamp-marsh"
+          },
+          {
+            "id": "gamedev-tundra-snow"
+          },
+          {
+            "id": "gamedev-volcanic-terrain"
+          },
+          {
+            "id": "gamedev-underwater-reef"
+          },
+          {
+            "id": "gamedev-moonlit-ruins"
+          },
+          {
+            "id": "gamedev-golden-hour"
+          },
+          {
+            "id": "gamedev-overcast-city"
+          },
+          {
+            "id": "gamedev-alien-biome"
+          },
+          {
+            "id": "trope-env-temple"
+          },
+          {
+            "id": "trope-env-moon-temple"
+          },
+          {
+            "id": "trope-env-jungle-ruins"
+          },
+          {
+            "id": "trope-env-forest"
+          },
+          {
+            "id": "trope-env-autumn"
+          },
+          {
+            "id": "trope-env-desert"
+          },
+          {
+            "id": "trope-env-desert-night"
+          },
+          {
+            "id": "trope-env-tundra"
+          },
+          {
+            "id": "trope-env-volcano"
+          },
+          {
+            "id": "trope-env-swamp"
+          },
+          {
+            "id": "trope-env-cathedral"
+          },
+          {
+            "id": "trope-env-undersea"
+          },
+          {
+            "id": "trope-env-neon-city"
+          },
+          {
+            "id": "trope-env-space-station"
+          },
+          {
+            "id": "trope-env-crystal"
+          },
+          {
+            "id": "trope-env-pirate"
+          },
+          {
+            "id": "trope-env-sacred"
+          },
+          {
+            "id": "trope-env-boss"
+          }
+        ]
+      },
+      {
+        "label": "Surface materials",
+        "presets": [
+          {
+            "id": "gamedev-skin-warm"
+          },
+          {
+            "id": "gamedev-skin-cool"
+          },
+          {
+            "id": "gamedev-skin-deep"
+          },
+          {
+            "id": "gamedev-skin-golden"
+          },
+          {
+            "id": "gamedev-undead-skin"
+          },
+          {
+            "id": "gamedev-demon-skin"
+          },
+          {
+            "id": "gamedev-ivory-cloth"
+          },
+          {
+            "id": "gamedev-crimson-cloth"
+          },
+          {
+            "id": "gamedev-royal-blue-cloth"
+          },
+          {
+            "id": "gamedev-silver-hair"
+          }
+        ]
+      },
+      {
+        "label": "Essentials",
+        "presets": [
+          {
+            "id": "suite-material-copper"
+          },
+          {
+            "id": "suite-material-steel"
+          },
+          {
+            "id": "suite-material-rust"
+          },
+          {
+            "id": "suite-material-charcoal"
+          },
+          {
+            "id": "suite-material-ice"
+          },
+          {
+            "id": "suite-material-ceramic"
+          },
+          {
+            "id": "suite-air-fog"
+          },
+          {
+            "id": "suite-air-dust"
+          },
+          {
+            "id": "suite-air-aurora"
+          },
+          {
+            "id": "suite-air-sunset"
+          },
+          {
+            "id": "suite-air-underwater"
+          }
+        ]
+      },
+      {
+        "label": "Flowers & foliage",
+        "presets": [
+          {
+            "id": "botanical-leaf-spring"
+          },
+          {
+            "id": "botanical-leaf-young"
+          },
+          {
+            "id": "botanical-leaf-forest"
+          },
+          {
+            "id": "botanical-leaf-tropical"
+          },
+          {
+            "id": "botanical-leaf-conifer"
+          },
+          {
+            "id": "botanical-leaf-olive"
+          },
+          {
+            "id": "botanical-leaf-sage"
+          },
+          {
+            "id": "botanical-leaf-fern"
+          },
+          {
+            "id": "botanical-leaf-autumn-gold"
+          },
+          {
+            "id": "botanical-leaf-autumn-red"
+          },
+          {
+            "id": "botanical-leaf-dry"
+          },
+          {
+            "id": "botanical-leaf-variegated"
+          },
+          {
+            "id": "botanical-leaf-purple"
+          },
+          {
+            "id": "botanical-leaf-backlit"
+          },
+          {
+            "id": "botanical-leaf-moss"
+          },
+          {
+            "id": "botanical-flower-rose"
+          },
+          {
+            "id": "botanical-flower-pink"
+          },
+          {
+            "id": "botanical-flower-peony"
+          },
+          {
+            "id": "botanical-flower-cherry"
+          },
+          {
+            "id": "botanical-flower-lavender"
+          },
+          {
+            "id": "botanical-flower-iris"
+          },
+          {
+            "id": "botanical-flower-orchid"
+          },
+          {
+            "id": "botanical-flower-hydrangea"
+          },
+          {
+            "id": "botanical-flower-sunflower"
+          },
+          {
+            "id": "botanical-flower-marigold"
+          },
+          {
+            "id": "botanical-flower-poppy"
+          },
+          {
+            "id": "botanical-flower-white"
+          },
+          {
+            "id": "botanical-flower-cream"
+          },
+          {
+            "id": "botanical-flower-lotus"
+          },
+          {
+            "id": "botanical-flower-tulip"
+          },
+          {
+            "id": "botanical-flower-center"
+          },
+          {
+            "id": "botanical-flower-wilted"
+          },
+          {
+            "id": "gamut-magenta-orchid"
+          },
+          {
+            "id": "gamut-violet-iris"
+          },
+          {
+            "id": "gamut-blue-flower"
+          },
+          {
+            "id": "gamut-green-leaf"
+          },
+          {
+            "id": "gamut-fuchsia-flower"
+          }
+        ]
+      },
+      {
+        "label": "Animals",
+        "presets": [
+          {
+            "id": "animal-macaw"
+          },
+          {
+            "id": "animal-blue-macaw"
+          },
+          {
+            "id": "animal-peacock"
+          },
+          {
+            "id": "animal-kingfisher"
+          },
+          {
+            "id": "animal-hummingbird"
+          },
+          {
+            "id": "animal-mandarin"
+          },
+          {
+            "id": "animal-toucan"
+          },
+          {
+            "id": "animal-roller"
+          },
+          {
+            "id": "animal-flamingo"
+          },
+          {
+            "id": "animal-quetzal"
+          },
+          {
+            "id": "animal-morpho"
+          },
+          {
+            "id": "animal-monarch"
+          },
+          {
+            "id": "animal-swallowtail"
+          },
+          {
+            "id": "animal-glasswing"
+          },
+          {
+            "id": "animal-emerald-swallowtail"
+          },
+          {
+            "id": "animal-sunset-moth"
+          },
+          {
+            "id": "animal-orchid-mantis"
+          },
+          {
+            "id": "animal-jewel-beetle"
+          },
+          {
+            "id": "animal-scarab"
+          },
+          {
+            "id": "animal-ladybug"
+          },
+          {
+            "id": "animal-poison-frog"
+          },
+          {
+            "id": "animal-red-frog"
+          },
+          {
+            "id": "animal-chameleon"
+          },
+          {
+            "id": "animal-panther-chameleon"
+          },
+          {
+            "id": "animal-mandarinfish"
+          },
+          {
+            "id": "animal-betta"
+          },
+          {
+            "id": "animal-clownfish"
+          },
+          {
+            "id": "animal-parrotfish"
+          },
+          {
+            "id": "animal-nudibranch"
+          },
+          {
+            "id": "animal-cuttlefish"
+          },
+          {
+            "id": "animal-octopus"
+          },
+          {
+            "id": "animal-coral"
+          },
+          {
+            "id": "animal-red-panda"
+          },
+          {
+            "id": "animal-tiger"
+          },
+          {
+            "id": "animal-mandrill"
+          },
+          {
+            "id": "animal-fox"
+          },
+          {
+            "id": "gamut-magenta-beetle"
+          },
+          {
+            "id": "gamut-violet-butterfly"
+          },
+          {
+            "id": "gamut-blue-wing"
+          },
+          {
+            "id": "gamut-green-frog"
+          },
+          {
+            "id": "gamut-fuchsia-feather"
+          }
+        ]
+      },
+      {
+        "label": "Nature studies",
+        "presets": [
+          {
+            "id": "coverage-animal-gouldian"
+          },
+          {
+            "id": "coverage-animal-lorikeet"
+          },
+          {
+            "id": "coverage-animal-goldfinch"
+          },
+          {
+            "id": "coverage-animal-baltimore"
+          },
+          {
+            "id": "coverage-animal-bluejay"
+          },
+          {
+            "id": "coverage-animal-robin"
+          },
+          {
+            "id": "coverage-animal-resplendent"
+          },
+          {
+            "id": "coverage-animal-morpho-proportion"
+          },
+          {
+            "id": "coverage-animal-monarch-proportion"
+          },
+          {
+            "id": "coverage-animal-malachite"
+          },
+          {
+            "id": "coverage-animal-peacock-butterfly"
+          },
+          {
+            "id": "coverage-animal-zebra-longwing"
+          },
+          {
+            "id": "coverage-animal-blue-ring"
+          },
+          {
+            "id": "coverage-animal-royal-gramma"
+          },
+          {
+            "id": "coverage-animal-lionfish"
+          },
+          {
+            "id": "coverage-animal-zebra"
+          },
+          {
+            "id": "coverage-animal-giraffe"
+          },
+          {
+            "id": "coverage-animal-snow-leopard"
+          },
+          {
+            "id": "coverage-animal-mandarin-proportion"
+          },
+          {
+            "id": "coverage-animal-tree-frog"
+          },
+          {
+            "id": "coverage-flower-daisy"
+          },
+          {
+            "id": "coverage-flower-sunflower-proportion"
+          },
+          {
+            "id": "coverage-flower-hibiscus"
+          },
+          {
+            "id": "coverage-flower-passion"
+          },
+          {
+            "id": "coverage-flower-bird-paradise"
+          },
+          {
+            "id": "coverage-flower-anemone"
+          },
+          {
+            "id": "coverage-flower-pansy"
+          },
+          {
+            "id": "coverage-flower-iris-proportion"
+          },
+          {
+            "id": "coverage-flower-tiger-lily"
+          },
+          {
+            "id": "coverage-flower-lupine"
+          },
+          {
+            "id": "coverage-flower-bougainvillea"
+          },
+          {
+            "id": "coverage-flower-dahlia"
+          },
+          {
+            "id": "coverage-flower-black-eyed-susan"
+          },
+          {
+            "id": "coverage-flower-cornflower"
+          },
+          {
+            "id": "coverage-flower-calla"
+          },
+          {
+            "id": "coverage-flower-fuchsia"
+          }
+        ]
+      },
+      {
+        "label": "Minerals",
+        "presets": [
+          {
+            "id": "expanded-minerals-0"
+          },
+          {
+            "id": "expanded-minerals-1"
+          },
+          {
+            "id": "expanded-minerals-2"
+          },
+          {
+            "id": "expanded-minerals-3"
+          },
+          {
+            "id": "expanded-minerals-4"
+          },
+          {
+            "id": "expanded-minerals-5"
+          },
+          {
+            "id": "gamut-violet-crystal"
+          },
+          {
+            "id": "gamut-green-crystal"
+          }
+        ]
+      },
+      {
+        "label": "Fungi",
+        "presets": [
+          {
+            "id": "expanded-fungi-0"
+          },
+          {
+            "id": "expanded-fungi-1"
+          },
+          {
+            "id": "expanded-fungi-2"
+          },
+          {
+            "id": "expanded-fungi-3"
+          }
+        ]
+      },
+      {
+        "label": "Food",
+        "presets": [
+          {
+            "id": "expanded-food-0"
+          },
+          {
+            "id": "expanded-food-1"
+          },
+          {
+            "id": "expanded-food-2"
+          },
+          {
+            "id": "expanded-food-3"
+          },
+          {
+            "id": "expanded-food-4"
+          },
+          {
+            "id": "expanded-food-5"
+          }
+        ]
+      },
+      {
+        "label": "Biome lighting",
+        "presets": [
+          {
+            "id": "expanded-biome-light-0"
+          },
+          {
+            "id": "expanded-biome-light-1"
+          },
+          {
+            "id": "expanded-biome-light-2"
+          },
+          {
+            "id": "expanded-biome-light-3"
+          },
+          {
+            "id": "expanded-biome-light-4"
+          }
+        ]
+      },
+      {
+        "label": "Transformations",
+        "presets": [
+          {
+            "id": "expanded-transform-0"
+          },
+          {
+            "id": "expanded-transform-1"
+          },
+          {
+            "id": "expanded-transform-2"
+          },
+          {
+            "id": "expanded-transform-3"
+          }
+        ]
+      },
+      {
+        "label": "Aged materials",
+        "presets": [
+          {
+            "id": "expanded-aged-0"
+          },
+          {
+            "id": "expanded-aged-1"
+          },
+          {
+            "id": "expanded-aged-2"
+          },
+          {
+            "id": "expanded-aged-3"
+          },
+          {
+            "id": "expanded-aged-4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "category:Champions",
+    "label": "Color studies",
+    "children": [
+      {
+        "label": "Color accents",
+        "presets": [
+          {
+            "id": "plasma"
+          },
+          {
+            "id": "arcane"
+          },
+          {
+            "id": "void"
+          },
+          {
+            "id": "shadowisles"
+          },
+          {
+            "id": "hextech"
+          },
+          {
+            "id": "celestial"
+          },
+          {
+            "id": "bloodmagic"
+          },
+          {
+            "id": "fae"
+          },
+          {
+            "id": "soulfire"
+          },
+          {
+            "id": "sandmagic"
+          },
+          {
+            "id": "runes"
+          },
+          {
+            "id": "corruption"
+          },
+          {
+            "id": "lol-jinx"
+          },
+          {
+            "id": "lol-ahri"
+          },
+          {
+            "id": "lol-lux"
+          },
+          {
+            "id": "lol-yasuo"
+          },
+          {
+            "id": "lol-yone"
+          },
+          {
+            "id": "lol-zed"
+          },
+          {
+            "id": "lol-akali"
+          },
+          {
+            "id": "lol-ekko"
+          },
+          {
+            "id": "lol-vi"
+          },
+          {
+            "id": "lol-caitlyn"
+          },
+          {
+            "id": "lol-ashe"
+          },
+          {
+            "id": "lol-thresh"
+          },
+          {
+            "id": "lol-viego"
+          },
+          {
+            "id": "lol-kaisa"
+          },
+          {
+            "id": "lol-viktor"
+          },
+          {
+            "id": "lol-aurelion"
+          },
+          {
+            "id": "lol-leona"
+          },
+          {
+            "id": "lol-diana"
+          },
+          {
+            "id": "lol-morgana"
+          },
+          {
+            "id": "lol-brand"
+          },
+          {
+            "id": "lol-nami"
+          },
+          {
+            "id": "lol-teemo"
+          },
+          {
+            "id": "lol-seraphine"
+          },
+          {
+            "id": "lol-jhin"
+          },
+          {
+            "id": "trope-valorant-jett"
+          },
+          {
+            "id": "trope-valorant-sage"
+          },
+          {
+            "id": "trope-valorant-omen"
+          },
+          {
+            "id": "trope-valorant-phoenix"
+          },
+          {
+            "id": "trope-valorant-viper"
+          },
+          {
+            "id": "trope-valorant-reyna"
+          },
+          {
+            "id": "trope-valorant-neon"
+          },
+          {
+            "id": "trope-valorant-raze"
+          },
+          {
+            "id": "trope-ow-tracer"
+          },
+          {
+            "id": "trope-ow-mercy"
+          },
+          {
+            "id": "trope-ow-genji"
+          },
+          {
+            "id": "trope-ow-dva"
+          },
+          {
+            "id": "trope-ow-reaper"
+          },
+          {
+            "id": "trope-ow-sombra"
+          },
+          {
+            "id": "trope-wow-arthas"
+          },
+          {
+            "id": "trope-wow-illidan"
+          },
+          {
+            "id": "trope-wow-jaina"
+          },
+          {
+            "id": "trope-diablo"
+          },
+          {
+            "id": "trope-diablo-tyrael"
+          },
+          {
+            "id": "trope-sc-kerrigan"
+          },
+          {
+            "id": "trope-sc-protoss"
+          },
+          {
+            "id": "trope-sc-terran"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "category:Data",
+    "label": "Data & diagnostics",
+    "children": [
+      {
+        "label": "Data visualization",
+        "presets": [
+          {
+            "id": "data-density"
+          },
+          {
+            "id": "data-energy"
+          },
+          {
+            "id": "data-heat"
+          },
+          {
+            "id": "data-depth"
+          },
+          {
+            "id": "data-concentration"
+          },
+          {
+            "id": "data-anomaly"
+          },
+          {
+            "id": "data-residual"
+          },
+          {
+            "id": "data-phase"
+          },
+          {
+            "id": "data-intensity"
+          }
+        ]
+      },
+      {
+        "label": "Military displays",
+        "presets": [
+          {
+            "id": "data-military-radar"
+          },
+          {
+            "id": "data-military-infrared"
+          },
+          {
+            "id": "data-military-terrain"
+          },
+          {
+            "id": "data-military-visibility"
+          },
+          {
+            "id": "data-military-confidence"
+          },
+          {
+            "id": "data-military-deviation"
+          },
+          {
+            "id": "data-military-change"
+          },
+          {
+            "id": "data-military-bearing"
+          },
+          {
+            "id": "data-military-risk"
+          },
+          {
+            "id": "data-military-status"
+          }
+        ]
+      },
+      {
+        "label": "Scientific",
+        "presets": [
+          {
+            "id": "data-scientific-pressure"
+          },
+          {
+            "id": "data-scientific-temperature"
+          },
+          {
+            "id": "data-scientific-concentration"
+          },
+          {
+            "id": "data-scientific-radiation"
+          },
+          {
+            "id": "data-scientific-probability"
+          },
+          {
+            "id": "data-scientific-uncertainty"
+          },
+          {
+            "id": "data-scientific-velocity"
+          },
+          {
+            "id": "data-scientific-charge"
+          },
+          {
+            "id": "data-scientific-residual"
+          },
+          {
+            "id": "data-scientific-phase"
+          },
+          {
+            "id": "data-scientific-classes"
+          }
+        ]
+      },
+      {
+        "label": "Tech art",
+        "presets": [
+          {
+            "id": "data-techart-roughness"
+          },
+          {
+            "id": "data-techart-metallic"
+          },
+          {
+            "id": "data-techart-ao"
+          },
+          {
+            "id": "data-techart-overdraw"
+          },
+          {
+            "id": "data-techart-density"
+          },
+          {
+            "id": "data-techart-sdf"
+          },
+          {
+            "id": "data-techart-uv"
+          },
+          {
+            "id": "data-techart-lod"
+          },
+          {
+            "id": "data-techart-material"
+          }
+        ]
+      },
+      {
+        "label": "Essentials",
+        "presets": [
+          {
+            "id": "suite-diag-clipping"
+          },
+          {
+            "id": "suite-diag-exposure"
+          },
+          {
+            "id": "suite-diag-mid"
+          },
+          {
+            "id": "suite-data-dark-center"
+          },
+          {
+            "id": "suite-data-log"
+          },
+          {
+            "id": "suite-data-threshold"
+          },
+          {
+            "id": "suite-data-missing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "category:Art",
+    "label": "Art studies",
+    "children": [
+      {
+        "label": "Renaissance",
+        "presets": [
+          {
+            "id": "art-design-1"
+          },
+          {
+            "id": "art-design-2"
+          },
+          {
+            "id": "art-design-3"
+          },
+          {
+            "id": "art-design-4"
+          },
+          {
+            "id": "art-design-5"
+          }
+        ]
+      },
+      {
+        "label": "Baroque",
+        "presets": [
+          {
+            "id": "art-design-6"
+          },
+          {
+            "id": "art-design-7"
+          },
+          {
+            "id": "art-design-8"
+          },
+          {
+            "id": "art-design-9"
+          },
+          {
+            "id": "art-design-10"
+          }
+        ]
+      },
+      {
+        "label": "Rococo",
+        "presets": [
+          {
+            "id": "art-design-11"
+          },
+          {
+            "id": "art-design-12"
+          },
+          {
+            "id": "art-design-13"
+          },
+          {
+            "id": "art-design-14"
+          },
+          {
+            "id": "art-design-15"
+          }
+        ]
+      },
+      {
+        "label": "Neoclassicism",
+        "presets": [
+          {
+            "id": "art-design-16"
+          },
+          {
+            "id": "art-design-17"
+          },
+          {
+            "id": "art-design-18"
+          },
+          {
+            "id": "art-design-19"
+          },
+          {
+            "id": "art-design-20"
+          }
+        ]
+      },
+      {
+        "label": "Romanticism",
+        "presets": [
+          {
+            "id": "art-design-21"
+          },
+          {
+            "id": "art-design-22"
+          },
+          {
+            "id": "art-design-23"
+          },
+          {
+            "id": "art-design-24"
+          },
+          {
+            "id": "art-design-25"
+          }
+        ]
+      },
+      {
+        "label": "Realism",
+        "presets": [
+          {
+            "id": "art-design-26"
+          },
+          {
+            "id": "art-design-27"
+          },
+          {
+            "id": "art-design-28"
+          },
+          {
+            "id": "art-design-29"
+          },
+          {
+            "id": "art-design-30"
+          }
+        ]
+      },
+      {
+        "label": "Impressionism",
+        "presets": [
+          {
+            "id": "art-design-31"
+          },
+          {
+            "id": "art-design-32"
+          },
+          {
+            "id": "art-design-33"
+          },
+          {
+            "id": "art-design-34"
+          },
+          {
+            "id": "art-design-35"
+          }
+        ]
+      },
+      {
+        "label": "Post-Impressionism",
+        "presets": [
+          {
+            "id": "art-design-36"
+          },
+          {
+            "id": "art-design-37"
+          },
+          {
+            "id": "art-design-38"
+          },
+          {
+            "id": "art-design-39"
+          },
+          {
+            "id": "art-design-40"
+          }
+        ]
+      },
+      {
+        "label": "Symbolism",
+        "presets": [
+          {
+            "id": "art-design-41"
+          },
+          {
+            "id": "art-design-42"
+          },
+          {
+            "id": "art-design-43"
+          },
+          {
+            "id": "art-design-44"
+          },
+          {
+            "id": "art-design-45"
+          }
+        ]
+      },
+      {
+        "label": "Art Nouveau",
+        "presets": [
+          {
+            "id": "art-design-46"
+          },
+          {
+            "id": "art-design-47"
+          },
+          {
+            "id": "art-design-48"
+          },
+          {
+            "id": "art-design-49"
+          },
+          {
+            "id": "art-design-50"
+          }
+        ]
+      },
+      {
+        "label": "Fauvism",
+        "presets": [
+          {
+            "id": "art-design-51"
+          },
+          {
+            "id": "art-design-52"
+          },
+          {
+            "id": "art-design-53"
+          },
+          {
+            "id": "art-design-54"
+          },
+          {
+            "id": "art-design-55"
+          }
+        ]
+      },
+      {
+        "label": "Expressionism",
+        "presets": [
+          {
+            "id": "art-design-56"
+          },
+          {
+            "id": "art-design-57"
+          },
+          {
+            "id": "art-design-58"
+          },
+          {
+            "id": "art-design-59"
+          },
+          {
+            "id": "art-design-60"
+          }
+        ]
+      },
+      {
+        "label": "Cubism",
+        "presets": [
+          {
+            "id": "art-design-61"
+          },
+          {
+            "id": "art-design-62"
+          },
+          {
+            "id": "art-design-63"
+          },
+          {
+            "id": "art-design-64"
+          },
+          {
+            "id": "art-design-65"
+          }
+        ]
+      },
+      {
+        "label": "Futurism",
+        "presets": [
+          {
+            "id": "art-design-66"
+          },
+          {
+            "id": "art-design-67"
+          },
+          {
+            "id": "art-design-68"
+          },
+          {
+            "id": "art-design-69"
+          },
+          {
+            "id": "art-design-70"
+          }
+        ]
+      },
+      {
+        "label": "Suprematism",
+        "presets": [
+          {
+            "id": "art-design-71"
+          },
+          {
+            "id": "art-design-72"
+          },
+          {
+            "id": "art-design-73"
+          },
+          {
+            "id": "art-design-74"
+          },
+          {
+            "id": "art-design-75"
+          }
+        ]
+      },
+      {
+        "label": "Constructivism",
+        "presets": [
+          {
+            "id": "art-design-76"
+          },
+          {
+            "id": "art-design-77"
+          },
+          {
+            "id": "art-design-78"
+          },
+          {
+            "id": "art-design-79"
+          },
+          {
+            "id": "art-design-80"
+          }
+        ]
+      },
+      {
+        "label": "De Stijl",
+        "presets": [
+          {
+            "id": "art-design-81"
+          },
+          {
+            "id": "art-design-82"
+          },
+          {
+            "id": "art-design-83"
+          },
+          {
+            "id": "art-design-84"
+          },
+          {
+            "id": "art-design-85"
+          }
+        ]
+      },
+      {
+        "label": "Dada",
+        "presets": [
+          {
+            "id": "art-design-86"
+          },
+          {
+            "id": "art-design-87"
+          },
+          {
+            "id": "art-design-88"
+          },
+          {
+            "id": "art-design-89"
+          },
+          {
+            "id": "art-design-90"
+          }
+        ]
+      },
+      {
+        "label": "Surrealism",
+        "presets": [
+          {
+            "id": "art-design-91"
+          },
+          {
+            "id": "art-design-92"
+          },
+          {
+            "id": "art-design-93"
+          },
+          {
+            "id": "art-design-94"
+          },
+          {
+            "id": "art-design-95"
+          }
+        ]
+      },
+      {
+        "label": "Abstract Expressionism",
+        "presets": [
+          {
+            "id": "art-design-96"
+          },
+          {
+            "id": "art-design-97"
+          },
+          {
+            "id": "art-design-98"
+          },
+          {
+            "id": "art-design-99"
+          },
+          {
+            "id": "art-design-100"
+          }
+        ]
+      },
+      {
+        "label": "Color Field",
+        "presets": [
+          {
+            "id": "art-design-101"
+          },
+          {
+            "id": "art-design-102"
+          },
+          {
+            "id": "art-design-103"
+          },
+          {
+            "id": "art-design-104"
+          },
+          {
+            "id": "art-design-105"
+          }
+        ]
+      },
+      {
+        "label": "Pop Art",
+        "presets": [
+          {
+            "id": "art-design-106"
+          },
+          {
+            "id": "art-design-107"
+          },
+          {
+            "id": "art-design-108"
+          },
+          {
+            "id": "art-design-109"
+          },
+          {
+            "id": "art-design-110"
+          }
+        ]
+      },
+      {
+        "label": "Op Art",
+        "presets": [
+          {
+            "id": "art-design-111"
+          },
+          {
+            "id": "art-design-112"
+          },
+          {
+            "id": "art-design-113"
+          },
+          {
+            "id": "art-design-114"
+          },
+          {
+            "id": "art-design-115"
+          }
+        ]
+      },
+      {
+        "label": "Minimalism",
+        "presets": [
+          {
+            "id": "art-design-116"
+          },
+          {
+            "id": "art-design-117"
+          },
+          {
+            "id": "art-design-118"
+          },
+          {
+            "id": "art-design-119"
+          },
+          {
+            "id": "art-design-120"
+          }
+        ]
+      },
+      {
+        "label": "Pre-Raphaelitism",
+        "presets": [
+          {
+            "id": "art-design-161"
+          },
+          {
+            "id": "art-design-162"
+          },
+          {
+            "id": "art-design-163"
+          },
+          {
+            "id": "art-design-164"
+          },
+          {
+            "id": "art-design-165"
+          }
+        ]
+      },
+      {
+        "label": "Ukiyo-e",
+        "presets": [
+          {
+            "id": "art-design-166"
+          },
+          {
+            "id": "art-design-167"
+          },
+          {
+            "id": "art-design-168"
+          },
+          {
+            "id": "art-design-169"
+          },
+          {
+            "id": "art-design-170"
+          }
+        ]
+      },
+      {
+        "label": "Chromatic Abstraction",
+        "presets": [
+          {
+            "id": "art-design-171"
+          },
+          {
+            "id": "art-design-172"
+          },
+          {
+            "id": "art-design-173"
+          },
+          {
+            "id": "art-design-174"
+          },
+          {
+            "id": "art-design-175"
+          }
+        ]
+      },
+      {
+        "label": "Mexican Muralism",
+        "presets": [
+          {
+            "id": "art-design-176"
+          },
+          {
+            "id": "art-design-177"
+          },
+          {
+            "id": "art-design-178"
+          },
+          {
+            "id": "art-design-179"
+          },
+          {
+            "id": "art-design-180"
+          }
+        ]
+      },
+      {
+        "label": "Harlem Renaissance",
+        "presets": [
+          {
+            "id": "art-design-181"
+          },
+          {
+            "id": "art-design-182"
+          },
+          {
+            "id": "art-design-183"
+          },
+          {
+            "id": "art-design-184"
+          },
+          {
+            "id": "art-design-185"
+          }
+        ]
+      },
+      {
+        "label": "Brazilian Modernism",
+        "presets": [
+          {
+            "id": "art-design-186"
+          },
+          {
+            "id": "art-design-187"
+          },
+          {
+            "id": "art-design-188"
+          },
+          {
+            "id": "art-design-189"
+          },
+          {
+            "id": "art-design-190"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "category:Design",
+    "label": "Design studies",
+    "children": [
+      {
+        "label": "Arts and Crafts",
+        "presets": [
+          {
+            "id": "art-design-121"
+          },
+          {
+            "id": "art-design-122"
+          },
+          {
+            "id": "art-design-123"
+          },
+          {
+            "id": "art-design-124"
+          },
+          {
+            "id": "art-design-125"
+          }
+        ]
+      },
+      {
+        "label": "Bauhaus",
+        "presets": [
+          {
+            "id": "art-design-126"
+          },
+          {
+            "id": "art-design-127"
+          },
+          {
+            "id": "art-design-128"
+          },
+          {
+            "id": "art-design-129"
+          },
+          {
+            "id": "art-design-130"
+          }
+        ]
+      },
+      {
+        "label": "Art Deco",
+        "presets": [
+          {
+            "id": "art-design-131"
+          },
+          {
+            "id": "art-design-132"
+          },
+          {
+            "id": "art-design-133"
+          },
+          {
+            "id": "art-design-134"
+          },
+          {
+            "id": "art-design-135"
+          }
+        ]
+      },
+      {
+        "label": "Swiss Style",
+        "presets": [
+          {
+            "id": "art-design-136"
+          },
+          {
+            "id": "art-design-137"
+          },
+          {
+            "id": "art-design-138"
+          },
+          {
+            "id": "art-design-139"
+          },
+          {
+            "id": "art-design-140"
+          }
+        ]
+      },
+      {
+        "label": "Mid-Century Modern",
+        "presets": [
+          {
+            "id": "art-design-141"
+          },
+          {
+            "id": "art-design-142"
+          },
+          {
+            "id": "art-design-143"
+          },
+          {
+            "id": "art-design-144"
+          },
+          {
+            "id": "art-design-145"
+          }
+        ]
+      },
+      {
+        "label": "Memphis",
+        "presets": [
+          {
+            "id": "art-design-146"
+          },
+          {
+            "id": "art-design-147"
+          },
+          {
+            "id": "art-design-148"
+          },
+          {
+            "id": "art-design-149"
+          },
+          {
+            "id": "art-design-150"
+          }
+        ]
+      },
+      {
+        "label": "Scandinavian Modern",
+        "presets": [
+          {
+            "id": "art-design-151"
+          },
+          {
+            "id": "art-design-152"
+          },
+          {
+            "id": "art-design-153"
+          },
+          {
+            "id": "art-design-154"
+          },
+          {
+            "id": "art-design-155"
+          }
+        ]
+      },
+      {
+        "label": "Psychedelic Graphic Design",
+        "presets": [
+          {
+            "id": "art-design-156"
+          },
+          {
+            "id": "art-design-157"
+          },
+          {
+            "id": "art-design-158"
+          },
+          {
+            "id": "art-design-159"
+          },
+          {
+            "id": "art-design-160"
+          }
+        ]
+      },
+      {
+        "label": "Postmodern Design",
+        "presets": [
+          {
+            "id": "art-design-191"
+          },
+          {
+            "id": "art-design-192"
+          },
+          {
+            "id": "art-design-193"
+          },
+          {
+            "id": "art-design-194"
+          },
+          {
+            "id": "art-design-195"
+          }
+        ]
+      },
+      {
+        "label": "Space Age Design",
+        "presets": [
+          {
+            "id": "art-design-196"
+          },
+          {
+            "id": "art-design-197"
+          },
+          {
+            "id": "art-design-198"
+          },
+          {
+            "id": "art-design-199"
+          },
+          {
+            "id": "art-design-200"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "category:Creative",
+    "label": "Color & experiments",
+    "children": [
+      {
+        "label": "Science",
+        "presets": [
+          {
+            "id": "blackbody"
+          },
+          {
+            "id": "auroraoxygen"
+          },
+          {
+            "id": "auroranitrogen"
+          },
+          {
+            "id": "sodium"
+          },
+          {
+            "id": "copperflame"
+          },
+          {
+            "id": "hydrogen"
+          },
+          {
+            "id": "helium"
+          },
+          {
+            "id": "argon"
+          },
+          {
+            "id": "rayleigh"
+          },
+          {
+            "id": "thinfilm"
+          },
+          {
+            "id": "heatmap"
+          }
+        ]
+      },
+      {
+        "label": "Experimental",
+        "presets": [
+          {
+            "id": "spectral"
+          },
+          {
+            "id": "neonriot"
+          },
+          {
+            "id": "alienreactor"
+          },
+          {
+            "id": "acidmirage"
+          },
+          {
+            "id": "cosmicfracture"
+          },
+          {
+            "id": "chromaticshock"
+          },
+          {
+            "id": "sunkenneon"
+          },
+          {
+            "id": "venomorchid"
+          },
+          {
+            "id": "solarbruise"
+          },
+          {
+            "id": "chromehoney"
+          },
+          {
+            "id": "radioactivevelvet"
+          },
+          {
+            "id": "pinkthunder"
+          },
+          {
+            "id": "abyssmint"
+          },
+          {
+            "id": "emberfrost"
+          },
+          {
+            "id": "magentasulfur"
+          },
+          {
+            "id": "peacockshock"
+          },
+          {
+            "id": "rulevoid"
+          },
+          {
+            "id": "rulefire"
+          },
+          {
+            "id": "ruleice"
+          },
+          {
+            "id": "rulevenom"
+          },
+          {
+            "id": "rulearc"
+          },
+          {
+            "id": "celanime"
+          },
+          {
+            "id": "celice"
+          },
+          {
+            "id": "celtoxic"
+          },
+          {
+            "id": "celviolet"
+          },
+          {
+            "id": "celmono"
+          }
+        ]
+      },
+      {
+        "label": "Interface",
+        "presets": [
+          {
+            "id": "gamedev-rare-loot-blue"
+          },
+          {
+            "id": "gamedev-epic-loot-purple"
+          },
+          {
+            "id": "gamedev-legendary-loot-orange"
+          },
+          {
+            "id": "gamedev-mythic-loot-rose"
+          },
+          {
+            "id": "gamedev-health-healing"
+          },
+          {
+            "id": "gamedev-mana-reserve"
+          },
+          {
+            "id": "gamedev-stamina-amber"
+          },
+          {
+            "id": "gamedev-danger-alert"
+          },
+          {
+            "id": "gamedev-quest-gold"
+          },
+          {
+            "id": "gamedev-hologram-cyan"
+          }
+        ]
+      },
+      {
+        "label": "Stylized",
+        "presets": [
+          {
+            "id": "gamedev-cel-sunset"
+          },
+          {
+            "id": "gamedev-cel-ocean"
+          },
+          {
+            "id": "gamedev-cel-candy"
+          },
+          {
+            "id": "gamedev-cel-forest"
+          },
+          {
+            "id": "gamedev-cel-noir"
+          },
+          {
+            "id": "gamedev-retro-gameboy"
+          },
+          {
+            "id": "gamedev-retro-copper-crt"
+          },
+          {
+            "id": "gamedev-retro-ice-crt"
+          },
+          {
+            "id": "gamedev-poster-pop"
+          },
+          {
+            "id": "gamedev-comic-halftone"
+          },
+          {
+            "id": "stylized-extra-poster-electric"
+          },
+          {
+            "id": "stylized-extra-poster-sunburst"
+          },
+          {
+            "id": "stylized-extra-poster-acid"
+          },
+          {
+            "id": "stylized-extra-poster-orchid"
+          },
+          {
+            "id": "stylized-extra-poster-coast"
+          },
+          {
+            "id": "stylized-extra-poster-midnight"
+          },
+          {
+            "id": "stylized-extra-comic-primary"
+          },
+          {
+            "id": "stylized-extra-comic-villain"
+          },
+          {
+            "id": "stylized-extra-comic-pulp"
+          },
+          {
+            "id": "stylized-extra-comic-candy"
+          },
+          {
+            "id": "stylized-extra-riso-coral"
+          },
+          {
+            "id": "stylized-extra-riso-mint"
+          },
+          {
+            "id": "stylized-extra-riso-plum"
+          },
+          {
+            "id": "stylized-extra-riso-tangerine"
+          },
+          {
+            "id": "stylized-extra-duotone-coral"
+          },
+          {
+            "id": "stylized-extra-duotone-lime"
+          },
+          {
+            "id": "stylized-extra-duotone-cobalt"
+          },
+          {
+            "id": "stylized-extra-duotone-teal"
+          },
+          {
+            "id": "stylized-extra-screenprint-botanical"
+          },
+          {
+            "id": "stylized-extra-screenprint-magenta"
+          },
+          {
+            "id": "stylized-extra-screenprint-spectrum"
+          },
+          {
+            "id": "stylized-extra-retro-arcade"
+          },
+          {
+            "id": "stylized-extra-retro-noir"
+          },
+          {
+            "id": "stylized-extra-cel-soda"
+          },
+          {
+            "id": "stylized-direction-paper-citrus"
+          },
+          {
+            "id": "stylized-direction-paper-forest"
+          },
+          {
+            "id": "stylized-direction-rubber-butter"
+          },
+          {
+            "id": "stylized-direction-rubber-cherry"
+          },
+          {
+            "id": "stylized-direction-cyanotype-prussian"
+          },
+          {
+            "id": "stylized-direction-cyanotype-midnight"
+          },
+          {
+            "id": "stylized-direction-wash-indigo"
+          },
+          {
+            "id": "stylized-direction-wash-sepia"
+          },
+          {
+            "id": "stylized-direction-chalk-carnival"
+          },
+          {
+            "id": "stylized-direction-chalk-lavender"
+          },
+          {
+            "id": "stylized-direction-solar-copper"
+          },
+          {
+            "id": "stylized-direction-solar-sunset"
+          },
+          {
+            "id": "stylized-direction-foil-gold"
+          },
+          {
+            "id": "stylized-direction-foil-copper"
+          },
+          {
+            "id": "stylized-direction-glass-jewel"
+          },
+          {
+            "id": "stylized-direction-glass-crimson"
+          },
+          {
+            "id": "stylized-direction-negative-candy"
+          },
+          {
+            "id": "stylized-direction-negative-alien"
+          },
+          {
+            "id": "stylized-direction-animation-peach"
+          },
+          {
+            "id": "stylized-direction-animation-mint"
+          },
+          {
+            "id": "stylized-material-enamel-cherry"
+          },
+          {
+            "id": "stylized-material-enamel-ocean"
+          },
+          {
+            "id": "stylized-material-airbrush-peach"
+          },
+          {
+            "id": "stylized-material-airbrush-violet"
+          },
+          {
+            "id": "stylized-material-acid-tangerine"
+          },
+          {
+            "id": "stylized-material-acid-lilac"
+          },
+          {
+            "id": "stylized-material-lacquer-cherry"
+          },
+          {
+            "id": "stylized-material-lacquer-grape"
+          },
+          {
+            "id": "stylized-material-porcelain-blue"
+          },
+          {
+            "id": "stylized-material-porcelain-rose"
+          },
+          {
+            "id": "stylized-material-embroidery-garden"
+          },
+          {
+            "id": "stylized-material-embroidery-midnight"
+          },
+          {
+            "id": "stylized-material-storybook-foxwood"
+          },
+          {
+            "id": "stylized-material-storybook-meadow"
+          },
+          {
+            "id": "stylized-material-noir-crimson"
+          },
+          {
+            "id": "stylized-material-noir-amber"
+          },
+          {
+            "id": "stylized-material-packaging-citrus"
+          },
+          {
+            "id": "stylized-material-packaging-seaside"
+          },
+          {
+            "id": "stylized-material-pearl-opal"
+          },
+          {
+            "id": "stylized-material-pearl-shell"
+          },
+          {
+            "id": "stylized-material-clay-apricot"
+          },
+          {
+            "id": "stylized-material-clay-moss"
+          },
+          {
+            "id": "stylized-material-festival-summer"
+          },
+          {
+            "id": "stylized-material-festival-midnight"
+          },
+          {
+            "id": "chromatic-edge-jade-silk"
+          },
+          {
+            "id": "chromatic-edge-cinnabar-lantern"
+          },
+          {
+            "id": "chromatic-edge-indigo-mountains"
+          },
+          {
+            "id": "chromatic-edge-plum-blossom"
+          },
+          {
+            "id": "chromatic-edge-amber-mist"
+          },
+          {
+            "id": "chromatic-edge-lotus-rose"
+          },
+          {
+            "id": "chromatic-edge-peacock-veil"
+          },
+          {
+            "id": "chromatic-edge-orchid-dusk"
+          },
+          {
+            "id": "chromatic-edge-celadon-moon"
+          },
+          {
+            "id": "chromatic-edge-persimmon-glow"
+          },
+          {
+            "id": "chromatic-edge-malachite-ridge"
+          },
+          {
+            "id": "chromatic-edge-azure-porcelain"
+          },
+          {
+            "id": "painterly-still-tropical"
+          },
+          {
+            "id": "painterly-still-mango"
+          },
+          {
+            "id": "painterly-still-citrus"
+          },
+          {
+            "id": "painterly-still-strawberry"
+          },
+          {
+            "id": "painterly-still-kiwi"
+          },
+          {
+            "id": "painterly-still-plum"
+          },
+          {
+            "id": "painterly-still-peach"
+          },
+          {
+            "id": "painterly-still-golden"
+          },
+          {
+            "id": "painterly-tone-peach-periwinkle"
+          },
+          {
+            "id": "painterly-tone-lime-orchid"
+          },
+          {
+            "id": "painterly-tone-apricot-teal"
+          },
+          {
+            "id": "painterly-tone-cobalt-cream"
+          },
+          {
+            "id": "painterly-tone-coral-seafoam"
+          },
+          {
+            "id": "painterly-tone-violet-gold"
+          },
+          {
+            "id": "painterly-tone-jade-rose"
+          },
+          {
+            "id": "painterly-tone-copper-cyan"
+          },
+          {
+            "id": "painterly-shift-extra-ember-glacier"
+          },
+          {
+            "id": "painterly-shift-extra-aubergine-chartreuse"
+          },
+          {
+            "id": "painterly-shift-extra-ultramarine-tangerine"
+          },
+          {
+            "id": "painterly-shift-extra-petrol-carnation"
+          },
+          {
+            "id": "painterly-shift-extra-mulberry-pistachio"
+          },
+          {
+            "id": "painterly-shift-extra-espresso-lilac"
+          },
+          {
+            "id": "painterly-shift-extra-cerulean-marigold"
+          },
+          {
+            "id": "painterly-shift-extra-russet-peacock"
+          },
+          {
+            "id": "painterly-shift-extra-sage-vermilion"
+          },
+          {
+            "id": "painterly-shift-extra-midnight-opal"
+          },
+          {
+            "id": "painterly-shift-extra-ochre-iris"
+          },
+          {
+            "id": "painterly-shift-extra-garnet-mint"
+          }
+        ]
+      },
+      {
+        "label": "Perceptual",
+        "presets": [
+          {
+            "id": "perceptual-abyss-cyan"
+          },
+          {
+            "id": "perceptual-blue-lime"
+          },
+          {
+            "id": "perceptual-violet-rose"
+          },
+          {
+            "id": "perceptual-ember-gold"
+          },
+          {
+            "id": "perceptual-forest-mint"
+          },
+          {
+            "id": "perceptual-indigo-ice"
+          },
+          {
+            "id": "perceptual-copper-cream"
+          },
+          {
+            "id": "perceptual-neutral-value"
+          },
+          {
+            "id": "perceptual-cyan-coral"
+          },
+          {
+            "id": "perceptual-blue-orange"
+          },
+          {
+            "id": "perceptual-violet-lime"
+          },
+          {
+            "id": "perceptual-green-magenta"
+          },
+          {
+            "id": "perceptual-cool-warm"
+          },
+          {
+            "id": "perceptual-phase-spectrum"
+          },
+          {
+            "id": "perceptual-phase-soft"
+          },
+          {
+            "id": "perceptual-electric-accent"
+          },
+          {
+            "id": "perceptual-solar-accent"
+          },
+          {
+            "id": "perceptual-toxic-accent"
+          },
+          {
+            "id": "gamut-magenta-boundary"
+          },
+          {
+            "id": "gamut-violet-boundary"
+          },
+          {
+            "id": "gamut-blue-boundary"
+          },
+          {
+            "id": "gamut-green-boundary"
+          },
+          {
+            "id": "gamut-fuchsia-boundary"
+          },
+          {
+            "id": "coverage-fill-neutral-depth"
+          },
+          {
+            "id": "coverage-fill-h00-l0-1"
+          },
+          {
+            "id": "coverage-fill-h00-l1-1"
+          },
+          {
+            "id": "coverage-fill-h00-l2-1"
+          },
+          {
+            "id": "coverage-fill-h00-l2-2"
+          },
+          {
+            "id": "coverage-fill-h00-l2-3"
+          },
+          {
+            "id": "coverage-fill-h01-l2-1"
+          },
+          {
+            "id": "coverage-fill-h03-l0-1"
+          },
+          {
+            "id": "coverage-fill-h03-l1-1"
+          },
+          {
+            "id": "coverage-fill-h03-l2-1"
+          },
+          {
+            "id": "coverage-fill-h03-l3-1"
+          },
+          {
+            "id": "coverage-fill-h04-l2-1"
+          },
+          {
+            "id": "coverage-fill-h04-l3-1"
+          },
+          {
+            "id": "coverage-fill-h04-l3-2"
+          },
+          {
+            "id": "coverage-fill-h04-l3-3"
+          },
+          {
+            "id": "coverage-fill-h05-l2-1"
+          },
+          {
+            "id": "coverage-fill-h05-l3-1"
+          },
+          {
+            "id": "coverage-fill-h05-l3-2"
+          },
+          {
+            "id": "coverage-fill-h06-l3-1"
+          },
+          {
+            "id": "coverage-fill-h06-l3-2"
+          },
+          {
+            "id": "coverage-fill-h07-l3-1"
+          },
+          {
+            "id": "coverage-fill-h08-l0-1"
+          },
+          {
+            "id": "coverage-fill-h08-l1-1"
+          },
+          {
+            "id": "coverage-fill-h08-l2-1"
+          },
+          {
+            "id": "coverage-fill-h09-l1-1"
+          },
+          {
+            "id": "coverage-fill-h09-l1-2"
+          },
+          {
+            "id": "coverage-fill-h09-l1-3"
+          },
+          {
+            "id": "coverage-fill-h09-l1-4"
+          },
+          {
+            "id": "coverage-fill-h09-l2-1"
+          },
+          {
+            "id": "coverage-fill-h09-l2-2"
+          },
+          {
+            "id": "coverage-fill-h09-l2-3"
+          },
+          {
+            "id": "coverage-fill-h09-l2-4"
+          },
+          {
+            "id": "coverage-fill-h09-l2-5"
+          },
+          {
+            "id": "coverage-fill-h10-l0-1"
+          },
+          {
+            "id": "coverage-fill-h10-l1-1"
+          },
+          {
+            "id": "coverage-fill-h10-l2-1"
+          },
+          {
+            "id": "coverage-fill-h10-l2-2"
+          },
+          {
+            "id": "coverage-fill-h10-l2-3"
+          },
+          {
+            "id": "coverage-fill-h10-l2-4"
+          },
+          {
+            "id": "coverage-fill-h10-l2-5"
+          },
+          {
+            "id": "coverage-fill-h10-l2-6"
+          },
+          {
+            "id": "coverage-fill-h10-l2-7"
+          },
+          {
+            "id": "coverage-fill-h10-l3-1"
+          },
+          {
+            "id": "coverage-fill-h11-l0-1"
+          },
+          {
+            "id": "coverage-fill-h11-l1-1"
+          },
+          {
+            "id": "coverage-fill-h11-l2-1"
+          },
+          {
+            "id": "coverage-fill-h11-l2-2"
+          },
+          {
+            "id": "coverage-fill-h11-l2-3"
+          },
+          {
+            "id": "coverage-fill-h11-l2-4"
+          },
+          {
+            "id": "coverage-fill-h11-l2-5"
+          },
+          {
+            "id": "coverage-fill-h11-l3-1"
+          }
+        ]
+      },
+      {
+        "label": "Optics",
+        "presets": [
+          {
+            "id": "prism-contact"
+          },
+          {
+            "id": "prism-near"
+          },
+          {
+            "id": "prism-medium"
+          },
+          {
+            "id": "prism-far"
+          },
+          {
+            "id": "prism-remote"
+          },
+          {
+            "id": "prism-reverse-near"
+          },
+          {
+            "id": "prism-reverse-far"
+          },
+          {
+            "id": "gamut-fuchsia-prism"
+          }
+        ]
+      },
+      {
+        "label": "Essentials",
+        "presets": [
+          {
+            "id": "suite-print-duotone"
+          },
+          {
+            "id": "suite-print-tritone"
+          },
+          {
+            "id": "suite-print-riso"
+          },
+          {
+            "id": "suite-print-engraving"
+          },
+          {
+            "id": "suite-print-paper"
+          },
+          {
+            "id": "suite-print-metal"
+          },
+          {
+            "id": "suite-style-cel"
+          },
+          {
+            "id": "suite-style-pixel"
+          },
+          {
+            "id": "suite-style-holo"
+          },
+          {
+            "id": "suite-style-glitch"
+          },
+          {
+            "id": "suite-style-iridescence"
+          }
+        ]
+      },
+      {
+        "label": "Optical surfaces",
+        "presets": [
+          {
+            "id": "expanded-optical-0"
+          },
+          {
+            "id": "expanded-optical-1"
+          },
+          {
+            "id": "expanded-optical-2"
+          },
+          {
+            "id": "expanded-optical-3"
+          }
+        ]
+      },
+      {
+        "label": "Art styles",
+        "presets": [
+          {
+            "id": "expanded-art-style-0"
+          },
+          {
+            "id": "expanded-art-style-1"
+          },
+          {
+            "id": "expanded-art-style-2"
+          },
+          {
+            "id": "expanded-art-style-3"
+          },
+          {
+            "id": "expanded-art-style-4"
+          },
+          {
+            "id": "expanded-art-style-5"
+          }
+        ]
+      }
+    ]
+  }
+]

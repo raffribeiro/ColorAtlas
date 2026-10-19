@@ -1,0 +1,65 @@
+#munsell-picker #atlas-tour{position:fixed;inset:0;z-index:2147483000;pointer-events:none;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+#munsell-picker #atlas-tour[hidden]{display:none}
+#munsell-picker .atlas-tour-shade{position:fixed;left:0;top:0;pointer-events:none;overflow:visible}
+#munsell-picker .atlas-tour-shade path{fill:rgba(4,7,12,.74);pointer-events:visiblePainted}
+#munsell-picker .atlas-tour-hole{position:fixed;border-radius:10px;pointer-events:none;box-shadow:0 0 0 2px #ffffffd9,0 0 0 6px rgba(169,184,231,.22)}
+#munsell-picker #atlas-tour[data-spot=off] .atlas-tour-hole,#munsell-picker #atlas-tour[data-spot=off] .atlas-tour-hand{display:none}
+#munsell-picker .atlas-tour-hand{position:fixed;width:44px;height:44px;margin:-6px 0 0 -12px;display:none;pointer-events:none;filter:drop-shadow(0 4px 6px rgba(0,0,0,.5));animation:atlas-tour-tap 1.2s ease-in-out infinite}
+#munsell-picker #atlas-tour:has(.atlas-tour-card[data-waiting=true]) .atlas-tour-hand{display:block}
+@keyframes atlas-tour-tap{0%,100%{transform:translate(10px,14px) scale(1)}45%{transform:translate(0,0) scale(.88)}60%{transform:translate(0,0) scale(.92)}}
+#munsell-picker .atlas-tour-confetti{position:fixed;left:0;top:0;width:100%;height:100%;pointer-events:none}
+#munsell-picker .atlas-tour-card{position:fixed;width:min(348px,calc(100vw - 24px));box-sizing:border-box;padding:18px 18px 14px 18px;pointer-events:auto;color:#d8e3f0;border-radius:16px;border:1.5px solid transparent;background:linear-gradient(#121a25,#0d141d) padding-box,linear-gradient(135deg,#7fb2ff,#ff86d8 55%,#ffd36e) border-box;box-shadow:0 18px 50px rgba(0,0,0,.55);animation:atlas-tour-pop .32s cubic-bezier(.2,1.4,.4,1)}
+#munsell-picker .atlas-tour-card:focus{outline:none}
+@keyframes atlas-tour-pop{from{transform:scale(.92);opacity:0}}
+#munsell-picker .atlas-tour-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 0 8px;min-height:20px}
+#munsell-picker .atlas-tour-mission{font-size:10px;letter-spacing:1.4px;text-transform:uppercase;color:#a9bbcf;font-weight:600}
+@keyframes atlas-tour-star{0%{transform:scale(0) rotate(-90deg)}70%{transform:scale(1.6)}}
+#munsell-picker .atlas-tour-xp{height:6px;border-radius:6px;background:#1d2836;overflow:hidden;margin:0 0 14px}
+#munsell-picker .atlas-tour-xp i{display:block;height:100%;width:0;border-radius:6px;background:linear-gradient(90deg,#7fb2ff,#ff86d8,#ffd36e);transition:width .5s cubic-bezier(.2,.8,.2,1)}
+#munsell-picker .atlas-tour-card h2{margin:0 0 6px;font-size:19px;line-height:1.3;font-weight:700;color:#f3f7fd;letter-spacing:-.2px}
+#munsell-picker .atlas-tour-card p{margin:0 0 10px;font-size:13.5px;line-height:1.6;color:#c3d1e1}
+#munsell-picker .atlas-tour-card b{color:#f3f7fd;font-weight:600}
+#munsell-picker .atlas-tour-task{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:9px;background:rgba(127,178,255,.1);border:1px dashed rgba(169,184,231,.45);color:#e6eefa!important;font-weight:600;font-size:13px!important}
+#munsell-picker .atlas-tour-task-copy{min-width:0;line-height:1.5;overflow-wrap:anywhere}
+#munsell-picker .atlas-tour-task[hidden]{display:none}
+#munsell-picker .atlas-tour-task-icon{display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:linear-gradient(135deg,#7fb2ff,#ff86d8);color:#0d141d;font-size:10px;flex:none}
+#munsell-picker .atlas-tour-card[data-waiting=true] .atlas-tour-task-icon{animation:atlas-tour-pulse 1.6s ease-in-out infinite}
+@keyframes atlas-tour-pulse{50%{opacity:.55}}
+#munsell-picker .atlas-tour-card[data-success=true] .atlas-tour-task{border-style:solid;border-color:#7ff0c8;background:rgba(127,240,200,.12)}
+#munsell-picker .atlas-tour-card[data-success=true] .atlas-tour-task-icon{background:#7ff0c8;animation:atlas-tour-star .5s cubic-bezier(.2,1.6,.4,1)}
+#munsell-picker .atlas-tour-actions{display:flex;align-items:center;gap:8px;margin-top:12px}
+#munsell-picker .atlas-tour-spacer{flex:1}
+#munsell-picker .atlas-tour-actions button{font:inherit;font-size:12.5px;cursor:pointer;border-radius:10px;padding:8px 12px;border:1px solid #33465b;background:#162130;color:#d5e1ef}
+#munsell-picker .atlas-tour-actions button[hidden]{display:none}
+#munsell-picker .atlas-tour-actions .atlas-tour-skip{border:0;background:none;color:#8199b2;padding:8px 4px;text-decoration:underline;text-underline-offset:3px}
+#munsell-picker .atlas-tour-actions .atlas-tour-primary{font-weight:700;color:#10151d;border:0;padding:9px 16px;background:linear-gradient(135deg,#9cc3ff,#ff9be0 60%,#ffdb87);box-shadow:0 3px 0 #8b5d9e,0 6px 14px rgba(255,134,216,.25);transform:translateY(-1px);transition:transform .08s,box-shadow .08s}
+#munsell-picker .atlas-tour-actions .atlas-tour-primary:active{transform:translateY(2px);box-shadow:0 0 0 #8b5d9e}
+#munsell-picker .atlas-tour-actions button:focus-visible{outline:2px solid #d4dfea;outline-offset:2px}
+#munsell-picker .atlas-tour-card[data-kind=intro],#munsell-picker .atlas-tour-card[data-kind=mission],#munsell-picker .atlas-tour-card[data-kind=reward]{width:min(380px,calc(100vw - 24px));text-align:center;padding-top:40px}
+#munsell-picker .atlas-tour-badge{display:none}
+#munsell-picker .atlas-tour-card[data-kind=intro] .atlas-tour-badge,#munsell-picker .atlas-tour-card[data-kind=mission] .atlas-tour-badge,#munsell-picker .atlas-tour-card[data-kind=reward] .atlas-tour-badge{display:grid;place-items:center;position:absolute;left:calc(50% - 30px);top:-30px;width:60px;height:60px;border-radius:50%;background:conic-gradient(from 210deg,#7fb2ff,#b48cff,#ff86d8,#ffb37a,#ffd36e,#7ff0c8,#7fb2ff);box-shadow:0 8px 22px rgba(0,0,0,.5),0 0 0 4px #0f161f}
+#munsell-picker .atlas-tour-badge span{display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:#0f161f;color:#f3f7fd;font-size:20px;line-height:1}
+#munsell-picker .atlas-tour-card[data-kind=reward] .atlas-tour-badge span{color:#7ff0c8;animation:atlas-tour-star .7s cubic-bezier(.2,1.6,.4,1)}
+#munsell-picker .atlas-tour-card[data-kind=intro] .atlas-tour-head,#munsell-picker .atlas-tour-card[data-kind=mission] .atlas-tour-head,#munsell-picker .atlas-tour-card[data-kind=reward] .atlas-tour-head{margin-left:0;flex-direction:column;gap:6px}
+#munsell-picker .atlas-tour-card[data-kind=reward] h2,#munsell-picker .atlas-tour-card[data-kind=mission] h2{font-size:23px}
+#munsell-picker .atlas-tour-tab::before{content:"✦";margin-right:6px;font-size:10px;background:linear-gradient(135deg,#7fb2ff,#ff86d8,#ffd36e);-webkit-background-clip:text;background-clip:text;color:transparent}
+#munsell-picker .studio-workspace-nav .atlas-tour-tab[aria-pressed=true]{color:#edf3fa}
+@media (prefers-reduced-motion:reduce){#munsell-picker #atlas-tour *{animation:none!important;transition:none!important}}
+#munsell-picker .atlas-tour-watch{position:fixed;border-radius:10px;pointer-events:none;box-shadow:0 0 0 1.5px rgba(127,240,200,.75),0 0 0 5px rgba(127,240,200,.12)}
+#munsell-picker .atlas-tour-watch[hidden]{display:none}
+#munsell-picker .atlas-tour-watch span{position:absolute;left:12px;top:-11px;padding:3px 8px;border-radius:999px;background:#0f161f;border:1px solid rgba(127,240,200,.7);color:#bff7e3;font-size:10.5px;font-weight:600;letter-spacing:.4px;white-space:nowrap}
+#munsell-picker .atlas-tour-watch span::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:#7ff0c8;margin-right:6px;vertical-align:1px;animation:atlas-tour-live 1.4s ease-in-out infinite}
+@keyframes atlas-tour-live{50%{opacity:.25}}
+#munsell-picker .atlas-tour-watch[data-live=true]{box-shadow:0 0 0 2.5px #7ff0c8,0 0 0 6px rgba(127,240,200,.18)}
+#munsell-picker .atlas-tour-watch[data-live=true] span{background:#7ff0c8;color:#0d141d}
+#munsell-picker .atlas-tour-watch[data-live=true] span::before{background:#0d141d}
+#munsell-picker .atlas-tour-toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:2147483001;padding:10px 16px;border-radius:999px;background:#0f161f;border:1px solid #33465b;color:#d8e3f0;font:600 12.5px system-ui,sans-serif;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+#munsell-picker .atlas-tour-toast[hidden]{display:none}
+
+#munsell-picker .atlas-tour-hand[data-gesture=rotate]{animation:atlas-tour-rotate 2s ease-in-out infinite}
+#munsell-picker .atlas-tour-hand[data-gesture=rotate]::after{content:"↔";position:absolute;left:0;top:30px;color:#dbe5ff;font-size:25px}
+@keyframes atlas-tour-rotate{0%,15%,100%{transform:translateX(0)}55%,70%{transform:translateX(var(--tour-drag-x,64px))}}
+
+#munsell-picker .studio-keys>.viz-row{gap:10px}
+
+@media(max-width:640px){#munsell-picker .atlas-tour-card{transition:none}}

@@ -1,0 +1,9 @@
+{
+  "(Unity 6); Linear RGB uses": "(Unity 6) ; RVB linéaire utilise",
+  ", Bands uses": ", Bandes utilise",
+  "A gradient map is a lookup. A value": "Une courbe de transfert de dégradé est une table de correspondance. Une valeur",
+  "Copy Unity C# builds": "Copier Unity C# construit",
+  "between 0 and 1 picks a position on the ramp, and the ramp returns the color at that position. Black pixels of the source read the left end, white pixels read the right end. In an engine,": "entre 0 et 1 choisit une position du dégradé, qui renvoie la couleur correspondante. Les pixels noirs de la source lisent l’extrémité gauche, les blancs la droite. Dans un moteur,",
+  "can be anything normalized: a texture channel, particle age, distance or a dynamic parameter.": "peut être toute donnée normalisée : canal de texture, âge d’une particule, distance ou paramètre dynamique.",
+  "objects. Perceptual uses": "des objets. Perceptuel utilise"
+}

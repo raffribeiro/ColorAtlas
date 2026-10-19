@@ -1,0 +1,21 @@
+# Release maintenance
+
+VERSION and CHANGELOG.md in the development workspace are the canonical version and change history. Public release history begins at v0.9. The v0.90 series prepared the first stable browser release, v1.0.0, finalized at the user’s request on 2026-10-16. Preserve all earlier release records and archives; continue with patch/minor versions according to the delivered change.
+
+## Delivery layout
+
+- /Users/raffribeiro/Documents/ColorAtlas/App: runnable browser HTML, README and Data.
+- /Users/raffribeiro/Documents/ColorAtlas/Realase: changelog, VERSION, current manifest, release instructions, Manifests and Archives. The spelling Realase is intentional, requested by the user.
+- /Users/raffribeiro/Documents/ColorAtlas is a local Git repository on branch release. It tracks App and release metadata. Personal Data JSON and ZIP archives are ignored. No remote/push is configured.
+
+## Every delivered change
+
+1. Update CHANGELOG.md in English. Preserve past release entries. Increment VERSION: patch for fixes/polish, minor for substantial features until v1.0.
+2. Regenerate and validate affected documentation and the final page.
+3. Run work/package_standalone.py from the development workspace. This updates App while preserving its existing Data JSON. It automatically runs work/sync_release_folder.py.
+4. The sync validates the version and HTML hash, creates a sharing ZIP with the bundled default preset and assets, copies release metadata to Realase and commits branch release if tracked content changed.
+5. Confirm the release branch is clean and matches App. Never overwrite an existing published ZIP with different HTML; use a new version.
+
+Use Realase/Archives/ColorAtlas-v<VERSION>.zip when sharing a clean build. Runtime data is not part of Git or generated sharing archives. Manually zipping App may include your current Data; close app tabs before copying it.
+
+Automated checks are distinct from live browser acceptance. Record actual validation and limitations. From v0.10.14, runtime presets/images use browser IndexedDB and palettes/settings use localStorage. No folder connection is required. File path, query string and browser profile scope the saved library. Legacy Data files are retained without automatic migration; a future portable desktop edition can reuse the folder-store implementation.

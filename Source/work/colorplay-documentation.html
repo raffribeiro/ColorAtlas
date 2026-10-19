@@ -1,0 +1,34 @@
+<h2>ColorPlay: color in context</h2>
+<p>Choose <strong>ColorPlay</strong> beside Random, then press Random to create a pair of palettes per selected image, evaluated against that image. Press <strong>Compare</strong> to inspect identical color patches in different surroundings and the same mapped preview against dark and light backgrounds. The default random mode remains Perceptual; choosing ColorPlay is saved with your editor state.</p>
+<figure><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" role="img" aria-label="Identical gray patches on different surroundings demonstrate a ColorPlay context study"><title>Identical gray patches on different surroundings demonstrate a ColorPlay context study</title><rect width="720" height="250" fill="#0e1621"/><g font-family="system-ui,sans-serif" font-size="13" fill="#c9d9ed"><text x="30" y="30">Same center color. Different surroundings.</text><rect x="30" y="48" width="320" height="145" fill="#22344b"/><rect x="370" y="48" width="320" height="145" fill="#e4d4b4"/><rect x="168" y="99" width="44" height="44" fill="#888888"/><rect x="508" y="99" width="44" height="44" fill="#888888"/><text x="190" y="220" text-anchor="middle">Center: #888888</text><text x="530" y="220" text-anchor="middle">Center: #888888</text></g></svg><figcaption>An original context exercise: both centers contain exactly the same RGB bytes. Judge the appearance yourself; a particular illusion is not guaranteed.</figcaption></figure>
+<h3>What comes from Albers</h3>
+<p>Josef Albers’s <em>Interaction of Color</em> (1963) teaches observation through exercises in which surroundings change the appearance of a color. ColorPlay adapts that experimental approach to palette exploration. Albers did not publish this generator, these OKLab equations or a universal palette-ranking formula. The use of harmony families, numerical thresholds and scoring below is a Color Atlas design choice.</p>
+<h3>Candidate construction and image coverage</h3>
+<p>ColorPlay generates 16 candidate pairs using analogous, complementary, split-complementary or triadic hue families. It varies the hue, chroma, lightness progression and relative chroma of Importance 02. It keeps every existing color position and alpha key and switches both layers to Smooth. Unlike Perceptual, it does not redistribute key positions.</p>
+<p>A 256-bin histogram counts the current normalized scalar image, weighted by source alpha. In Selected gradient view, each layer uses the full scalar coordinate. In combined or isolated-importance views, the histogram is remapped through the same split and soft layer masks as the preview. Source alpha and masks set construction boundaries; existing gradient alpha is evaluated later during scoring.</p>
+<pre>b₁ = clamp(weighted quantile at 70%, 0.12, 0.82)
+b₂ = max(b₁ + 0.08, min(0.98, weighted quantile at 92%))
+Hue-family groups: t &lt; b₁, b₁ ≤ t &lt; b₂, t ≥ b₂</pre>
+<p>The final group is the chroma-focus group. These are construction targets, not guarantees of final image coverage: existing keys, interpolation, gamut, alpha and layer mixing can alter the visible proportions. If a layer has no source coverage, its construction uses boundaries 0.6 and 0.9.</p>
+<h3>Spatial evaluation</h3>
+<p>The 512 × 512 source is reduced to 32 × 32 blocks. Each block stores mean source alpha and an alpha-weighted mean scalar value. Invisible source pixels have no influence. Candidate colors are sampled through the shared preview mapper: the same active layer, split, layer masks, alpha and linear-RGB layer mixing. The mapping is evaluated before bloom, color-vision filtering and the attention overlay.</p>
+<p>The mapped RGB and gradient alpha are quantized to 8-bit values. The analysis composites these colors against #151B23 and #E4E8ED in encoded sRGB, then converts the resulting bytes to standard, unscaled OKLab. This background test approximates ordinary display compositing; it is not a physical light-transport calculation.</p>
+<pre>Aᵢ = gradient alpha × mean source alpha in block i
+Displayed RGB_byte = round(Aᵢ P_byte + (1 − Aᵢ) B_byte)
+qᵢ = OKLab(Displayed RGB_byte)
+Cᵢ = √(aᵢ² + bᵢ²)
+dᵢⱼ = ||qᵢ − qⱼ||₂
+wᵢⱼ = min(Aᵢ, Aⱼ), for horizontal/vertical neighbors
+
+C̄ = Σ Aᵢ Cᵢ / Σ Aᵢ
+f = Σ Aᵢ [Cᵢ &gt; C̄ + 0.03] / Σ Aᵢ
+Area score = max(0, 1 − |f − 0.16| / 0.20)
+View score = 0.65 weighted_mean(min(dᵢⱼ / 0.15, 1))
+           + 0.35 Area score
+           − weighted_mean(max(0, dᵢⱼ − 0.30))</pre>
+<p>Neighbor distances reward separation but stop gaining above 0.15; distances above 0.30 receive an additional penalty. The area term favors a limited region of elevated chroma. The numbers are adjustable product heuristics, not just-noticeable differences, measured gaze probabilities or an Albers rule such as a fixed percentage of dominant/accent colors. Zero-opacity content and neighbor sets with zero weight contribute zero.</p>
+<p>The context term takes the weaker score of the two backgrounds. In Selected gradient view it combines 75% of the active layer’s context term with 25% of the other layer’s independent context term. Otherwise it evaluates the selected combined or isolated-importance view. A further 0.20 times the existing ramp-quality score rewards lightness progression and discourages large chromatic jumps. ColorPlay chooses randomly among up to four candidates within 0.12 of the highest total score, retaining variation rather than always selecting one maximum.</p>
+<h3>Comparison and limitations</h3>
+<p>Compare is read-only. Both center patches use the selected color key at full opacity; for an alpha selection, they use the middle color key. Their surrounds are the active ramp’s endpoint colors. The two preview tiles use the current layer/view and alpha against the same dark/light backgrounds used by scoring. They use the full 512 × 512 scalar source, without preview filters, and do not export or modify either ramp. Fully opaque regions look identical on both backgrounds; the background becomes visible through transparent regions.</p>
+<p>If the reference is loading, missing or fully transparent, ColorPlay safely falls back to ramp-quality selection and generic construction boundaries; Compare explains why the preview tiles are unavailable. A constant source or transparent gradient may provide little useful context. Block reduction can miss fine detail. Results depend on this image, current view, split, alpha and display conditions. Compare and test the exported palette on your actual effect and scene backgrounds.</p>
+<p>OKLab supports numeric color comparisons but does not by itself predict simultaneous contrast, adaptation or perceived color in every surround. ColorPlay does not claim to simulate human vision, guarantee an illusion, prove accessibility or discover a physically correct palette. Changing the preview filters does not change its ranking.</p>
