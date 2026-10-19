@@ -1,4 +1,4 @@
-# Private GitHub repository
+# GitHub repository
 
 Color Atlas v1.2.0.
 
@@ -13,4 +13,12 @@ From `Source/`, run `python3 work/build_standalone.py canonical/munsell-selector
 
 Some installers, packaging tools and tests retain original macOS workspace paths or sibling tool dependencies. Read `Source/AGENTS.md` and `Source/docs/ARCHITECTURE.md` before running them elsewhere. Configure target paths before release packaging.
 
-Personal runtime Data, virtual environments, logs, old HTML backups and archive ZIPs are excluded. Built-in default assets are included. No hosting or public deployment is configured.
+Personal runtime Data, virtual environments, logs, old HTML backups and archive ZIPs are excluded. Built-in default assets are included. The repository is public, as requested by its owner.
+
+## Online app — GitHub Pages
+
+Open https://raffribeiro.github.io/ColorAtlas/ . Pages publishes only the static `gh-pages` branch at `/`. That branch contains the tracked distribution App files with `COLOR_ATLAS_START_HERE.html` served as `index.html`, plus `.nojekyll`; it excludes development sources and personal runtime files.
+
+Publication currently uses a validated snapshot, not an automatic deployment from `main` or `release`. For an update, copy tracked `App/` files from the tested release into `gh-pages`, rename the entry to `index.html`, preserve `.nojekyll`, and test via HTTP before pushing. Verify Pages deployment and the live URL afterward. Never copy personal `App/Data` files.
+
+Browser workspaces are scoped to their address and browser profile. Existing local-file workspaces do not move automatically to the HTTPS site; use the app's Export/Import controls where available.
