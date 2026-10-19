@@ -1,6 +1,6 @@
 # GitHub repository
 
-Color Atlas v1.2.0.
+Color Atlas v1.2.1.
 
 - `App/`: runnable offline app; open `App/COLOR_ATLAS_START_HERE.html`.
 - `Source/`: development modules, canonical HTML snapshot, catalogs, documentation, build scripts and tests.

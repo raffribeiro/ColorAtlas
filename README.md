@@ -8,7 +8,7 @@ A browser-based color and gradient workspace for VFX and graphic design, with an
 
 [**Launch Color Atlas →**](https://raffribeiro.github.io/ColorAtlas/) · [Report a bug](https://github.com/raffribeiro/ColorAtlas/issues/new?template=bug_report.yml) · [Suggest a feature](https://github.com/raffribeiro/ColorAtlas/issues/new?template=feature_request.yml)
 
-![Version](https://img.shields.io/badge/version-1.2.0-8b9cff)
+![Version](https://img.shields.io/badge/version-1.2.1-8b9cff)
 ![Browser app](https://img.shields.io/badge/browser-no%20installation-65d6c0)
 ![Offline](https://img.shields.io/badge/offline-supported-e9bb73)
 ![Languages](https://img.shields.io/badge/languages-9-c79cf5)
