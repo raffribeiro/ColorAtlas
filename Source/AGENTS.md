@@ -46,3 +46,17 @@ Every app delivery must run work/package_standalone.py after relevant checks. It
 ## Code navigation and current validation
 
 Start with `README.md` and `docs/ARCHITECTURE.md` for source ownership and runtime contracts. Use `python3 work/project_index.py context <feature>` and `work/module-map.json` to load only relevant source/test context. `python3 work/check_project.py --list` lists current checks; historical/known failing checks are explicit in the manifest and must not be silently treated as passing. Preserve installer order and the canonical/standalone distinction.
+
+## GitHub branches and approval before publishing
+
+Regra confirmada pelo usuário em 2026-10-19: toda alteração nova deve ser preparada em outra branch; publicar no site somente depois do seu “ok” para a alteração apresentada.
+
+- Repositório: https://github.com/raffribeiro/ColorAtlas . Checkout Git durável: `github-repository/` neste workspace; branch de trabalho padrão `develop`.
+- `develop`: alterações em andamento, fontes e builds de revisão. Para isolar pedidos simultâneos, use uma branch `feature/<nome>` baseada em `develop`.
+- `main`: somente alterações aprovadas. `gh-pages`: somente arquivos do site aprovados. `release`: histórico de distribuição. Não use essas branches para desenvolvimento cotidiano.
+- Antes da aprovação, faça a implementação, atualize documentação, gere e valide o build e disponibilize preview local/artefato para revisão. Pode fazer commit/push em `develop`; isso não publica o site.
+- Um “ok” autoriza somente a revisão apresentada; não autoriza alterações futuras ou pendências de outros pedidos. Se houver mudanças não aprovadas na mesma branch, integre apenas os commits aprovados.
+- Depois da aprovação, integre o que foi aprovado em `main`, execute o fluxo pertinente de versão/package e atualize `gh-pages` com a distribuição validada. Confira o deployment e o endereço público.
+- Nenhum push em `develop` ou `main` deve disparar publicação automática. Preserve a configuração Pages em `gh-pages` (`/`). Não habilite um workflow que contorne a aprovação.
+- A exigência anterior de package para toda entrega aplica-se à entrega aprovada; antes do “ok”, use build/preview de revisão sem atualizar `ColorAtlas/App`, `Realase` ou o site. Preserve o caminho do preview e os dados existentes.
+- As fontes editáveis continuam nas localizações canônicas documentadas acima. Sincronize os arquivos de origem alterados, o snapshot canônico e os artefatos pertinentes para `Source/` no checkout `develop` antes do commit de revisão; não faça um commit apenas de HTML gerado.

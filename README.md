@@ -55,7 +55,8 @@ Your workspace is saved in the browser profile for the address you use. The onli
 | [`Source/docs/ARCHITECTURE.md`](Source/docs/ARCHITECTURE.md) | Source ownership and runtime contracts |
 | [`Realase/CHANGELOG.md`](Realase/CHANGELOG.md) | Release history; `Realase` is the existing folder name |
 | [`GITHUB.md`](GITHUB.md) | Repository setup, build caveats and website update procedure |
-| `main` | Distribution and development snapshot |
+| `develop` | Work in progress and builds for review |
+| `main` | Approved distribution and source |
 | `release` | Distribution history |
 | `gh-pages` | Published website files |
 
@@ -72,7 +73,7 @@ python3 work/build_standalone.py canonical/munsell-selector.html
 
 The generated page is `Source/outputs/munsell-color-picker.html`. Some installers, packaging scripts and tests retain paths and tooling dependencies from the original macOS workspace; see [setup notes](GITHUB.md) before using them on another machine.
 
-Website publication currently uses a validated snapshot on `gh-pages`; commits to `main` do not automatically update the live app.
+Changes are prepared on `develop` and reviewed before release. Website publication requires the owner's explicit approval and uses a validated snapshot on `gh-pages`; commits to `develop` or `main` do not automatically update the live app.
 
 ## Feedback
 

@@ -22,3 +22,9 @@ Open https://raffribeiro.github.io/ColorAtlas/ . Pages publishes only the static
 Publication currently uses a validated snapshot, not an automatic deployment from `main` or `release`. For an update, copy tracked `App/` files from the tested release into `gh-pages`, rename the entry to `index.html`, preserve `.nojekyll`, and test via HTTP before pushing. Verify Pages deployment and the live URL afterward. Never copy personal `App/Data` files.
 
 Browser workspaces are scoped to their address and browser profile. Existing local-file workspaces do not move automatically to the HTTPS site; use the app's Export/Import controls where available.
+
+## Approval-gated workflow
+
+Owner decision (2026-10-19): new changes go to `develop` (or an isolated `feature/<name>` branch), not directly to the live site. The owner reviews a validated local preview/build. Only an explicit approval of that revision authorizes integration into `main`, release packaging and publication to `gh-pages`.
+
+Approval does not include unrelated pending work. If several changes are in progress, integrate only approved commits. Pushes to `main` and `develop` must not deploy automatically; Pages remains configured to the `gh-pages` root. See root `AGENTS.md` for the operational rules.
