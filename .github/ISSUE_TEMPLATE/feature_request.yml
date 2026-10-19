@@ -1,0 +1,18 @@
+name: Feature request
+description: Suggest an improvement to Color Atlas.
+title: "[Idea] "
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do?
+      description: Describe the workflow or problem this would help with.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Suggested improvement
+      description: Describe the result you would like. References or examples are welcome.
+    validations:
+      required: true

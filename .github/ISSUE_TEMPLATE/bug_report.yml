@@ -1,0 +1,39 @@
+name: Bug report
+description: Report a problem with Color Atlas.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open the app\n2. Select...\n3. Adjust..."
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and operating system
+      placeholder: Chrome on Windows 11, Safari on macOS, etc.
+    validations:
+      required: true
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Where are you using the app?
+      options:
+        - Online (GitHub Pages)
+        - Offline (downloaded HTML)
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots and additional context
+      description: Include the app version and selected language if relevant. Remove personal information before sharing images or files.
