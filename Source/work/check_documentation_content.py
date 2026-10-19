@@ -223,7 +223,13 @@ def without_live_gradient(script):
  old='colorWheelDrag.changed=true;storeGradientLayer();drawColorWheel();drawSelectedColorPreview();drawExplosionMap();'
  assert script.count(new)==1,'Reviewed live wheel ramp update must appear exactly once'
  return script.replace(new,old,1)
-assert without_export(without_colorplay(without_clipboard(without_user_palettes(without_workspace_cleanup(without_lab_live_color(without_attention(without_editor_refinements(without_preview_layers(without_library_naming(without_startup(without_preview_multiselect(without_live_gradient(main(source))))))))))))))==without_export(expected),'Reviewed export, ColorPlay, clipboard, My palettes and live 3D changes must preserve unrelated editor handlers and color math'
+def without_bloom_range(script):
+ # The reviewed range change is the only allowed difference in restore here.
+ old='if(Number.isFinite(m.explosionBloom))state.explosionBloom=Math.max(0,Math.min(2,m.explosionBloom));'
+ new='if(Number.isFinite(m.explosionBloom))state.explosionBloom=Math.max(0,Math.min(6,m.explosionBloom));'
+ assert script.count(new)==1,'Bloom restore must have the single reviewed 600% upper bound'
+ return script.replace(new,old,1)
+assert without_export(without_colorplay(without_clipboard(without_user_palettes(without_workspace_cleanup(without_lab_live_color(without_attention(without_editor_refinements(without_preview_layers(without_library_naming(without_startup(without_preview_multiselect(without_live_gradient(without_bloom_range(main(source)))))))))))))))==without_export(expected),'Reviewed export, ColorPlay, clipboard, My palettes and live 3D changes must preserve unrelated editor handlers and color math'
 embedded=re.search(r'// PNG export options\n[\s\S]*?// End PNG export options',main(source))[0]
 assert embedded.strip()==Path('work/atlas-png-export-bundle.js').read_text().strip()
 for fact in ['Perceptual (OKLab)','Linear RGB','GradientMode.PerceptualBlend','ColorSpace.Linear','Decode sRGB exactly once','UserInterface2D (RGBA)','NoMipmaps','Particle Relative Time','u = (t · (W − 1) + 0.5) / W']:

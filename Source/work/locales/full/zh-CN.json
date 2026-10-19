@@ -838,7 +838,7 @@
   "The Color Atlas — Munsell Hue, Value and Chroma": "色彩地图集——孟塞尔色相、明度值和彩度",
   "The Default scene uses the library Fire ramp for Explosion_Emissive in Add, including a black point at 0% and a dark ember at 7.2%.": "默认场景为 Explosion_Emissive 使用资料库的火焰渐变和相加模式，包括 0% 的黑色标和 7.2% 的暗炭火色标。",
   "The PNG stores sRGB-encoded colors. With sRGB off they are read as linear and look washed out; decoding twice makes them dark and saturated.": "PNG 保存 sRGB 编码的颜色。关闭 sRGB 后，它们被当作线性值读取，看起来发白；解码两次则会变暗并增加饱和度。",
-  "The Post-process bloom slider (0–200%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.": "后期 Bloom 滑块（0–200%）为线性亮度超过约 0.45 的区域添加辉光，并以柔和过渡避免勾勒边缘。它可以检查渐变在引擎 Bloom 下的大致效果；引擎自身的 Bloom、曝光和色调映射仍会不同。",
+  "The Post-process bloom slider (0–600%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.": "后期 Bloom 滑块（0–600%）为线性亮度超过约 0.45 的区域添加辉光，并以柔和过渡避免勾勒边缘。它可以检查渐变在引擎 Bloom 下的大致效果；引擎自身的 Bloom、曝光和色调映射仍会不同。",
   "The Preview converts each image to grayscale, recolors it with that image’s own Gradient Map and stacks the results like layers in a compositor. Select a layer row to edit its ramp.": "预览将每张图转为灰度，用该图自身的渐变映射重新着色，再像合成软件图层一样叠放结果。选择图层行来编辑其渐变。",
   "The Preview updates live. Switch Smooth/Bands, toggle layers, try Random.": "预览实时更新。切换平滑/色带、开关图层并尝试随机。",
   "The active ramp or both ramps of the layer: keys, positions, alpha, Smooth/Bands.": "图层的当前渐变或两个渐变：色标、位置、Alpha、平滑/色带。",

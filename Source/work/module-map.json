@@ -340,7 +340,8 @@
     "documentation-help": "work/test_documentation_help_e2e.py",
     "language": "work/test_i18n_e2e.py",
     "language-full": "work/test_i18n_full_e2e.py",
-    "language-dynamic": "work/test_i18n_dynamic_e2e.py"
+    "language-dynamic": "work/test_i18n_dynamic_e2e.py",
+    "bloom-range": "work/test_bloom_range_e2e.py"
   },
   "historical_checks": {
     "work/check_domain_data.cjs": "Expects inline 64-preset data; current data is bundled.",

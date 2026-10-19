@@ -267,10 +267,10 @@ topic('random', 'Presets and Random', 'Preview',
 topic('analysis', 'Analysis tools', 'Preview',
       'Bloom, color-vision simulation and the attention overlay help you judge an effect. They change only the Preview — never the ramp or the export.',
       '<p>Processing order: <strong>gradient mapping → layer blending → bloom → color-vision filter → attention overlay</strong>.</p>'
-      '<h2>Bloom</h2><p>The Post-process bloom slider (0–200%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.</p>'
+      '<h2>Bloom</h2><p>The Post-process bloom slider (0–600%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.</p>'
       + example('bloom', 'Highlight bloom',
                 canvas('out', 300, 220, 'Fire blob with preview bloom'),
-                rng('b', 'Bloom', 0, 200, 100, 1, '%'),
+                rng('b', 'Bloom', 0, 600, 100, 1, '%'),
                 'Only the hot core contributes. If a ramp never reaches high luminance, bloom has nothing to grab.')
       + '<h2>Color-vision simulation</h2><p>The vision menu simulates protan, deutan and tritan deficiencies (full and 50% severity) and a grayscale check. A split handle compares regular and simulated views. The goal: important structure should survive even when some hues merge.</p>'
       + example('vision', 'Does the ramp survive?',
