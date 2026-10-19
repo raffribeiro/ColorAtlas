@@ -6,6 +6,12 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v1.2.1 — 2026-10-19
+
+- Extend Post-process bloom from 0–200% to 0–600%, preserving the 100% authored startup and reset default.
+- Accept intensities up to 600% when restoring state; keep Undo/Redo and the existing bounded screen-pass renderer.
+- Update the Bloom guide, interactive example and all nine language catalogs to cover the expanded range.
+
 ## v1.2.0 — 2026-10-18
 
 - Extend all eight additional languages to Documentation, Tutorial, contextual help, dialogs, example readouts/canvases and accessible graph descriptions.
