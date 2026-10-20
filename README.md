@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.2.2-8b9cff" alt="Version 1.2.2">
+  <img src="https://img.shields.io/badge/version-1.2.3-8b9cff" alt="Version 1.2.3">
   <img src="https://img.shields.io/badge/browser-no%20installation-65d6c0" alt="Browser app, no installation">
   <img src="https://img.shields.io/badge/offline-supported-e9bb73" alt="Works offline">
   <img src="https://img.shields.io/badge/languages-9-c79cf5" alt="Nine languages">

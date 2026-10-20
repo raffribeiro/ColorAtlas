@@ -4,9 +4,14 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 ## Unreleased
 
-- Prepare a no-account, public page-load counter for the online edition only; keep offline use uncounted and editor data local.
+No changes yet.
 
-- Show the Color Atlas Ca brand mark in the browser tab, embedded for offline use. Update the Interface guide in all nine languages.
+## v1.2.3 — 2026-10-20
+
+- Show the Color Atlas Ca mark in the browser tab, embedded for offline use.
+- Add a no-account public page-load counter to the GitHub Pages edition only. Keep offline use uncounted; respect DNT/GPC and exclude local addresses, frames and automated browser visits.
+- Keep editor images, palettes and presets local. Send no user query parameters or referrer to the counter; preserve the editor sandbox and restrict the host exception to the counter image URL.
+- Update the Interface guide and all nine language catalogs, and document the separate, approval-gated Pages build.
 
 ## v1.2.2 — 2026-10-19
 

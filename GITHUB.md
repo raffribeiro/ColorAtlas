@@ -1,6 +1,6 @@
 # GitHub repository
 
-Color Atlas v1.2.2.
+Color Atlas v1.2.3.
 
 - `App/`: runnable offline app; open `App/COLOR_ATLAS_START_HERE.html`.
 - `Source/`: development modules, canonical HTML snapshot, catalogs, documentation, build scripts and tests.
@@ -35,7 +35,7 @@ Secret scanning, push protection, dependency alerts, automated security fixes an
 
 The browser app stores uploaded working images and layers locally and restores them on reopen. Storage is scoped to the same address and browser profile; use Export/Import for portable backups.
 
-## Public page-load counter (review pending)
+## Public page-load counter
 
 The Pages-only transform adds a Hits.sh image request for the exact production address. The offline App and local review stay network-disabled. The editor iframe policy is unchanged; only the host image policy allows the exact counter path. No remote scripts or network connections are enabled.
 
