@@ -19,7 +19,7 @@ Personal runtime Data, virtual environments, logs, old HTML backups and archive 
 
 Open https://raffribeiro.github.io/ColorAtlas/ . Pages publishes only the static `gh-pages` branch at `/`. That branch contains the tracked distribution App files with `COLOR_ATLAS_START_HERE.html` served as `index.html`, plus `.nojekyll`; it excludes development sources and personal runtime files.
 
-Publication currently uses a validated snapshot, not an automatic deployment from `main` or `release`. For an update, copy tracked `App/` files from the tested release into `gh-pages`, rename the entry to `index.html`, preserve `.nojekyll`, and test via HTTP before pushing. Verify Pages deployment and the live URL afterward. Never copy personal `App/Data` files.
+Publication currently uses a validated snapshot, not an automatic deployment from `main` or `release`. For an update, copy tracked `App/` files from the tested release into `gh-pages`, generate `index.html` with `python3 Source/work/build_pages.py App/COLOR_ATLAS_START_HERE.html --output /path/to/pages/index.html`, preserve `.nojekyll`, and test via HTTP before pushing. Verify Pages deployment and the live URL afterward. Never copy personal `App/Data` files.
 
 Browser workspaces are scoped to their address and browser profile. Existing local-file workspaces do not move automatically to the HTTPS site; use the app's Export/Import controls where available.
 
@@ -34,3 +34,11 @@ Approval does not include unrelated pending work. If several changes are in prog
 Secret scanning, push protection, dependency alerts, automated security fixes and private vulnerability reporting are enabled. Production history rules prevent branch deletion and force pushes on main and gh-pages. They do not enforce owner review for normal pushes; publication approval remains the operational gate above.
 
 The browser app stores uploaded working images and layers locally and restores them on reopen. Storage is scoped to the same address and browser profile; use Export/Import for portable backups.
+
+## Public page-load counter (review pending)
+
+The Pages-only transform adds a Hits.sh image request for the exact production address. The offline App and local review stay network-disabled. The editor iframe policy is unchanged; only the host image policy allows the exact counter path. No remote scripts or network connections are enabled.
+
+Public stats: https://hits.sh/raffribeiro.github.io/ColorAtlas/ . These are page loads, not unique people, and may include bots/reloads. No account or secret is required. Images, presets, names, palettes, query parameters and referrers are not sent by our counter integration. DNT/GPC preferences, local addresses, other deployments, frames and WebDriver visits are excluded. A service outage must not affect editing.
+
+Build a review with `python3 work/build_pages.py` from Source; this writes `outputs/pages-index.html` only. The normal standalone remains `outputs/munsell-color-picker.html`. Publish only after owner approval. The live Pages hash will differ from App by this deterministic transform; compare it against the generated Pages output, while the release ZIP must still match App.

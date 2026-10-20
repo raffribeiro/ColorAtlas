@@ -4,6 +4,8 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 ## Unreleased
 
+- Prepare a no-account, public page-load counter for the online edition only; keep offline use uncounted and editor data local.
+
 - Show the Color Atlas Ca brand mark in the browser tab, embedded for offline use. Update the Interface guide in all nine languages.
 
 ## v1.2.2 — 2026-10-19

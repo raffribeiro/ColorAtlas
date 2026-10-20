@@ -152,6 +152,7 @@ topic('interface', 'Interface and shortcuts', 'Start here',
       + tip('<strong>Your library lives in this browser.</strong> It is tied to the browser profile and the exact file path of the app. Opening the HTML from another folder, in another browser or after clearing site data shows an empty library. '
             'Use <strong>Export</strong> to keep a backup file, and <strong>Import</strong> to restore it or move it to another computer.')
       + '<p>Uploaded images and the current layer stack are saved in this browser and restored when you reopen the app. On first launch, Default is shown. You can select Default again from Preview presets without deleting your saved presets. Export a library backup before clearing browser data or moving to another browser.</p>'
+      + '<p>Online page-load totals are public on Hits.sh and may include repeat visits or bots. Images and palettes are not sent to this counter. Offline use is not counted.</p>'
       + '<p>Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each, 8192 px per side and 32 megapixels. Library imports accept JSON up to 64 MB, with up to 256 palettes, 2048 favorites, 256 folders and 256 Preview presets.</p>')
 
 # ------------------------------------------------------------------- Color

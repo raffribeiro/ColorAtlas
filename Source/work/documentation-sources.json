@@ -683,6 +683,13 @@
    "kind": "External official platform documentation",
    "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-security-and-analysis-settings-for-your-repository",
    "used_for": "Secret scanning, push protection, dependency updates and repository security controls."
+  },
+  {
+   "id": "hits-counter",
+   "title": "Hits source and integration guide",
+   "url": "https://github.com/silentsoft/hits",
+   "checked_on": "2026-10-20",
+   "used_for": "No-account public page-load counter, badge URL and public statistics. Production-only guards and fixed URL are Color Atlas choices; not unique-person analytics."
   }
  ]
 }

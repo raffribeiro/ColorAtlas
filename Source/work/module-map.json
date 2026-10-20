@@ -200,14 +200,18 @@
         "work/standalone-frame-prefix.html",
         "work/standalone-frame-suffix.html",
         "work/project_index.py",
-        "work/check_project.py"
+        "work/check_project.py",
+        "work/build_pages.py",
+        "work/atlas-hits.js"
       ],
       "install": [],
       "checks": [
         "work/test_build_pipeline.py",
         "work/check_project_index.py",
         "work/test_project_checks.py",
-        "work/check_bundle_sync.cjs"
+        "work/check_bundle_sync.cjs",
+        "work/test_pages_analytics.py",
+        "work/check_hits.cjs"
       ]
     },
     "release": {
@@ -348,7 +352,8 @@
     "language-dynamic": "work/test_i18n_dynamic_e2e.py",
     "bloom-range": "work/test_bloom_range_e2e.py",
     "security": "work/test_security_e2e.py",
-    "preview-persistence": "work/test_preview_persistence_e2e.py"
+    "preview-persistence": "work/test_preview_persistence_e2e.py",
+    "hits": "work/test_hits_e2e.py"
   },
   "historical_checks": {
     "work/check_domain_data.cjs": "Expects inline 64-preset data; current data is bundled.",
@@ -405,7 +410,9 @@
     "work/check_security_policy.cjs",
     "work/check_default_preview.cjs",
     "work/check_bloom_default.cjs",
-    "work/check_layer_drop.cjs"
+    "work/check_layer_drop.cjs",
+    "work/test_pages_analytics.py",
+    "work/check_hits.cjs"
   ],
   "inactive_runtime": {
     "work/atlas-folder-data.js": "Legacy folder-store path; browser release uses atlas-preview-storage.js.",
