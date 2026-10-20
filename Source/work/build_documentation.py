@@ -121,7 +121,7 @@ topic('quick-start', 'Quick start', 'Start here',
 
 topic('interface', 'Interface and shortcuts', 'Start here',
       'The workspace has four zones: the library on the left, color authoring in the middle, the Gradient Map along the bottom and the Preview with its layers on the right. The top bar switches between Editor and Documentation and replays the Tutorial.',
-      '<h2>Where things are</h2>'
+      '<p>Find this workspace by the Ca icon in your browser tab.</p><h2>Where things are</h2>'
       + table(['Zone', 'What you do there'], [
           ['Top bar', 'Use Editor, Documentation and Tutorial to switch tasks. The language menu translates the editor, Documentation, interactive examples, contextual help and Tutorial. English is the initial language and your choice is remembered. Palette names, layer names and your work are kept as entered.'],
           ['Library (left)', 'Search presets by name or mood. If nothing matches, try fire, ice or smoke. Open folders, star favorites and load My palettes.'],

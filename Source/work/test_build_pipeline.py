@@ -31,6 +31,26 @@ class BuildPipelineTests(unittest.TestCase):
             'atlas-random-performance.js', 'atlas-i18n-graphics.js', 'atlas-i18n-library.js'])
         self.assertEqual(atlas_build.export_integrations(), expected)
 
+    def test_browser_tab_icon_is_embedded_brand_mark(self):
+        from html.parser import HTMLParser
+        from urllib.parse import unquote
+        import xml.etree.ElementTree as ET
+        class Icons(HTMLParser):
+            def __init__(self): super().__init__(); self.icons = []
+            def handle_starttag(self, tag, attrs):
+                a = dict(attrs)
+                if tag == 'link' and a.get('rel') == 'icon': self.icons.append(a)
+        page = Icons(); page.feed((atlas_build.WORK / 'standalone-shell.html').read_text())
+        self.assertEqual(len(page.icons), 1, 'The top-level page owns the browser tab icon')
+        icon = page.icons[0]
+        self.assertEqual(icon['type'], 'image/svg+xml')
+        self.assertTrue(icon['href'].startswith('data:image/svg+xml,'), 'Icon must work offline')
+        svg = ET.fromstring(unquote(icon['href'].split(',', 1)[1]))
+        self.assertEqual(svg.attrib['viewBox'], '0 0 32 32')
+        self.assertIn('Ca', ''.join(svg.itertext()))
+        self.assertGreaterEqual(len(list(svg.iter('{http://www.w3.org/2000/svg}stop'))), 5)
+        self.assertNotIn('script', icon['href'])
+
     def test_import_has_no_publication_side_effect(self):
         with patch.object(atlas_build, 'atomic_write', side_effect=AssertionError('Import wrote')):
             module = importlib.import_module('fit_local_page')

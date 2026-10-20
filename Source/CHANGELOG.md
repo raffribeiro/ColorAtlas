@@ -4,7 +4,7 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 ## Unreleased
 
-No changes yet.
+- Show the Color Atlas Ca brand mark in the browser tab, embedded for offline use. Update the Interface guide in all nine languages.
 
 ## v1.2.2 — 2026-10-19
 

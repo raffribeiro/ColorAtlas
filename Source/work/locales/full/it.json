@@ -346,6 +346,7 @@
   "Final Report of the O.S.A. Subcommittee on the Spacing of the Munsell Colors": "Rapporto finale del sottocomitato O.S.A. sulla spaziatura dei colori Munsell",
   "Find a control, task or term in Documentation and jump to the matching section.": "Cerca un controllo, compito o termine nella Documentazione e apri la sezione corrispondente.",
   "Find a preset, save a palette and export your work.": "Trova un predefinito, salva una tavolozza ed esporta il lavoro.",
+  "Find this workspace by the Ca icon in your browser tab.": "Ritrova questo spazio di lavoro tramite l’icona Ca nella scheda del browser.",
   "Fine-tune": "Regola con precisione",
   "Fire": "Fuoco",
   "Fire and heat / ice, magic, sci-fi.": "Fuoco e calore / ghiaccio, magia, fantascienza.",
@@ -913,6 +914,7 @@
   "Untitled palette": "Tavolozza senza titolo",
   "Up and down is lightness.": "La luminosità va dal basso all’alto.",
   "Update selected": "Aggiorna selezione",
+  "Uploaded images and the current layer stack are saved in this browser and restored when you reopen the app. On first launch, Default is shown. You can select Default again from Preview presets without deleting your saved presets. Export a library backup before clearing browser data or moving to another browser.": "Le immagini importate e la pila di livelli attuale vengono salvate in questo browser e ripristinate quando riapri l’app. Al primo avvio viene mostrato Default. Puoi selezionare nuovamente Default nei preset di Preview senza eliminare i preset salvati. Esporta un backup della libreria prima di cancellare i dati del browser o cambiare browser.",
   "Use": "Usa",
   "Use Editor, Documentation and Tutorial to switch tasks. The language menu translates editor controls; English is the initial language and your choice is remembered. Documentation, help text and Tutorial currently remain in English. Palette names, layer names and your work are kept as entered.": "Usa Editor, Documentazione e Tutorial per cambiare attività. Il menu lingua traduce i controlli; l’inglese è iniziale e la scelta è memorizzata. Documentazione, aiuto e Tutorial restano per ora in inglese. Nomi di tavolozze, livelli e lavoro restano come inseriti.",
   "Use Editor, Documentation and Tutorial to switch tasks. The language menu translates the editor, Documentation, interactive examples, contextual help and Tutorial. English is the initial language and your choice is remembered. Palette names, layer names and your work are kept as entered.": "Usa Editor, Documentazione e Tutorial per cambiare attività. Il menu lingua traduce editor, documentazione, esempi interattivi, aiuto contestuale e tutorial. L’inglese è iniziale e la scelta è memorizzata. Nomi di tavolozze, livelli e lavoro restano come inseriti.",
@@ -1100,6 +1102,5 @@
   "□ Current selection": "□ Selezione attuale",
   "◆ Highest tabulated Chroma": "◆ Croma tabulato più alto",
   "○ remapped u ◌ naive u = t": "○ u rimappato ◌ u = t ingenuo",
-  "⚄ Random harmony": "⚄ Armonia casuale",
-  "Uploaded images and the current layer stack are saved in this browser and restored when you reopen the app. On first launch, Default is shown. You can select Default again from Preview presets without deleting your saved presets. Export a library backup before clearing browser data or moving to another browser.": "Le immagini importate e la pila di livelli attuale vengono salvate in questo browser e ripristinate quando riapri l’app. Al primo avvio viene mostrato Default. Puoi selezionare nuovamente Default nei preset di Preview senza eliminare i preset salvati. Esporta un backup della libreria prima di cancellare i dati del browser o cambiare browser."
+  "⚄ Random harmony": "⚄ Armonia casuale"
 }
