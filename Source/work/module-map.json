@@ -96,6 +96,7 @@
     },
     "preview": {
       "sources": [
+        "work/atlas-image-guard.js",
         "work/atlas-preview-layers-core.js",
         "work/atlas-preview-layers.js",
         "work/atlas-preview-presets.js",
@@ -109,7 +110,11 @@
       ],
       "checks": [
         "work/check_preview_layers.cjs",
-        "work/check_normalize_values.cjs"
+        "work/check_normalize_values.cjs",
+        "work/test_import_security.cjs",
+        "work/check_default_preview.cjs",
+        "work/check_bloom_default.cjs",
+        "work/check_layer_drop.cjs"
       ],
       "core_symbols": [
         "drawExplosionMap"
@@ -341,7 +346,9 @@
     "language": "work/test_i18n_e2e.py",
     "language-full": "work/test_i18n_full_e2e.py",
     "language-dynamic": "work/test_i18n_dynamic_e2e.py",
-    "bloom-range": "work/test_bloom_range_e2e.py"
+    "bloom-range": "work/test_bloom_range_e2e.py",
+    "security": "work/test_security_e2e.py",
+    "preview-persistence": "work/test_preview_persistence_e2e.py"
   },
   "historical_checks": {
     "work/check_domain_data.cjs": "Expects inline 64-preset data; current data is bundled.",
@@ -393,7 +400,12 @@
     "work/check_bundle_sync.cjs",
     "work/check_context_help.cjs",
     "work/test_documentation_install.py",
-    "work/check_i18n.py"
+    "work/check_i18n.py",
+    "work/test_import_security.cjs",
+    "work/check_security_policy.cjs",
+    "work/check_default_preview.cjs",
+    "work/check_bloom_default.cjs",
+    "work/check_layer_drop.cjs"
   ],
   "inactive_runtime": {
     "work/atlas-folder-data.js": "Legacy folder-store path; browser release uses atlas-preview-storage.js.",

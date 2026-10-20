@@ -482,7 +482,7 @@
   "Library explored": "Bibliothèque explorée",
   "Library file": "Fichier de bibliothèque",
   "Light. Chroma. Possibility.": "Lumière. Chroma. Possibilités.",
-  "Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each.": "Limites : Mes palettes dispose de 8 KiB (capacité selon le nombre de points) ; un enregistrement trop grand est refusé. Les scènes d’aperçu acceptent huit images PNG/JPEG/WebP de 20 Mo chacune au maximum.",
+  "Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each, 8192 px per side and 32 megapixels. Library imports accept JSON up to 64 MB, with up to 256 palettes, 2048 favorites, 256 folders and 256 Preview presets.": "Limites : My palettes dispose de 8 Kio (la capacité dépend du nombre de points) ; tout enregistrement trop volumineux est refusé. Les scènes de Preview acceptent jusqu’à huit images PNG/JPEG/WebP de 20 Mo chacune, 8192 px par côté et 32 mégapixels maximum. L’import de bibliothèque accepte un JSON de 64 Mo maximum, avec jusqu’à 256 palettes, 2048 favoris, 256 dossiers et 256 presets de Preview.",
   "Live preview": "Aperçu en direct",
   "Load Preview preset": "Charger un préréglage d’aperçu",
   "Load a saved Preview scene, including its images, gradients and layer settings.": "Charge une scène enregistrée, avec ses images, dégradés et réglages de calques.",
@@ -838,7 +838,7 @@
   "The Color Atlas — Munsell Hue, Value and Chroma": "L’atlas des couleurs — Teinte, Valeur et Chroma de Munsell",
   "The Default scene uses the library Fire ramp for Explosion_Emissive in Add, including a black point at 0% and a dark ember at 7.2%.": "La scène Par défaut utilise le dégradé Fire de la bibliothèque pour Explosion_Emissive en Addition, avec un point noir à 0% et une braise sombre à 7.2%.",
   "The PNG stores sRGB-encoded colors. With sRGB off they are read as linear and look washed out; decoding twice makes them dark and saturated.": "Le PNG stocke des couleurs codées sRGB. Sans sRGB elles sont lues comme linéaires et paraissent délavées ; les décoder deux fois les assombrit et les sature.",
-  "The Post-process bloom slider (0–600%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.": "Le curseur Halo de post-traitement (0–600%) fait rayonner les zones de luminance linéaire supérieure à environ 0.45, avec une transition douce pour éviter les contours. Il permet d’anticiper le halo d’un moteur ; le halo, l’exposition et le tone mapping du moteur resteront différents.",
+  "The Post-process bloom slider (0–700%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.": "Le curseur Halo de post-traitement (0–700%) fait rayonner les zones de luminance linéaire supérieure à environ 0.45, avec une transition douce pour éviter les contours. Il permet d’anticiper le halo d’un moteur ; le halo, l’exposition et le tone mapping du moteur resteront différents.",
   "The Preview converts each image to grayscale, recolors it with that image’s own Gradient Map and stacks the results like layers in a compositor. Select a layer row to edit its ramp.": "L’aperçu convertit chaque image en gris, la recolore avec son propre dégradé et empile les résultats comme des calques de compositing. Sélectionnez une ligne pour modifier son dégradé.",
   "The Preview updates live. Switch Smooth/Bands, toggle layers, try Random.": "L’aperçu se met à jour en direct. Changez Lisse/Bandes, activez les calques, essayez Aléatoire.",
   "The active ramp or both ramps of the layer: keys, positions, alpha, Smooth/Bands.": "Le dégradé actif ou les deux du calque : points, positions, alpha, Lisse/Bandes.",
@@ -1100,5 +1100,6 @@
   "□ Current selection": "□ Sélection actuelle",
   "◆ Highest tabulated Chroma": "◆ Chroma tabulé le plus élevé",
   "○ remapped u ◌ naive u = t": "○ u réaffecté ◌ u = t naïf",
-  "⚄ Random harmony": "⚄ Harmonie aléatoire"
+  "⚄ Random harmony": "⚄ Harmonie aléatoire",
+  "Uploaded images and the current layer stack are saved in this browser and restored when you reopen the app. On first launch, Default is shown. You can select Default again from Preview presets without deleting your saved presets. Export a library backup before clearing browser data or moving to another browser.": "Les images importées et la pile de calques actuelle sont enregistrées dans ce navigateur et restaurées à la réouverture de l’app. Au premier lancement, Default s’affiche. Vous pouvez sélectionner à nouveau Default dans les presets de Preview sans supprimer vos presets enregistrés. Exportez une sauvegarde de la bibliothèque avant d’effacer les données du navigateur ou d’en changer."
 }

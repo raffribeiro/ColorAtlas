@@ -151,7 +151,8 @@ topic('interface', 'Interface and shortcuts', 'Start here',
           ['Library file', '<strong>Export</strong> / <strong>Import</strong> next to PALETTES', 'My palettes, favorites and your Preview presets in one JSON file. Import adds to the current library; nothing is deleted.']])
       + tip('<strong>Your library lives in this browser.</strong> It is tied to the browser profile and the exact file path of the app. Opening the HTML from another folder, in another browser or after clearing site data shows an empty library. '
             'Use <strong>Export</strong> to keep a backup file, and <strong>Import</strong> to restore it or move it to another computer.')
-      + '<p>Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each.</p>')
+      + '<p>Uploaded images and the current layer stack are saved in this browser and restored when you reopen the app. On first launch, Default is shown. You can select Default again from Preview presets without deleting your saved presets. Export a library backup before clearing browser data or moving to another browser.</p>'
+      + '<p>Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each, 8192 px per side and 32 megapixels. Library imports accept JSON up to 64 MB, with up to 256 palettes, 2048 favorites, 256 folders and 256 Preview presets.</p>')
 
 # ------------------------------------------------------------------- Color
 topic('editing-color', 'Editing color', 'Color',
@@ -267,10 +268,10 @@ topic('random', 'Presets and Random', 'Preview',
 topic('analysis', 'Analysis tools', 'Preview',
       'Bloom, color-vision simulation and the attention overlay help you judge an effect. They change only the Preview — never the ramp or the export.',
       '<p>Processing order: <strong>gradient mapping → layer blending → bloom → color-vision filter → attention overlay</strong>.</p>'
-      '<h2>Bloom</h2><p>The Post-process bloom slider (0–600%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.</p>'
+      '<h2>Bloom</h2><p>The Post-process bloom slider (0–700%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.</p>'
       + example('bloom', 'Highlight bloom',
                 canvas('out', 300, 220, 'Fire blob with preview bloom'),
-                rng('b', 'Bloom', 0, 600, 100, 1, '%'),
+                rng('b', 'Bloom', 0, 700, 100, 1, '%'),
                 'Only the hot core contributes. If a ramp never reaches high luminance, bloom has nothing to grab.')
       + '<h2>Color-vision simulation</h2><p>The vision menu simulates protan, deutan and tritan deficiencies (full and 50% severity) and a grayscale check. A split handle compares regular and simulated views. The goal: important structure should survive even when some hues merge.</p>'
       + example('vision', 'Does the ramp survive?',

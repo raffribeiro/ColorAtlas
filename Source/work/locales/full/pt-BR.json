@@ -482,7 +482,7 @@
   "Library explored": "Biblioteca explorada",
   "Library file": "Arquivo de biblioteca",
   "Light. Chroma. Possibility.": "Luz. Croma. Possibilidade.",
-  "Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each.": "Limites: Minhas paletas tem 8 KiB (a capacidade depende do número de pontos); salvamentos que não cabem são recusados. Cenas da Prévia comportam até oito imagens PNG/JPEG/WebP de até 20 MB cada.",
+  "Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each, 8192 px per side and 32 megapixels. Library imports accept JSON up to 64 MB, with up to 256 palettes, 2048 favorites, 256 folders and 256 Preview presets.": "Limites: My palettes tem um orçamento de 8 KiB (a capacidade depende da quantidade de pontos); uma paleta que não cabe é recusada. Cenas de Preview comportam até oito imagens PNG/JPEG/WebP de até 20 MB cada, 8192 px por lado e 32 megapixels. A importação da biblioteca aceita JSON de até 64 MB, com até 256 paletas, 2048 favoritos, 256 pastas e 256 presets de Preview.",
   "Live preview": "Prévia ao vivo",
   "Load Preview preset": "Carregar preset da Prévia",
   "Load a saved Preview scene, including its images, gradients and layer settings.": "Carregue uma cena da Prévia salva, incluindo imagens, gradientes e configurações de camada.",
@@ -838,7 +838,7 @@
   "The Color Atlas — Munsell Hue, Value and Chroma": "O Atlas de Cores — Matiz, Valor e Croma de Munsell",
   "The Default scene uses the library Fire ramp for Explosion_Emissive in Add, including a black point at 0% and a dark ember at 7.2%.": "A cena Padrão usa a rampa Fogo da biblioteca em Explosion_Emissive com Add, incluindo um ponto preto em 0% e uma brasa escura em 7.2%.",
   "The PNG stores sRGB-encoded colors. With sRGB off they are read as linear and look washed out; decoding twice makes them dark and saturated.": "O PNG armazena cores codificadas em sRGB. Com sRGB desligado, elas são lidas como lineares e parecem lavadas; decodificar duas vezes as deixa escuras e saturadas.",
-  "The Post-process bloom slider (0–600%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.": "O controle Bloom de pós-processamento (0–600%) adiciona brilho a áreas cuja luminância linear passa de cerca de 0.45, com transição suave para não contornar bordas. Use para avaliar uma rampa sob bloom de engine; bloom, exposição e tone mapping da sua engine ainda serão diferentes.",
+  "The Post-process bloom slider (0–700%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.": "O controle Bloom de pós-processamento (0–700%) adiciona brilho a áreas cuja luminância linear passa de cerca de 0.45, com transição suave para não contornar bordas. Use para avaliar uma rampa sob bloom de engine; bloom, exposição e tone mapping da sua engine ainda serão diferentes.",
   "The Preview converts each image to grayscale, recolors it with that image’s own Gradient Map and stacks the results like layers in a compositor. Select a layer row to edit its ramp.": "A Prévia converte cada imagem em cinza, a recolore com seu próprio Mapa de gradiente e empilha os resultados como camadas de composição. Selecione uma linha de camada para editar sua rampa.",
   "The Preview updates live. Switch Smooth/Bands, toggle layers, try Random.": "A Prévia atualiza em tempo real. Alterne Suave/Faixas, ative camadas e experimente Aleatório.",
   "The active ramp or both ramps of the layer: keys, positions, alpha, Smooth/Bands.": "A rampa ativa ou ambas as rampas da camada: pontos, posições, alfa, Suave/Faixas.",
@@ -1100,5 +1100,6 @@
   "□ Current selection": "□ Seleção atual",
   "◆ Highest tabulated Chroma": "◆ Maior Croma tabelado",
   "○ remapped u ◌ naive u = t": "○ u remapeado ◌ u = t ingênuo",
-  "⚄ Random harmony": "⚄ Harmonia aleatória"
+  "⚄ Random harmony": "⚄ Harmonia aleatória",
+  "Uploaded images and the current layer stack are saved in this browser and restored when you reopen the app. On first launch, Default is shown. You can select Default again from Preview presets without deleting your saved presets. Export a library backup before clearing browser data or moving to another browser.": "As imagens importadas e a pilha atual de layers são salvas neste navegador e restauradas ao reabrir o app. Na primeira abertura, Default é exibido. Você pode selecionar Default novamente nos presets de Preview sem apagar os presets salvos. Exporte um backup da biblioteca antes de limpar os dados do navegador ou mudar de navegador."
 }

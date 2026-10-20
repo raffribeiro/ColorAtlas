@@ -656,6 +656,33 @@
     "editing-color"
    ],
    "links": []
+  },
+  {
+   "id": "online-import-budgets",
+   "title": "Online import budgets",
+   "kind": "Original app safety budget choice",
+   "used_for": "64 MiB library JSON pre-read limit; bounded collection counts;20 MiB compressed PNG/JPEG/WebP,8192px maximum edge and32MP maximum dimensions. These are app choices, not browser standards.",
+   "topics": [
+    "interface",
+    "layers"
+   ],
+   "links": []
+  }
+ ],
+ "maintenance_sources": [
+  {
+   "id": "mdn-csp-script-src",
+   "checked_on": "2026-10-19",
+   "kind": "External browser security documentation",
+   "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src",
+   "used_for": "Remove unused remote script allowances and unsafe-eval; preserve embedded inline app scripts and opaque iframe."
+  },
+  {
+   "id": "github-security-settings",
+   "checked_on": "2026-10-19",
+   "kind": "External official platform documentation",
+   "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-security-and-analysis-settings-for-your-repository",
+   "used_for": "Secret scanning, push protection, dependency updates and repository security controls."
   }
  ]
 }

@@ -5,15 +5,15 @@
 const root = document.getElementById('munsell-picker');
 const store = window.AtlasOnboardingStore;
 if (!root || !store || root.querySelector('.atlas-library-io')) return;
-const FORMAT = 'color-atlas-library', BUILTIN = new Set(['codex-use-esse', 'temp-design']), BUDGET = 8 * 1024;
+const FORMAT = 'color-atlas-library', BUILTIN = new Set(['codex-use-esse', 'temp-design']), BUDGET = 8 * 1024, MAX_LIBRARY_BYTES = 64 * 1024 * 1024;
 let seq = 0;
 function hostStore(action, payload) {
  return new Promise((resolve, reject) => {
   const id = 'atlas-io-' + (++seq) + '-' + Date.now();
   const timer = setTimeout(() => { removeEventListener('message', reply); reject(new Error('timeout')); }, 8000);
-  function reply(e) { const d = e.data; if (d?.channel !== 'color-atlas-preview-store' || d.id !== id) return; clearTimeout(timer); removeEventListener('message', reply); d.ok ? resolve(d.payload) : reject(new Error('store')); }
+  function reply(e) { const d = e.data; if (e.source !== parent || d?.channel !== 'color-atlas-preview-store' || typeof d.id !== 'string' || d.id !== id || typeof d.ok !== 'boolean') return; clearTimeout(timer); removeEventListener('message', reply); d.ok ? resolve(d.payload) : reject(new Error('store')); }
   addEventListener('message', reply);
-  try { parent.postMessage({ channel: 'color-atlas-preview-store', id, action, payload }, '*'); } catch (error) { clearTimeout(timer); reject(error); }
+  try { parent.postMessage({ channel: 'color-atlas-preview-store', id, action, payload }, '*'); } catch (error) { clearTimeout(timer); removeEventListener('message', reply); reject(error); }
  });
 }
 const model = () => { const s = store.current() || window.openai?.widgetState || {}; return { state: s, m: s.modelContent || s }; };
@@ -54,9 +54,18 @@ async function exportLibrary() {
 }
 
 async function importLibrary(file) {
+ if (!file || !Number.isFinite(file.size) || file.size < 0 || file.size > MAX_LIBRARY_BYTES) return say('Choose a library JSON up to 64 MB.');
  let data;
  try { data = JSON.parse(await file.text()); } catch { return say('That file is not a Color Atlas library (invalid JSON).'); }
  if (data?.format !== FORMAT || data.version !== 1) return say('That file is not a Color Atlas library.');
+ // Validate every collection before the first host request or state write.
+ // Missing collections remain valid for older partial library backups.
+ const record = v => v !== null && typeof v === 'object' && !Array.isArray(v);
+ const array = (key, max, item) => data[key] === undefined || (Array.isArray(data[key]) && data[key].length <= max && data[key].every(item));
+ if (!array('palettes', 256, p => record(p) && window.AtlasPreviewValidation?.palette(p) === true) ||
+     !array('favorites', 2048, id => typeof id === 'string' && /^[a-z0-9_-]{1,120}$/i.test(id)) ||
+     !array('previewPresets', 256, p => record(p) && typeof p.name === 'string' && record(p.doc) && p.doc.version === 1 && Array.isArray(p.doc.layers) && p.doc.layers.length <= 8 && p.doc.layers.every(record) && window.AtlasPreviewValidation?.document(p.doc) === true) ||
+     (data.folders !== undefined && (!record(data.folders) || Object.keys(data.folders).length > 256))) return say('That library has invalid or too many entries.');
  say('Importing…', true);
  const { state, m } = model();
  // Palettes: add the ones not already present, within the storage budget.

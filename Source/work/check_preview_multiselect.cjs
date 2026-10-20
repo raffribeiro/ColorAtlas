@@ -1,7 +1,7 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const box={require,console,structuredClone,setImmediate,queueMicrotask};
-vm.runInNewContext(fs.readFileSync('work/check_preview_layers_ui.cjs','utf8').split('(async()=>{')[0]+'\nglobalThis.h={c,get,tick,timers};',box);
-const {c,get,tick}=box.h;
+vm.runInNewContext(fs.readFileSync('work/check_preview_layers_ui.cjs','utf8').split('(async()=>{')[0]+'\nglobalThis.h={c,get,tick,timers,imageFile};',box);
+const {c,get,tick,imageFile}=box.h;
 const source=fs.readFileSync(process.env.ATLAS_TEST_SOURCE||'/Users/raffribeiro/.codex/visualizations/2026/10/01/01a0f83c-7569-7dd0-ad8b-3e73b2b454df/munsell-selector.html','utf8');
 const start=source.indexOf('function randomAllLayers('),end=source.indexOf('// Render choices',start);
 vm.runInContext(source.slice(start,end),c);
@@ -20,7 +20,7 @@ const clickIndex=(index,shiftKey=false)=>get('#preview-layer-list').children[ind
 (async()=>{
  c.initializePreviewLayers();await tick();
  const file=get('#preview-layer-file');
- for(const name of ['Second.png','Third.png']){get('[data-preview-action="add"]').handlers.click();file.files=[{name,type:'image/png',size:10}];await file.handlers.change({target:file});}
+ for(const name of ['Second.png','Third.png']){get('[data-preview-action="add"]').handlers.click();file.files=[imageFile(name)];await file.handlers.change({target:file});}
  const ids=[...vm.runInContext('previewImages.map(p=>p.id)',c)];
  for(const row of get('#preview-layer-list').children)if(row.children[2]['aria-pressed']==='true')row.children[2].handlers.click();
  clickIndex(0);clickIndex(1,true);

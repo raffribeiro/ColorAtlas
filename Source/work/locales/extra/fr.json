@@ -70,5 +70,8 @@
   "Warm accents": "Accents chauds",
   "Cool accents": "Accents froids",
   "Mixed accents": "Accents mixtes",
-  "Essentials": "Essentiels"
+  "Essentials": "Essentiels",
+  "Choose a library JSON up to 64 MB.": "Choisissez un fichier JSON de bibliothèque de 64 Mo maximum.",
+  "That library has invalid or too many entries.": "Cette bibliothèque contient des entrées non valides ou trop nombreuses.",
+  "Choose an image up to 8192 px per side and 32 megapixels.": "Choisissez une image de 8192 px par côté et 32 mégapixels maximum."
 }

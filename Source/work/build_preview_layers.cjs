@@ -1,6 +1,6 @@
 const fs=require('fs');
 const esbuild=require(process.env.COLOR_ATLAS_ESBUILD||'/Users/raffribeiro/Documents/Codex/RPG_Narrator/narrative-engine/node_modules/esbuild');
-const code=fs.readFileSync('work/atlas-preview-layers-core.js','utf8')+fs.readFileSync('work/atlas-preview-layers.js','utf8')+fs.readFileSync('work/atlas-preview-presets.js','utf8');
+const code=fs.readFileSync('work/atlas-image-guard.js','utf8')+fs.readFileSync('work/atlas-preview-layers-core.js','utf8')+fs.readFileSync('work/atlas-preview-layers.js','utf8')+fs.readFileSync('work/atlas-preview-presets.js','utf8');
 const min=esbuild.transformSync(code,{minify:true,target:'es2022'}).code;
 if(!min.includes('function previewComposite(')||!min.includes('function initializePreviewLayers('))throw new Error('Preserve app integration names');
 fs.writeFileSync('work/atlas-preview-layers-bundle.js','// Independent image Gradient Maps; compiled app modules.\n'+min+'// End Preview image stack.\n');

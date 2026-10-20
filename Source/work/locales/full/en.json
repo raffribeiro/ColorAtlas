@@ -482,7 +482,7 @@
   "Library explored": "Library explored",
   "Library file": "Library file",
   "Light. Chroma. Possibility.": "Light. Chroma. Possibility.",
-  "Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each.": "Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each.",
+  "Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each, 8192 px per side and 32 megapixels. Library imports accept JSON up to 64 MB, with up to 256 palettes, 2048 favorites, 256 folders and 256 Preview presets.": "Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each, 8192 px per side and 32 megapixels. Library imports accept JSON up to 64 MB, with up to 256 palettes, 2048 favorites, 256 folders and 256 Preview presets.",
   "Live preview": "Live preview",
   "Load Preview preset": "Load Preview preset",
   "Load a saved Preview scene, including its images, gradients and layer settings.": "Load a saved Preview scene, including its images, gradients and layer settings.",
@@ -838,7 +838,7 @@
   "The Color Atlas — Munsell Hue, Value and Chroma": "The Color Atlas — Munsell Hue, Value and Chroma",
   "The Default scene uses the library Fire ramp for Explosion_Emissive in Add, including a black point at 0% and a dark ember at 7.2%.": "The Default scene uses the library Fire ramp for Explosion_Emissive in Add, including a black point at 0% and a dark ember at 7.2%.",
   "The PNG stores sRGB-encoded colors. With sRGB off they are read as linear and look washed out; decoding twice makes them dark and saturated.": "The PNG stores sRGB-encoded colors. With sRGB off they are read as linear and look washed out; decoding twice makes them dark and saturated.",
-  "The Post-process bloom slider (0–600%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.": "The Post-process bloom slider (0–600%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.",
+  "The Post-process bloom slider (0–700%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.": "The Post-process bloom slider (0–700%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.",
   "The Preview converts each image to grayscale, recolors it with that image’s own Gradient Map and stacks the results like layers in a compositor. Select a layer row to edit its ramp.": "The Preview converts each image to grayscale, recolors it with that image’s own Gradient Map and stacks the results like layers in a compositor. Select a layer row to edit its ramp.",
   "The Preview updates live. Switch Smooth/Bands, toggle layers, try Random.": "The Preview updates live. Switch Smooth/Bands, toggle layers, try Random.",
   "The active ramp or both ramps of the layer: keys, positions, alpha, Smooth/Bands.": "The active ramp or both ramps of the layer: keys, positions, alpha, Smooth/Bands.",
@@ -1100,5 +1100,6 @@
   "□ Current selection": "□ Current selection",
   "◆ Highest tabulated Chroma": "◆ Highest tabulated Chroma",
   "○ remapped u ◌ naive u = t": "○ remapped u ◌ naive u = t",
-  "⚄ Random harmony": "⚄ Random harmony"
+  "⚄ Random harmony": "⚄ Random harmony",
+  "Uploaded images and the current layer stack are saved in this browser and restored when you reopen the app. On first launch, Default is shown. You can select Default again from Preview presets without deleting your saved presets. Export a library backup before clearing browser data or moving to another browser.": "Uploaded images and the current layer stack are saved in this browser and restored when you reopen the app. On first launch, Default is shown. You can select Default again from Preview presets without deleting your saved presets. Export a library backup before clearing browser data or moving to another browser."
 }

@@ -70,5 +70,8 @@
   "Warm accents": "난색 강조",
   "Cool accents": "한색 강조",
   "Mixed accents": "혼합 강조",
-  "Essentials": "기본"
+  "Essentials": "기본",
+  "Choose a library JSON up to 64 MB.": "64 MB 이하의 라이브러리 JSON을 선택하세요.",
+  "That library has invalid or too many entries.": "라이브러리에 잘못된 항목이 있거나 항목이 너무 많습니다.",
+  "Choose an image up to 8192 px per side and 32 megapixels.": "한 변이 8192 px 이하이고 3200만 화소 이하인 이미지를 선택하세요."
 }

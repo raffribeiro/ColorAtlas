@@ -3,9 +3,14 @@ const atlasLayerDropRuns=new Map();
 async function atlasReplaceDroppedImage(file,id){
  if(!file||!['image/png','image/jpeg','image/webp'].includes(file.type)||file.size>20*1024*1024){previewStatus('Choose a PNG, JPEG or WebP up to 20 MB.');return;}
  const target=previewImages.find(p=>p.id===id);if(!target)return;
- const run=(atlasLayerDropRuns.get(id)||0)+1;atlasLayerDropRuns.set(id,run);const url=URL.createObjectURL(file);previewStatus('Reading image…');
- try{const fields=await readPreviewImage(url),layer=previewImages.find(p=>p.id===id);if(layer!==target||atlasLayerDropRuns.get(id)!==run)return;syncPreviewLayer();Object.assign(layer,fields);if(id===previewSelected){explosionPixels=previewLayerGray(layer);explosionAlpha=layer.alpha;}previewChanged();remember();previewStatus('Image replaced');}
- catch{if(atlasLayerDropRuns.get(id)===run)previewStatus('Image could not be read. Current image retained.');}finally{URL.revokeObjectURL(url);}
+ const run=(atlasLayerDropRuns.get(id)||0)+1;atlasLayerDropRuns.set(id,run);previewStatus('Reading image…');
+ let url;
+ try{
+  await previewCheckImageFile(file);
+  if(previewImages.find(p=>p.id===id)!==target||atlasLayerDropRuns.get(id)!==run)return;
+  url=URL.createObjectURL(file);
+  const fields=await readPreviewImage(url),layer=previewImages.find(p=>p.id===id);if(layer!==target||atlasLayerDropRuns.get(id)!==run)return;syncPreviewLayer();Object.assign(layer,fields);if(id===previewSelected){explosionPixels=previewLayerGray(layer);explosionAlpha=layer.alpha;}previewChanged();remember();previewStatus('Image replaced');
+ }catch(error){if(atlasLayerDropRuns.get(id)===run)previewStatus(error.message==='dimensions'?'Choose an image up to 8192 px per side and 32 megapixels.':'Image could not be read. Current image retained.');}finally{if(url)URL.revokeObjectURL(url);}
 }
 (()=>{
  const list=$('#preview-layer-list'),render=renderPreviewLayerList;let highlighted=null,dragging=false;

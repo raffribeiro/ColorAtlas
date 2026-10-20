@@ -10,7 +10,7 @@ function previewStore(action,payload){
  });
 }
 window.addEventListener('message',e=>{
- if(e.source!==parent||e.data?.channel!=='color-atlas-preview-store')return;
+ if(e.source!==parent||e.data?.channel!=='color-atlas-preview-store'||typeof e.data.id!=='string'||typeof e.data.ok!=='boolean')return;
  const request=previewRequests.get(e.data.id);if(!request)return;clearTimeout(request.timer);previewRequests.delete(e.data.id);
  e.data.ok?request.resolve(e.data.payload):request.reject(new Error('Storage unavailable'));
 });
@@ -68,10 +68,12 @@ function renderPreviewLayerList(){
  for(const action of ['replace','rename','remove','up','down'])$('[data-preview-action="'+action+'"]').disabled=!selected||(action==='up'&&index===previewImages.length-1)||(action==='down'&&index===0);
  $('[data-preview-action="add"]').disabled=previewImages.length>=8;
 }
+// The library importer shares the exact scene schema before any preset writes.
+window.AtlasPreviewValidation={palette:p=>{try{return cleanUserPalettes([p]).length===1;}catch{return false;}},document:doc=>{try{if(!cleanPreviewDocument(doc))return false;for(const layer of doc.layers)if(layer.asset!==null)previewCheckImageDataURL(layer.asset);return true;}catch{return false;}}};
 function readPreviewImage(url){
  return new Promise((resolve,reject)=>{const image=new Image();image.onerror=()=>reject(new Error('Image could not be read'));image.onload=()=>{
-  try{const canvas=document.createElement('canvas');canvas.width=canvas.height=512;const ctx=canvas.getContext('2d'),scale=Math.min(512/image.width,512/image.height);ctx.drawImage(image,(512-image.width*scale)/2,(512-image.height*scale)/2,image.width*scale,image.height*scale);const pixels=ctx.getImageData(0,0,512,512),fields=previewImageFields(pixels.data);ctx.putImageData(pixels,0,0);resolve({...fields,asset:canvas.toDataURL('image/png')});}catch(error){reject(error);}
- };image.src=url;});
+  try{if(!previewImageDimensionsOK(image.naturalWidth||image.width,image.naturalHeight||image.height))throw new Error('dimensions');const canvas=document.createElement('canvas');canvas.width=canvas.height=512;const ctx=canvas.getContext('2d'),scale=Math.min(512/image.width,512/image.height);ctx.drawImage(image,(512-image.width*scale)/2,(512-image.height*scale)/2,image.width*scale,image.height*scale);const pixels=ctx.getImageData(0,0,512,512),fields=previewImageFields(pixels.data);ctx.putImageData(pixels,0,0);resolve({...fields,asset:canvas.toDataURL('image/png')});}catch(error){reject(error);}
+ };try{if(url.startsWith('data:'))previewCheckImageDataURL(url);image.src=url;}catch(error){reject(error);}});
 }
 function previewReferenceReady(url){
  previewDefaultFields={gray:explosionPixels,alpha:explosionAlpha};previewDefaultThumb=url;
@@ -104,6 +106,7 @@ function initializePreviewLayers(){
  $('#preview-layer-file').addEventListener('change',async e=>{
   const file=e.target.files[0];e.target.value='';if(!file)return;const action=previewFileAction,target=previewSelected,map=previewMapSnapshot();
   if(!['image/png','image/jpeg','image/webp'].includes(file.type)||file.size>20*1024*1024){previewStatus('Choose a PNG, JPEG or WebP up to 20 MB.');return;}
+  try{await previewCheckImageFile(file);}catch(error){previewStatus(error.message==='dimensions'?'Choose an image up to 8192 px per side and 32 megapixels.':'Image could not be read.');return;}
   const url=URL.createObjectURL(file);previewStatus('Reading image…');
   try{const fields=await readPreviewImage(url);syncPreviewLayer();let layer;
    if(action==='replace'){layer=previewImages.find(p=>p.id===target);if(!layer)return;layer.name=file.name.slice(0,80);Object.assign(layer,fields);}

@@ -482,7 +482,7 @@
   "Library explored": "ライブラリの操作を完了",
   "Library file": "ライブラリファイル",
   "Light. Chroma. Possibility.": "光。クロマ。可能性。",
-  "Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each.": "制限：マイパレットの容量は8 KiBで、保存可能数はキー数によります。容量を超える保存はできません。プレビューシーンは1枚最大20 MBのPNG・JPEG・WebP画像を8枚まで保存できます。",
+  "Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each, 8192 px per side and 32 megapixels. Library imports accept JSON up to 64 MB, with up to 256 palettes, 2048 favorites, 256 folders and 256 Preview presets.": "制限：My palettesの保存容量は8 KiBです（保存数はポイント数により変わります）。容量を超える保存は拒否されます。PreviewシーンにはPNG/JPEG/WebP画像を最大8枚追加でき、各画像は20 MB、各辺8192 px、3200万画素が上限です。ライブラリのインポートは64 MB以下のJSONに対応し、パレット256件、お気に入り2048件、フォルダー256件、Previewプリセット256件が上限です。",
   "Live preview": "リアルタイムプレビュー",
   "Load Preview preset": "プレビュープリセットを読み込む",
   "Load a saved Preview scene, including its images, gradients and layer settings.": "保存したプレビューシーンを、画像・グラデーション・レイヤー設定とともに読み込みます。",
@@ -838,7 +838,7 @@
   "The Color Atlas — Munsell Hue, Value and Chroma": "The Color Atlas — マンセル色相・明度値・クロマ",
   "The Default scene uses the library Fire ramp for Explosion_Emissive in Add, including a black point at 0% and a dark ember at 7.2%.": "標準シーンのExplosion_Emissiveはライブラリの炎グラデーションを加算で使用し、0%の黒いキーと7.2%の暗い残り火を含みます。",
   "The PNG stores sRGB-encoded colors. With sRGB off they are read as linear and look washed out; decoding twice makes them dark and saturated.": "PNGはsRGBに符号化した色を保存します。sRGBをオフにするとリニア値として読み込まれ、白っぽく見えます。2回デコードすると暗く鮮やかになりすぎます。",
-  "The Post-process bloom slider (0–600%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.": "ポスト処理ブルーム（0～600%）は、リニア輝度が約0.45を超える部分に光を加えます。ソフトニーで境界線のような光を避けます。エンジンでのブルームを想像するために使えますが、実際のブルーム・露出・トーンマッピングとは異なります。",
+  "The Post-process bloom slider (0–700%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.": "ポスト処理ブルーム（0～700%）は、リニア輝度が約0.45を超える部分に光を加えます。ソフトニーで境界線のような光を避けます。エンジンでのブルームを想像するために使えますが、実際のブルーム・露出・トーンマッピングとは異なります。",
   "The Preview converts each image to grayscale, recolors it with that image’s own Gradient Map and stacks the results like layers in a compositor. Select a layer row to edit its ramp.": "プレビューは各画像をグレースケール化し、その画像固有のグラデーションマップで着色して合成します。レイヤー行を選ぶとそのグラデーションを編集できます。",
   "The Preview updates live. Switch Smooth/Bands, toggle layers, try Random.": "プレビューはリアルタイム更新です。滑らか／段階を切り替え、レイヤーやランダム生成を試してください。",
   "The active ramp or both ramps of the layer: keys, positions, alpha, Smooth/Bands.": "レイヤーの編集中または両方のグラデーション：キー・位置・アルファ・滑らか／段階。",
@@ -1100,5 +1100,6 @@
   "□ Current selection": "□ 現在の選択",
   "◆ Highest tabulated Chroma": "◆ 表にある最大クロマ",
   "○ remapped u ◌ naive u = t": "○ 再マッピングしたu ◌ 単純なu = t",
-  "⚄ Random harmony": "⚄ ランダムな調和配色"
+  "⚄ Random harmony": "⚄ ランダムな調和配色",
+  "Uploaded images and the current layer stack are saved in this browser and restored when you reopen the app. On first launch, Default is shown. You can select Default again from Preview presets without deleting your saved presets. Export a library backup before clearing browser data or moving to another browser.": "読み込んだ画像と現在のレイヤー構成はこのブラウザーに保存され、アプリを再び開くと復元されます。初回起動時はDefaultが表示されます。保存済みプリセットを削除せずに、PreviewプリセットからDefaultを再選択できます。ブラウザーデータを消去する前や別のブラウザーに移る前に、ライブラリのバックアップをエクスポートしてください。"
 }

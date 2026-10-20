@@ -70,5 +70,8 @@
   "Warm accents": "暖色のアクセント",
   "Cool accents": "寒色のアクセント",
   "Mixed accents": "混合アクセント",
-  "Essentials": "基本"
+  "Essentials": "基本",
+  "Choose a library JSON up to 64 MB.": "64 MB以下のライブラリJSONを選択してください。",
+  "That library has invalid or too many entries.": "このライブラリには無効な項目、または多すぎる項目が含まれています。",
+  "Choose an image up to 8192 px per side and 32 megapixels.": "各辺8192 px以下、3200万画素以下の画像を選択してください。"
 }

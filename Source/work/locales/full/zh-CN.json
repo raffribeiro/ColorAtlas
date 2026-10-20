@@ -482,7 +482,7 @@
   "Library explored": "已探索资料库",
   "Library file": "资料库文件",
   "Light. Chroma. Possibility.": "光。彩度。可能性。",
-  "Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each.": "限制：“我的调色板”容量为 8 KiB（可存数量取决于色标数）；超出容量时会拒绝保存。预览场景最多包含八张 PNG/JPEG/WebP 图像，每张不超过 20 MB。",
+  "Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each, 8192 px per side and 32 megapixels. Library imports accept JSON up to 64 MB, with up to 256 palettes, 2048 favorites, 256 folders and 256 Preview presets.": "限制：My palettes的存储容量为8 KiB（可存数量取决于控制点数量）；超出容量的保存会被拒绝。Preview场景最多包含8张PNG/JPEG/WebP图像，每张不超过20 MB、每边8192 px及3200万像素。库导入支持不超过64 MB的JSON，最多包含256个调色板、2048个收藏、256个文件夹和256个Preview预设。",
   "Live preview": "实时预览",
   "Load Preview preset": "加载预览预设",
   "Load a saved Preview scene, including its images, gradients and layer settings.": "加载已保存的预览场景，包括图像、渐变和图层设置。",
@@ -838,7 +838,7 @@
   "The Color Atlas — Munsell Hue, Value and Chroma": "色彩地图集——孟塞尔色相、明度值和彩度",
   "The Default scene uses the library Fire ramp for Explosion_Emissive in Add, including a black point at 0% and a dark ember at 7.2%.": "默认场景为 Explosion_Emissive 使用资料库的火焰渐变和相加模式，包括 0% 的黑色标和 7.2% 的暗炭火色标。",
   "The PNG stores sRGB-encoded colors. With sRGB off they are read as linear and look washed out; decoding twice makes them dark and saturated.": "PNG 保存 sRGB 编码的颜色。关闭 sRGB 后，它们被当作线性值读取，看起来发白；解码两次则会变暗并增加饱和度。",
-  "The Post-process bloom slider (0–600%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.": "后期 Bloom 滑块（0–600%）为线性亮度超过约 0.45 的区域添加辉光，并以柔和过渡避免勾勒边缘。它可以检查渐变在引擎 Bloom 下的大致效果；引擎自身的 Bloom、曝光和色调映射仍会不同。",
+  "The Post-process bloom slider (0–700%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.": "后期 Bloom 滑块（0–700%）为线性亮度超过约 0.45 的区域添加辉光，并以柔和过渡避免勾勒边缘。它可以检查渐变在引擎 Bloom 下的大致效果；引擎自身的 Bloom、曝光和色调映射仍会不同。",
   "The Preview converts each image to grayscale, recolors it with that image’s own Gradient Map and stacks the results like layers in a compositor. Select a layer row to edit its ramp.": "预览将每张图转为灰度，用该图自身的渐变映射重新着色，再像合成软件图层一样叠放结果。选择图层行来编辑其渐变。",
   "The Preview updates live. Switch Smooth/Bands, toggle layers, try Random.": "预览实时更新。切换平滑/色带、开关图层并尝试随机。",
   "The active ramp or both ramps of the layer: keys, positions, alpha, Smooth/Bands.": "图层的当前渐变或两个渐变：色标、位置、Alpha、平滑/色带。",
@@ -1100,5 +1100,6 @@
   "□ Current selection": "□ 当前选择",
   "◆ Highest tabulated Chroma": "◆ 已制表的最高彩度",
   "○ remapped u ◌ naive u = t": "○ 重新映射的 u ◌ 直接使用 u = t",
-  "⚄ Random harmony": "⚄ 随机和谐关系"
+  "⚄ Random harmony": "⚄ 随机和谐关系",
+  "Uploaded images and the current layer stack are saved in this browser and restored when you reopen the app. On first launch, Default is shown. You can select Default again from Preview presets without deleting your saved presets. Export a library backup before clearing browser data or moving to another browser.": "导入的图像和当前图层堆栈会保存在此浏览器中，并在重新打开应用时恢复。首次启动时显示Default。您可以从Preview预设中重新选择Default，而不会删除已保存的预设。在清除浏览器数据或切换浏览器之前，请导出库备份。"
 }

@@ -1,6 +1,6 @@
 # GitHub repository
 
-Color Atlas v1.2.1.
+Color Atlas v1.2.2.
 
 - `App/`: runnable offline app; open `App/COLOR_ATLAS_START_HERE.html`.
 - `Source/`: development modules, canonical HTML snapshot, catalogs, documentation, build scripts and tests.
@@ -28,3 +28,9 @@ Browser workspaces are scoped to their address and browser profile. Existing loc
 Owner decision (2026-10-19): new changes go to `develop` (or an isolated `feature/<name>` branch), not directly to the live site. The owner reviews a validated local preview/build. Only an explicit approval of that revision authorizes integration into `main`, release packaging and publication to `gh-pages`.
 
 Approval does not include unrelated pending work. If several changes are in progress, integrate only approved commits. Pushes to `main` and `develop` must not deploy automatically; Pages remains configured to the `gh-pages` root. See root `AGENTS.md` for the operational rules.
+
+## Repository security
+
+Secret scanning, push protection, dependency alerts, automated security fixes and private vulnerability reporting are enabled. Production history rules prevent branch deletion and force pushes on main and gh-pages. They do not enforce owner review for normal pushes; publication approval remains the operational gate above.
+
+The browser app stores uploaded working images and layers locally and restores them on reopen. Storage is scoped to the same address and browser profile; use Export/Import for portable backups.

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="440" viewBox="0 0 1440 440" role="img" aria-labelledby="title desc">
+  <title id="title">Color Atlas — Make color decisions in context</title>
+  <desc id="desc">The Color Atlas gradient wordmark beside an abstract color slice and a gradient ramp on a dark background.</desc>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#b5a3ff"/><stop offset=".26" stop-color="#63d6ee"/><stop offset=".47" stop-color="#70d6ac"/><stop offset=".7" stop-color="#eed77a"/><stop offset="1" stop-color="#ff9aaf"/></linearGradient>
+    <linearGradient id="ramp"><stop stop-color="#101328"/><stop offset=".26" stop-color="#413694"/><stop offset=".52" stop-color="#dc5c9a"/><stop offset=".76" stop-color="#ffa86d"/><stop offset="1" stop-color="#fff1ca"/></linearGradient>
+    <linearGradient id="slice" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#396ff7"/><stop offset=".26" stop-color="#65d5d0"/><stop offset=".53" stop-color="#b4d98b"/><stop offset=".76" stop-color="#ffbc80"/><stop offset="1" stop-color="#f784cb"/></linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#182332"/><stop offset="1" stop-color="#0c131d"/></linearGradient>
+  </defs>
+  <rect width="1440" height="440" rx="22" fill="#0d141e"/>
+  <rect x="1" y="1" width="1438" height="438" rx="21" fill="none" stroke="#29394d"/>
+  <path d="M48 1h1344" stroke="url(#brand)" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="56" y="62" width="49" height="49" rx="12" fill="none" stroke="url(#brand)" stroke-width="1.5"/>
+    <text x="80.5" y="94" text-anchor="middle" fill="#f2f6ff" font-size="21">Ca</text>
+    <text x="122" y="99" fill="url(#brand)" font-size="40" font-weight="600" letter-spacing="-.8">Color Atlas</text>
+    <text x="56" y="182" fill="#f0f4fb" font-size="46" font-weight="600" letter-spacing="-1.2">Make color decisions</text>
+    <text x="56" y="237" fill="#f0f4fb" font-size="46" font-weight="600" letter-spacing="-1.2">in context.</text>
+    <text x="59" y="281" fill="#a6b5c8" font-size="20">Explore in 3D. Shape a gradient. See it on your image.</text>
+    <text x="59" y="362" fill="#bfcedf" font-size="13" letter-spacing="2">VFX · GRAPHIC DESIGN · COLOR EXPLORATION</text>
+  </g>
+  <g transform="translate(866 46)">
+    <rect width="518" height="348" rx="18" fill="url(#shade)" stroke="#2b3a4f"/>
+    <g fill="none" stroke="#42536b" stroke-width="1" opacity=".45">
+      <path d="M79 63 290 35 443 103 233 135Z M79 220 290 191 443 259 233 292Z M79 63v157 M290 35v156 M443 103v156 M233 135v157"/>
+      <path d="M261 49v227 M109 149l306 41 M148 227 364 91"/>
+    </g>
+    <path d="M112 151 295 103 414 159Q417 194 349 232L194 223Z" fill="url(#slice)" opacity=".95"/>
+    <path d="M112 151 295 103 414 159" fill="none" stroke="#e1eaff" opacity=".24"/>
+    <path d="M261 49v100" stroke="#d7e2ee" stroke-width="3" opacity=".3"/>
+    <path d="M148 242 205 204 325 173 375 154" fill="none" stroke="#e4eaf8" stroke-width="1.5" stroke-dasharray="3 5" opacity=".6"/>
+    <circle cx="325" cy="173" r="12" fill="#edae8b" stroke="#0e1724" stroke-width="3"/>
+    <circle cx="325" cy="173" r="14" fill="none" stroke="#e4eaf8" stroke-width="1.5"/>
+    <rect x="44" y="303" width="430" height="17" rx="3" fill="url(#ramp)"/>
+    <g stroke="#bac8dc" fill="#111a29"><circle cx="44" cy="328" r="3"/><circle cx="155" cy="328" r="3"/><circle cx="266" cy="328" r="3"/><circle cx="365" cy="328" r="3"/><circle cx="474" cy="328" r="3"/></g>
+  </g>
+</svg>

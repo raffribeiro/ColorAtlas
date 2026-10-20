@@ -70,5 +70,8 @@
   "Warm accents": "暖色强调",
   "Cool accents": "冷色强调",
   "Mixed accents": "混合强调色",
-  "Essentials": "基础"
+  "Essentials": "基础",
+  "Choose a library JSON up to 64 MB.": "请选择不超过64 MB的库JSON文件。",
+  "That library has invalid or too many entries.": "此库包含无效条目或条目过多。",
+  "Choose an image up to 8192 px per side and 32 megapixels.": "请选择每边不超过8192 px且不超过3200万像素的图像。"
 }

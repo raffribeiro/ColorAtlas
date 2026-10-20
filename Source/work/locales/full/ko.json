@@ -482,7 +482,7 @@
   "Library explored": "라이브러리 탐색 완료",
   "Library file": "라이브러리 파일",
   "Light. Chroma. Possibility.": "빛. 크로마. 가능성.",
-  "Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each.": "제한: 내 팔레트는 8 KiB까지 저장하며 수용량은 키 개수에 따라 다릅니다. 용량을 넘는 저장은 거부됩니다. 미리보기 장면은 각각 최대 20 MB인 PNG/JPEG/WebP 이미지 8개까지 지원합니다.",
+  "Limits: My palettes has an 8 KiB budget (capacity depends on key counts); a save that does not fit is refused. Preview scenes hold up to eight PNG/JPEG/WebP images of up to 20 MB each, 8192 px per side and 32 megapixels. Library imports accept JSON up to 64 MB, with up to 256 palettes, 2048 favorites, 256 folders and 256 Preview presets.": "제한: My palettes의 저장 용량은 8 KiB이며 수용량은 포인트 수에 따라 달라집니다. 용량을 초과하는 저장은 거부됩니다. Preview 장면에는 PNG/JPEG/WebP 이미지를 최대 8개 추가할 수 있으며, 각 이미지는 20 MB, 한 변 8192 px, 3200만 화소가 한도입니다. 라이브러리 가져오기는 64 MB 이하의 JSON을 지원하며 팔레트 256개, 즐겨찾기 2048개, 폴더 256개, Preview 프리셋 256개까지 허용됩니다.",
   "Live preview": "실시간 미리보기",
   "Load Preview preset": "미리보기 프리셋 불러오기",
   "Load a saved Preview scene, including its images, gradients and layer settings.": "이미지, 그라디언트, 레이어 설정을 포함한 저장된 미리보기 장면을 불러옵니다.",
@@ -838,7 +838,7 @@
   "The Color Atlas — Munsell Hue, Value and Chroma": "The Color Atlas — Munsell 색상, 명도, 크로마",
   "The Default scene uses the library Fire ramp for Explosion_Emissive in Add, including a black point at 0% and a dark ember at 7.2%.": "기본 장면의 Explosion_Emissive는 라이브러리의 불꽃 램프를 더하기로 사용하며, 0%의 검정 키와 7.2%의 어두운 잔불을 포함합니다.",
   "The PNG stores sRGB-encoded colors. With sRGB off they are read as linear and look washed out; decoding twice makes them dark and saturated.": "PNG는 sRGB 인코딩된 색을 저장합니다. sRGB를 끄면 선형으로 읽어 색이 흐려지고, 두 번 디코딩하면 어둡고 과도하게 선명해집니다.",
-  "The Post-process bloom slider (0–600%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.": "후처리 블룸 슬라이더(0~600%)는 선형 휘도가 약 0.45를 넘는 영역에 빛 번짐을 추가합니다. 부드러운 무릎 구간으로 테두리가 생기지 않도록 합니다. 엔진의 블룸 느낌을 점검하는 데 쓰지만 실제 엔진의 블룸, 노출, 톤 매핑은 다를 수 있습니다.",
+  "The Post-process bloom slider (0–700%) adds glow to areas whose linear luminance passes about 0.45, with a soft knee so edges do not outline. Use it to check how a ramp will feel under an engine’s bloom; your engine’s bloom, exposure and tone mapping will still differ.": "후처리 블룸 슬라이더(0~700%)는 선형 휘도가 약 0.45를 넘는 영역에 빛 번짐을 추가합니다. 부드러운 무릎 구간으로 테두리가 생기지 않도록 합니다. 엔진의 블룸 느낌을 점검하는 데 쓰지만 실제 엔진의 블룸, 노출, 톤 매핑은 다를 수 있습니다.",
   "The Preview converts each image to grayscale, recolors it with that image’s own Gradient Map and stacks the results like layers in a compositor. Select a layer row to edit its ramp.": "미리보기는 이미지를 회색조로 바꾸고 이미지마다 고유한 그라디언트 맵을 적용한 뒤 합성 도구의 레이어처럼 쌓습니다. 레이어 행을 선택하여 램프를 편집하세요.",
   "The Preview updates live. Switch Smooth/Bands, toggle layers, try Random.": "미리보기는 실시간으로 갱신됩니다. 부드럽게/단계형과 레이어를 바꾸고 무작위 생성을 시험하세요.",
   "The active ramp or both ramps of the layer: keys, positions, alpha, Smooth/Bands.": "레이어의 활성 램프 또는 두 램프: 키, 위치, 알파, 부드럽게/단계형.",
@@ -1100,5 +1100,6 @@
   "□ Current selection": "□ 현재 선택",
   "◆ Highest tabulated Chroma": "◆ 표에 기록된 최대 크로마",
   "○ remapped u ◌ naive u = t": "○ 재매핑한 u ◌ 단순 u = t",
-  "⚄ Random harmony": "⚄ 무작위 조화"
+  "⚄ Random harmony": "⚄ 무작위 조화",
+  "Uploaded images and the current layer stack are saved in this browser and restored when you reopen the app. On first launch, Default is shown. You can select Default again from Preview presets without deleting your saved presets. Export a library backup before clearing browser data or moving to another browser.": "가져온 이미지와 현재 레이어 구성은 이 브라우저에 저장되며 앱을 다시 열면 복원됩니다. 처음 실행할 때는 Default가 표시됩니다. 저장한 프리셋을 삭제하지 않고 Preview 프리셋에서 Default를 다시 선택할 수 있습니다. 브라우저 데이터를 지우거나 다른 브라우저로 이동하기 전에 라이브러리 백업을 내보내세요."
 }

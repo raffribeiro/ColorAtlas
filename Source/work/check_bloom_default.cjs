@@ -13,20 +13,20 @@ vm.runInNewContext(script.replace('new ResizeObserver', 'globalThis.inspectMunse
 const app=context.inspectMunsell;
 assert.equal(app.state.explosionBloom,1,'Post-process bloom starts at 100%, rather than 200%');
 assert(/id="explosion-bloom"[^>]*value="1"/.test(html),'The initial slider markup matches 100%');
-assert(/id="explosion-bloom"[^>]*max="6"/.test(html),'Bloom slider reaches 600%');
-for(const value of [0,1,2,4,6]){app.restore({explosionBloom:value});assert.equal(app.state.explosionBloom,value,'Restore preserves '+value*100+'%');}
-for(const [value,expected] of [[-1,0],[9,6]]){app.restore({explosionBloom:value});assert.equal(app.state.explosionBloom,expected,'Restore clamps bloom to 0–600%');}
-for(const invalid of [NaN,Infinity,-Infinity,'6',null]){app.restore({explosionBloom:invalid});assert.equal(app.state.explosionBloom,6,'Invalid restoration preserves prior valid bloom');}
+assert(/id="explosion-bloom"[^>]*max="7"/.test(html),'Bloom slider reaches 700%');
+for(const value of [0,1,2,4,6,7]){app.restore({explosionBloom:value});assert.equal(app.state.explosionBloom,value,'Restore preserves '+value*100+'%');}
+for(const [value,expected] of [[-1,0],[9,7]]){app.restore({explosionBloom:value});assert.equal(app.state.explosionBloom,expected,'Restore clamps bloom to 0–700%');}
+for(const invalid of [NaN,Infinity,-Infinity,'6',null]){app.restore({explosionBloom:invalid});assert.equal(app.state.explosionBloom,7,'Invalid restoration preserves prior valid bloom');}
 // Inspect the real renderer without allocating or filtering full-size canvases.
 const source={data:new Uint8ClampedArray([255,255,255,255])},passes=[];
 context.document.createElement=()=>({width:512,height:512,getContext:()=>({createImageData:()=>({data:new Uint8ClampedArray(4)}),putImageData(){}})});
 const renderer={getImageData:()=>source,save(){},restore(){},drawImage(){passes.push({alpha:this.globalAlpha,filter:this.filter,operation:this.globalCompositeOperation});}};
 app.state.explosionGlow=0;app.state.explosionBloom=0;app.drawHotBloom(renderer);assert.equal(passes.length,0,'Zero bloom draws no extra passes');
 app.state.explosionBloom=1;app.drawHotBloom(renderer);assert.equal(passes.length,2,'100% uses two screen passes');
-passes.length=0;app.state.explosionBloom=6;app.drawHotBloom(renderer);
-assert.equal(passes.length,11,'600% remains bounded at eleven screen passes');
+passes.length=0;app.state.explosionBloom=7;app.drawHotBloom(renderer);
+assert.equal(passes.length,12,'700% remains bounded at twelve screen passes');
 assert(passes.every(p=>Number.isFinite(p.alpha)&&p.alpha>0&&p.alpha<=1&&p.operation==='screen'),'Every pass has valid finite canvas alpha');
-assert.equal(passes.filter(p=>p.filter==='blur(10px)').length,6);assert.equal(passes.filter(p=>p.filter==='blur(3px)').length,5);
+assert.equal(passes.filter(p=>p.filter==='blur(10px)').length,7);assert.equal(passes.filter(p=>p.filter==='blur(3px)').length,5);
 app.resetDefaultExplosion();assert.equal(app.state.explosionBloom,1,'Resetting the authored preview returns bloom to 100%');
 if(process.env.START_VFX){assert.equal(node('#explosion-bloom').value,1);assert.equal(node('[data-field="explosion-bloom-value"]').textContent,'100%');}
-console.log('PASS: 100% startup/reset; 0–600% slider/restoration, invalid bounds and bounded renderer passes.');
+console.log('PASS: 100% startup/reset; 0–700% slider/restoration, invalid bounds and bounded renderer passes.');

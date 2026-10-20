@@ -132,9 +132,9 @@ function hostStore(action, payload) {
  return new Promise((resolve, reject) => {
   const id = 'atlas-tour-' + (++requestSeq) + '-' + Date.now();
   const timer = setTimeout(() => { removeEventListener('message', reply); reject(new Error('timeout')); }, 4000);
-  function reply(e) { const d = e.data; if (d?.channel !== 'color-atlas-preview-store' || d.id !== id) return; clearTimeout(timer); removeEventListener('message', reply); d.ok ? resolve(d.payload) : reject(new Error('store')); }
+  function reply(e) { const d = e.data; if (e.source !== parent || d?.channel !== 'color-atlas-preview-store' || typeof d.id !== 'string' || d.id !== id || typeof d.ok !== 'boolean') return; clearTimeout(timer); removeEventListener('message', reply); d.ok ? resolve(d.payload) : reject(new Error('store')); }
   addEventListener('message', reply);
-  try { parent.postMessage({ channel: 'color-atlas-preview-store', id, action, payload }, '*'); } catch (error) { clearTimeout(timer); reject(error); }
+  try { parent.postMessage({ channel: 'color-atlas-preview-store', id, action, payload }, '*'); } catch (error) { clearTimeout(timer); removeEventListener('message', reply); reject(error); }
  });
 }
 const editorPart = state => { const m = { ...(state?.modelContent || state || {}) }; for (const k of LIBRARY_FIELDS) delete m[k]; return JSON.stringify(m); };
