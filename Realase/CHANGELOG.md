@@ -6,6 +6,13 @@ Changes are tracked from v0.9 onward. Earlier development is represented by this
 
 No changes yet.
 
+## v1.2.2 — 2026-10-19
+
+- Restore locally saved working images, layers and gradient maps when reopening the app; use Default only when no valid working scene is available. Preserve saved presets without startup cleanup prompts.
+- Extend Post-process bloom to 700%, keeping the 100% startup/reset default and Undo/Redo.
+- Restrict the standalone security policy and validate host-message replies. Reject oversized or malformed library imports before writes and validate image dimensions before decoding imported or dropped files.
+- Document local scene recovery and import limits across all nine languages; improve the GitHub project presentation and private security reporting path.
+
 ## v1.2.1 — 2026-10-19
 
 - Extend Post-process bloom from 0–200% to 0–600%, preserving the 100% authored startup and reset default.
